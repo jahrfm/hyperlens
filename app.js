@@ -33,7 +33,8 @@ const fmt = {
     if (h < 24*30) return (h/24).toFixed(1)+'d'; return (h/(24*30)).toFixed(1)+'mo'; },
   addr(a, n=10) { if (!a) return '—';
     const url = 'https://app.hyperliquid.xyz/explorer/address/'+a;
-    return '<a class="wlink" href="'+url+'" target="_blank" rel="noopener" title="'+a+'"><span class="wallet">'+a.slice(0,n)+'…'+a.slice(-4)+'</span></a>'; },
+    return '<span class="waddr"><a class="wlink" href="#" data-addr="'+a+'" title="Open '+a.slice(0,10)+'… dashboard" data-dash>'+a.slice(0,n)+'…'+a.slice(-4)+'</a>'
+      + '<a class="wext" href="'+url+'" target="_blank" rel="noopener" title="Hyperliquid explorer ↗">↗</a></span>'; },
 };
 const cls = (v, pos=true) => v>0?'green':(v<0?'red':'muted');
 const badge = (s) => s ? '<span class="badge '+s.replace('/','\\/')+'">'+s+'</span>' : '—';
@@ -251,6 +252,152 @@ async function loadWatchlist() {
       <td>${fmt.pct(c.monthRoi)}</td><td>${fmt.usd(c.monthVlm)}</td></tr>`).join('');
   setStatus('watchlist: daily ✓'); return true;
 }
+
+/* ---------- WALLET DASHBOARD ---------- */
+// Hold-time reconstruction, ported from hyperliquid_holdtime.py
+function signedSz(fl) { return Number(fl.sz||0) * (fl.side === 'B' ? 1 : -1); }
+function tradeMetrics(fills, nowMs) {
+  const byCoin = {};
+  (fills||[]).forEach(fl => { if (fl.coin) (byCoin[fl.coin]=byCoin[fl.coin]||[]).push(fl); });
+  const times = (fills||[]).map(fl=>fl.time).filter(Boolean);
+  let spanH = null;
+  if (times.length >= 2) spanH = Math.max(1, (Math.max(...times)-Math.min(...times))/3600000);
+  const fillsPerHour = spanH ? (fills||[]).length/spanH : null;
+  const durations = [], openAges = [];
+  for (const cfs of Object.values(byCoin)) {
+    cfs.sort((a,b)=>a.time-b.time);
+    if (!cfs.length) continue;
+    let sim = Number(cfs[0].startPosition||0), openTime = null;
+    for (const fl of cfs) {
+      const before = sim, after = before + signedSz(fl), t = fl.time;
+      if (openTime == null && after !== 0) openTime = t;
+      else if (openTime != null && after === 0) { if (t!=null && openTime!=null) durations.push((t-openTime)/3600000); openTime = null; }
+      else if (openTime != null && before !== 0 && (before>0)!==(after>0)) { if (t!=null && openTime!=null) durations.push((t-openTime)/3600000); openTime = t; }
+      sim = after;
+    }
+    if (openTime != null && nowMs) openAges.push((nowMs-openTime)/3600000);
+  }
+  const m = { closedTrades: durations.length, holdHours: durations, avgHoldH:null, medianHoldH:null,
+    minHoldH:null, maxHoldH:null, style:null, styleDetail:'', fillsPerHour: fillsPerHour!=null?+fillsPerHour.toFixed(1):null, spanH: spanH!=null?+spanH.toFixed(2):null };
+  const med = a => { if(!a.length) return null; const s=[...a].sort((x,y)=>x-y), h=Math.floor(s.length/2); return s.length%2?s[h]:(s[h-1]+s[h])/2; };
+  if (fillsPerHour != null && fillsPerHour >= 200) { m.style='HFT/MM'; m.styleDetail='HFT/MM: '+Math.round(fillsPerHour)+' fills/hr'; }
+  else if (durations.length) {
+    m.avgHoldH = +(durations.reduce((s,v)=>s+v,0)/durations.length).toFixed(3);
+    m.medianHoldH = med(durations);
+    m.minHoldH = Math.min(...durations); m.maxHoldH = Math.max(...durations);
+    const md = m.medianHoldH;
+    m.style = md < 0.08 ? 'HFT/MM' : md < 1 ? 'Scalper' : md < 24 ? 'Day' : md < 168 ? 'Swing' : 'Position';
+    m.styleDetail = m.style+': '+durations.length+' closed trades, median '+fmt.hold(m.medianHoldH)+', range '+fmt.hold(m.minHoldH)+'–'+fmt.hold(m.maxHoldH);
+  } else if (fillsPerHour != null && fills.length >= 10) {
+    m.style = fillsPerHour >= 30 ? 'Scalper' : fillsPerHour >= 5 ? 'Day' : 'Swing';
+    m.styleDetail = m.style+' (freq fallback: '+Math.round(fillsPerHour)+' fills/hr)';
+  } else m.styleDetail = 'no closed trades';
+  return m;
+}
+
+async function loadWallet(addr) {
+  if (!addr || !/^0x[a-fA-F0-9]{40}$/.test(addr.trim())) {
+    $('wallet-error').style.display='block'; $('wallet-error').textContent='Invalid address — expected 0x + 40 hex chars.';
+    return;
+  }
+  addr = addr.trim();
+  $('wallet-error').style.display='none';
+  setStatus('wallet: fetching '+addr.slice(0,10)+'…');
+  try {
+    const [st, fills] = await Promise.all([
+      info({type:'clearinghouseState', user: addr}),
+      info({type:'userFills', user: addr}),
+    ]);
+    const fillsArr = Array.isArray(fills) ? fills : [];
+    const nowMs = Date.now();
+    const tm = tradeMetrics(fillsArr, nowMs);
+    let equity=null, marginUsed=null, positions=[];
+    if (st && st.marginSummary) { equity = Number(st.marginSummary.accountValue||0); marginUsed = Number(st.marginSummary.totalMarginUsed||0); }
+    (st&&st.assetPositions||[]).forEach(p => {
+      const pd = p.position||{};
+      const szi = Number(pd.szi||0), px = Number(pd.entryPx||0);
+      const lev = pd.leverage||{};
+      positions.push({ coin: pd.coin, side: szi>0?'long':'short', sizeUsd: Math.abs(szi)*px,
+        entryPx: pd.entryPx, liqPx: pd.liquidationPx, lev: Number(lev.value||0), uPnl: Number(pd.unrealizedPnl||0) });
+    });
+    positions.sort((a,b)=>b.sizeUsd-a.sizeUsd);
+
+    // trade stats
+    let realized=0, grossWin=0, grossLoss=0, wins=0, losses=0, scratch=0;
+    const coins = new Set();
+    fillsArr.forEach(fl => { const cp = Number(fl.closedPnl||0); realized += cp;
+      if (cp>0) { wins++; grossWin+=cp; } else if (cp<0) { losses++; grossLoss+=-cp; } else scratch++;
+      if (fl.coin) coins.add(fl.coin); });
+    const winRate = (wins+losses) ? wins/(wins+losses) : null;
+    const pf = grossLoss>0 ? grossWin/grossLoss : (grossWin>0 ? Infinity : null);
+    const avgW = wins?grossWin/wins:null, avgL = losses?grossLoss/losses:null;
+    const exp = fillsArr.length? realized/fillsArr.length : null;
+    const roi = equity>0 ? realized/equity : null;
+
+    $('wallet-kpis').innerHTML = kpis([
+      ['Equity', fmt.usd(equity)],
+      ['Realized PNL', fmt.pnl(realized), cls(realized)],
+      ['Win-rate', fmt.pct(winRate)],
+      ['Profit Factor', pf==null?'—':(pf===Infinity?'∞':pf.toFixed(2))],
+      ['Expectancy', exp==null?'—':'$'+exp.toFixed(2)],
+      ['ROI (realized/equity)', fmt.pct(roi)],
+      ['Open positions', positions.length],
+      ['Trades (≤2000)', fillsArr.length],
+      ['Coins', coins.size],
+      ['Style', tm.style||'—'],
+    ]);
+    $('wallet-style').innerHTML = `<div class="badge ${(tm.style||'').replace('/','\\/')}">${tm.style||'—'}</div>
+      <p style="margin-top:8px;font-size:13px;color:var(--muted)">${tm.styleDetail||''}</p>
+      <p style="margin-top:6px;font-size:12px;color:var(--muted)">fills/hr: ${tm.fillsPerHour??'—'} · window: ${tm.spanH!=null?tm.spanH+'h':'—'} · avg/median hold: ${fmt.hold(tm.avgHoldH)}/${fmt.hold(tm.medianHoldH)}</p>`;
+    $('wallet-pos-table').querySelector('tbody').innerHTML = positions.length ? positions.map(p=>`<tr>
+      <td><b>${p.coin}</b></td><td class="${p.side==='long'?'green':'red'}">${p.side}</td>
+      <td>${fmt.usd(p.sizeUsd)}</td><td>${p.entryPx}</td><td>${p.liqPx??'—'}</td><td>${p.lev}x</td>
+      <td class="${cls(p.uPnl)}">${fmt.pnl(p.uPnl)}</td></tr>`).join('') : '<tr><td colspan="7" class="muted">No open positions</td></tr>';
+
+    // cumulative realized PNL chart + trades table
+    drawPnlChart(fillsArr);
+    const sorted = [...fillsArr].sort((a,b)=>b.time-a.time);
+    $('wallet-trades-count').textContent = '· '+sorted.length+' most recent fills';
+    $('wallet-trades-table').querySelector('tbody').innerHTML = sorted.slice(0,100).map(fl=>{
+      const t = new Date(fl.time).toISOString().replace('T',' ').slice(0,16);
+      const cp = Number(fl.closedPnl||0);
+      const txUrl = 'https://app.hyperliquid.xyz/explorer/tx/'+fl.hash;
+      return `<tr><td class="muted">${t}</td><td><b>${fl.coin}</b></td>
+        <td>${fl.dir||(fl.side==='B'?'Buy':'Sell')}</td><td>${Number(fl.sz)}</td><td>${Number(fl.px)}</td>
+        <td class="${cls(cp)}">${cp?fmt.pnl(cp):'—'}</td><td class="muted">${fmt.pnl(-Number(fl.fee||0))}</td>
+        <td><a class="wlink" href="${txUrl}" target="_blank" rel="noopener" title="${fl.hash}">${fl.hash.slice(0,6)}…${fl.hash.slice(-4)}</a></td></tr>`;
+    }).join('') || '<tr><td colspan="8" class="muted">No fills</td></tr>';
+
+    $('wallet-view').style.display='block';
+    setStatus('wallet: live ✓');
+    document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active', b.dataset.tab==='wallet'));
+    document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+    $('tab-wallet').classList.add('active');
+  } catch (e) {
+    $('wallet-error').style.display='block';
+    $('wallet-error').textContent='Error loading wallet: '+e.message;
+    setStatus('wallet error');
+  }
+}
+function drawPnlChart(fills) {
+  const c = $('wallet-pnl-chart'); if (!window.Chart) return;
+  const chrono = [...fills].sort((a,b)=>a.time-b.time);
+  let cum = 0; const pts = [];
+  chrono.forEach(fl => { cum += Number(fl.closedPnl||0); pts.push({x:new Date(fl.time), y:cum}); });
+  if (pts.length < 2) { pts.push({x:new Date(), y:cum}); }
+  if (window.__pnlChart) window.__pnlChart.destroy();
+  window.__pnlChart = new Chart(c, { type:'line', data:{ datasets:[{ label:'Cumulative realized PNL', data: pts,
+      borderColor:'#4f8ef7', backgroundColor:'rgba(79,142,247,.15)', fill:true, pointRadius:0, tension:.15 }]},
+    options:{ plugins:{legend:{display:false}}, scales:{ x:{type:'time',time:{unit:'hour'},ticks:{color:'#8fa3b8',maxTicksLimit:6}},
+      y:{ticks:{color:'#8fa3b8',callback:v=>fmt.pnl(v)}}}, maintainAspectRatio:false, height:180 } });
+}
+$('wl-go').addEventListener('click', () => loadWallet($('wl-addr').value));
+$('wl-addr').addEventListener('keydown', e => { if (e.key==='Enter') loadWallet($('wl-addr').value); });
+// clicking any wallet link in the app opens the dashboard
+document.addEventListener('click', e => {
+  const el = e.target.closest('[data-addr]');
+  if (el) { e.preventDefault(); loadWallet(el.getAttribute('data-addr')); }
+});
 
 /* ---------- KPI helper ---------- */
 function kpis(items) {

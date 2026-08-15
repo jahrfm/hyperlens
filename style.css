@@ -55,9 +55,13 @@ tbody tr:hover { background: rgba(79,142,247,0.06); }
 td.green { color: var(--green); } td.red { color: var(--red); } td.yellow { color: var(--yellow); }
 td.muted { color: var(--muted); }
 td .wallet { font-size: 11px; }
+.waddr { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
 a.wlink { color: var(--accent); text-decoration: none; border-bottom: 1px dotted rgba(79,142,247,.4); }
 a.wlink:hover { color: #7fb0ff; border-bottom-style: solid; }
 a.wlink .wallet { font-family: var(--mono); }
+a.wext { color: var(--muted); text-decoration: none; font-size: 11px; padding: 0 2px; border: 1px solid var(--border); border-radius: 4px; line-height: 1.2; }
+a.wext:hover { color: var(--accent); border-color: var(--accent); }
+.style-box { font-family: var(--mono); font-size: 13px; }
 .badge { display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 11px; font-weight: 600; }
 .badge.HFT\/MM, .badge.HFT { background: rgba(239,68,68,.15); color: var(--red); }
 .badge.Scalper { background: rgba(234,179,8,.15); color: var(--yellow); }
@@ -74,6 +78,11 @@ a.wlink .wallet { font-family: var(--mono); }
   background: var(--bg2); border: 1px solid var(--border); color: var(--text);
   padding: 7px 10px; border-radius: 8px; font-size: 13px; font-family: var(--mono);
 }
+.controls .btn {
+  background: var(--accent); border: none; color: #fff; padding: 8px 16px; border-radius: 8px;
+  font-size: 13px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif;
+}
+.controls .btn:hover { filter: brightness(1.1); }
 .controls input { flex: 1; min-width: 200px; }
 .controls label { font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
 .pager { display: flex; gap: 8px; align-items: center; margin-top: 10px; font-size: 13px; }

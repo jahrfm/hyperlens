@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,6 +18,7 @@
     <button class="tab active" data-tab="market">Market</button>
     <button class="tab" data-tab="leaderboard">Leaderboard</button>
     <button class="tab" data-tab="wallets">Wallet Details</button>
+    <button class="tab" data-tab="wallet">Wallet Dashboard</button>
     <button class="tab" data-tab="consensus">Consensus</button>
     <button class="tab" data-tab="watchlist">Watchlist</button>
     <button class="tab" data-tab="about">About</button>
@@ -82,6 +84,27 @@
     <h2>Sustained-Best Watchlist <span class="sub">30d PNL≥$100K · 7d>0 · ROI>0 (daily)</span></h2>
     <div class="kpis" id="wl-kpis"></div>
     <div class="table-wrap tall"><table id="wl-table"><thead><tr><th>#</th><th>Wallet</th><th>Acct Val</th><th>PNL 30d</th><th>PNL 7d</th><th>ROI 30d</th><th>Vol 30d</th></tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <!-- WALLET DASHBOARD -->
+  <section id="tab-wallet" class="panel">
+    <h2>Wallet Performance Dashboard <span class="sub">live · per-address metrics + exact trades</span></h2>
+    <div class="controls">
+      <input id="wl-addr" type="search" placeholder="Paste a 0x… address — or click any wallet in the app" spellcheck="false">
+      <button class="btn" id="wl-go">Load</button>
+    </div>
+    <div id="wallet-error" class="card" style="display:none;color:var(--red)"></div>
+    <div id="wallet-view" style="display:none">
+      <div class="kpis" id="wallet-kpis"></div>
+      <div class="grid-2">
+        <div class="card"><h3>Open Positions</h3><div class="table-wrap"><table id="wallet-pos-table"><thead><tr><th>Coin</th><th>Side</th><th>Size</th><th>Entry</th><th>Liq</th><th>Lev</th><th>uPNL</th></tr></thead><tbody></tbody></table></div></div>
+        <div class="card"><h3>Style &amp; Hold-Time</h3><div id="wallet-style" class="style-box"></div>
+          <h3 style="margin-top:14px">Cumulative Realized PNL</h3><canvas id="wallet-pnl-chart" height="180"></canvas></div>
+      </div>
+      <div class="card"><h3>Exact Trades <span class="sub" id="wallet-trades-count"></span></h3>
+        <div class="table-wrap tall"><table id="wallet-trades-table"><thead><tr><th>Time</th><th>Coin</th><th>Dir</th><th>Size</th><th>Price</th><th>Realized</th><th>Fee</th><th>Tx</th></tr></thead><tbody></tbody></table></div>
+      </div>
+    </div>
   </section>
 
   <!-- ABOUT -->
