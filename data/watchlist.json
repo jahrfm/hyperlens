@@ -1,0 +1,2526 @@
+{
+ "generatedAt": "2026-08-15T12:09:43.510398+00:00",
+ "date": "2026-08-15",
+ "candidates": [
+  {
+   "ethAddress": "0x856c35038594767646266bc7fd68dc26480e910d",
+   "accountValue": 76207712.866006,
+   "monthPnl": 12106147.946116999,
+   "weekPnl": 2051925.735454,
+   "monthRoi": 0.2999536342,
+   "monthVlm": 1310997764.9
+  },
+  {
+   "ethAddress": "0xb83de012dba672c76a7dbbbf3e459cb59d7d6e36",
+   "accountValue": 93870239.827258,
+   "monthPnl": 11525310.638371,
+   "weekPnl": 850113.3245949999,
+   "monthRoi": 0.1933181028,
+   "monthVlm": 560420442.38
+  },
+  {
+   "ethAddress": "0xf822fa0fd364c573fcdb7009fcf47601bc8be01a",
+   "accountValue": 37443818.261883,
+   "monthPnl": 11393190.555939,
+   "weekPnl": 309408.223609,
+   "monthRoi": 0.2127554997,
+   "monthVlm": 98231598.64
+  },
+  {
+   "ethAddress": "0x0b8aa35c28b7c6ab18f11dc168f437a8a69fd4f8",
+   "accountValue": 42156894.65512901,
+   "monthPnl": 7589360.434715,
+   "weekPnl": 2126447.391768,
+   "monthRoi": 0.4406749383,
+   "monthVlm": 791562733.7199999
+  },
+  {
+   "ethAddress": "0x45d26f28196d226497130c4bac709d808fed4029",
+   "accountValue": 35908953.924483,
+   "monthPnl": 6119290.006825,
+   "weekPnl": 149041.914127,
+   "monthRoi": 0.5033148501,
+   "monthVlm": 18466459.78
+  },
+  {
+   "ethAddress": "0x49e96e255ba418d08e66c35b588e2f2f3766e1d0",
+   "accountValue": 24874586.341452,
+   "monthPnl": 5605758.454849999,
+   "weekPnl": 3748042.117782,
+   "monthRoi": 0.2163906927,
+   "monthVlm": 2459084560.88
+  },
+  {
+   "ethAddress": "0x4c6d679eac539bf7c5a0b7ebd8949ae93b1e5ee9",
+   "accountValue": 25137829.496786,
+   "monthPnl": 4326782.570752,
+   "weekPnl": 1615978.438564,
+   "monthRoi": 0.2037558522,
+   "monthVlm": 6547461.0
+  },
+  {
+   "ethAddress": "0x9a80d88c21be60e870d07d852390e92d09223cf2",
+   "accountValue": 24650505.582772,
+   "monthPnl": 4197527.833985,
+   "weekPnl": 1608516.594501,
+   "monthRoi": 0.0556310421,
+   "monthVlm": 9196168.74
+  },
+  {
+   "ethAddress": "0xdfd526409007db0d524a62dedaaba7706736d88e",
+   "accountValue": 26615207.919192,
+   "monthPnl": 4146891.614631,
+   "weekPnl": 49948.574335,
+   "monthRoi": 0.8271675207,
+   "monthVlm": 24497042.550000004
+  },
+  {
+   "ethAddress": "0x9cd0a696c7cbb9d44de99268194cb08e5684e5fe",
+   "accountValue": 4177715.894899,
+   "monthPnl": 3934529.872604,
+   "weekPnl": 801252.955122,
+   "monthRoi": 2.3274602403,
+   "monthVlm": 4430124.5
+  },
+  {
+   "ethAddress": "0xa312114b5795dff9b8db50474dd57701aa78ad1e",
+   "accountValue": 15391484.423889,
+   "monthPnl": 3703760.137892,
+   "weekPnl": 466369.969989,
+   "monthRoi": 0.5141631265,
+   "monthVlm": 56874860.74
+  },
+  {
+   "ethAddress": "0x0ad9e656d9e6211d0ea1c5462342e1fc94cc4cbf",
+   "accountValue": 22473489.44825,
+   "monthPnl": 3699527.750546,
+   "weekPnl": 1235878.833611,
+   "monthRoi": 0.1970563172,
+   "monthVlm": 140982713.58
+  },
+  {
+   "ethAddress": "0x88560b720239179d7f3f9e49ca934a4861593d7f",
+   "accountValue": 19651473.756051004,
+   "monthPnl": 3694080.747747,
+   "weekPnl": 31765.352812,
+   "monthRoi": 1.6950026814,
+   "monthVlm": 690439.0199999999
+  },
+  {
+   "ethAddress": "0x5b5d51203a0f9079f8aeb098a6523a13f298c060",
+   "accountValue": 62267895.937649,
+   "monthPnl": 3585265.86229,
+   "weekPnl": 882350.381741,
+   "monthRoi": 0.1073743366,
+   "monthVlm": 369123004.83
+  },
+  {
+   "ethAddress": "0x9bbb821a51d9c0ef24dd8592e9caad7fc469bbf2",
+   "accountValue": 849908.586188,
+   "monthPnl": 3463961.846187,
+   "weekPnl": 248004.573647,
+   "monthRoi": 1.0178919059,
+   "monthVlm": 100471501.15
+  },
+  {
+   "ethAddress": "0xa8cde6a19789e4d7964ce0e3da14aa29291d7275",
+   "accountValue": 4782187.284976,
+   "monthPnl": 3237429.090559,
+   "weekPnl": 682711.822376,
+   "monthRoi": 1.2525217051,
+   "monthVlm": 54586502.0
+  },
+  {
+   "ethAddress": "0xdb095d5a4f412fc6b14e6204c1db78bd14becbc1",
+   "accountValue": 18483535.25099,
+   "monthPnl": 3089798.154961,
+   "weekPnl": 4021146.637173,
+   "monthRoi": 0.2007165683,
+   "monthVlm": 24906752.24
+  },
+  {
+   "ethAddress": "0x8c96e5a2d770f9f2c9d2464ce4e741df0b2bca57",
+   "accountValue": 4688765.639575,
+   "monthPnl": 2859751.942338,
+   "weekPnl": 1802600.892902,
+   "monthRoi": 1.5185555798,
+   "monthVlm": 606051498.44
+  },
+  {
+   "ethAddress": "0x215b369a532dc84654c244449cb119986ceaf603",
+   "accountValue": 2587551.674966,
+   "monthPnl": 2831566.655694,
+   "weekPnl": 1673.146742,
+   "monthRoi": 1.2874148456,
+   "monthVlm": 32037983.5
+  },
+  {
+   "ethAddress": "0x362ad6209a5e904a5569f69884375809c5781d9f",
+   "accountValue": 5596179.267438,
+   "monthPnl": 2724407.487102,
+   "weekPnl": 315695.387458,
+   "monthRoi": 0.7154489432,
+   "monthVlm": 297849800.87
+  },
+  {
+   "ethAddress": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
+   "accountValue": 30168418.189762,
+   "monthPnl": 2647141.733757,
+   "weekPnl": 2374735.366272,
+   "monthRoi": 0.0982514184,
+   "monthVlm": 3344957842.51
+  },
+  {
+   "ethAddress": "0xc926ddba8b7617dbc65712f20cf8e1b58b8598d3",
+   "accountValue": 13595244.072580999,
+   "monthPnl": 1982995.2695839999,
+   "weekPnl": 597587.7951079999,
+   "monthRoi": 0.2517970016,
+   "monthVlm": 7188373895.469999
+  },
+  {
+   "ethAddress": "0x72774e2fe1992d5da8c6e9cef73fd2ab980c0b98",
+   "accountValue": 4874548.548034,
+   "monthPnl": 1953180.730196,
+   "weekPnl": 687095.524692,
+   "monthRoi": 0.8579023765,
+   "monthVlm": 168796051.67
+  },
+  {
+   "ethAddress": "0xe187055ff406f8cdf59fbae53ec20d4ecd9b771d",
+   "accountValue": 5611216.407861,
+   "monthPnl": 1919970.295136,
+   "weekPnl": 136486.427496,
+   "monthRoi": 1.0176837312,
+   "monthVlm": 6429046.94
+  },
+  {
+   "ethAddress": "0x66f889094739dbb7d20aa60f645acd88feba75a9",
+   "accountValue": 3001332.180682,
+   "monthPnl": 1903797.565542,
+   "weekPnl": 1510012.800887,
+   "monthRoi": 0.6932437038,
+   "monthVlm": 904508951.11
+  },
+  {
+   "ethAddress": "0x7717a7a245d9f950e586822b8c9b46863ed7bd7e",
+   "accountValue": 7477151.29752,
+   "monthPnl": 1813012.012036,
+   "weekPnl": 74855.38574,
+   "monthRoi": 0.2450466557,
+   "monthVlm": 714548276.2299999
+  },
+  {
+   "ethAddress": "0xcd98da856b021a6efcc7d766118531ad64aec433",
+   "accountValue": 2432327.797058,
+   "monthPnl": 1758324.067058,
+   "weekPnl": 739222.730581,
+   "monthRoi": 2.5895608519,
+   "monthVlm": 18962143.4
+  },
+  {
+   "ethAddress": "0xcf5343ba750a6e30afbb1dadda08bc78f8c8ee11",
+   "accountValue": 15959315.147866,
+   "monthPnl": 1638039.734618,
+   "weekPnl": 122409.388041,
+   "monthRoi": 0.1257492326,
+   "monthVlm": 65481926.74
+  },
+  {
+   "ethAddress": "0xf1e79e5cf063073deec9a0d86c178f7cde84d479",
+   "accountValue": 7352280.139955999,
+   "monthPnl": 1615132.302901,
+   "weekPnl": 936253.704823,
+   "monthRoi": 0.2433180181,
+   "monthVlm": 86408391.25999999
+  },
+  {
+   "ethAddress": "0xae6446c95cc4e455e9cf56f28757ab728d88e81e",
+   "accountValue": 11382271.735182,
+   "monthPnl": 1587926.5740260002,
+   "weekPnl": 160159.079944,
+   "monthRoi": 0.1509848583,
+   "monthVlm": 324316268.28999996
+  },
+  {
+   "ethAddress": "0x053fa362f5459cf61037d8b554b5cfb055a7a4d3",
+   "accountValue": 11482669.745241,
+   "monthPnl": 1570099.327376,
+   "weekPnl": 2996195.012208,
+   "monthRoi": 0.1583947716,
+   "monthVlm": 13794613.21
+  },
+  {
+   "ethAddress": "0x431f1cbb550be14da5cb3da1157010d1e83a6cee",
+   "accountValue": 3124136.730565,
+   "monthPnl": 1539715.417084,
+   "weekPnl": 1188943.723151,
+   "monthRoi": 0.9717840854,
+   "monthVlm": 429983536.51
+  },
+  {
+   "ethAddress": "0x9c062c0575c30a3b7614d0c6ea8de67faab00560",
+   "accountValue": 5013998.567051,
+   "monthPnl": 1535613.66518,
+   "weekPnl": 1183586.643059,
+   "monthRoi": 0.308456194,
+   "monthVlm": 121219320.99
+  },
+  {
+   "ethAddress": "0xff4cd3826ecee12acd4329aada4a2d3419fc463c",
+   "accountValue": 36110183.068801,
+   "monthPnl": 1515860.8833399997,
+   "weekPnl": 883341.1704689998,
+   "monthRoi": 0.0518893423,
+   "monthVlm": 12155468939.199997
+  },
+  {
+   "ethAddress": "0xf02d16a272a842f8bac1d9a9e773aba1933454c6",
+   "accountValue": 22636035.731547,
+   "monthPnl": 1473964.017557,
+   "weekPnl": 691085.561818,
+   "monthRoi": 0.6458289965,
+   "monthVlm": 65776702.03
+  },
+  {
+   "ethAddress": "0x37b81ab9e3ab04b9e3738e4891621205aaa31fd5",
+   "accountValue": 8192681.201317,
+   "monthPnl": 1440486.888136,
+   "weekPnl": 38159.347026,
+   "monthRoi": 2.0247778391,
+   "monthVlm": 10063491.15
+  },
+  {
+   "ethAddress": "0x5b53358eca5790fa4c268ad6813386b3a86549c7",
+   "accountValue": 10730459.087765,
+   "monthPnl": 1426257.242952,
+   "weekPnl": 54272.503311,
+   "monthRoi": 1.2993671291,
+   "monthVlm": 9925351.93
+  },
+  {
+   "ethAddress": "0x13f2ca08112fd5b5df3c78c5e583d95d69900235",
+   "accountValue": 2940386.7176960004,
+   "monthPnl": 1376205.29355,
+   "weekPnl": 629467.2741129999,
+   "monthRoi": 1.7901454598,
+   "monthVlm": 15159168.26
+  },
+  {
+   "ethAddress": "0x57dd78cd36e76e2011e8f6dc25cabbaba994494b",
+   "accountValue": 20913097.676122002,
+   "monthPnl": 1346728.5638579999,
+   "weekPnl": 275450.867607,
+   "monthRoi": 0.0523028436,
+   "monthVlm": 6518337893.18
+  },
+  {
+   "ethAddress": "0xd4c1f7e8d876c4749228d515473d36f919583d1d",
+   "accountValue": 3604797.611018,
+   "monthPnl": 1341734.748002,
+   "weekPnl": 131777.637202,
+   "monthRoi": 0.188711822,
+   "monthVlm": 524077984.14
+  },
+  {
+   "ethAddress": "0xaeaab54bbf65bfd6efed7d2eb68372298e3c2416",
+   "accountValue": 2006008.730212,
+   "monthPnl": 1270972.31,
+   "weekPnl": 432664.35,
+   "monthRoi": 0.4744426793,
+   "monthVlm": 482181235.3
+  },
+  {
+   "ethAddress": "0x06bc596fb16734f7abc3a5996b580be932c2fb72",
+   "accountValue": 2680046.028404,
+   "monthPnl": 1260596.426282,
+   "weekPnl": 418697.382199,
+   "monthRoi": 0.6004413847,
+   "monthVlm": 178538259.0
+  },
+  {
+   "ethAddress": "0xf17de447fdfa1778db06111e3cbdc878332adab2",
+   "accountValue": 4592509.865743999,
+   "monthPnl": 1251268.137968,
+   "weekPnl": 9564.887058,
+   "monthRoi": 1.4157310637,
+   "monthVlm": 76811942.96
+  },
+  {
+   "ethAddress": "0xd7b19f8aaf5c9619bd5141945a73d2ca74984451",
+   "accountValue": 5617320.015515001,
+   "monthPnl": 1241587.438229,
+   "weekPnl": 7692.496975,
+   "monthRoi": 1.2244904013,
+   "monthVlm": 5532511.81
+  },
+  {
+   "ethAddress": "0xb262d5a5d064a4354990a66c286ec1800c216b11",
+   "accountValue": 2134477.2976410002,
+   "monthPnl": 1234573.6697870002,
+   "weekPnl": 344934.457041,
+   "monthRoi": 0.9498944548,
+   "monthVlm": 34118897.16
+  },
+  {
+   "ethAddress": "0xb7e0b9fbc9479330d70bcc82a7d4325a20e8d1aa",
+   "accountValue": 2142231.671286,
+   "monthPnl": 1197028.848891,
+   "weekPnl": 449636.640518,
+   "monthRoi": 1.2262091662,
+   "monthVlm": 99481834.53
+  },
+  {
+   "ethAddress": "0xd21d931890d27b6e7e2e668f27931e17698e90f1",
+   "accountValue": 4356775.383287,
+   "monthPnl": 1190307.30735,
+   "weekPnl": 653191.653855,
+   "monthRoi": 0.3359460408,
+   "monthVlm": 23108096.95
+  },
+  {
+   "ethAddress": "0x6859da14835424957a1e6b397d8026b1d9ff7e1e",
+   "accountValue": 7921854.832108,
+   "monthPnl": 1179997.600532,
+   "weekPnl": 552589.592022,
+   "monthRoi": 0.3331291953,
+   "monthVlm": 21172725.490000002
+  },
+  {
+   "ethAddress": "0x2d23b731e5f04996a2dfdbe434c7d922afdb5e00",
+   "accountValue": 9558536.298153,
+   "monthPnl": 1145244.554716,
+   "weekPnl": 407390.456586,
+   "monthRoi": 0.2612468815,
+   "monthVlm": 158927288.57999998
+  },
+  {
+   "ethAddress": "0xb581d667c53fd8a50bf7ffd817be0e62daa16f4f",
+   "accountValue": 21950335.77772,
+   "monthPnl": 1143576.630927,
+   "weekPnl": 947841.679473,
+   "monthRoi": 0.0549617854,
+   "monthVlm": 728032.79
+  },
+  {
+   "ethAddress": "0xf29c6bc1147a841519b382459a6d7a373c6b9971",
+   "accountValue": 5974790.769548,
+   "monthPnl": 1122559.324903,
+   "weekPnl": 1492702.894809,
+   "monthRoi": 0.4175340803,
+   "monthVlm": 25289895.27
+  },
+  {
+   "ethAddress": "0xaa53412d2249fe47c5d2790ab5728b3c564dd265",
+   "accountValue": 1675964.28267,
+   "monthPnl": 1116133.650544,
+   "weekPnl": 108795.715923,
+   "monthRoi": 2.7625229395,
+   "monthVlm": 28525326.16
+  },
+  {
+   "ethAddress": "0x8cc94dc843e1ea7a19805e0cca43001123512b6a",
+   "accountValue": 5824507.646408,
+   "monthPnl": 1099708.101209,
+   "weekPnl": 196054.283886,
+   "monthRoi": 0.2054084493,
+   "monthVlm": 20411817.62
+  },
+  {
+   "ethAddress": "0x6355f7cf36b24044cd5b089a845113327d0ee58e",
+   "accountValue": 18162730.035205998,
+   "monthPnl": 1067060.8895240002,
+   "weekPnl": 885825.88894,
+   "monthRoi": 0.0503501735,
+   "monthVlm": 1160122977.36
+  },
+  {
+   "ethAddress": "0xab961d7c42bbcd454a54b342bd191a8f090219e6",
+   "accountValue": 2118585.2533,
+   "monthPnl": 1028785.460541,
+   "weekPnl": 61512.315508,
+   "monthRoi": 0.2572092389,
+   "monthVlm": 100411222.08
+  },
+  {
+   "ethAddress": "0xdd9f274410c8c704bdbb599dce6c4fb34be4f50a",
+   "accountValue": 18861185.80435,
+   "monthPnl": 960075.80698,
+   "weekPnl": 528318.484597,
+   "monthRoi": 0.1293846331,
+   "monthVlm": 58669684.0
+  },
+  {
+   "ethAddress": "0x8afacaa08de7189d84db9d87b9c21c2f1ac28113",
+   "accountValue": 2290537.850994,
+   "monthPnl": 945224.468548,
+   "weekPnl": 251580.194401,
+   "monthRoi": 0.4030269369,
+   "monthVlm": 36600727.12
+  },
+  {
+   "ethAddress": "0x525232cb6ed5030d2b052b36bfc0baec96986ee3",
+   "accountValue": 9004208.355916,
+   "monthPnl": 932836.93135,
+   "weekPnl": 237964.03474,
+   "monthRoi": 0.3050932009,
+   "monthVlm": 30050030.05
+  },
+  {
+   "ethAddress": "0xdf9ea6ec3b7109935ccb4fb267e15ac1fb077ab1",
+   "accountValue": 4539045.611223,
+   "monthPnl": 929802.7835970002,
+   "weekPnl": 91984.967232,
+   "monthRoi": 0.2181844516,
+   "monthVlm": 10486630912.630003
+  },
+  {
+   "ethAddress": "0xb07856ebcb6b37967eaf7c4b4e64dcce28c6de15",
+   "accountValue": 5978421.501262,
+   "monthPnl": 919890.97315,
+   "weekPnl": 662680.216453,
+   "monthRoi": 0.1640440906,
+   "monthVlm": 1156592303.03
+  },
+  {
+   "ethAddress": "0xda1d57bdedab38c16bf44549b03b4dd3ab15b2f0",
+   "accountValue": 2150960.822745,
+   "monthPnl": 918603.810595,
+   "weekPnl": 57315.920882,
+   "monthRoi": 0.745403971,
+   "monthVlm": 42665438.71
+  },
+  {
+   "ethAddress": "0x934de82f50e7f5840de6124ace12f06dd7f992c9",
+   "accountValue": 1688035.729385,
+   "monthPnl": 907147.846626,
+   "weekPnl": 544511.371897,
+   "monthRoi": 1.1616876976,
+   "monthVlm": 12249853.49
+  },
+  {
+   "ethAddress": "0xdf954bbe619273a56e0cfa90dad8382195dc7d72",
+   "accountValue": 18944227.586911,
+   "monthPnl": 901542.998642,
+   "weekPnl": 221484.986733,
+   "monthRoi": 0.120685448,
+   "monthVlm": 20120807.18
+  },
+  {
+   "ethAddress": "0x218a65e21eddeece7a9df38c6bbdd89f692b7da2",
+   "accountValue": 6170324.353719,
+   "monthPnl": 893586.037685,
+   "weekPnl": 1009483.778908,
+   "monthRoi": 0.1533595623,
+   "monthVlm": 20539028.13
+  },
+  {
+   "ethAddress": "0x42eadf6fe45b51b729c165c3f636b8ccaa35d705",
+   "accountValue": 2268126.00464,
+   "monthPnl": 872968.928545,
+   "weekPnl": 381563.590962,
+   "monthRoi": 0.6257137232,
+   "monthVlm": 186020.99
+  },
+  {
+   "ethAddress": "0xb69eec8fea0081343c3b09e652ba1fa7dcf7033a",
+   "accountValue": 867619.503684,
+   "monthPnl": 868508.881252,
+   "weekPnl": 265936.168788,
+   "monthRoi": 3.004002577,
+   "monthVlm": 34797013.28
+  },
+  {
+   "ethAddress": "0x833b99b27dac651d02080f5e220e929df891db06",
+   "accountValue": 633634.331294,
+   "monthPnl": 864190.964466,
+   "weekPnl": 26954.027749,
+   "monthRoi": 0.5700359334,
+   "monthVlm": 263872188.52
+  },
+  {
+   "ethAddress": "0x27c9fa86c91b84ddfa15de58c482ff662498d65d",
+   "accountValue": 1674321.139404,
+   "monthPnl": 860578.403439,
+   "weekPnl": 58481.077938,
+   "monthRoi": 0.4635916012,
+   "monthVlm": 186507369.1
+  },
+  {
+   "ethAddress": "0x7ea90af38397575a372e36bdc0f5970fb512fc7f",
+   "accountValue": 4488399.440041,
+   "monthPnl": 850232.250572,
+   "weekPnl": 28946.342636,
+   "monthRoi": 1.3911377749,
+   "monthVlm": 30868400.4
+  },
+  {
+   "ethAddress": "0xad59ed47c226987cf458a63428ca10887773ba81",
+   "accountValue": 3939339.591514,
+   "monthPnl": 845480.908536,
+   "weekPnl": 130668.3561,
+   "monthRoi": 0.2732771581,
+   "monthVlm": 797916.91
+  },
+  {
+   "ethAddress": "0x091159a8106b077c13e89bc09701117e8b5f129a",
+   "accountValue": 9819642.764552,
+   "monthPnl": 843274.780013,
+   "weekPnl": 40343.14605,
+   "monthRoi": 0.0939438737,
+   "monthVlm": 44241171.33
+  },
+  {
+   "ethAddress": "0x7839e2f2c375dd2935193f2736167514efff9916",
+   "accountValue": 10829476.503357999,
+   "monthPnl": 841056.801965,
+   "weekPnl": 418037.876838,
+   "monthRoi": 0.1108338598,
+   "monthVlm": 13666059067.98
+  },
+  {
+   "ethAddress": "0xceec48581b3145a575508719f45da07dc57fa7ce",
+   "accountValue": 13106176.060695,
+   "monthPnl": 825851.727458,
+   "weekPnl": 194128.698344,
+   "monthRoi": 1.328399016,
+   "monthVlm": 7320726.42
+  },
+  {
+   "ethAddress": "0x9ffdf919da72213588f7517598394cc5535bce40",
+   "accountValue": 8503946.733931,
+   "monthPnl": 819303.741227,
+   "weekPnl": 348336.431652,
+   "monthRoi": 1.0125997225,
+   "monthVlm": 42092291.28
+  },
+  {
+   "ethAddress": "0x9aca58e24ff5845f245e7c2c897fef1bc59b3555",
+   "accountValue": 975866.568399,
+   "monthPnl": 813363.097749,
+   "weekPnl": 533940.101811,
+   "monthRoi": 3.18711613,
+   "monthVlm": 15524678.14
+  },
+  {
+   "ethAddress": "0x133b957909170b1fb32e3c4a0bd0ce1920a3bca6",
+   "accountValue": 5090049.349939,
+   "monthPnl": 809153.049937,
+   "weekPnl": 180322.426941,
+   "monthRoi": 0.1316118554,
+   "monthVlm": 296519004.66
+  },
+  {
+   "ethAddress": "0x350e33a777d510616fbdb483d1de3b50d1edfcfb",
+   "accountValue": 3506445.262784,
+   "monthPnl": 808260.335213,
+   "weekPnl": 385892.253732,
+   "monthRoi": 0.3618060491,
+   "monthVlm": 176699688.95
+  },
+  {
+   "ethAddress": "0x7dacca323e44f168494c779bb5e7483c468ef410",
+   "accountValue": 25383380.11944,
+   "monthPnl": 788374.7202870001,
+   "weekPnl": 532257.4935450001,
+   "monthRoi": 1.3973350846,
+   "monthVlm": 4092411.71
+  },
+  {
+   "ethAddress": "0x58f0bf4307c61bc7a5fe11e24fe36e64300b0d20",
+   "accountValue": 3664730.905651,
+   "monthPnl": 743469.490139,
+   "weekPnl": 476458.801118,
+   "monthRoi": 0.2545227532,
+   "monthVlm": 39356629.37
+  },
+  {
+   "ethAddress": "0x7e23ead98212f5476768cf51b5dd76da34a35a5a",
+   "accountValue": 9400506.388146,
+   "monthPnl": 740538.677393,
+   "weekPnl": 739710.638403,
+   "monthRoi": 0.0880772808,
+   "monthVlm": 15776106.27
+  },
+  {
+   "ethAddress": "0x9a5cd14dc064069b608da0a01d403963dc410a84",
+   "accountValue": 1860842.339592,
+   "monthPnl": 732470.876449,
+   "weekPnl": 730355.960664,
+   "monthRoi": 0.3524253914,
+   "monthVlm": 44785265.39
+  },
+  {
+   "ethAddress": "0x6b06da993b1f12d82463fec75006913f98499b7c",
+   "accountValue": 1337037.538571,
+   "monthPnl": 698722.361405,
+   "weekPnl": 156383.164635,
+   "monthRoi": 0.9859049508,
+   "monthVlm": 42709384.76
+  },
+  {
+   "ethAddress": "0x399965e15d4e61ec3529cc98b7f7ebb93b733336",
+   "accountValue": 15105151.532869995,
+   "monthPnl": 688958.97067,
+   "weekPnl": 263081.838829,
+   "monthRoi": 0.0514363922,
+   "monthVlm": 20859986441.100002
+  },
+  {
+   "ethAddress": "0x8c830d21e41ad688dbf1727ae4425573849daf41",
+   "accountValue": 5168267.606695,
+   "monthPnl": 682668.89262,
+   "weekPnl": 8302.817805,
+   "monthRoi": 1.4368544276,
+   "monthVlm": 2652316.8
+  },
+  {
+   "ethAddress": "0x07427c476501e03b1802541625cefd1df24484d2",
+   "accountValue": 950367.841919,
+   "monthPnl": 682322.689626,
+   "weekPnl": 182168.195957,
+   "monthRoi": 2.4413245719,
+   "monthVlm": 5693483.39
+  },
+  {
+   "ethAddress": "0xaecfe4eff84a1cd9a24accc1914ac537af7f6e1b",
+   "accountValue": 723943.027803,
+   "monthPnl": 668848.212791,
+   "weekPnl": 298180.286903,
+   "monthRoi": 1.6791762916,
+   "monthVlm": 5447345.48
+  },
+  {
+   "ethAddress": "0xc59498175d6d317642aeb97f895a7ce1aa992191",
+   "accountValue": 5170293.415255,
+   "monthPnl": 661200.014052,
+   "weekPnl": 0.003756,
+   "monthRoi": 0.0528575487,
+   "monthVlm": 4842446.45
+  },
+  {
+   "ethAddress": "0x55b80f17dba49f3803d16136e82d2adc5cdd2a10",
+   "accountValue": 6115278.925635,
+   "monthPnl": 660051.67,
+   "weekPnl": 364331.055811,
+   "monthRoi": 0.7739234184,
+   "monthVlm": 14187340.68
+  },
+  {
+   "ethAddress": "0xb5b3f3caf9d778b1293e5cd29f32e84b04c67a08",
+   "accountValue": 1800685.321491,
+   "monthPnl": 656705.781491,
+   "weekPnl": 343316.315069,
+   "monthRoi": 0.501302196,
+   "monthVlm": 72326252.59
+  },
+  {
+   "ethAddress": "0xbbf7fbc7fa97a88c83c1b8a825692f84ef9d4b13",
+   "accountValue": 1360037.511151,
+   "monthPnl": 655230.127976,
+   "weekPnl": 248565.415021,
+   "monthRoi": 0.515732146,
+   "monthVlm": 18562339.35
+  },
+  {
+   "ethAddress": "0xf7f8baf2197adf0c7e1725721f14ce1d53fd770c",
+   "accountValue": 2479345.213442,
+   "monthPnl": 650807.029712,
+   "weekPnl": 10539.340228,
+   "monthRoi": 0.277495548,
+   "monthVlm": 544319911.41
+  },
+  {
+   "ethAddress": "0xe1d39d2b30da977d470e0652239372b7ad4b7766",
+   "accountValue": 1201046.441349,
+   "monthPnl": 637808.604372,
+   "weekPnl": 527102.841569,
+   "monthRoi": 1.1323965872,
+   "monthVlm": 971133576.95
+  },
+  {
+   "ethAddress": "0x77375a8c9d13bf79afb2a87f1b0ac1dfd5f5bf66",
+   "accountValue": 30388141.054445,
+   "monthPnl": 635827.100009,
+   "weekPnl": 858834.308328,
+   "monthRoi": 0.1204590222,
+   "monthVlm": 296221857.03
+  },
+  {
+   "ethAddress": "0xd65ac35cd234c8718b876ab304fa56c8995e387f",
+   "accountValue": 1239961.153412,
+   "monthPnl": 634890.015782,
+   "weekPnl": 103373.422724,
+   "monthRoi": 1.0492816072,
+   "monthVlm": 111758722.43
+  },
+  {
+   "ethAddress": "0x40f20b734d7d25ba0b6219e921382fa992a56a9e",
+   "accountValue": 1114581.1581090002,
+   "monthPnl": 630403.102449,
+   "weekPnl": 566274.853907,
+   "monthRoi": 1.3493279668,
+   "monthVlm": 314515279.37
+  },
+  {
+   "ethAddress": "0x3440f23a87f1950e7a88cd248fd270e92d1132c5",
+   "accountValue": 1876653.535299,
+   "monthPnl": 629149.55164,
+   "weekPnl": 350178.845452,
+   "monthRoi": 0.1773499211,
+   "monthVlm": 29946750.83
+  },
+  {
+   "ethAddress": "0x6daec5ff434924e0839358e710e6ae5f158590de",
+   "accountValue": 1909332.386535,
+   "monthPnl": 620667.02326,
+   "weekPnl": 246594.118862,
+   "monthRoi": 0.519755496,
+   "monthVlm": 35523482.43
+  },
+  {
+   "ethAddress": "0x9321d8117e73b0c79035f0e87debcfd8dbb1d75a",
+   "accountValue": 9562542.869785,
+   "monthPnl": 605942.836397,
+   "weekPnl": 542910.148279,
+   "monthRoi": 0.0955229803,
+   "monthVlm": 69537573.22
+  },
+  {
+   "ethAddress": "0x563bf0731cf71ad7cea05b9c48a802d8c53e7dc4",
+   "accountValue": 2561482.431751,
+   "monthPnl": 588696.115561,
+   "weekPnl": 138275.409186,
+   "monthRoi": 0.2339101337,
+   "monthVlm": 160193522.54
+  },
+  {
+   "ethAddress": "0x20567571c1602360562af269970cb7dd4fb18396",
+   "accountValue": 2712616.262588,
+   "monthPnl": 586464.341966,
+   "weekPnl": 71238.273063,
+   "monthRoi": 0.2758336957,
+   "monthVlm": 24540154.5
+  },
+  {
+   "ethAddress": "0x68af3f19b7cf1934909bd43776050fe83b0ac654",
+   "accountValue": 1532462.757278,
+   "monthPnl": 579347.146903,
+   "weekPnl": 140572.914383,
+   "monthRoi": 0.4398605121,
+   "monthVlm": 105290950.04
+  },
+  {
+   "ethAddress": "0x21c27ef8d7fddeff971f25e6cfe35ad6f774bbd4",
+   "accountValue": 2051317.641533,
+   "monthPnl": 551318.041533,
+   "weekPnl": 551318.041533,
+   "monthRoi": 0.367545459,
+   "monthVlm": 1986678.09
+  },
+  {
+   "ethAddress": "0x72655b3926db3afbe914a53b0604905af7ce11a5",
+   "accountValue": 1140021.007302,
+   "monthPnl": 545299.06,
+   "weekPnl": 18774.737779,
+   "monthRoi": 0.1634109175,
+   "monthVlm": 48535105.9
+  },
+  {
+   "ethAddress": "0xf8b5bde5f6aa989c01754931e077e1e5a915e2bb",
+   "accountValue": 1272808.340262,
+   "monthPnl": 543497.670337,
+   "weekPnl": 82964.110718,
+   "monthRoi": 0.7451188925,
+   "monthVlm": 40882570.81
+  },
+  {
+   "ethAddress": "0x7672bbb64595e5c2ae3bc65ffe385ee1ab8ea306",
+   "accountValue": 846205.416806,
+   "monthPnl": 542955.134993,
+   "weekPnl": 424528.283888,
+   "monthRoi": 1.3464421988,
+   "monthVlm": 9272769.45
+  },
+  {
+   "ethAddress": "0xb33b01c9821a99d3d4ec14b1c9a2197524b9af97",
+   "accountValue": 4371898.282354,
+   "monthPnl": 531382.976763,
+   "weekPnl": 59801.790817,
+   "monthRoi": 1.3107730943,
+   "monthVlm": 4985015.84
+  },
+  {
+   "ethAddress": "0x364a45829e8ce2940d8cff911076d8dec40b2e73",
+   "accountValue": 8276618.600382,
+   "monthPnl": 510193.211084,
+   "weekPnl": 1445734.63322,
+   "monthRoi": 0.0656921538,
+   "monthVlm": 45260005.05
+  },
+  {
+   "ethAddress": "0x6e25e5d971bda9799f7a5242f4720b5b3f939200",
+   "accountValue": 2297793.519436,
+   "monthPnl": 504507.786176,
+   "weekPnl": 4412.963742,
+   "monthRoi": 1.5280870727,
+   "monthVlm": 4205084.79
+  },
+  {
+   "ethAddress": "0x8b8ed3d4775e6a76a82f022ab62281a2974df1ca",
+   "accountValue": 554937.828139,
+   "monthPnl": 500465.096251,
+   "weekPnl": 213569.548138,
+   "monthRoi": 0.9381268557,
+   "monthVlm": 165558421.53
+  },
+  {
+   "ethAddress": "0x747932275df815ae819944e57ebb5b3e115ad68b",
+   "accountValue": 3704482.8231410002,
+   "monthPnl": 495180.459038,
+   "weekPnl": 10195.945151,
+   "monthRoi": 1.396325565,
+   "monthVlm": 712401.47
+  },
+  {
+   "ethAddress": "0x418aa6bf98a2b2bc93779f810330d88cde488888",
+   "accountValue": 5843282.977552,
+   "monthPnl": 484395.720035,
+   "weekPnl": 395881.215911,
+   "monthRoi": 0.1932143687,
+   "monthVlm": 76343405.95
+  },
+  {
+   "ethAddress": "0xbeccae9ffcb69e9d42a1d4e744abf8056149562d",
+   "accountValue": 811723.803672,
+   "monthPnl": 482950.389186,
+   "weekPnl": 181227.115763,
+   "monthRoi": 0.6331312557,
+   "monthVlm": 985680669.31
+  },
+  {
+   "ethAddress": "0xb3e475368ed0fa0ad23c04de0423d48a0758806f",
+   "accountValue": 5020378.407922,
+   "monthPnl": 482390.203452,
+   "weekPnl": 40703.186848,
+   "monthRoi": 0.7168024457,
+   "monthVlm": 221533.31
+  },
+  {
+   "ethAddress": "0x781e95fdc049433565cf8e05265361b8402196b7",
+   "accountValue": 1127899.040049,
+   "monthPnl": 481780.487243,
+   "weekPnl": 13463.21294,
+   "monthRoi": 0.3989960149,
+   "monthVlm": 2299321.79
+  },
+  {
+   "ethAddress": "0x89720b1831fd8457ea9026f5ffb476ed6d35e6bd",
+   "accountValue": 3487495.493254,
+   "monthPnl": 481461.425237,
+   "weekPnl": 5297.639375,
+   "monthRoi": 0.9912194778,
+   "monthVlm": 2228424.37
+  },
+  {
+   "ethAddress": "0x21316c7fa26028c7da41e03eed0ae9d7c2b7f727",
+   "accountValue": 816436.35485,
+   "monthPnl": 481353.174081,
+   "weekPnl": 140175.569495,
+   "monthRoi": 0.6178424199,
+   "monthVlm": 28560712.77
+  },
+  {
+   "ethAddress": "0xd6e1a6f7bb47aca69aaa511210227d40926ff256",
+   "accountValue": 3595994.275964,
+   "monthPnl": 480756.973587,
+   "weekPnl": 256241.821802,
+   "monthRoi": 0.1590364281,
+   "monthVlm": 185142074.06
+  },
+  {
+   "ethAddress": "0xf21d494bb47339f399267c5519cbe11da0753b2d",
+   "accountValue": 869516.761812,
+   "monthPnl": 479618.700673,
+   "weekPnl": 18590.398116,
+   "monthRoi": 1.1425984457,
+   "monthVlm": 14126113.71
+  },
+  {
+   "ethAddress": "0x8eff8ff863c1a54ec6697b7ad98fe30aa344bd5e",
+   "accountValue": 1889211.764661,
+   "monthPnl": 473554.902148,
+   "weekPnl": 59688.921537,
+   "monthRoi": 0.1775683307,
+   "monthVlm": 1088177589.98
+  },
+  {
+   "ethAddress": "0x744a26a3e5a56efb7d95119752a63183c236bbd0",
+   "accountValue": 1309859.344474,
+   "monthPnl": 472910.115815,
+   "weekPnl": 208972.315615,
+   "monthRoi": 2.0024094918,
+   "monthVlm": 792634.79
+  },
+  {
+   "ethAddress": "0x2b61e63b11295c0a1dda2875ac3af00669732f6c",
+   "accountValue": 11660862.460603,
+   "monthPnl": 470863.260603,
+   "weekPnl": 60526.232062,
+   "monthRoi": 0.042078936,
+   "monthVlm": 48527271.45
+  },
+  {
+   "ethAddress": "0x8c625ff57d8a4374784c7eff585dfdc42ccec974",
+   "accountValue": 2958255.2060239995,
+   "monthPnl": 467718.26285,
+   "weekPnl": 305981.321891,
+   "monthRoi": 0.0940703684,
+   "monthVlm": 10647304675.76
+  },
+  {
+   "ethAddress": "0x4b1c09fa8322548360a76a3747e32a60a864bc38",
+   "accountValue": 1904148.949968,
+   "monthPnl": 462953.772658,
+   "weekPnl": 97894.465525,
+   "monthRoi": 0.2336220239,
+   "monthVlm": 4325439.76
+  },
+  {
+   "ethAddress": "0x196283bce3e38d98f9f4c424a1a148b248eaa4f9",
+   "accountValue": 724103.200129,
+   "monthPnl": 462471.2695,
+   "weekPnl": 237670.56885,
+   "monthRoi": 1.102930456,
+   "monthVlm": 34926384.51
+  },
+  {
+   "ethAddress": "0x36f5e448c9cf0032551e58919cf4eabefcd742c1",
+   "accountValue": 4229939.727393,
+   "monthPnl": 460058.661984,
+   "weekPnl": 35694.566653,
+   "monthRoi": 0.8436832719,
+   "monthVlm": 2654640.8899999997
+  },
+  {
+   "ethAddress": "0x9cc53c5af67fb83a16cc41f61e242bade875ab3d",
+   "accountValue": 4098729.1908919998,
+   "monthPnl": 454375.445241,
+   "weekPnl": 154520.675033,
+   "monthRoi": 0.1133712083,
+   "monthVlm": 1755134495.2299998
+  },
+  {
+   "ethAddress": "0x404ca2035b37bf2e83505134ebcf8d03babb5f03",
+   "accountValue": 1295484.098118,
+   "monthPnl": 441339.665011,
+   "weekPnl": 46552.321032,
+   "monthRoi": 0.4064588615,
+   "monthVlm": 572524.14
+  },
+  {
+   "ethAddress": "0x14c624428f50785e26d94779769e3b0f3340b280",
+   "accountValue": 661787.121237,
+   "monthPnl": 437111.488711,
+   "weekPnl": 126196.896814,
+   "monthRoi": 1.9455224574,
+   "monthVlm": 3715079.6
+  },
+  {
+   "ethAddress": "0xf5079c84c34051d7c4cd87494fda534fe7ecdf6d",
+   "accountValue": 2516157.616363,
+   "monthPnl": 435895.979355,
+   "weekPnl": 85023.603758,
+   "monthRoi": 0.2095390174,
+   "monthVlm": 19479933.82
+  },
+  {
+   "ethAddress": "0x069ad3d4dd1ca686ef78d065fbc6208fdcede58d",
+   "accountValue": 2091036.901818,
+   "monthPnl": 434060.089722,
+   "weekPnl": 813408.503899,
+   "monthRoi": 0.261959061,
+   "monthVlm": 23137841.44
+  },
+  {
+   "ethAddress": "0x71dfc07de32c2ebf1c4801f4b1c9e40b76d4a23d",
+   "accountValue": 5905736.077298,
+   "monthPnl": 433560.097582,
+   "weekPnl": 64908.878933,
+   "monthRoi": 0.1797886039,
+   "monthVlm": 957513.22
+  },
+  {
+   "ethAddress": "0xf220c9b7b4c0e5e785ebe4b40b17576ce24473e0",
+   "accountValue": 852484.143769,
+   "monthPnl": 423563.47115,
+   "weekPnl": 28354.346611,
+   "monthRoi": 0.9875100413,
+   "monthVlm": 56927790.05
+  },
+  {
+   "ethAddress": "0xa20fb0c9e04063eec5be286e9269028d966646fa",
+   "accountValue": 1721474.92972,
+   "monthPnl": 415447.836543,
+   "weekPnl": 12388.001997,
+   "monthRoi": 0.3063713392,
+   "monthVlm": 4841430.09
+  },
+  {
+   "ethAddress": "0x269e4052f7849d4620dbd6e0de0e426fddbffe68",
+   "accountValue": 599218.6884,
+   "monthPnl": 410106.2184,
+   "weekPnl": 231082.092654,
+   "monthRoi": 2.168583692,
+   "monthVlm": 7428703.77
+  },
+  {
+   "ethAddress": "0xb0fbfefc6c325964d0ffc3f909bdda80b8421326",
+   "accountValue": 1629395.316005,
+   "monthPnl": 408569.6724,
+   "weekPnl": 3994.693788,
+   "monthRoi": 0.9284890821,
+   "monthVlm": 5305764.08
+  },
+  {
+   "ethAddress": "0xe6781c6a6eda7821a2c17832e2e5edd8fa25c7ea",
+   "accountValue": 671755.809166,
+   "monthPnl": 406223.013312,
+   "weekPnl": 111888.258226,
+   "monthRoi": 1.074778847,
+   "monthVlm": 261838425.79
+  },
+  {
+   "ethAddress": "0xab09b1f92211e828081200fe0390c3d422dbe403",
+   "accountValue": 5721379.373617998,
+   "monthPnl": 397665.30473,
+   "weekPnl": 236416.464332,
+   "monthRoi": 0.057919489,
+   "monthVlm": 194668931.88
+  },
+  {
+   "ethAddress": "0x7da85a334e43a6b1c2c0da9623409d9ee9047747",
+   "accountValue": 1005301.82195,
+   "monthPnl": 396869.050037,
+   "weekPnl": 21323.356685,
+   "monthRoi": 0.1276395351,
+   "monthVlm": 2436625.68
+  },
+  {
+   "ethAddress": "0x3b883b85fd41b81ef23b6041248bc6ac0b1c04a7",
+   "accountValue": 4692843.722224,
+   "monthPnl": 392379.969829,
+   "weekPnl": 283660.668716,
+   "monthRoi": 0.1488955824,
+   "monthVlm": 138685934.85
+  },
+  {
+   "ethAddress": "0x7c4b71c1d8a11ed426f301c372a72e06f528e00b",
+   "accountValue": 4199255.764908,
+   "monthPnl": 391323.830021,
+   "weekPnl": 81183.233887,
+   "monthRoi": 0.5296825892,
+   "monthVlm": 179811141.96
+  },
+  {
+   "ethAddress": "0x61ceef212ff4a86933c69fb6aca2fe35d8f2a62b",
+   "accountValue": 4238941.808279,
+   "monthPnl": 389365.47543,
+   "weekPnl": 150147.0392,
+   "monthRoi": 0.10808247,
+   "monthVlm": 10348060.16
+  },
+  {
+   "ethAddress": "0x4fe53e953f1ff4454d144cb6f4fee3f2ca9363fe",
+   "accountValue": 6745738.331643,
+   "monthPnl": 385712.356664,
+   "weekPnl": 1257515.674229,
+   "monthRoi": 0.1947360996,
+   "monthVlm": 3627386.97
+  },
+  {
+   "ethAddress": "0xc48b1ad3415e6cf85c4f733fe7fb3085bedf88b1",
+   "accountValue": 3854864.114297,
+   "monthPnl": 384145.181891,
+   "weekPnl": 1450.167893,
+   "monthRoi": 0.1082794736,
+   "monthVlm": 7054935.29
+  },
+  {
+   "ethAddress": "0x38042d713af713f0275b00640a83654db91ea543",
+   "accountValue": 1062997.592965,
+   "monthPnl": 381472.070143,
+   "weekPnl": 144681.126442,
+   "monthRoi": 0.5597326254,
+   "monthVlm": 246921.1
+  },
+  {
+   "ethAddress": "0xdcac85ecae7148886029c20e661d848a4de99ce2",
+   "accountValue": 16198215.880176999,
+   "monthPnl": 379768.5631230001,
+   "weekPnl": 93169.7621650001,
+   "monthRoi": 0.0491828119,
+   "monthVlm": 925976956.9100001
+  },
+  {
+   "ethAddress": "0x31fa47e5d885c0b09935eb412035f73571a47d05",
+   "accountValue": 1379700.4587,
+   "monthPnl": 379700.8587,
+   "weekPnl": 379700.8587,
+   "monthRoi": 0.3797010106,
+   "monthVlm": 1243869.32
+  },
+  {
+   "ethAddress": "0x11eee2e0a613af4f636e23ff295e2dac6a191d1d",
+   "accountValue": 682442.72022,
+   "monthPnl": 375275.719047,
+   "weekPnl": 8561.607079,
+   "monthRoi": 0.7893735372,
+   "monthVlm": 4534046.89
+  },
+  {
+   "ethAddress": "0x6952f6204561646d1172fd316d86b5784f80ba8f",
+   "accountValue": 1067173.165279,
+   "monthPnl": 366946.305279,
+   "weekPnl": 110245.720264,
+   "monthRoi": 0.3668627119,
+   "monthVlm": 1320469.0
+  },
+  {
+   "ethAddress": "0x0d438ba1817d0958ae3bf70b23faaf1d0117c930",
+   "accountValue": 1572144.51064,
+   "monthPnl": 360673.030632,
+   "weekPnl": 299485.706911,
+   "monthRoi": 0.2977148341,
+   "monthVlm": 75827335.33
+  },
+  {
+   "ethAddress": "0x1e0b469b0f10f59bd6c76a010c4b0dd24742b1ef",
+   "accountValue": 1209287.322156,
+   "monthPnl": 358726.129893,
+   "weekPnl": 306179.844146,
+   "monthRoi": 0.4175379287,
+   "monthVlm": 4254181.82
+  },
+  {
+   "ethAddress": "0x0514f2f3e0277c47117e3f33d9390efb0acfbdfe",
+   "accountValue": 1247239.645824,
+   "monthPnl": 352885.580789,
+   "weekPnl": 163823.073872,
+   "monthRoi": 0.232101807,
+   "monthVlm": 3892220.93
+  },
+  {
+   "ethAddress": "0xfb941d2344b72ea9101400392b818173772d0ddf",
+   "accountValue": 9702842.725923,
+   "monthPnl": 349671.068588,
+   "weekPnl": 111531.59482,
+   "monthRoi": 0.2757984803,
+   "monthVlm": 31340734.04
+  },
+  {
+   "ethAddress": "0x2aa262671b509f965af3d5f701247feac042a272",
+   "accountValue": 1252135.509553,
+   "monthPnl": 345896.908465,
+   "weekPnl": 139764.101055,
+   "monthRoi": 0.3870403981,
+   "monthVlm": 2051499.69
+  },
+  {
+   "ethAddress": "0xe86b057f5eb764c9738d6b0d38170befd0723664",
+   "accountValue": 5405998.386388,
+   "monthPnl": 343112.301672,
+   "weekPnl": 33122.013604,
+   "monthRoi": 0.0564645658,
+   "monthVlm": 420209175.84000003
+  },
+  {
+   "ethAddress": "0xfb8720d7b7d09b6fd44291a3bf1ed805e50b833b",
+   "accountValue": 1480182.878293,
+   "monthPnl": 342725.42737,
+   "weekPnl": 170628.238899,
+   "monthRoi": 0.2874095865,
+   "monthVlm": 1705741.05
+  },
+  {
+   "ethAddress": "0xd260b2216b735277da6771564a01c04856e78321",
+   "accountValue": 3333451.393541,
+   "monthPnl": 340805.531897,
+   "weekPnl": 81273.767679,
+   "monthRoi": 0.0660243891,
+   "monthVlm": 60819648.54
+  },
+  {
+   "ethAddress": "0xa0643168db9a89c8db1b4343a12d4dca295cdef6",
+   "accountValue": 2060760.2609160002,
+   "monthPnl": 340630.000892,
+   "weekPnl": 253148.788122,
+   "monthRoi": 0.1871481215,
+   "monthVlm": 172266968.59
+  },
+  {
+   "ethAddress": "0xe170ed9d77792397271d564c7161351d69fe9300",
+   "accountValue": 1836599.655005,
+   "monthPnl": 330805.233813,
+   "weekPnl": 83269.375971,
+   "monthRoi": 0.1791201647,
+   "monthVlm": 1923341.69
+  },
+  {
+   "ethAddress": "0x12f7aea21eed5461d30212ea771c4441656b8750",
+   "accountValue": 1880030.451262,
+   "monthPnl": 326951.093248,
+   "weekPnl": 159435.352999,
+   "monthRoi": 0.1977830596,
+   "monthVlm": 52781388.22
+  },
+  {
+   "ethAddress": "0x6de826934315dec6bfba7a20be881d76d4f76e4c",
+   "accountValue": 10314418.540323,
+   "monthPnl": 323229.02,
+   "weekPnl": 323229.02,
+   "monthRoi": 0.0783800274,
+   "monthVlm": 535162222.78
+  },
+  {
+   "ethAddress": "0x279dbeaae93533a5c4607712b027b04aff62d625",
+   "accountValue": 1642828.0007379998,
+   "monthPnl": 321832.948658,
+   "weekPnl": 1200.075955,
+   "monthRoi": 0.4455198286,
+   "monthVlm": 2255361.7
+  },
+  {
+   "ethAddress": "0x985f02b19dbc062e565c981aac5614baf2cf501f",
+   "accountValue": 4572373.558813,
+   "monthPnl": 319742.94764,
+   "weekPnl": 67902.422921,
+   "monthRoi": 0.0709145726,
+   "monthVlm": 65672154.5
+  },
+  {
+   "ethAddress": "0x63c786a8d291440713d0f1fc45b69c3e7547cb78",
+   "accountValue": 2200411.579603,
+   "monthPnl": 312552.800631,
+   "weekPnl": 100416.576292,
+   "monthRoi": 1.5125384251,
+   "monthVlm": 1968802.63
+  },
+  {
+   "ethAddress": "0x844b6ab0079fb36e6a99cba877574acd8f1e7f42",
+   "accountValue": 872299.024255,
+   "monthPnl": 308641.784584,
+   "weekPnl": 22785.163376,
+   "monthRoi": 0.4506223082,
+   "monthVlm": 39402303.34
+  },
+  {
+   "ethAddress": "0xfbe28a0bb38e52338dd5f1188cd22cebcdc3c8ea",
+   "accountValue": 1210926.491519,
+   "monthPnl": 304149.464296,
+   "weekPnl": 108629.034606,
+   "monthRoi": 0.3135975204,
+   "monthVlm": 3409593.33
+  },
+  {
+   "ethAddress": "0xe16e9578b019151e2ab3e2ec0a27a84b6f5e6ab4",
+   "accountValue": 1975053.3380739999,
+   "monthPnl": 301261.576263,
+   "weekPnl": 10948.934523,
+   "monthRoi": 0.1178000905,
+   "monthVlm": 602200773.5600001
+  },
+  {
+   "ethAddress": "0x1081e214bd6f0137234b92432d9b6033b88965b7",
+   "accountValue": 534123.575336,
+   "monthPnl": 296573.135151,
+   "weekPnl": 65062.40454,
+   "monthRoi": 1.2791616733,
+   "monthVlm": 176813594.38
+  },
+  {
+   "ethAddress": "0xc2db8ad66d5956e2889c23fb513b8459a0f206f9",
+   "accountValue": 3650468.167516,
+   "monthPnl": 294806.175863,
+   "weekPnl": 72989.367165,
+   "monthRoi": 0.3173937059,
+   "monthVlm": 3261912.98
+  },
+  {
+   "ethAddress": "0xf93f055e03a8ba214eec82ab80b814e40dd93376",
+   "accountValue": 821390.861517,
+   "monthPnl": 292050.305183,
+   "weekPnl": 85403.064611,
+   "monthRoi": 0.551724786,
+   "monthVlm": 2246632.31
+  },
+  {
+   "ethAddress": "0xb0026ca48937bd18c5941c05decab68b0fcced8a",
+   "accountValue": 4235023.609747,
+   "monthPnl": 291070.367385,
+   "weekPnl": 45218.949584,
+   "monthRoi": 0.0738010652,
+   "monthVlm": 13489799.96
+  },
+  {
+   "ethAddress": "0xd05d2e015b9ed6f17f2111cf1ac7ae229155816e",
+   "accountValue": 990030.218449,
+   "monthPnl": 286475.699109,
+   "weekPnl": 59447.077627,
+   "monthRoi": 0.4071833685,
+   "monthVlm": 39459725.85
+  },
+  {
+   "ethAddress": "0xccf135ab352d561a15eb7be2a243cc4fcb7f0ab1",
+   "accountValue": 1113461.190697,
+   "monthPnl": 276516.779933,
+   "weekPnl": 137639.099712,
+   "monthRoi": 1.6278249851,
+   "monthVlm": 1766504.12
+  },
+  {
+   "ethAddress": "0xccaeb98ce9ca54f76bf0029cf9f12c894e253dd6",
+   "accountValue": 622011.605666,
+   "monthPnl": 274466.66733,
+   "weekPnl": 5753.863623,
+   "monthRoi": 1.358073485,
+   "monthVlm": 2660057.73
+  },
+  {
+   "ethAddress": "0x185611e0343c14f53a4406891cb0fdc9e81808ae",
+   "accountValue": 1021583.875239,
+   "monthPnl": 269946.805292,
+   "weekPnl": 210371.916143,
+   "monthRoi": 0.2833230177,
+   "monthVlm": 23199151.79
+  },
+  {
+   "ethAddress": "0x6041f881358c71d64bc9253c9ba0391df69f7d98",
+   "accountValue": 1748437.659053,
+   "monthPnl": 269534.819855,
+   "weekPnl": 128134.656781,
+   "monthRoi": 0.392068007,
+   "monthVlm": 4676356.6
+  },
+  {
+   "ethAddress": "0x3b5b104bf6091addbc24b1a2110c21514cf5ccf1",
+   "accountValue": 2397808.228863,
+   "monthPnl": 269404.926737,
+   "weekPnl": 69286.406567,
+   "monthRoi": 0.1265760706,
+   "monthVlm": 7926850.05
+  },
+  {
+   "ethAddress": "0xf8608569321b00f239ac056616a5de6ff3d8ff3f",
+   "accountValue": 2305688.205389,
+   "monthPnl": 268109.814256,
+   "weekPnl": 3417.902464,
+   "monthRoi": 0.475167338,
+   "monthVlm": 299.74
+  },
+  {
+   "ethAddress": "0xad7af7df721b9409db76fbf67305b2eca9a2bb63",
+   "accountValue": 530751.77687,
+   "monthPnl": 265222.22,
+   "weekPnl": 138069.709847,
+   "monthRoi": 0.684755079,
+   "monthVlm": 63445879.8
+  },
+  {
+   "ethAddress": "0xdc38f7ee386b7eea3842643e56b08ee5bb40f625",
+   "accountValue": 1330808.768828,
+   "monthPnl": 263974.376684,
+   "weekPnl": 138039.857635,
+   "monthRoi": 0.2474370705,
+   "monthVlm": 3882346.38
+  },
+  {
+   "ethAddress": "0xd1692402c26392ccc8588631d7d5ca9aed4348e5",
+   "accountValue": 708499.610729,
+   "monthPnl": 262719.328783,
+   "weekPnl": 56741.930974,
+   "monthRoi": 0.794481784,
+   "monthVlm": 1239077.92
+  },
+  {
+   "ethAddress": "0xff84dd888de8ac2ed9a44860dc44e57025d68f1d",
+   "accountValue": 2702983.520696,
+   "monthPnl": 261459.610696,
+   "weekPnl": 1631574.211763,
+   "monthRoi": 0.1070886956,
+   "monthVlm": 320487750.58
+  },
+  {
+   "ethAddress": "0xe4d1fa7e6141f9131345117bdb8b5701bca67662",
+   "accountValue": 1160281.07447,
+   "monthPnl": 258132.151605,
+   "weekPnl": 245493.164205,
+   "monthRoi": 0.2861303107,
+   "monthVlm": 640632.94
+  },
+  {
+   "ethAddress": "0x9db1b9d343ffd38b7109b6a2c21da04fc273a7d1",
+   "accountValue": 3655376.0376190003,
+   "monthPnl": 255111.378908,
+   "weekPnl": 146185.489346,
+   "monthRoi": 0.0750162995,
+   "monthVlm": 5610130.73
+  },
+  {
+   "ethAddress": "0x8bae3527e5a33fa0cf184f37bc112d071463ab6d",
+   "accountValue": 3623277.084173,
+   "monthPnl": 254672.358907,
+   "weekPnl": 225942.452486,
+   "monthRoi": 0.2852416872,
+   "monthVlm": 46665508.98
+  },
+  {
+   "ethAddress": "0xe357fa9fecb084f0303ff341b0bc55c89f2bb5ce",
+   "accountValue": 9502103.905875,
+   "monthPnl": 254012.824588,
+   "weekPnl": 40800.804845,
+   "monthRoi": 0.0315671277,
+   "monthVlm": 3686668785.83
+  },
+  {
+   "ethAddress": "0xf299943c201aae7b840a228aaf3e3792ad73f4b5",
+   "accountValue": 3258934.853035,
+   "monthPnl": 252674.189693,
+   "weekPnl": 0.149045,
+   "monthRoi": 0.0840493284,
+   "monthVlm": 3960474.99
+  },
+  {
+   "ethAddress": "0x3fc56e944aa7b1594c85861b2d46a07f82a2c0c1",
+   "accountValue": 3148992.653426,
+   "monthPnl": 250663.59444,
+   "weekPnl": 72989.315162,
+   "monthRoi": 0.5655181786,
+   "monthVlm": 4779122.2
+  },
+  {
+   "ethAddress": "0x498216a21f5b028797c1d3d4250e14d09c9959e6",
+   "accountValue": 6079119.122178,
+   "monthPnl": 250225.712178,
+   "weekPnl": 428176.506616,
+   "monthRoi": 0.0429285105,
+   "monthVlm": 26076084.25
+  },
+  {
+   "ethAddress": "0x5bc43f38c2ddcd85857f218674cd384f172c3b0c",
+   "accountValue": 4462785.58822,
+   "monthPnl": 248426.380225,
+   "weekPnl": 225458.707509,
+   "monthRoi": 0.1117136218,
+   "monthVlm": 6425870.28
+  },
+  {
+   "ethAddress": "0xa40ee97b4352307b7745a2cb12bb475b80faef13",
+   "accountValue": 2258600.645718,
+   "monthPnl": 248130.703313,
+   "weekPnl": 15611.377231,
+   "monthRoi": 0.8300184404,
+   "monthVlm": 23558784.75
+  },
+  {
+   "ethAddress": "0x7ee9808efaac101bf1af55228d9f388a573a12b1",
+   "accountValue": 4593075.124336,
+   "monthPnl": 247782.103578,
+   "weekPnl": 252054.047382,
+   "monthRoi": 0.0570231058,
+   "monthVlm": 20911074.07
+  },
+  {
+   "ethAddress": "0xe7f3ec7725bf9a5e377caddc8874bb360308200b",
+   "accountValue": 524245.490909,
+   "monthPnl": 247169.81349,
+   "weekPnl": 136926.757707,
+   "monthRoi": 0.5180935126,
+   "monthVlm": 29509925.72
+  },
+  {
+   "ethAddress": "0xae78adaba70f18c15418001263504af373884520",
+   "accountValue": 1932886.587486,
+   "monthPnl": 245131.322774,
+   "weekPnl": 87707.989805,
+   "monthRoi": 0.4548724185,
+   "monthVlm": 110304386.54
+  },
+  {
+   "ethAddress": "0x6a02aedceac5a6813d960e4dae1910d9c458e77c",
+   "accountValue": 1033058.67195,
+   "monthPnl": 244607.006148,
+   "weekPnl": 30374.263257,
+   "monthRoi": 0.3102371607,
+   "monthVlm": 6064479.42
+  },
+  {
+   "ethAddress": "0x18194850b4c0dac10af055fb5be772233be376b0",
+   "accountValue": 2125230.151886,
+   "monthPnl": 241982.302832,
+   "weekPnl": 4124.101098,
+   "monthRoi": 0.5462109517,
+   "monthVlm": 63904.27
+  },
+  {
+   "ethAddress": "0x9a96792cbc71ddcde750c2076a50aafb03ceec05",
+   "accountValue": 1530607.044852,
+   "monthPnl": 238629.224852,
+   "weekPnl": 245494.664101,
+   "monthRoi": 0.1846962816,
+   "monthVlm": 2583253.91
+  },
+  {
+   "ethAddress": "0x960b6c2c4b1498681b8422eb572a8b3a6aa3f0fc",
+   "accountValue": 1827174.89646,
+   "monthPnl": 238610.698973,
+   "weekPnl": 130241.802756,
+   "monthRoi": 0.3232862602,
+   "monthVlm": 23632054.56
+  },
+  {
+   "ethAddress": "0xdf52df044f1b150dfa79590909cdac6ad83d59fc",
+   "accountValue": 574882.024073,
+   "monthPnl": 237569.614473,
+   "weekPnl": 4110.212031,
+   "monthRoi": 0.1740198627,
+   "monthVlm": 7537453.99
+  },
+  {
+   "ethAddress": "0x2171b50becc88d34254c7def78e8e08f9d82887b",
+   "accountValue": 1203650.18422,
+   "monthPnl": 236535.58422,
+   "weekPnl": 82409.442695,
+   "monthRoi": 0.244578651,
+   "monthVlm": 13645293.46
+  },
+  {
+   "ethAddress": "0x9a991732cd4cf14712b07fbeb8c5d87de90dd21a",
+   "accountValue": 1132822.405227,
+   "monthPnl": 235258.391425,
+   "weekPnl": 78538.16881,
+   "monthRoi": 0.9056858654,
+   "monthVlm": 29060013.78
+  },
+  {
+   "ethAddress": "0xc179e03922afe8fa9533d3f896338b9fb87ce0c8",
+   "accountValue": 6786876.866849,
+   "monthPnl": 233708.596923,
+   "weekPnl": 427583.481743,
+   "monthRoi": 0.0352091793,
+   "monthVlm": 14194078.45
+  },
+  {
+   "ethAddress": "0xab9525917907c4285c24c9a94862989c57985f8a",
+   "accountValue": 707604.209152,
+   "monthPnl": 232518.647296,
+   "weekPnl": 201772.270583,
+   "monthRoi": 0.7190327801,
+   "monthVlm": 36001956.49
+  },
+  {
+   "ethAddress": "0x5b50ae16ecab17b16a63eb60ebb4d55f8b785378",
+   "accountValue": 1654226.703023,
+   "monthPnl": 228966.698628,
+   "weekPnl": 57157.634014,
+   "monthRoi": 0.1606490731,
+   "monthVlm": 1672364.23
+  },
+  {
+   "ethAddress": "0xd0f9337179d095d744be87b33d569e5c1aa8ce0b",
+   "accountValue": 592548.3212339999,
+   "monthPnl": 226997.261967,
+   "weekPnl": 62728.90096,
+   "monthRoi": 0.2965147751,
+   "monthVlm": 827060105.47
+  },
+  {
+   "ethAddress": "0x8fbb1aad00013c4e32bb033337b7cb792ab2fc4e",
+   "accountValue": 1704709.692258,
+   "monthPnl": 224389.621864,
+   "weekPnl": 44775.491865,
+   "monthRoi": 1.0604358786,
+   "monthVlm": 9782925.69
+  },
+  {
+   "ethAddress": "0x30afce2f6842bf183c7e3fe7162e279ff0b6393e",
+   "accountValue": 534972.937519,
+   "monthPnl": 224027.747519,
+   "weekPnl": 224027.747519,
+   "monthRoi": 0.7204734298,
+   "monthVlm": 23206301.64
+  },
+  {
+   "ethAddress": "0xd142479997958a4fefd1f8d5373b31ce36987d73",
+   "accountValue": 1022511.573633,
+   "monthPnl": 218708.153633,
+   "weekPnl": 86837.985476,
+   "monthRoi": 0.2720915938,
+   "monthVlm": 7807927.7
+  },
+  {
+   "ethAddress": "0x646be0d5f96edd60d9933c4646b5d3ac165001dc",
+   "accountValue": 1997498.127867,
+   "monthPnl": 217193.12963,
+   "weekPnl": 34379.737334,
+   "monthRoi": 0.1219977082,
+   "monthVlm": 28162495.5
+  },
+  {
+   "ethAddress": "0x37f2af56f635c108aa1324402c17ec0e9e3ee9af",
+   "accountValue": 2098942.4392669997,
+   "monthPnl": 212457.7895399999,
+   "weekPnl": 17524.236079,
+   "monthRoi": 1.6250125736,
+   "monthVlm": 1755228.5300000003
+  },
+  {
+   "ethAddress": "0x673b2f9900460b05ce8d670ca7ba7b06335e46ff",
+   "accountValue": 667160.61751,
+   "monthPnl": 212420.501666,
+   "weekPnl": 2358.11113,
+   "monthRoi": 6.1945826038,
+   "monthVlm": 6338155.56
+  },
+  {
+   "ethAddress": "0xec0f6db3e597ee76bb5e7e5e89dca657cab32dd8",
+   "accountValue": 700927.295266,
+   "monthPnl": 209615.621348,
+   "weekPnl": 474138.775826,
+   "monthRoi": 0.3787966544,
+   "monthVlm": 17881158.01
+  },
+  {
+   "ethAddress": "0x220d15526ee708ffc199fe0265ddb07f0d5c40aa",
+   "accountValue": 508101.502828,
+   "monthPnl": 208642.622229,
+   "weekPnl": 55568.317668,
+   "monthRoi": 0.696732125,
+   "monthVlm": 4770303.62
+  },
+  {
+   "ethAddress": "0x7aa9ce1cd3c6fdacf9096beee07ff9beda1aa01e",
+   "accountValue": 872752.120279,
+   "monthPnl": 207425.002505,
+   "weekPnl": 147294.382915,
+   "monthRoi": 0.3117639383,
+   "monthVlm": 3799355.53
+  },
+  {
+   "ethAddress": "0xa88a254a773741dda044dd89a7eb5339e123306f",
+   "accountValue": 1247301.68269,
+   "monthPnl": 205457.67306,
+   "weekPnl": 33374.513807,
+   "monthRoi": 0.1936645944,
+   "monthVlm": 262670301.05999997
+  },
+  {
+   "ethAddress": "0xdfe5195e7cc1a2eca9b0df09d4646472a8c4a402",
+   "accountValue": 685828.845651,
+   "monthPnl": 204198.256982,
+   "weekPnl": 137789.010267,
+   "monthRoi": 0.4239727745,
+   "monthVlm": 11569554.42
+  },
+  {
+   "ethAddress": "0x8fb5c6f3c336033deeedbb54ad95e96453c9eaa4",
+   "accountValue": 1898338.6595009998,
+   "monthPnl": 203515.691396,
+   "weekPnl": 22963.46983,
+   "monthRoi": 0.2095178389,
+   "monthVlm": 48304703.099999994
+  },
+  {
+   "ethAddress": "0x6a704a0e46dcc67a6316644372e261e8fb6f658c",
+   "accountValue": 1338282.631766,
+   "monthPnl": 201040.949275,
+   "weekPnl": 340472.122153,
+   "monthRoi": 0.1767794413,
+   "monthVlm": 10024064.73
+  },
+  {
+   "ethAddress": "0x649156ebf0a350deb18a1e4835873defd4dc5349",
+   "accountValue": 831890.8864,
+   "monthPnl": 200497.170415,
+   "weekPnl": 139423.308605,
+   "monthRoi": 0.2251490334,
+   "monthVlm": 16697362.39
+  },
+  {
+   "ethAddress": "0x9a15342876e19052c3fabcef9bad8507b9623c12",
+   "accountValue": 511577.69823,
+   "monthPnl": 198767.221735,
+   "weekPnl": 151195.266873,
+   "monthRoi": 0.6354238003,
+   "monthVlm": 8726332.59
+  },
+  {
+   "ethAddress": "0xffe4e3986d18333402564ea64f3a83fcc1907b52",
+   "accountValue": 1234240.743884,
+   "monthPnl": 198142.676724,
+   "weekPnl": 290221.449948,
+   "monthRoi": 0.1210994443,
+   "monthVlm": 1261516.66
+  },
+  {
+   "ethAddress": "0xba474ab1642101968633525fb117fa12c5bcb4e6",
+   "accountValue": 993084.0848610001,
+   "monthPnl": 197294.898204,
+   "weekPnl": 3563.597763,
+   "monthRoi": 0.2009448902,
+   "monthVlm": 633653.72
+  },
+  {
+   "ethAddress": "0x615a2071e01b28093e65d81be32cea6e173d69d5",
+   "accountValue": 3757791.829923,
+   "monthPnl": 197087.969923,
+   "weekPnl": 197087.969923,
+   "monthRoi": 0.0553508457,
+   "monthVlm": 14251567.67
+  },
+  {
+   "ethAddress": "0x3d0c8d5184b27e2c3d36354d684da521fa1760d2",
+   "accountValue": 709345.506263,
+   "monthPnl": 196516.972934,
+   "weekPnl": 134606.612971,
+   "monthRoi": 0.4486786558,
+   "monthVlm": 883021.85
+  },
+  {
+   "ethAddress": "0x25bb5d032996ff0d62243c2af5e3669f8488273e",
+   "accountValue": 548839.955801,
+   "monthPnl": 195576.226814,
+   "weekPnl": 130963.345882,
+   "monthRoi": 1.4918358225,
+   "monthVlm": 4304606.73
+  },
+  {
+   "ethAddress": "0x1b2ad1743bb86b3af79ddcece14ffbdd11a3f7a6",
+   "accountValue": 1556582.71064,
+   "monthPnl": 195554.76,
+   "weekPnl": 7133.412181,
+   "monthRoi": 0.2288578392,
+   "monthVlm": 10740247.85
+  },
+  {
+   "ethAddress": "0x50782c8a2bd15f653ab9180d146265e9c8dbb618",
+   "accountValue": 1021206.0956710001,
+   "monthPnl": 194741.18329,
+   "weekPnl": 120511.467623,
+   "monthRoi": 0.373844259,
+   "monthVlm": 70052448.84
+  },
+  {
+   "ethAddress": "0x04dbde5c9d1e6a3239c8ff8ee3fca386a4a3c605",
+   "accountValue": 503722.801494,
+   "monthPnl": 190210.159279,
+   "weekPnl": 65150.836182,
+   "monthRoi": 0.5895484751,
+   "monthVlm": 2818181038.5200005
+  },
+  {
+   "ethAddress": "0xaeb0791ac2f5fa62891babf69d1445ef094fc176",
+   "accountValue": 860074.972776,
+   "monthPnl": 189667.067276,
+   "weekPnl": 29114.617027,
+   "monthRoi": 0.8793963621,
+   "monthVlm": 6846916.1
+  },
+  {
+   "ethAddress": "0x2ec32326e420abe736a4ac74bdc95580219a8469",
+   "accountValue": 1521047.906002,
+   "monthPnl": 187333.076837,
+   "weekPnl": 0.0244,
+   "monthRoi": 0.1404596191,
+   "monthVlm": 25478759.93
+  },
+  {
+   "ethAddress": "0xc613bd93c62e62bf3e583c36ae8c4118f1fb2456",
+   "accountValue": 1192113.360065,
+   "monthPnl": 186300.404496,
+   "weekPnl": 217309.704609,
+   "monthRoi": 0.2181410715,
+   "monthVlm": 18099919.72
+  },
+  {
+   "ethAddress": "0x2e5af7bc3ca942491366ae5672fdc702e9a4fb3e",
+   "accountValue": 3015681.51762,
+   "monthPnl": 184599.869789,
+   "weekPnl": 60705.998239,
+   "monthRoi": 1.4220837491,
+   "monthVlm": 115961.28
+  },
+  {
+   "ethAddress": "0x5a7982f19501d313508dc82924c235f6c1c2989a",
+   "accountValue": 524238.837256,
+   "monthPnl": 179889.959673,
+   "weekPnl": 76607.238334,
+   "monthRoi": 0.522406116,
+   "monthVlm": 3632405.34
+  },
+  {
+   "ethAddress": "0x2669f508f456efae73c86d99d373f885c7b32b39",
+   "accountValue": 1893887.426539,
+   "monthPnl": 178555.010927,
+   "weekPnl": 148216.145753,
+   "monthRoi": 0.1040935327,
+   "monthVlm": 5448136.47
+  },
+  {
+   "ethAddress": "0xbfc79c444c41a74516bf31237ebf586a231480b4",
+   "accountValue": 2033565.940012,
+   "monthPnl": 178502.404055,
+   "weekPnl": 323177.095997,
+   "monthRoi": 0.1397611192,
+   "monthVlm": 10012945.87
+  },
+  {
+   "ethAddress": "0xf3dcaeb909d3d17318c0908a1ec0ca31321e1672",
+   "accountValue": 954653.014663,
+   "monthPnl": 178461.366878,
+   "weekPnl": 77253.177712,
+   "monthRoi": 0.2299192054,
+   "monthVlm": 40718806.05
+  },
+  {
+   "ethAddress": "0x6788e111b25a244e7168847fe19bb1456a8398d4",
+   "accountValue": 2041822.575364,
+   "monthPnl": 178077.036707,
+   "weekPnl": 156446.417194,
+   "monthRoi": 0.2001521415,
+   "monthVlm": 15958083.35
+  },
+  {
+   "ethAddress": "0x22504e8da6acf4756d2216ef947f525b0ee6ec0a",
+   "accountValue": 1074717.4021140002,
+   "monthPnl": 177711.732883,
+   "weekPnl": 46743.085308,
+   "monthRoi": 0.0617704559,
+   "monthVlm": 107107831.18
+  },
+  {
+   "ethAddress": "0x5272f37ecaa073e5a0ea07618145939e5e6cfcd9",
+   "accountValue": 785379.275849,
+   "monthPnl": 177576.915885,
+   "weekPnl": 71799.954762,
+   "monthRoi": 0.1736317954,
+   "monthVlm": 1677881.76
+  },
+  {
+   "ethAddress": "0x9bf9d46627c21fe2a35df37b1f0c417fa2088b13",
+   "accountValue": 794970.003176,
+   "monthPnl": 176603.509629,
+   "weekPnl": 256000.007045,
+   "monthRoi": 0.2855968289,
+   "monthVlm": 2988467.23
+  },
+  {
+   "ethAddress": "0x7f7b5b2e96c48cbd47ec257fcc7d284f7b06279a",
+   "accountValue": 810975.786626,
+   "monthPnl": 175412.230476,
+   "weekPnl": 119008.374054,
+   "monthRoi": 0.6728916071,
+   "monthVlm": 2506689.15
+  },
+  {
+   "ethAddress": "0xf62edeee17968d4c55d1c74936d2110333342f30",
+   "accountValue": 1066079.221262,
+   "monthPnl": 175013.818645,
+   "weekPnl": 138948.381968,
+   "monthRoi": 0.2146683973,
+   "monthVlm": 1861257.25
+  },
+  {
+   "ethAddress": "0x42db7bbcffdc545f98c80ce6af0415ad4c3155d1",
+   "accountValue": 674129.903815,
+   "monthPnl": 174190.303815,
+   "weekPnl": 174106.568771,
+   "monthRoi": 0.3484226971,
+   "monthVlm": 775529.24
+  },
+  {
+   "ethAddress": "0x601ced9aa14005d645d0b495acc60f21edab4f54",
+   "accountValue": 1119815.096308,
+   "monthPnl": 173488.682845,
+   "weekPnl": 7520.405293,
+   "monthRoi": 0.2627091175,
+   "monthVlm": 508624.11
+  },
+  {
+   "ethAddress": "0xa4add8273d7f47318675bdfbcce3e9648cdb4509",
+   "accountValue": 2621475.701332,
+   "monthPnl": 171646.419864,
+   "weekPnl": 41837.391023,
+   "monthRoi": 0.067370464,
+   "monthVlm": 25571052.58
+  },
+  {
+   "ethAddress": "0x325edd95bb016c36027ce3b9f7595af7094a9564",
+   "accountValue": 6032449.763575,
+   "monthPnl": 169366.988602,
+   "weekPnl": 126865.924341,
+   "monthRoi": 0.1370647833,
+   "monthVlm": 48932260.77
+  },
+  {
+   "ethAddress": "0x78dc6d769bd7dc3333b3f0acff06d2340562cb61",
+   "accountValue": 755350.990889,
+   "monthPnl": 166871.73026,
+   "weekPnl": 22177.406271,
+   "monthRoi": 0.3503424182,
+   "monthVlm": 4360018.98
+  },
+  {
+   "ethAddress": "0x810cc4084a961173963e5fec9249203abaf31de1",
+   "accountValue": 1535568.066785,
+   "monthPnl": 166639.40565,
+   "weekPnl": 202642.237426,
+   "monthRoi": 0.8289820516,
+   "monthVlm": 37199109.18
+  },
+  {
+   "ethAddress": "0xe31501c472d557bfa145ce105d325fb2dd4cb867",
+   "accountValue": 779878.221427,
+   "monthPnl": 164309.355487,
+   "weekPnl": 65210.297784,
+   "monthRoi": 0.2660380448,
+   "monthVlm": 240223476.59
+  },
+  {
+   "ethAddress": "0x1095734e174ed0fa5ddb96c537504ad94e2125c3",
+   "accountValue": 655900.490529,
+   "monthPnl": 159510.949718,
+   "weekPnl": 261.692722,
+   "monthRoi": 0.3213422859,
+   "monthVlm": 2844429.9
+  },
+  {
+   "ethAddress": "0xe8d89110c52df4ca33e75e060e3c72dcbf6c8dda",
+   "accountValue": 683825.501069,
+   "monthPnl": 158512.827291,
+   "weekPnl": 85303.360584,
+   "monthRoi": 0.4144761506,
+   "monthVlm": 2999066.46
+  },
+  {
+   "ethAddress": "0x7a639f6dc5361a3e8c998c9d0aac55e33d34d2ff",
+   "accountValue": 572713.030237,
+   "monthPnl": 158435.073301,
+   "weekPnl": 60813.058239,
+   "monthRoi": 0.3455101031,
+   "monthVlm": 2503779.81
+  },
+  {
+   "ethAddress": "0x36e285138b9b81eb72d2cdd65ca320111fd42da1",
+   "accountValue": 2286709.892274,
+   "monthPnl": 157290.089053,
+   "weekPnl": 4196.137546,
+   "monthRoi": 0.4997283141,
+   "monthVlm": 1292528.87
+  },
+  {
+   "ethAddress": "0xb8243756956e722bff5c763971b562ac551bfbd2",
+   "accountValue": 683791.727769,
+   "monthPnl": 152102.454848,
+   "weekPnl": 140875.782291,
+   "monthRoi": 0.2860739548,
+   "monthVlm": 257746.08
+  },
+  {
+   "ethAddress": "0xf0ae4d359f07fb630a5bcb197ac3beaba4cc2f74",
+   "accountValue": 2718066.107756,
+   "monthPnl": 151573.593889,
+   "weekPnl": 165307.152428,
+   "monthRoi": 0.1188579649,
+   "monthVlm": 24526331.85
+  },
+  {
+   "ethAddress": "0xbbcb0c0aef0b28125af2f719f81d6a5b76f56f30",
+   "accountValue": 5508457.1072700005,
+   "monthPnl": 149520.858486,
+   "weekPnl": 19800.06628,
+   "monthRoi": 0.3544550582,
+   "monthVlm": 7071989.83
+  },
+  {
+   "ethAddress": "0x2f0fe0ecdab53877bf0106bc1534d11012c69018",
+   "accountValue": 1108517.230748,
+   "monthPnl": 148542.643914,
+   "weekPnl": 129800.754635,
+   "monthRoi": 0.1645721016,
+   "monthVlm": 2849682.74
+  },
+  {
+   "ethAddress": "0x09dd26e24f226e64ca97a1eab04846745166971a",
+   "accountValue": 610464.355662,
+   "monthPnl": 148519.744975,
+   "weekPnl": 221060.969407,
+   "monthRoi": 0.3215098554,
+   "monthVlm": 5552713.2
+  },
+  {
+   "ethAddress": "0xcc58accacd0db8010e4c8a20ba49d2dc9d4d7f59",
+   "accountValue": 874416.59502,
+   "monthPnl": 148370.581293,
+   "weekPnl": 6999.645494,
+   "monthRoi": 1.4232173665,
+   "monthVlm": 128489.88
+  },
+  {
+   "ethAddress": "0x042306468a58de9bab93f4d9e2a117efad3c5373",
+   "accountValue": 1441900.790944,
+   "monthPnl": 146337.379368,
+   "weekPnl": 328015.391023,
+   "monthRoi": 0.1129526954,
+   "monthVlm": 2867596.88
+  },
+  {
+   "ethAddress": "0x1ce8ed87b7b4cb60f0cc3664bf1fe216163ff55a",
+   "accountValue": 2150485.573413,
+   "monthPnl": 144645.19203,
+   "weekPnl": 101974.498605,
+   "monthRoi": 0.0736688305,
+   "monthVlm": 4849733.95
+  },
+  {
+   "ethAddress": "0x52fdef8f107a75faea1d7815f1f2a3e3636099ba",
+   "accountValue": 1045426.041107,
+   "monthPnl": 144505.106368,
+   "weekPnl": 36846.089151,
+   "monthRoi": 0.1603971012,
+   "monthVlm": 2825691.39
+  },
+  {
+   "ethAddress": "0xfb1898bb5955fdd11704e397104c6a0e0725eb17",
+   "accountValue": 559774.075532,
+   "monthPnl": 144176.16867,
+   "weekPnl": 44083.431793,
+   "monthRoi": 0.2428764339,
+   "monthVlm": 5426332.69
+  },
+  {
+   "ethAddress": "0xf5e7ffe523d0491709958490b4877e1d9de6c6f7",
+   "accountValue": 1120414.204322,
+   "monthPnl": 142381.142337,
+   "weekPnl": 11276.028256,
+   "monthRoi": 0.6773330415,
+   "monthVlm": 3899912.34
+  },
+  {
+   "ethAddress": "0x643430283b19fa5bd70a1138b495c2b43523cdd5",
+   "accountValue": 1743954.636811,
+   "monthPnl": 140794.995184,
+   "weekPnl": 49846.70468,
+   "monthRoi": 0.2619319143,
+   "monthVlm": 9158286.22
+  },
+  {
+   "ethAddress": "0xee7ada00c9e5f654c8f8ea0f355a1f3c50942732",
+   "accountValue": 1765878.471274,
+   "monthPnl": 140394.249837,
+   "weekPnl": 88712.69626,
+   "monthRoi": 0.2812725427,
+   "monthVlm": 99996.99
+  },
+  {
+   "ethAddress": "0x2cef0a7f84e722c77b271862da5fe2387028fa20",
+   "accountValue": 611670.258886,
+   "monthPnl": 138778.163568,
+   "weekPnl": 7067.776068,
+   "monthRoi": 0.6180363663,
+   "monthVlm": 56160487.4
+  },
+  {
+   "ethAddress": "0x10e14ba2d77263543be1bdb2851b0933ddf4f4bd",
+   "accountValue": 2264253.036047,
+   "monthPnl": 136430.645218,
+   "weekPnl": 422098.198799,
+   "monthRoi": 0.0641640548,
+   "monthVlm": 1003484.01
+  },
+  {
+   "ethAddress": "0xf0afb3f0a2e63eabe2d55ebe3e05671ebe0c6312",
+   "accountValue": 1866077.315604,
+   "monthPnl": 134824.134901,
+   "weekPnl": 213611.286986,
+   "monthRoi": 0.0809580753,
+   "monthVlm": 35024236.5
+  },
+  {
+   "ethAddress": "0x8a9683697f7e534d86d9e5e433ed725047991954",
+   "accountValue": 925380.652764,
+   "monthPnl": 134640.217612,
+   "weekPnl": 67811.294676,
+   "monthRoi": 0.3786922284,
+   "monthVlm": 11189060.21
+  },
+  {
+   "ethAddress": "0x85e410e4c535cb1709dbd36468f132037a5b2087",
+   "accountValue": 752165.156158,
+   "monthPnl": 134368.070317,
+   "weekPnl": 6230.715858,
+   "monthRoi": 0.8235652551,
+   "monthVlm": 2725137.49
+  },
+  {
+   "ethAddress": "0x778a089374cf94f372958ad26a0b7cc397c0236d",
+   "accountValue": 1255228.3903040001,
+   "monthPnl": 134053.892278,
+   "weekPnl": 9587.026782,
+   "monthRoi": 1.1418234104,
+   "monthVlm": 791692.6299999999
+  },
+  {
+   "ethAddress": "0xafe4b3fb69024f240dce32270dede23c85154a21",
+   "accountValue": 2716022.470889,
+   "monthPnl": 132669.693101,
+   "weekPnl": 559.338657,
+   "monthRoi": 0.0583295326,
+   "monthVlm": 39793285.22
+  },
+  {
+   "ethAddress": "0xaa2a33c424b92cdc042e40c522cb48e586e83026",
+   "accountValue": 1051624.842873,
+   "monthPnl": 131913.247295,
+   "weekPnl": 2290.322206,
+   "monthRoi": 0.8422919928,
+   "monthVlm": 115373.11
+  },
+  {
+   "ethAddress": "0x8328446602cb4c3b2b4a25beca6488e947b6f54a",
+   "accountValue": 1193266.699298,
+   "monthPnl": 131315.7279,
+   "weekPnl": 102075.231365,
+   "monthRoi": 0.12365517,
+   "monthVlm": 19886.67
+  },
+  {
+   "ethAddress": "0x8cf051405995581de2cbbdc9a3e9951325607e18",
+   "accountValue": 1911228.314671,
+   "monthPnl": 129623.166454,
+   "weekPnl": 154310.897729,
+   "monthRoi": 0.1468771062,
+   "monthVlm": 41636689.59
+  },
+  {
+   "ethAddress": "0xf92ddf919186b80d8619a12e7f4379f678939b74",
+   "accountValue": 1467530.042616,
+   "monthPnl": 127908.009295,
+   "weekPnl": 88436.217564,
+   "monthRoi": 0.3144253952,
+   "monthVlm": 5160051.84
+  },
+  {
+   "ethAddress": "0xab81fef97356d57cd30f8ceb15285b988682c608",
+   "accountValue": 1302930.670853,
+   "monthPnl": 126431.699412,
+   "weekPnl": 28762.947829,
+   "monthRoi": 0.2880587941,
+   "monthVlm": 72407794.49
+  },
+  {
+   "ethAddress": "0x4baae9396db30c517f6f920d7f2685442a75d5b4",
+   "accountValue": 510854.899098,
+   "monthPnl": 125301.973056,
+   "weekPnl": 31.17347,
+   "monthRoi": 0.3128217324,
+   "monthVlm": 2414147.95
+  },
+  {
+   "ethAddress": "0x0e7ab13d5a85c650364de4a618a908d98897fd17",
+   "accountValue": 1633826.286559,
+   "monthPnl": 123455.903233,
+   "weekPnl": 1338.630131,
+   "monthRoi": 0.8647942899,
+   "monthVlm": 486283.41
+  },
+  {
+   "ethAddress": "0xe2f86feccb1207710a442bc4e27a0701a290275a",
+   "accountValue": 4834772.178406999,
+   "monthPnl": 122525.276538,
+   "weekPnl": 117120.760078,
+   "monthRoi": 0.1481441604,
+   "monthVlm": 4733525.79
+  },
+  {
+   "ethAddress": "0x82c4426b73929c9b2a373b3a902ae7471abf0914",
+   "accountValue": 806939.711267,
+   "monthPnl": 122152.983707,
+   "weekPnl": 108849.936908,
+   "monthRoi": 0.2320286091,
+   "monthVlm": 124786622.53
+  },
+  {
+   "ethAddress": "0x1a1bbb975952a9d3450055b278ed5526f4ebba4c",
+   "accountValue": 1253408.77239,
+   "monthPnl": 121940.541819,
+   "weekPnl": 1652.939333,
+   "monthRoi": 0.4787631793,
+   "monthVlm": 34224.28
+  },
+  {
+   "ethAddress": "0x342f75d8522b7b6dabb16435ae3f8186b8607e03",
+   "accountValue": 2081152.922408,
+   "monthPnl": 119875.992409,
+   "weekPnl": 35597.855487,
+   "monthRoi": 0.2179119758,
+   "monthVlm": 644971.38
+  },
+  {
+   "ethAddress": "0xf4f7cebbd2c7b6dee34ab29fa55a116eff25239f",
+   "accountValue": 3138869.582016,
+   "monthPnl": 119790.090332,
+   "weekPnl": 191157.751225,
+   "monthRoi": 0.0392872966,
+   "monthVlm": 81720.14
+  },
+  {
+   "ethAddress": "0x3938a7d74f692a8a662fb17d6081e3a494de22e6",
+   "accountValue": 2994461.33808,
+   "monthPnl": 119691.825346,
+   "weekPnl": 60526.42903,
+   "monthRoi": 2.6311580138,
+   "monthVlm": 903538.35
+  },
+  {
+   "ethAddress": "0xe79d69fd1ed52dd14d7f55155259519ea20d0534",
+   "accountValue": 1437773.038386,
+   "monthPnl": 119286.891242,
+   "weekPnl": 29313.794223,
+   "monthRoi": 0.0904726163,
+   "monthVlm": 11673517.44
+  },
+  {
+   "ethAddress": "0x7e06469fa39985fe7faef57545e6a54d0909313f",
+   "accountValue": 549872.226506,
+   "monthPnl": 118860.949402,
+   "weekPnl": 34864.981905,
+   "monthRoi": 0.3246112561,
+   "monthVlm": 12933892.51
+  },
+  {
+   "ethAddress": "0x7ee6b077b59f4417bc36d41bb65365644315db10",
+   "accountValue": 1073165.76869,
+   "monthPnl": 118635.74457,
+   "weekPnl": 118699.759592,
+   "monthRoi": 0.1540155781,
+   "monthVlm": 758872.5
+  },
+  {
+   "ethAddress": "0x07d431758c8bbbc111996d0af6f09c48416d2160",
+   "accountValue": 1430465.501492,
+   "monthPnl": 118256.574942,
+   "weekPnl": 61534.327036,
+   "monthRoi": 0.0804477668,
+   "monthVlm": 587414930.71
+  },
+  {
+   "ethAddress": "0x3aee6da9161e0a2a8985413ceaa5a3562225e8e8",
+   "accountValue": 1690586.4985990003,
+   "monthPnl": 117167.273507,
+   "weekPnl": 6254.926738,
+   "monthRoi": 0.3780366811,
+   "monthVlm": 151152.02
+  },
+  {
+   "ethAddress": "0x3a02d3a9e01ece8dfe1241d1e03f7c0a4bfe78da",
+   "accountValue": 556036.12203,
+   "monthPnl": 116983.771785,
+   "weekPnl": 58677.953374,
+   "monthRoi": 0.2664460667,
+   "monthVlm": 149449.79
+  },
+  {
+   "ethAddress": "0x48c6aaa647ad5197e85797f8eb95d7b9ce1ec5b6",
+   "accountValue": 1002118.049381,
+   "monthPnl": 115130.378077,
+   "weekPnl": 5147.570203,
+   "monthRoi": 0.6837207717,
+   "monthVlm": 485790.6
+  },
+  {
+   "ethAddress": "0x8ecec0c9367490d2044aaff4030ad0becc33218b",
+   "accountValue": 593846.79836,
+   "monthPnl": 114480.386838,
+   "weekPnl": 43629.405921,
+   "monthRoi": 0.2388160373,
+   "monthVlm": 5628290.21
+  },
+  {
+   "ethAddress": "0x905393f6c29aa218f52dd8a4ec8933c0bf71b56e",
+   "accountValue": 587933.854871,
+   "monthPnl": 113610.88282,
+   "weekPnl": 96085.971716,
+   "monthRoi": 0.2887528551,
+   "monthVlm": 801886343.28
+  },
+  {
+   "ethAddress": "0x1eade926f85b910cc558c6f014ca65bf7f0f9f72",
+   "accountValue": 513207.433262,
+   "monthPnl": 113547.833262,
+   "weekPnl": 102610.156848,
+   "monthRoi": 0.2841113619,
+   "monthVlm": 2223778.52
+  },
+  {
+   "ethAddress": "0x4da577b56741299e2c3fcdfa3ffa41a771b80abe",
+   "accountValue": 1595833.945496,
+   "monthPnl": 113338.355496,
+   "weekPnl": 44370.917597,
+   "monthRoi": 0.0764510574,
+   "monthVlm": 339013.72
+  },
+  {
+   "ethAddress": "0xe71cbf47fff309813bcea54f3ecf49a5f129264d",
+   "accountValue": 1678415.482816,
+   "monthPnl": 112408.426036,
+   "weekPnl": 57958.601537,
+   "monthRoi": 3.2439978158,
+   "monthVlm": 595618.13
+  },
+  {
+   "ethAddress": "0x60eb6c9f71c61df4955581b312be977c8221b330",
+   "accountValue": 840582.581234,
+   "monthPnl": 112063.049629,
+   "weekPnl": 1082.916236,
+   "monthRoi": 0.9254815384,
+   "monthVlm": 419997.74
+  },
+  {
+   "ethAddress": "0x8405627e47ca4f4f918c1de7012f4270f8812b8a",
+   "accountValue": 783790.383725,
+   "monthPnl": 109875.905332,
+   "weekPnl": 17958.937883,
+   "monthRoi": 0.7543312374,
+   "monthVlm": 11037799.32
+  },
+  {
+   "ethAddress": "0x1ebc9d59fca0c4df29c453af993aa8c7c89b09bf",
+   "accountValue": 622472.394767,
+   "monthPnl": 109350.334649,
+   "weekPnl": 100846.241822,
+   "monthRoi": 0.2131078415,
+   "monthVlm": 5864772.74
+  },
+  {
+   "ethAddress": "0x170519f69ef4bf7940eb8f9f16b1d60c50b92d79",
+   "accountValue": 2390577.495262,
+   "monthPnl": 109092.450735,
+   "weekPnl": 76072.095144,
+   "monthRoi": 0.1470981168,
+   "monthVlm": 100685086.24
+  },
+  {
+   "ethAddress": "0x7f47bf4025bd2178741058a10cd829e406ef4d0c",
+   "accountValue": 3443570.830752,
+   "monthPnl": 108983.587547,
+   "weekPnl": 112132.786906,
+   "monthRoi": 0.2786866424,
+   "monthVlm": 15516997.11
+  },
+  {
+   "ethAddress": "0x67f2d1e12bcd20f07e14f716bf5453e91cf42318",
+   "accountValue": 3679477.486118,
+   "monthPnl": 105591.907141,
+   "weekPnl": 98889.415735,
+   "monthRoi": 0.8263102356,
+   "monthVlm": 1041768.01
+  },
+  {
+   "ethAddress": "0x39a04e90140793ec048323284425cd2ff53480d6",
+   "accountValue": 1306435.882487,
+   "monthPnl": 105554.849317,
+   "weekPnl": 39163.589913,
+   "monthRoi": 0.1231657333,
+   "monthVlm": 10082055.88
+  },
+  {
+   "ethAddress": "0x31dea2516beee92135b96f464eeec3cf292a13f2",
+   "accountValue": 12751382.561892,
+   "monthPnl": 105307.735852,
+   "weekPnl": 37704.552222,
+   "monthRoi": 0.0088592186,
+   "monthVlm": 1086714382.55
+  },
+  {
+   "ethAddress": "0xc6758a779bccee1ef0190dbe8292fdf44076795d",
+   "accountValue": 1213487.722551,
+   "monthPnl": 104158.714171,
+   "weekPnl": 130746.814654,
+   "monthRoi": 0.0432621069,
+   "monthVlm": 97086385.98
+  },
+  {
+   "ethAddress": "0xc5f033a47dde827133850ced50009c3802c989ba",
+   "accountValue": 780404.320435,
+   "monthPnl": 104112.418008,
+   "weekPnl": 99412.748758,
+   "monthRoi": 0.2122236924,
+   "monthVlm": 1543254.61
+  },
+  {
+   "ethAddress": "0x94b60c2a5db13689bb06a73657ac1216424de5b3",
+   "accountValue": 502052.641983,
+   "monthPnl": 103109.160333,
+   "weekPnl": 182525.200064,
+   "monthRoi": 0.1878320151,
+   "monthVlm": 8136643.85
+  },
+  {
+   "ethAddress": "0x1bf629cd9f4dbcc9fca616ccf7a19891007f5bfa",
+   "accountValue": 1513391.872498,
+   "monthPnl": 102857.680313,
+   "weekPnl": 134384.825684,
+   "monthRoi": 0.1664892618,
+   "monthVlm": 8676538.65
+  },
+  {
+   "ethAddress": "0xb919448d2f1797e5d9e7b9e88cd909a5089e6d4e",
+   "accountValue": 895075.814534,
+   "monthPnl": 102450.076301,
+   "weekPnl": 16207.954109,
+   "monthRoi": 0.8037678701,
+   "monthVlm": 2517174.84
+  },
+  {
+   "ethAddress": "0x321629f449e6dade5c365cd7b430d6d8168e106b",
+   "accountValue": 1158470.856315,
+   "monthPnl": 102437.006976,
+   "weekPnl": 47683.995264,
+   "monthRoi": 0.0968732059,
+   "monthVlm": 24856471.72
+  },
+  {
+   "ethAddress": "0x761f2ff9db26e005fc2ea7de1c24b47c78b01b68",
+   "accountValue": 5200507.770655,
+   "monthPnl": 102363.69413,
+   "weekPnl": 116320.229329,
+   "monthRoi": 0.0200789872,
+   "monthVlm": 17502301.83
+  },
+  {
+   "ethAddress": "0x265eac78fb57495674227c93065d67abe6f97f70",
+   "accountValue": 9072282.975997,
+   "monthPnl": 102197.346138,
+   "weekPnl": 456056.247295,
+   "monthRoi": 0.1036157016,
+   "monthVlm": 4814216.56
+  },
+  {
+   "ethAddress": "0x94dac1facdc4afd2614c3119447187b4143bc449",
+   "accountValue": 8281860.998517001,
+   "monthPnl": 102014.052142,
+   "weekPnl": 224979.077016,
+   "monthRoi": 0.1410407432,
+   "monthVlm": 3615158.38
+  },
+  {
+   "ethAddress": "0xd2b2a8ab7a8c903501f4db4ee45c67522a4511ed",
+   "accountValue": 6064709.695584,
+   "monthPnl": 101227.655198,
+   "weekPnl": 78725.607339,
+   "monthRoi": 0.3231479517,
+   "monthVlm": 7195577.279999999
+  }
+ ]
+}

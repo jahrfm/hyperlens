@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HyperLens — Hyperliquid Trader Intelligence</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐋</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand"><span class="logo">🐋</span> Hyper<span class="accent">Lens</span></div>
+  <nav>
+    <button class="tab active" data-tab="market">Market</button>
+    <button class="tab" data-tab="leaderboard">Leaderboard</button>
+    <button class="tab" data-tab="wallets">Wallet Details</button>
+    <button class="tab" data-tab="consensus">Consensus</button>
+    <button class="tab" data-tab="watchlist">Watchlist</button>
+    <button class="tab" data-tab="about">About</button>
+  </nav>
+  <div class="status" id="status">loading…</div>
+</header>
+
+<main>
+  <!-- MARKET -->
+  <section id="tab-market" class="panel active">
+    <h2>Market Snapshot <span class="sub">live · direct Hyperliquid API</span></h2>
+    <div class="kpis" id="market-kpis"></div>
+    <div class="grid-2">
+      <div class="card"><h3>Top 15 by Open Interest</h3><div class="table-wrap"><table id="market-oi-table"><thead><tr><th>#</th><th>Asset</th><th>Price</th><th>24h%</th><th>Vol 24h</th><th>OI (USD)</th><th>Funding</th></tr></thead><tbody></tbody></table></div></div>
+      <div class="card"><h3>Funding Heat — Top 12</h3><canvas id="funding-chart" height="260"></canvas></div>
+    </div>
+    <div class="card"><h3>Top 12 by 24h Volume</h3><div class="table-wrap"><table id="market-vol-table"><thead><tr><th>#</th><th>Asset</th><th>Price</th><th>24h%</th><th>Vol 24h</th><th>OI (USD)</th><th>Funding</th></tr></thead><tbody></tbody></table></div></div>
+  </section>
+
+  <!-- LEADERBOARD -->
+  <section id="tab-leaderboard" class="panel">
+    <h2>Full Leaderboard <span class="sub">official · stats-data.hyperliquid.xyz</span></h2>
+    <div class="kpis" id="lb-kpis"></div>
+    <div class="controls">
+      <input id="lb-search" type="search" placeholder="Search wallet (0x…) or rank…">
+      <label>Window <select id="lb-window">
+        <option value="month" selected>30D</option><option value="week">7D</option><option value="day">24H</option><option value="allTime">All-time</option>
+      </select></label>
+      <label>Min PNL <select id="lb-minpnl">
+        <option value="0">Any</option><option value="100000">+$100K</option><option value="1000000">+$1M</option><option value="10000000">+$10M</option>
+      </select></label>
+    </div>
+    <div class="table-wrap tall"><table id="lb-table"><thead><tr><th>Rank</th><th>Wallet</th><th>Account Val</th><th>PNL</th><th>ROI</th><th>Volume</th></tr></thead><tbody></tbody></table></div>
+    <div class="pager" id="lb-pager"></div>
+  </section>
+
+  <!-- WALLET DETAILS -->
+  <section id="tab-wallets" class="panel">
+    <h2>Top-100 Wallet Details <span class="sub">style · hold-time · positions (daily)</span></h2>
+    <div class="kpis" id="wd-kpis"></div>
+    <div class="controls">
+      <input id="wd-search" type="search" placeholder="Search wallet or style (Day, Swing…)">
+      <label>Style <select id="wd-style"><option value="">All styles</option></select></label>
+    </div>
+    <div class="table-wrap tall"><table id="wd-table"><thead><tr><th>#</th><th>Wallet</th><th>Style</th><th>30d PNL</th><th>Realized</th><th>WinR</th><th>PF</th><th>Hold avg/med</th><th>Range</th><th>Equity</th><th>Open</th></tr></thead><tbody></tbody></table></div>
+    <div id="wd-positions" class="card"></div>
+  </section>
+
+  <!-- CONSENSUS -->
+  <section id="tab-consensus" class="panel">
+    <h2>Smart-Money Consensus <span class="sub">top-100 traders · freshness (daily)</span></h2>
+    <div class="kpis" id="cs-kpis"></div>
+    <div class="controls">
+      <label>State <select id="cs-state"><option value="">All states</option><option>BUILDING</option><option>MIXED</option><option>STALE</option></select></label>
+      <label>Min net <select id="cs-minnet"><option value="0">Any</option><option value="5000000">$5M</option><option value="10000000">$10M</option><option value="50000000">$50M</option></select></label>
+    </div>
+    <div class="table-wrap tall"><table id="cs-table"><thead><tr><th>#</th><th>Coin</th><th>Bias</th><th>State</th><th>Net USD</th><th>New 24h</th><th>Fresh%</th><th>Traders L/S</th><th>Agree</th></tr></thead><tbody></tbody></table></div>
+    <div id="cs-detail" class="card"></div>
+  </section>
+
+  <!-- WATCHLIST -->
+  <section id="tab-watchlist" class="panel">
+    <h2>Sustained-Best Watchlist <span class="sub">30d PNL≥$100K · 7d>0 · ROI>0 (daily)</span></h2>
+    <div class="kpis" id="wl-kpis"></div>
+    <div class="table-wrap tall"><table id="wl-table"><thead><tr><th>#</th><th>Wallet</th><th>Acct Val</th><th>PNL 30d</th><th>PNL 7d</th><th>ROI 30d</th><th>Vol 30d</th></tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="tab-about" class="panel">
+    <h2>About HyperLens</h2>
+    <div class="card">
+      <p><b>HyperLens</b> surfaces Hyperliquid perp trader intelligence:</p>
+      <ul>
+        <li><b>Market</b> — live from the public info API (no key).</li>
+        <li><b>Leaderboard</b> — the full official leaderboard (~41.7K wallets, ≥$100K acct / ≥$10M vol) from stats-data.hyperliquid.xyz.</li>
+        <li><b>Wallet Details</b> — top-100 enriched with trading style (HFT/MM · Scalper · Day · Swing · Position) and hold-time stats.</li>
+        <li><b>Consensus</b> — aggregate positioning of the top-100 traders per coin, with freshness (BUILDING / MIXED / STALE).</li>
+        <li><b>Watchlist</b> — sustained-best traders that pass the quality filter.</li>
+      </ul>
+      <p>Live sections fetch Hyperliquid directly from your browser. Consensus / wallet details / watchlist are generated daily by the Hermes pipeline and served from <code>data/</code>. Signal-only — not financial advice.</p>
+    </div>
+  </section>
+</main>
+
+<footer>HyperLens · data © Hyperliquid / HyperTracker-derived · generated by Hermes Agent</footer>
+<script src="app.js"></script>
+</body>
+</html>
