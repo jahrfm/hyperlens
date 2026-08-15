@@ -32,7 +32,7 @@ const fmt = {
     if (h < 1) return (h*60).toFixed(0)+'m'; if (h < 24) return h.toFixed(1)+'h';
     if (h < 24*30) return (h/24).toFixed(1)+'d'; return (h/(24*30)).toFixed(1)+'mo'; },
   addr(a, n=10) { if (!a) return '—';
-    const url = 'https://app.hyperliquid.xyz/address/'+a;
+    const url = 'https://app.hyperliquid.xyz/explorer/address/'+a;
     return '<a class="wlink" href="'+url+'" target="_blank" rel="noopener" title="'+a+'"><span class="wallet">'+a.slice(0,n)+'…'+a.slice(-4)+'</span></a>'; },
 };
 const cls = (v, pos=true) => v>0?'green':(v<0?'red':'muted');
