@@ -1,15 +1,11 @@
 [build]
   publish = "."
 
-[build.environment]
-  # static site — no build step
-
 [[headers]]
   for = "/data/*"
   [headers.values]
     Cache-Control = "public, max-age=3600"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+# NOTE: no catch-all SPA redirect — this is a pure static site with no
+# client-side routing. A "/* -> /index.html" redirect would swallow real
+# files (app.js, data/*.json) and return the HTML shell for everything.
