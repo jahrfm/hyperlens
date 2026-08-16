@@ -462,7 +462,9 @@ function renderKeyLevel(coin) {
     const pos = pct.startsWith('-')?'below (support)':'above (resistance)';
     const share = n.share!=null ? `, ${(Number(n.share)*100).toFixed(0)}% of ${cohort==='ALL'?'volume':'cohort'}` : '';
     const fills = n.fills ? `, ${n.fills?.toLocaleString()} fills` : '';
-    return `<li><b>${fmt.px2(Number(n.priceMid))}</b> <span class="muted">(${fmt.px2(Number(n.priceLo))}–${fmt.px2(Number(n.priceHi))})</span>${share}${fills} · ${pct}% ${pos}</li>`;
+    const age = n.ageBucket && n.ageBucket!=='UNKNOWN' ? ` · <span class="badge badge-${(n.ageBucket||'').toLowerCase()}">${n.ageBucket}</span> built ${fmtAge(n.ageDays)} ago, last ${fmtAge((n.lastSeenAgeH||0)/24)} ago` : '';
+    const pct24 = n.pct24h!=null ? `, ${n.pct24h.toFixed(0)}% vol in 24h` : '';
+    return `<li><b>${fmt.px2(Number(n.priceMid))}</b> <span class="muted">(${fmt.px2(Number(n.priceLo))}–${fmt.px2(Number(n.priceHi))})</span>${share}${fills} · ${pct}% ${pos}${age}${pct24}</li>`;
   }).join('')+'</ul>' : '<p class="muted">No nodes above threshold'+(cohort!=='ALL'?` for ${cohort}`:'')+'</p>';
   // liq zones
   const zones = (s.liqZones||[]);
@@ -478,6 +480,10 @@ fmt.px2 = (p) => { if (p==null) return '—'; p=Number(p);
   if (p>=10000) return p.toLocaleString(undefined,{maximumFractionDigits:0});
   if (p>=1000) return p.toLocaleString(undefined,{maximumFractionDigits:1});
   if (p>=100) return p.toFixed(1); if (p>=1) return p.toFixed(3); return p.toFixed(5); };
+function fmtAge(d) { if (d==null) return '—'; d=Number(d);
+  if (d>=30) return (d/30).toFixed(0)+'mo'; if (d>=7) return (d/7).toFixed(1)+'w';
+  if (d>=2) return d.toFixed(1)+'d'; if (d>=1/24) return (d*24).toFixed(0)+'h';
+  if (d>=1/1440) return (d*24*60).toFixed(0)+'m'; return 'now'; }
 
 /* ---------- KPI helper ---------- */
 function kpis(items) {
