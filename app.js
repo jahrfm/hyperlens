@@ -406,12 +406,15 @@ async function loadKeyLevels() {
   state.keylevels = d.symbols;
   const sel = $('kl-coin');
   sel.innerHTML = Object.keys(d.symbols).map(c=>`<option>${c}</option>`).join('');
+  const csel = $('kl-cohort');
+  csel.value = 'ALL';
   $('kl-kpis').innerHTML = kpis([
     ['Symbols', Object.keys(d.symbols).length],
     ['Generated', (d.date||d.generatedAt||'').slice(0,10)],
     ['Source', 'top-trader fills + liqPx'],
   ]);
   sel.onchange = () => renderKeyLevel(sel.value);
+  csel.onchange = () => renderKeyLevel(sel.value);
   renderKeyLevel(sel.value);
   setStatus('keylevels: daily ✓'); return true;
 }
@@ -419,17 +422,25 @@ function renderKeyLevel(coin) {
   const s = state.keylevels[coin];
   if (!s) return;
   const cur = Number(s.current);
+  const cohort = ($('kl-cohort')||{}).value || 'ALL';
+  // pick the profile data for the selected cohort
+  let profBuckets = s.profile || [];
+  let nodes = s.nodes || [];
+  if (cohort !== 'ALL') {
+    // per-cohort volume buckets (notional per price bucket)
+    const cprof = (s.cohortProfile||{})[cohort];
+    if (cprof && s.profile && s.profile.length === cprof.length) {
+      profBuckets = s.profile.map((b,i)=>({priceLo:b.priceLo, priceHi:b.priceHi, priceMid:b.priceMid, notional:cprof[i], fills:0}));
+    } else { profBuckets = []; }
+    nodes = (s.cohortNodes||{})[cohort] || [];
+  }
   // volume profile chart — HORIZONTAL (price on Y, volume extending right, TradingView-style)
   if (window.__klChart) window.__klChart.destroy();
-  if (window.Chart && (s.profile||[]).length) {
-    const prof = s.profile;
+  if (window.Chart && profBuckets.length) {
     // y-axis: price buckets ascending bottom->top (high price at top)
-    const sorted = [...prof].sort((a,b)=>Number(a.priceMid)-Number(b.priceMid));
+    const sorted = [...profBuckets].sort((a,b)=>Number(a.priceMid)-Number(b.priceMid));
     const mids = sorted.map(b=>Number(b.priceMid));
     const vols = sorted.map(b=>Number(b.notional));
-    const maxV = Math.max(...vols);
-    // current price annotation via a line dataset at the cur value
-    const curLine = { x: 0, y: cur };
     window.__klChart = new Chart($('kl-vol-chart'), { type:'bar', data:{ labels: mids.map(m=>fmt.px2(m)),
       datasets:[{ label:'Volume', data: vols,
         backgroundColor: vols.map((v,i)=> mids[i]>=cur ? 'rgba(239,68,68,.6)' : 'rgba(34,197,94,.6)'),
@@ -446,11 +457,13 @@ function renderKeyLevel(coin) {
         maintainAspectRatio:false } });
   }
   // nodes list
-  $('kl-nodes').innerHTML = (s.nodes||[]).length ? '<ul>'+s.nodes.map(n=>{
+  $('kl-nodes').innerHTML = (nodes||[]).length ? '<ul>'+nodes.map(n=>{
     const pct = cur? ((Number(n.priceMid)/cur-1)*100).toFixed(1) : '';
     const pos = pct.startsWith('-')?'below (support)':'above (resistance)';
-    return `<li><b>${fmt.px2(Number(n.priceMid))}</b> <span class="muted">(${fmt.px2(Number(n.priceLo))}–${fmt.px2(Number(n.priceHi))})</span> — ${(Number(n.share)*100).toFixed(0)}% of volume, ${n.fills?.toLocaleString()} fills · ${pct}% ${pos}</li>`;
-  }).join('')+'</ul>' : '<p class="muted">No nodes above threshold</p>';
+    const share = n.share!=null ? `, ${(Number(n.share)*100).toFixed(0)}% of ${cohort==='ALL'?'volume':'cohort'}` : '';
+    const fills = n.fills ? `, ${n.fills?.toLocaleString()} fills` : '';
+    return `<li><b>${fmt.px2(Number(n.priceMid))}</b> <span class="muted">(${fmt.px2(Number(n.priceLo))}–${fmt.px2(Number(n.priceHi))})</span>${share}${fills} · ${pct}% ${pos}</li>`;
+  }).join('')+'</ul>' : '<p class="muted">No nodes above threshold'+(cohort!=='ALL'?` for ${cohort}`:'')+'</p>';
   // liq zones
   const zones = (s.liqZones||[]);
   $('kl-liq-sub').textContent = '· '+zones.length+' zones (within ±50% of spot)';

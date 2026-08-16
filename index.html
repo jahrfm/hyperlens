@@ -114,6 +114,13 @@
     <div class="kpis" id="kl-kpis"></div>
     <div class="controls">
       <label>Symbol <select id="kl-coin"></select></label>
+      <label>Cohort <select id="kl-cohort">
+        <option value="ALL">All cohorts</option>
+        <option value="MEGA">MEGA ≥$50M</option>
+        <option value="LARGE">LARGE $10–50M</option>
+        <option value="MID">MID $2–10M</option>
+        <option value="SMALL">SMALL &lt;$2M</option>
+      </select></label>
     </div>
     <div class="grid-2">
       <div class="card"><h3>Volume Profile <span class="sub">horizontal · price ↑ · red above / green below spot</span></h3><div style="height:480px"><canvas id="kl-vol-chart"></canvas></div></div>
