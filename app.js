@@ -399,6 +399,61 @@ document.addEventListener('click', e => {
   if (el) { e.preventDefault(); loadWallet(el.getAttribute('data-addr')); }
 });
 
+/* ---------- KEY LEVELS ---------- */
+async function loadKeyLevels() {
+  const d = await loadJSON(DATA+'/keylevels.json');
+  if (!d || !d.symbols) { setStatus('keylevels: no daily data'); return false; }
+  state.keylevels = d.symbols;
+  const sel = $('kl-coin');
+  sel.innerHTML = Object.keys(d.symbols).map(c=>`<option>${c}</option>`).join('');
+  $('kl-kpis').innerHTML = kpis([
+    ['Symbols', Object.keys(d.symbols).length],
+    ['Generated', (d.date||d.generatedAt||'').slice(0,10)],
+    ['Source', 'top-trader fills + liqPx'],
+  ]);
+  sel.onchange = () => renderKeyLevel(sel.value);
+  renderKeyLevel(sel.value);
+  setStatus('keylevels: daily ✓'); return true;
+}
+function renderKeyLevel(coin) {
+  const s = state.keylevels[coin];
+  if (!s) return;
+  const cur = Number(s.current);
+  // volume profile chart (real histogram from profile buckets)
+  if (window.__klChart) window.__klChart.destroy();
+  if (window.Chart && (s.profile||[]).length) {
+    const prof = s.profile;
+    const mids = prof.map(b=>Number(b.priceMid));
+    const vols = prof.map(b=>Number(b.notional));
+    const maxV = Math.max(...vols);
+    window.__klChart = new Chart($('kl-vol-chart'), { type:'bar', data:{ labels: mids.map(m=>fmt.px2(m)),
+      datasets:[{ label:'Notional volume', data: vols, backgroundColor: vols.map((v,i)=> cur && mids[i]>=cur ? 'rgba(239,68,68,.6)' : 'rgba(34,197,94,.6)') }]},
+      options:{ plugins:{ legend:{display:false}, tooltip:{callbacks:{label:ctx=>'~'+fmt.px2(mids[ctx.dataIndex])+' : '+fmt.usd(ctx.parsed.y)+' vol'}}},
+        scales:{ x:{ticks:{color:'#8fa3b8',maxTicksLimit:10, callback:(v,i)=> i%5===0?fmt.px2(mids[i]):''}},
+          y:{ticks:{color:'#8fa3b8',callback:v=>fmt.usd(v)}} },
+        maintainAspectRatio:false } });
+  }
+  // nodes list
+  $('kl-nodes').innerHTML = (s.nodes||[]).length ? '<ul>'+s.nodes.map(n=>{
+    const pct = cur? ((Number(n.priceMid)/cur-1)*100).toFixed(1) : '';
+    const pos = pct.startsWith('-')?'below (support)':'above (resistance)';
+    return `<li><b>${fmt.px2(Number(n.priceMid))}</b> <span class="muted">(${fmt.px2(Number(n.priceLo))}–${fmt.px2(Number(n.priceHi))})</span> — ${(Number(n.share)*100).toFixed(0)}% of volume, ${n.fills?.toLocaleString()} fills · ${pct}% ${pos}</li>`;
+  }).join('')+'</ul>' : '<p class="muted">No nodes above threshold</p>';
+  // liq zones
+  const zones = (s.liqZones||[]);
+  $('kl-liq-sub').textContent = '· '+zones.length+' zones (within ±50% of spot)';
+  $('kl-liq-list').innerHTML = zones.length ? '<ul>'+zones.map(z=>{
+    const side = z.longUsd>z.shortUsd? 'longs below' : 'shorts above';
+    const pct = cur? ((Number(z.priceMid)/cur-1)*100).toFixed(1) : '';
+    const color = pct.startsWith('-')?'red':'green';
+    return `<li><b class="${color}">${fmt.px2(Number(z.priceMid))}</b> <span class="muted">(${fmt.px2(Number(z.priceLo))}–${fmt.px2(Number(z.priceHi))})</span> — ${fmt.usd(Number(z.notional))} at risk, ${z.positions} pos (${side}) · ${pct}% from spot</li>`;
+  }).join('')+'</ul>' : '<p class="muted">No near-price liquidation clusters from tracked wallets</p>';
+}
+fmt.px2 = (p) => { if (p==null) return '—'; p=Number(p);
+  if (p>=10000) return p.toLocaleString(undefined,{maximumFractionDigits:0});
+  if (p>=1000) return p.toLocaleString(undefined,{maximumFractionDigits:1});
+  if (p>=100) return p.toFixed(1); if (p>=1) return p.toFixed(3); return p.toFixed(5); };
+
 /* ---------- KPI helper ---------- */
 function kpis(items) {
   return items.map(([l,v,cl])=>`<div class="kpi"><div class="label">${l}</div><div class="value ${cl||''}">${v}</div></div>`).join('');
@@ -407,7 +462,7 @@ function kpis(items) {
 /* ---------- boot ---------- */
 (async function boot(){
   setStatus('loading…');
-  const results = await Promise.allSettled([loadMarket(), loadLeaderboard(), loadWalletDetails(), loadConsensus(), loadWatchlist()]);
+  const results = await Promise.allSettled([loadMarket(), loadLeaderboard(), loadWalletDetails(), loadConsensus(), loadKeyLevels(), loadWatchlist()]);
   const ok = results.filter(r=>r.status==='fulfilled' && r.value===true).length;
-  setStatus(ok+'/5 sections live' + (ok<5?' (daily data pending cron run)':''));
+  setStatus(ok+'/6 sections live' + (ok<6?' (daily data pending cron run)':''));
 })();

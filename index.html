@@ -20,6 +20,7 @@
     <button class="tab" data-tab="wallets">Wallet Details</button>
     <button class="tab" data-tab="wallet">Wallet Dashboard</button>
     <button class="tab" data-tab="consensus">Consensus</button>
+    <button class="tab" data-tab="keylevels">Key Levels</button>
     <button class="tab" data-tab="watchlist">Watchlist</button>
     <button class="tab" data-tab="about">About</button>
   </nav>
@@ -105,6 +106,20 @@
         <div class="table-wrap tall"><table id="wallet-trades-table"><thead><tr><th>Time</th><th>Coin</th><th>Dir</th><th>Size</th><th>Price</th><th>Realized</th><th>Fee</th><th>Tx</th></tr></thead><tbody></tbody></table></div>
       </div>
     </div>
+  </section>
+
+  <!-- KEY LEVELS -->
+  <section id="tab-keylevels" class="panel">
+    <h2>Key Levels — Volume Profile & Liquidation Zones <span class="sub">big-player activity by price (daily)</span></h2>
+    <div class="kpis" id="kl-kpis"></div>
+    <div class="controls">
+      <label>Symbol <select id="kl-coin"></select></label>
+    </div>
+    <div class="grid-2">
+      <div class="card"><h3>Volume Profile (fills by price)</h3><canvas id="kl-vol-chart" height="300"></canvas></div>
+      <div class="card"><h3>Liquidation Zones <span class="sub" id="kl-liq-sub"></span></h3><div id="kl-liq-list"></div></div>
+    </div>
+    <div class="card"><h3>Volume nodes (S/R) <span class="sub">current price marked</span></h3><div id="kl-nodes"></div></div>
   </section>
 
   <!-- ABOUT -->
