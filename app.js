@@ -466,6 +466,15 @@ function renderKeyLevel(coin) {
     const pct24 = n.pct24h!=null ? `, ${n.pct24h.toFixed(0)}% vol in 24h` : '';
     return `<li><b>${fmt.px2(Number(n.priceMid))}</b> <span class="muted">(${fmt.px2(Number(n.priceLo))}–${fmt.px2(Number(n.priceHi))})</span>${share}${fills} · ${pct}% ${pos}${age}${pct24}</li>`;
   }).join('')+'</ul>' : '<p class="muted">No nodes above threshold'+(cohort!=='ALL'?` for ${cohort}`:'')+'</p>';
+  // bands list (aggregate only)
+  const bands = (s.bands||[]);
+  $('kl-bands').innerHTML = bands.length ? '<ul>'+bands.slice(0,8).map(b=>{
+    const pct = cur? ((Number(b.priceMid)/cur-1)*100).toFixed(1) : '';
+    const pos = pct.startsWith('-')?'support':'resistance';
+    const age = b.ageBucket && b.ageBucket!=='UNKNOWN' ? ` · <span class="badge badge-${(b.ageBucket||'').toLowerCase()}">${b.ageBucket}</span> built ${fmtAge(b.ageDays)} ago, last ${fmtAge((b.lastSeenAgeH||0)/24)} ago` : '';
+    const pct24 = b.pct24h!=null ? `, ${b.pct24h.toFixed(0)}% vol in 24h` : '';
+    return `<li><b>${fmt.px2(Number(b.priceLo))}–${fmt.px2(Number(b.priceHi))}</b> (mid ${fmt.px2(Number(b.priceMid))}) — ${(Number(b.share)*100).toFixed(0)}% of volume, ${b.fills?.toLocaleString()} fills · ${pct}% ${pos}${age}${pct24}</li>`;
+  }).join('')+'</ul>' : '<p class="muted">No bands above floor</p>';
   // liq zones
   const zones = (s.liqZones||[]);
   $('kl-liq-sub').textContent = '· '+zones.length+' zones (within ±50% of spot)';
