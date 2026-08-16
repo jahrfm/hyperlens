@@ -419,18 +419,30 @@ function renderKeyLevel(coin) {
   const s = state.keylevels[coin];
   if (!s) return;
   const cur = Number(s.current);
-  // volume profile chart (real histogram from profile buckets)
+  // volume profile chart — HORIZONTAL (price on Y, volume extending right, TradingView-style)
   if (window.__klChart) window.__klChart.destroy();
   if (window.Chart && (s.profile||[]).length) {
     const prof = s.profile;
-    const mids = prof.map(b=>Number(b.priceMid));
-    const vols = prof.map(b=>Number(b.notional));
+    // y-axis: price buckets ascending bottom->top (high price at top)
+    const sorted = [...prof].sort((a,b)=>Number(a.priceMid)-Number(b.priceMid));
+    const mids = sorted.map(b=>Number(b.priceMid));
+    const vols = sorted.map(b=>Number(b.notional));
     const maxV = Math.max(...vols);
+    // current price annotation via a line dataset at the cur value
+    const curLine = { x: 0, y: cur };
     window.__klChart = new Chart($('kl-vol-chart'), { type:'bar', data:{ labels: mids.map(m=>fmt.px2(m)),
-      datasets:[{ label:'Notional volume', data: vols, backgroundColor: vols.map((v,i)=> cur && mids[i]>=cur ? 'rgba(239,68,68,.6)' : 'rgba(34,197,94,.6)') }]},
-      options:{ plugins:{ legend:{display:false}, tooltip:{callbacks:{label:ctx=>'~'+fmt.px2(mids[ctx.dataIndex])+' : '+fmt.usd(ctx.parsed.y)+' vol'}}},
-        scales:{ x:{ticks:{color:'#8fa3b8',maxTicksLimit:10, callback:(v,i)=> i%5===0?fmt.px2(mids[i]):''}},
-          y:{ticks:{color:'#8fa3b8',callback:v=>fmt.usd(v)}} },
+      datasets:[{ label:'Volume', data: vols,
+        backgroundColor: vols.map((v,i)=> mids[i]>=cur ? 'rgba(239,68,68,.6)' : 'rgba(34,197,94,.6)'),
+        borderColor: 'rgba(255,255,255,.05)', borderWidth: 1 }]},
+      options:{ indexAxis:'y',
+        plugins:{ legend:{display:false},
+          tooltip:{callbacks:{label:ctx=>fmt.usd(ctx.parsed.x)+' vol @ ~'+fmt.px2(mids[ctx.dataIndex])}}},
+        scales:{
+          x:{ ticks:{color:'#8fa3b8', callback:v=>fmt.usd(v)}, grid:{color:'rgba(143,163,184,.08)'},
+             title:{display:true,text:'Volume (notional USD)',color:'#8fa3b8'} },
+          y:{ reverse:true, ticks:{color:'#8fa3b8', callback:v=>fmt.px2(mids[Number(v)])||v, maxTicksLimit:12},
+             grid:{color:'rgba(143,163,184,.08)'} }
+        },
         maintainAspectRatio:false } });
   }
   // nodes list
