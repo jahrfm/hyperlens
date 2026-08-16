@@ -428,7 +428,7 @@ function renderKeyLevel(coin) {
   let nodes = s.nodes || [];
   if (cohort !== 'ALL') {
     // per-cohort volume buckets (notional per price bucket)
-    const cprof = (s.cohortProfile||{})[cohort];
+    const cprof = (s.cohortNotional||{})[cohort];
     if (cprof && s.profile && s.profile.length === cprof.length) {
       profBuckets = s.profile.map((b,i)=>({priceLo:b.priceLo, priceHi:b.priceHi, priceMid:b.priceMid, notional:cprof[i], fills:0}));
     } else { profBuckets = []; }
