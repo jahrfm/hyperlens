@@ -21,6 +21,7 @@
     <button class="tab" data-tab="wallet">Wallet Dashboard</button>
     <button class="tab" data-tab="consensus">Consensus</button>
     <button class="tab" data-tab="keylevels">Key Levels</button>
+    <button class="tab" data-tab="aggression">Aggression</button>
     <button class="tab" data-tab="watchlist">Watchlist</button>
     <button class="tab" data-tab="about">About</button>
   </nav>
@@ -123,11 +124,21 @@
       </select></label>
     </div>
     <div class="grid-2">
-      <div class="card"><h3>Volume Profile <span class="sub">horizontal · price ↑ · red above / green below spot</span></h3><div style="height:480px"><canvas id="kl-vol-chart"></canvas></div></div>
+      <div class="card"><h3>Volume Profile <span class="sub">horizontal · price ↑ · red above / green below spot</span></h3><div id="kl-mp"></div><div style="height:480px"><canvas id="kl-vol-chart"></canvas></div></div>
       <div class="card"><h3>Liquidation Zones <span class="sub" id="kl-liq-sub"></span></h3><div id="kl-liq-list"></div></div>
     </div>
     <div class="card"><h3>Volume nodes (S/R) <span class="sub">current price marked</span></h3><div id="kl-nodes"></div></div>
     <div class="card"><h3>High-activity bands (plateaus) <span class="sub">where volume concentrates over a range</span></h3><div id="kl-bands"></div></div>
+  </section>
+
+  <!-- AGGRESSION QUADRANTS -->
+  <section id="tab-aggression" class="panel">
+    <h2>Aggression Quadrants <span class="sub">CVD × price-drift · effort vs result (daily)</span></h2>
+    <div class="kpis" id="ag-kpis"></div>
+    <div class="card"><h3>Per-coin stance</h3><div id="ag-table"></div></div>
+    <div class="card"><h3>How to read</h3>
+      <p class="muted">Buyer/Seller Aggression = aggressive taker flow winning (CVD aligns with drift). Bullish/Bearish Absorption = effort against drift — when it resolves, the trend changes. Confirmed = price holding beyond the zone; reversed = push failed; resolved = absorption won; held = opposition still capping.</p>
+    </div>
   </section>
 
   <!-- ABOUT -->

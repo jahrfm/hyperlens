@@ -422,6 +422,12 @@ function renderKeyLevel(coin) {
   const s = state.keylevels[coin];
   if (!s) return;
   const cur = Number(s.current);
+  // market profile summary (POC / VA / shape / path / current-vs-VA)
+  const mp = s.marketProfile||{};
+  if (mp.pocPrice!=null) {
+    const shapeDesc = {'P':'distribution','b':'accumulation','D':'normal'}[mp.shape]||mp.shape||'';
+    $('kl-mp').innerHTML = `<div class="mp-line"><b>POC ${fmt.px2(Number(mp.pocPrice))}</b> · Value Area <b>${fmt.px2(Number(mp.valPrice))}–${fmt.px2(Number(mp.vahPrice))}</b> · Shape <b>${mp.shape}</b> (${shapeDesc}) · Path <i>${mp.path}</i> · <span class="${(mp.currentVsVa||'').includes('above')?'red':(mp.currentVsVa||'').includes('below')?'green':''}">${mp.currentVsVa}</span></div>`;
+  } else { $('kl-mp').innerHTML = ''; }
   const cohort = ($('kl-cohort')||{}).value || 'ALL';
   // pick the profile data for the selected cohort
   let profBuckets = s.profile || [];
@@ -457,14 +463,16 @@ function renderKeyLevel(coin) {
         maintainAspectRatio:false } });
   }
   // nodes list
-  $('kl-nodes').innerHTML = (nodes||[]).length ? '<ul>'+nodes.map(n=>{
+  $('kl-nodes').innerHTML = nodes.length ? '<ul>'+nodes.map((n,ni)=>{
     const pct = cur? ((Number(n.priceMid)/cur-1)*100).toFixed(1) : '';
     const pos = pct.startsWith('-')?'below (support)':'above (resistance)';
     const share = n.share!=null ? `, ${(Number(n.share)*100).toFixed(0)}% of ${cohort==='ALL'?'volume':'cohort'}` : '';
     const fills = n.fills ? `, ${n.fills?.toLocaleString()} fills` : '';
     const age = n.ageBucket && n.ageBucket!=='UNKNOWN' ? ` · <span class="badge badge-${(n.ageBucket||'').toLowerCase()}">${n.ageBucket}</span> built ${fmtAge(n.ageDays)} ago, last ${fmtAge((n.lastSeenAgeH||0)/24)} ago` : '';
     const pct24 = n.pct24h!=null ? `, ${n.pct24h.toFixed(0)}% vol in 24h` : '';
-    return `<li><b>${fmt.px2(Number(n.priceMid))}</b> <span class="muted">(${fmt.px2(Number(n.priceLo))}–${fmt.px2(Number(n.priceHi))})</span>${share}${fills} · ${pct}% ${pos}${age}${pct24}</li>`;
+    const mp = s.marketProfile||{};
+    const pb = (mp.nodePctBeyond&&mp.nodePctBeyond[ni]) ? ` · sustained ${mp.nodePctBeyond[ni][0]}% ${mp.nodePctBeyond[ni][1]?'upper':'lower'} side` : '';
+    return `<li><b>${fmt.px2(Number(n.priceMid))}</b> <span class="muted">(${fmt.px2(Number(n.priceLo))}–${fmt.px2(Number(n.priceHi))})</span>${share}${fills} · ${pct}% ${pos}${age}${pct24}${pb}</li>`;
   }).join('')+'</ul>' : '<p class="muted">No nodes above threshold'+(cohort!=='ALL'?` for ${cohort}`:'')+'</p>';
   // bands list (aggregate only)
   const bands = (s.bands||[]);
@@ -494,6 +502,28 @@ function fmtAge(d) { if (d==null) return '—'; d=Number(d);
   if (d>=2) return d.toFixed(1)+'d'; if (d>=1/24) return (d*24).toFixed(0)+'h';
   if (d>=1/1440) return (d*24*60).toFixed(0)+'m'; return 'now'; }
 
+/* ---------- AGGRESSION QUADRANTS ---------- */
+async function loadAggression() {
+  const d = await loadJSON(DATA+'/aggression.json');
+  if (!d || !d.coins) { setStatus('aggression: no daily data'); return false; }
+  state.aggression = d.coins;
+  const coins = Object.keys(d.coins);
+  $('ag-kpis').innerHTML = kpis([
+    ['Coins', coins.length],
+    ['Generated', (d.date||'').slice(0,10)],
+    ['Source', '15m candles · tick-rule CVD'],
+  ]);
+  const rows = coins.map(cn=>{
+    const r = d.coins[cn];
+    if (!r.ok) return null;
+    const q = r.quadrants||{};
+    const cell = (name)=>{ const z=q[name]; return z? `${fmt.px2(Number(z.price))} <b class="${z.category==='confirmed'||z.category==='resolved'?'green':z.category==='reversed'||z.category==='held'?'red':'yellow'}">${z.category}</b>` : '—'; };
+    return `<tr><td><b>${cn}</b></td><td>${r.stance||'—'}</td><td>${cell('Buyer Aggression')}</td><td>${cell('Seller Aggression')}</td><td>${cell('Bullish Absorption')}</td><td>${cell('Bearish Absorption')}</td></tr>`;
+  }).filter(Boolean).join('');
+  $('ag-table').innerHTML = `<table class="tbl"><thead><tr><th>Coin</th><th>Stance</th><th>Buyer Aggr</th><th>Seller Aggr</th><th>Bull Absorb</th><th>Bear Absorb</th></tr></thead><tbody>${rows}</tbody></table>`;
+  setStatus('aggression: daily ✓'); return true;
+}
+
 /* ---------- KPI helper ---------- */
 function kpis(items) {
   return items.map(([l,v,cl])=>`<div class="kpi"><div class="label">${l}</div><div class="value ${cl||''}">${v}</div></div>`).join('');
@@ -502,7 +532,7 @@ function kpis(items) {
 /* ---------- boot ---------- */
 (async function boot(){
   setStatus('loading…');
-  const results = await Promise.allSettled([loadMarket(), loadLeaderboard(), loadWalletDetails(), loadConsensus(), loadKeyLevels(), loadWatchlist()]);
+  const results = await Promise.allSettled([loadMarket(), loadLeaderboard(), loadWalletDetails(), loadConsensus(), loadKeyLevels(), loadAggression(), loadWatchlist()]);
   const ok = results.filter(r=>r.status==='fulfilled' && r.value===true).length;
-  setStatus(ok+'/6 sections live' + (ok<6?' (daily data pending cron run)':''));
+  setStatus(ok+'/7 sections live' + (ok<7?' (daily data pending cron run)':''));
 })();
