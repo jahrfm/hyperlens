@@ -484,17 +484,27 @@ async function loadKeyLevels() {
   const d = await loadJSON(DATA+'/keylevels.json');
   if (!d || !d.symbols) { setStatus('keylevels: no daily data'); return false; }
   state.keylevels = d.symbols;
+  const symbols = Object.keys(d.symbols).sort((a,b) => a.localeCompare(b, undefined, {numeric: true}));
   const sel = $('kl-coin');
-  sel.innerHTML = Object.keys(d.symbols).map(c=>`<option>${c}</option>`).join('');
+  sel.innerHTML = symbols.map(c=>`<option>${c}</option>`).join('');
   const csel = $('kl-cohort');
   csel.value = 'ALL';
   $('kl-kpis').innerHTML = kpis([
-    ['Symbols', Object.keys(d.symbols).length],
+    ['Symbols', symbols.length],
     ['Generated', (d.date||d.generatedAt||'').slice(0,10)],
     ['Source', 'top-trader fills + liqPx'],
   ]);
+  function doFilter() {
+    const q = ($('kl-search').value||'').trim().toUpperCase();
+    sel.innerHTML = symbols.filter(c => !q || c.includes(q)).map(c=>`<option>${c}</option>`).join('');
+    if (sel.options.length > 0) {
+      sel.value = sel.options[0].value;
+      renderKeyLevel(sel.value);
+    }
+  }
   sel.onchange = () => renderKeyLevel(sel.value);
   csel.onchange = () => renderKeyLevel(sel.value);
+  $('kl-search').addEventListener('input', doFilter);
   renderKeyLevel(sel.value);
   setStatus('keylevels: daily ✓'); return true;
 }
