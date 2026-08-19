@@ -102,8 +102,17 @@
     <h2>Sustained-Best Watchlist <span class="sub">30d PNL≥$100K · 7d>0 · ROI>0 (daily)</span></h2>
     <div class="kpis" id="wl-kpis"></div>
     <div class="table-wrap tall"><table id="wl-table"><thead><tr>
-      <th>#</th><th>Wallet</th><th>Acct Val</th><th>30d PNL</th><th>7d PNL</th><th>ROI</th><th>Vol 30d</th>
-      <th>Realized</th><th>WinR</th><th>PF</th><th>Fills</th><th>Equity</th>
+      <th>#</th><th>Wallet</th>
+      <th data-col="accountValue" onclick="wlSortBy('accountValue')" style="cursor:pointer">Acct Val</th>
+      <th data-col="monthPnl" onclick="wlSortBy('monthPnl')" style="cursor:pointer">30d PNL</th>
+      <th data-col="weekPnl" onclick="wlSortBy('weekPnl')" style="cursor:pointer">7d PNL</th>
+      <th data-col="monthRoi" onclick="wlSortBy('monthRoi')" style="cursor:pointer">ROI</th>
+      <th data-col="monthVlm" onclick="wlSortBy('monthVlm')" style="cursor:pointer">Vol 30d</th>
+      <th data-col="realizedPnl" onclick="wlSortBy('realizedPnl')" style="cursor:pointer">Realized</th>
+      <th data-col="winRate" onclick="wlSortBy('winRate')" style="cursor:pointer">WinR</th>
+      <th data-col="profitFactor" onclick="wlSortBy('profitFactor')" style="cursor:pointer">PF</th>
+      <th data-col="fills" onclick="wlSortBy('fills')" style="cursor:pointer">Fills</th>
+      <th data-col="equity" onclick="wlSortBy('equity')" style="cursor:pointer">Equity</th>
     </tr></thead><tbody></tbody></table></div>
   </section>
 

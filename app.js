@@ -297,6 +297,7 @@ $('cs-table').addEventListener('click', e => {
 });
 
 /* ---------- WATCHLIST ---------- */
+const wlSort = { col: '', dir: -1 };
 async function loadWatchlist() {
   const d = await loadJSON(DATA+'/watchlist.json');
   if (!d || !d.candidates) { setStatus('watchlist: no daily data'); return false; }
@@ -306,7 +307,29 @@ async function loadWatchlist() {
     ['Filter', '30d≥$100K · 7d>0 · ROI>0'],
     ['Generated', (d.generatedAt||'').slice(0,10)],
   ]);
-  $('wl-table').querySelector('tbody').innerHTML = d.candidates.map((c,i)=>`
+  renderWatchlist(); setStatus('watchlist: daily ✓'); return true;
+}
+function wlSortBy(col) {
+  if (wlSort.col === col) wlSort.dir *= -1;
+  else { wlSort.col = col; wlSort.dir = -1; }
+  document.querySelectorAll('#wl-table th').forEach(th => {
+    const c = th.dataset.col;
+    th.innerHTML = th.innerHTML.replace(/ [▲▼]/, '');
+    if (c === col) th.innerHTML += wlSort.dir > 0 ? ' ▲' : ' ▼';
+  });
+  renderWatchlist();
+}
+function renderWatchlist() {
+  let rows = [...state.watchlist];
+  if (wlSort.col) {
+    rows.sort((a,b) => {
+      let va = a[wlSort.col], vb = b[wlSort.col];
+      if (va == null && vb == null) return 0;
+      if (va == null) return 1; if (vb == null) return -1;
+      return (va - vb) * wlSort.dir;
+    });
+  }
+  $('wl-table').querySelector('tbody').innerHTML = rows.map((c,i)=>`
     <tr><td>${i+1}</td><td>${fmt.addr(c.ethAddress)}</td><td>${fmt.usd(c.accountValue)}</td>
       <td class="green">${fmt.pnl(c.monthPnl)}</td><td class="green">${fmt.pnl(c.weekPnl)}</td>
       <td>${fmt.pct(c.monthRoi)}</td><td>${fmt.usd(c.monthVlm)}</td>
