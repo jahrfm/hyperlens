@@ -45,7 +45,8 @@ h3 { font-size: 14px; margin-bottom: 10px; color: var(--muted); }
 .kpi .value.green { color: var(--green); } .kpi .value.red { color: var(--red); } .kpi .value.yellow { color: var(--yellow); }
 .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
 @media (max-width: 900px) { .grid-2 { grid-template-columns: 1fr; } }
-.card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px; margin-bottom: 14px; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px; margin-bottom: 14px; overflow: hidden; }
+.card canvas { display: block; max-width: 100%; width: 100%; }
 .table-wrap { overflow-x: auto; border-radius: 8px; border: 1px solid var(--border); }
 .table-wrap.tall { max-height: 70vh; overflow-y: auto; }
 table { width: 100%; border-collapse: collapse; font-size: 13px; }
