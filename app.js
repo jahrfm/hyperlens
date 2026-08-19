@@ -399,15 +399,30 @@ async function loadWallet(addr) {
 }
 function drawPnlChart(fills) {
   const c = $('wallet-pnl-chart'); if (!window.Chart) return;
+  const wrap = c.parentElement;
+  c.width = wrap.clientWidth || c.width;
+  c.height = 180;
+  if (window.__pnlChart) window.__pnlChart.destroy();
   const chrono = [...fills].sort((a,b)=>a.time-b.time);
   let cum = 0; const pts = [];
   chrono.forEach(fl => { cum += Number(fl.closedPnl||0); pts.push({x:new Date(fl.time), y:cum}); });
   if (pts.length < 2) { pts.push({x:new Date(), y:cum}); }
-  if (window.__pnlChart) window.__pnlChart.destroy();
   window.__pnlChart = new Chart(c, { type:'line', data:{ datasets:[{ label:'Cumulative realized PNL', data: pts,
       borderColor:'#4f8ef7', backgroundColor:'rgba(79,142,247,.15)', fill:true, pointRadius:0, tension:.15 }]},
-    options:{ plugins:{legend:{display:false}}, scales:{ x:{type:'time',time:{unit:'hour'},ticks:{color:'#8fa3b8',maxTicksLimit:6}},
-      y:{ticks:{color:'#8fa3b8',callback:v=>fmt.pnl(v)}}}, maintainAspectRatio:false, height:180 } });
+    options:{ responsive:false, maintainAspectRatio:false, animation:false,
+      plugins:{legend:{display:false}},
+      scales:{ x:{type:'time',time:{unit:'hour'},ticks:{color:'#8fa3b8',maxTicksLimit:6}},
+        y:{ticks:{color:'#8fa3b8',callback:v=>fmt.pnl(v)}}} } });
+  if (!c._pnlResize) {
+    c._pnlResize = true;
+    const ro = new ResizeObserver(() => {
+      if (wrap.clientWidth !== c.width) {
+        c.width = wrap.clientWidth;
+        if (window.__pnlChart) window.__pnlChart.resize();
+      }
+    });
+    ro.observe(wrap);
+  }
 }
 $('wl-go').addEventListener('click', () => loadWallet($('wl-addr').value));
 $('wl-addr').addEventListener('keydown', e => { if (e.key==='Enter') loadWallet($('wl-addr').value); });
