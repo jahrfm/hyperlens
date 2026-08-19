@@ -98,15 +98,29 @@ async function loadMarket() {
 function drawFundingChart(rows) {
   const c = $('funding-chart'); if (!window.Chart) return;
   if (window.__fundChart) window.__fundChart.destroy();
+  // Set explicit canvas size from the parent wrapper
+  const wrap = c.parentElement;
+  c.width = wrap.clientWidth || c.width;
+  c.height = 260;
   const data = rows.slice(0,12).reverse();
   window.__fundChart = new Chart(c, { type:'bar', data:{ labels: data.map(r=>r.name),
     datasets:[{ label:'Funding % (hourly)', data: data.map(r=>Number(r.fund)*100),
       backgroundColor: data.map(r=>r.fund>=0?'rgba(34,197,94,.7)':'rgba(239,68,68,.7)') }]},
-    options:{ responsive:true, maintainAspectRatio:false,
-      animation:{duration:200},
+    options:{ responsive:false, maintainAspectRatio:false,
+      animation:false,
       plugins:{ legend:{display:false} },
-      scales:{ x:{ticks:{color:'#8fa3b8', maxTicksLimit:15}}, y:{ticks:{color:'#8fa3b8', callback:v=>v.toFixed(3)+'%'}} },
-      layout:{padding:{top:4,bottom:4}} } });
+      scales:{ x:{ticks:{color:'#8fa3b8', maxTicksLimit:15}}, y:{ticks:{color:'#8fa3b8', callback:v=>v.toFixed(3)+'%'}} } } });
+  // Listen for container resize to redraw on window resize
+  if (!c._resizeHandler) {
+    c._resizeHandler = true;
+    const ro = new ResizeObserver(() => {
+      if (wrap.clientWidth !== c.width) {
+        c.width = wrap.clientWidth;
+        if (window.__fundChart) window.__fundChart.resize();
+      }
+    });
+    ro.observe(wrap);
+  }
 }
 
 /* ---------- LEADERBOARD ---------- */
