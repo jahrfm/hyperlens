@@ -97,8 +97,9 @@ async function loadMarket() {
 }
 function drawFundingChart(rows) {
   const c = $('funding-chart'); if (!window.Chart) return;
+  if (window.__fundChart) window.__fundChart.destroy();
   const data = rows.slice(0,12).reverse();
-  new Chart(c, { type:'bar', data:{ labels: data.map(r=>r.name),
+  window.__fundChart = new Chart(c, { type:'bar', data:{ labels: data.map(r=>r.name),
     datasets:[{ label:'Funding % (hourly)', data: data.map(r=>Number(r.fund)*100),
       backgroundColor: data.map(r=>r.fund>=0?'rgba(34,197,94,.7)':'rgba(239,68,68,.7)') }]},
     options:{ plugins:{ legend:{display:false} }, scales:{ x:{ticks:{color:'#8fa3b8'}}, y:{ticks:{color:'#8fa3b8', callback:v=>v.toFixed(3)+'%'}} },
