@@ -124,13 +124,14 @@ function drawFundingChart(rows) {
 }
 
 /* ---------- LEADERBOARD ---------- */
+const lbSort = { col: '', dir: -1, by: '' };
 async function loadLeaderboard() {
   setStatus('leaderboard: fetching ~41.7K wallets…');
   try {
     const d = await getJSON(STATS);
     const rows = (d.leaderboardRows||[]).map(r => {
       const wp = {}; (r.windowPerformances||[]).forEach(([k,v])=>wp[k]=v);
-      return { addr: r.ethAddress, acct: Number(r.accountValue||0), wp };
+      return { addr: r.ethAddress, acct: Number(r.accountValue||0), name: r.displayName, wp };
     });
     state.leaderboard = rows;
     const pos30 = rows.filter(r=>Number(r.wp.month?.pnl||0)>0).length;
@@ -147,7 +148,8 @@ async function loadLeaderboard() {
 }
 function leaderboardRow(r, win, i) {
   const p = r.wp[win] || {};
-  return `<tr><td>${i+1}</td><td>${fmt.addr(r.addr)}</td><td>${fmt.usd(r.acct)}</td>
+  const nameHtml = r.name ? `<span class="muted" style="font-size:11px"> · ${r.name}</span>` : '';
+  return `<tr><td>${i+1}</td><td>${fmt.addr(r.addr)}${nameHtml}</td><td>${fmt.usd(r.acct)}</td>
     <td class="${cls(Number(p.pnl))}">${fmt.pnl(p.pnl)}</td><td>${fmt.pct(p.roi)}</td><td>${fmt.usd(p.vlm)}</td></tr>`;
 }
 function filterLeaderboard() {
@@ -156,7 +158,26 @@ function filterLeaderboard() {
   const q = ($('lb-search').value||'').trim().toLowerCase();
   let rows = state.leaderboard.filter(r => (Number(r.wp[win]?.pnl||0) >= min));
   if (q) rows = rows.filter(r => r.addr.toLowerCase().includes(q));
+  // Apply sort if active
+  if (lbSort.col && lbSort.by !== undefined) {
+    rows.sort((a,b) => {
+      const wa = a.wp[lbSort.by]||{}, wb = b.wp[lbSort.by]||{};
+      let va = lbSort.col === 'acct' ? a.acct : Number(wa[lbSort.col]||0);
+      let vb = lbSort.col === 'acct' ? b.acct : Number(wb[lbSort.col]||0);
+      return (va - vb) * lbSort.dir;
+    });
+  }
   state.lbFiltered = rows; state.lbPage = 0; renderLeaderboard();
+}
+function lbSortBy(col, by) {
+  if (lbSort.col === col && lbSort.by === by) lbSort.dir *= -1;
+  else { lbSort.col = col; lbSort.dir = -1; lbSort.by = by; }
+  document.querySelectorAll('#lb-table th').forEach(th => {
+    const c = th.dataset.col, b = th.dataset.by;
+    th.innerHTML = th.innerHTML.replace(/ [▲▼]/, '');
+    if (c === col && b === by) th.innerHTML += lbSort.dir > 0 ? ' ▲' : ' ▼';
+  });
+  filterLeaderboard();
 }
 function renderLeaderboard() {
   const rows = state.lbFiltered, win = $('lb-window').value;

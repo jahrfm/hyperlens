@@ -53,7 +53,13 @@
         <option value="0">Any</option><option value="100000">+$100K</option><option value="1000000">+$1M</option><option value="10000000">+$10M</option>
       </select></label>
     </div>
-    <div class="table-wrap tall"><table id="lb-table"><thead><tr><th>Rank</th><th>Wallet</th><th>Account Val</th><th>PNL</th><th>ROI</th><th>Volume</th></tr></thead><tbody></tbody></table></div>
+    <div class="table-wrap tall"><table id="lb-table"><thead><tr>
+      <th>#</th><th>Wallet</th>
+      <th data-col="acct" data-by="" onclick="lbSortBy('acct','')" style="cursor:pointer">Acct Val</th>
+      <th data-col="pnl" data-by="month" onclick="lbSortBy('pnl','month')" style="cursor:pointer">PNL</th>
+      <th data-col="roi" data-by="month" onclick="lbSortBy('roi','month')" style="cursor:pointer">ROI</th>
+      <th data-col="vlm" data-by="month" onclick="lbSortBy('vlm','month')" style="cursor:pointer">Volume</th>
+    </tr></thead><tbody></tbody></table></div>
     <div class="pager" id="lb-pager"></div>
   </section>
 
