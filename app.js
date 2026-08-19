@@ -631,7 +631,8 @@ async function loadAggression() {
     if (!r.ok) return null;
     const q = r.quadrants||{};
     const cell = (name)=>{ const z=q[name]; return z? `${fmt.px2(Number(z.price))} <b class="${z.category==='confirmed'||z.category==='resolved'?'green':z.category==='reversed'||z.category==='held'?'red':'yellow'}">${z.category}</b>` : '—'; };
-    return `<tr><td><b>${cn}</b></td><td>${r.stance||'—'}</td><td>${cell('Buyer Aggression')}</td><td>${cell('Seller Aggression')}</td><td>${cell('Bullish Absorption')}</td><td>${cell('Bearish Absorption')}</td></tr>`;
+    const oiIcon = {'building':'📈','declining':'📉','flat':'➡️'}[r.oi_trend]||'';
+    return `<tr><td><b>${cn}</b></td><td>${oiIcon} ${r.stance||'—'}</td><td>${cell('Buyer Aggression')}</td><td>${cell('Seller Aggression')}</td><td>${cell('Bullish Absorption')}</td><td>${cell('Bearish Absorption')}</td></tr>`;
   }).filter(Boolean).join('');
   $('ag-table').innerHTML = `<table class="tbl"><thead><tr><th>Coin</th><th>Stance</th><th>Buyer Aggr</th><th>Seller Aggr</th><th>Bull Absorb</th><th>Bear Absorb</th></tr></thead><tbody>${rows}</tbody></table>`;
   setStatus('aggression: daily ✓'); return true;

@@ -1,51 +1,45 @@
 {
- "generatedAt": "2026-08-19T04:49:26.140706+00:00",
- "date": "2026-08-19",
+ "generatedAt": "2026-08-19T22:36:10.829958+00:00",
+ "date": "2026-08-20",
  "coins": {
-  "HYPE": {
-   "coin": "HYPE",
+  "ETH": {
+   "coin": "ETH",
    "ok": true,
-   "current": 58.509,
+   "current": 2246.3,
+   "oi": 841517.3482000002,
+   "oi_trend": "flat",
+   "oi_vlm_ratio": 0.0215607148870946,
+   "day_vlm": 3903012273.047122,
    "quadrants": {
     "Buyer Aggression": {
-     "price": 58.17320833333333,
-     "location": "mid-value",
-     "timing": "mid-session",
-     "z": 1.82,
-     "volPct": 38.0,
-     "pctBeyond": 100.0,
-     "category": "confirmed",
-     "verdict": "Confirmed \u2014 price holding above, buyer aggression continues to control"
+     "price": 2262.9358333333334,
+     "location": "above VA",
+     "timing": "late",
+     "z": 2.66,
+     "volPct": 62.7,
+     "pctBeyond": 66.7,
+     "category": "reversed",
+     "verdict": "Reversed \u2014 price holding below, this buying push has given way"
     },
     "Seller Aggression": {
-     "price": 56.059374999999996,
-     "location": "below VA",
-     "timing": "early",
-     "z": -2.66,
-     "volPct": 60.4,
+     "price": 2080.4591666666665,
+     "location": "above VA",
+     "timing": "late",
+     "z": -1.24,
+     "volPct": 14.2,
      "pctBeyond": 100.0,
      "category": "reversed",
      "verdict": "Reversed \u2014 price holding above, this selling push has given way"
     },
-    "Bullish Absorption": {
-     "price": 56.25154166666666,
-     "location": "below VA",
-     "timing": "early",
-     "z": 1.85,
-     "volPct": 74.3,
-     "pctBeyond": 100.0,
-     "category": "resolved",
-     "verdict": "Resolved bullish \u2014 buying effort overcame supply, price broke and holds above"
-    },
     "Bearish Absorption": {
-     "price": 59.61445833333333,
+     "price": 1912.0191666666667,
      "location": "mid-value",
      "timing": "late",
-     "z": -1.65,
-     "volPct": 54.6,
+     "z": -0.98,
+     "volPct": 86.9,
      "pctBeyond": 100.0,
-     "category": "resolved",
-     "verdict": "Resolved bearish \u2014 selling effort overcame demand, price broke and holds below"
+     "category": "held",
+     "verdict": "Absorption held \u2014 demand still defending the decline, price remains above"
     }
    },
    "stance": "Aligned Bullish",
@@ -54,191 +48,38 @@
   "BTC": {
    "coin": "BTC",
    "ok": true,
-   "current": 64336.0,
+   "current": 69032.0,
+   "oi": 34465.75978,
+   "oi_trend": "flat",
+   "oi_vlm_ratio": 0.0006245701673140401,
+   "day_vlm": 5518316689.415342,
    "quadrants": {
     "Buyer Aggression": {
-     "price": 64948.175,
-     "location": "above VA",
-     "timing": "mid-session",
-     "z": 2.62,
-     "volPct": 56.3,
-     "pctBeyond": 100.0,
-     "category": "reversed",
-     "verdict": "Reversed \u2014 price holding below, this buying push has given way"
-    },
-    "Seller Aggression": {
-     "price": 62965.675,
-     "location": "at POC",
-     "timing": "early",
-     "z": -2.69,
-     "volPct": 100.0,
-     "pctBeyond": 100.0,
-     "category": "reversed",
-     "verdict": "Reversed \u2014 price holding above, this selling push has given way"
-    },
-    "Bullish Absorption": {
-     "price": 63441.475,
-     "location": "mid-value",
-     "timing": "early",
-     "z": 1.71,
-     "volPct": 79.4,
-     "pctBeyond": 100.0,
-     "category": "resolved",
-     "verdict": "Resolved bullish \u2014 buying effort overcame supply, price broke and holds above"
-    },
-    "Bearish Absorption": {
-     "price": 62886.375,
-     "location": "mid-value",
-     "timing": "mid-session",
-     "z": -0.83,
-     "volPct": 57.1,
-     "pctBeyond": 100.0,
-     "category": "held",
-     "verdict": "Absorption held \u2014 demand still defending the decline, price remains above"
-    }
-   },
-   "stance": "Aligned Bullish",
-   "stanceExplanation": "Effort resolving upward \u2014 aggression/absorption favors buyers."
-  },
-  "ZEC": {
-   "coin": "ZEC",
-   "ok": true,
-   "current": 503.99,
-   "quadrants": {
-    "Buyer Aggression": {
-     "price": 517.6045833333334,
-     "location": "above VA",
-     "timing": "late",
-     "z": 2.32,
-     "volPct": 38.7,
-     "pctBeyond": 100.0,
-     "category": "reversed",
-     "verdict": "Reversed \u2014 price holding below, this buying push has given way"
-    },
-    "Seller Aggression": {
-     "price": 507.0229166666667,
-     "location": "above VA",
-     "timing": "late",
-     "z": -2.55,
-     "volPct": 70.2,
-     "pctBeyond": 100.0,
-     "category": "confirmed",
-     "verdict": "Confirmed \u2014 price holding below, seller aggression continues to control"
-    },
-    "Bullish Absorption": {
-     "price": 509.29041666666666,
-     "location": "above VA",
-     "timing": "late",
-     "z": 1.28,
-     "volPct": 76.3,
-     "pctBeyond": 100.0,
-     "category": "held",
-     "verdict": "Absorption held \u2014 supply still capping the advance, price remains below"
-    },
-    "Bearish Absorption": {
-     "price": 513.0695833333333,
-     "location": "above VA",
-     "timing": "late",
-     "z": -0.8,
-     "volPct": 56.5,
-     "pctBeyond": 100.0,
-     "category": "resolved",
-     "verdict": "Resolved bearish \u2014 selling effort overcame demand, price broke and holds below"
-    }
-   },
-   "stance": "Aligned Bearish",
-   "stanceExplanation": "Effort resolving downward \u2014 aggression/absorption favors sellers."
-  },
-  "XRP": {
-   "coin": "XRP",
-   "ok": true,
-   "current": 1.0001,
-   "quadrants": {
-    "Buyer Aggression": {
-     "price": 1.0059515,
-     "location": "mid-value",
-     "timing": "mid-session",
-     "z": 3.19,
-     "volPct": 79.5,
-     "pctBeyond": 100.0,
-     "category": "reversed",
-     "verdict": "Reversed \u2014 price holding below, this buying push has given way"
-    },
-    "Seller Aggression": {
-     "price": 0.9895528333333333,
-     "location": "below VA",
-     "timing": "mid-session",
-     "z": -1.84,
-     "volPct": 34.0,
-     "pctBeyond": 100.0,
-     "category": "reversed",
-     "verdict": "Reversed \u2014 price holding above, this selling push has given way"
-    },
-    "Bullish Absorption": {
-     "price": 1.0194218333333334,
-     "location": "above VA",
-     "timing": "early",
-     "z": 0.6,
-     "volPct": 10.1,
-     "pctBeyond": 100.0,
-     "category": "held",
-     "verdict": "Absorption held \u2014 supply still capping the advance, price remains below"
-    },
-    "Bearish Absorption": {
-     "price": 1.0036088333333333,
+     "price": 68229.625,
      "location": "at POC",
      "timing": "late",
-     "z": -4.1,
+     "z": 3.17,
      "volPct": 100.0,
-     "pctBeyond": 100.0,
-     "category": "resolved",
-     "verdict": "Resolved bearish \u2014 selling effort overcame demand, price broke and holds below"
-    }
-   },
-   "stance": "Aligned Bearish",
-   "stanceExplanation": "Effort resolving downward \u2014 aggression/absorption favors sellers."
-  },
-  "SOL": {
-   "coin": "SOL",
-   "ok": true,
-   "current": 76.891,
-   "quadrants": {
-    "Buyer Aggression": {
-     "price": 75.64136666666667,
-     "location": "mid-value",
-     "timing": "mid-session",
-     "z": 2.07,
-     "volPct": 69.4,
      "pctBeyond": 100.0,
      "category": "confirmed",
      "verdict": "Confirmed \u2014 price holding above, buyer aggression continues to control"
     },
     "Seller Aggression": {
-     "price": 76.04509999999999,
-     "location": "mid-value",
-     "timing": "early",
-     "z": -2.31,
-     "volPct": 82.8,
+     "price": 62767.125,
+     "location": "below VA",
+     "timing": "mid-session",
+     "z": -1.47,
+     "volPct": 31.1,
      "pctBeyond": 100.0,
      "category": "reversed",
      "verdict": "Reversed \u2014 price holding above, this selling push has given way"
     },
-    "Bullish Absorption": {
-     "price": 75.8937,
-     "location": "mid-value",
-     "timing": "late",
-     "z": 0.94,
-     "volPct": 52.6,
-     "pctBeyond": 100.0,
-     "category": "resolved",
-     "verdict": "Resolved bullish \u2014 buying effort overcame supply, price broke and holds above"
-    },
     "Bearish Absorption": {
-     "price": 76.75163333333333,
-     "location": "above VA",
-     "timing": "mid-session",
+     "price": 63835.875,
+     "location": "below VA",
+     "timing": "early",
      "z": -0.86,
-     "volPct": 41.2,
+     "volPct": 24.6,
      "pctBeyond": 100.0,
      "category": "held",
      "verdict": "Absorption held \u2014 demand still defending the decline, price remains above"
@@ -247,47 +88,127 @@
    "stance": "Aligned Bullish",
    "stanceExplanation": "Effort resolving upward \u2014 aggression/absorption favors buyers."
   },
-  "ETH": {
-   "coin": "ETH",
+  "HYPE": {
+   "coin": "HYPE",
    "ok": true,
-   "current": 1911.1,
+   "current": 71.259,
+   "oi": 24015820.839999992,
+   "oi_trend": "flat",
+   "oi_vlm_ratio": 1.8991698188076631,
+   "day_vlm": 1264543096.78729,
    "quadrants": {
     "Buyer Aggression": {
-     "price": 1915.05,
-     "location": "mid-value",
+     "price": 67.920125,
+     "location": "below VA",
      "timing": "late",
-     "z": 3.08,
-     "volPct": 41.7,
+     "z": 2.19,
+     "volPct": 40.5,
      "pctBeyond": 100.0,
-     "category": "reversed",
-     "verdict": "Reversed \u2014 price holding below, this buying push has given way"
+     "category": "confirmed",
+     "verdict": "Confirmed \u2014 price holding above, buyer aggression continues to control"
     },
     "Seller Aggression": {
-     "price": 1908.5633333333333,
-     "location": "mid-value",
-     "timing": "mid-session",
-     "z": -1.62,
-     "volPct": 50.9,
-     "pctBeyond": 83.3,
+     "price": 61.560291666666664,
+     "location": "below VA",
+     "timing": "late",
+     "z": -1.38,
+     "volPct": 13.8,
+     "pctBeyond": 100.0,
      "category": "reversed",
      "verdict": "Reversed \u2014 price holding above, this selling push has given way"
     },
     "Bullish Absorption": {
-     "price": 1902.0766666666666,
-     "location": "mid-value",
+     "price": 69.07645833333333,
+     "location": "at POC",
      "timing": "late",
-     "z": 0.58,
-     "volPct": 14.1,
-     "pctBeyond": 100.0,
+     "z": 3.89,
+     "volPct": 100.0,
+     "pctBeyond": 91.7,
      "category": "resolved",
      "verdict": "Resolved bullish \u2014 buying effort overcame supply, price broke and holds above"
     },
     "Bearish Absorption": {
-     "price": 1899.2966666666666,
+     "price": 57.224041666666665,
+     "location": "below VA",
+     "timing": "mid-session",
+     "z": -0.78,
+     "volPct": 35.1,
+     "pctBeyond": 100.0,
+     "category": "held",
+     "verdict": "Absorption held \u2014 demand still defending the decline, price remains above"
+    }
+   },
+   "stance": "Aligned Bullish",
+   "stanceExplanation": "Effort resolving upward \u2014 aggression/absorption favors buyers."
+  },
+  "SOL": {
+   "coin": "SOL",
+   "ok": true,
+   "current": 85.247,
+   "oi": 4555416.780000006,
+   "oi_trend": "flat",
+   "oi_vlm_ratio": 1.053307823172334,
+   "day_vlm": 432486750.76580006,
+   "quadrants": {
+    "Buyer Aggression": {
+     "price": 82.036525,
+     "location": "above VA",
+     "timing": "late",
+     "z": 3.15,
+     "volPct": 94.6,
+     "pctBeyond": 100.0,
+     "category": "confirmed",
+     "verdict": "Confirmed \u2014 price holding above, buyer aggression continues to control"
+    },
+    "Seller Aggression": {
+     "price": 78.223225,
+     "location": "above VA",
+     "timing": "late",
+     "z": -1.75,
+     "volPct": 33.1,
+     "pctBeyond": 100.0,
+     "category": "reversed",
+     "verdict": "Reversed \u2014 price holding above, this selling push has given way"
+    }
+   },
+   "stance": "Aligned Bullish",
+   "stanceExplanation": "Effort resolving upward \u2014 aggression/absorption favors buyers."
+  },
+  "XRP": {
+   "coin": "XRP",
+   "ok": true,
+   "current": 1.109,
+   "oi": 104436012.0,
+   "oi_trend": "unknown",
+   "oi_vlm_ratio": 123.46530990565483,
+   "day_vlm": 84587332.32824999,
+   "quadrants": {
+    "Buyer Aggression": {
+     "price": 1.0619720000000001,
+     "location": "above VA",
+     "timing": "late",
+     "z": 2.52,
+     "volPct": 31.9,
+     "pctBeyond": 100.0,
+     "category": "confirmed",
+     "verdict": "Confirmed \u2014 price holding above, buyer aggression continues to control"
+    },
+    "Seller Aggression": {
+     "price": 0.999988,
      "location": "mid-value",
-     "timing": "early",
-     "z": -1.4,
-     "volPct": 33.8,
+     "timing": "mid-session",
+     "z": -2.05,
+     "volPct": 76.7,
+     "pctBeyond": 100.0,
+     "category": "reversed",
+     "verdict": "Reversed \u2014 price holding above, this selling push has given way"
+    },
+    "Bearish Absorption": {
+     "price": 1.002372,
+     "location": "at POC",
+     "timing": "mid-session",
+     "z": -2.21,
+     "volPct": 100.0,
      "pctBeyond": 100.0,
      "category": "held",
      "verdict": "Absorption held \u2014 demand still defending the decline, price remains above"
@@ -299,142 +220,197 @@
   "XMR": {
    "coin": "XMR",
    "ok": true,
-   "current": 411.59,
+   "current": 424.34,
+   "oi": 149301.132,
+   "oi_trend": "flat",
+   "oi_vlm_ratio": 1.87183627019335,
+   "day_vlm": 7976185.4376599975,
    "quadrants": {
     "Buyer Aggression": {
-     "price": 413.48025,
+     "price": 413.5210833333333,
      "location": "at POC",
-     "timing": "late",
-     "z": 5.14,
+     "timing": "mid-session",
+     "z": 5.31,
      "volPct": 100.0,
      "pctBeyond": 100.0,
-     "category": "reversed",
-     "verdict": "Reversed \u2014 price holding below, this buying push has given way"
+     "category": "confirmed",
+     "verdict": "Confirmed \u2014 price holding above, buyer aggression continues to control"
     },
     "Seller Aggression": {
-     "price": 416.00758333333334,
+     "price": 416.27691666666664,
      "location": "mid-value",
      "timing": "late",
-     "z": -3.17,
-     "volPct": 49.3,
-     "pctBeyond": 100.0,
-     "category": "confirmed",
-     "verdict": "Confirmed \u2014 price holding below, seller aggression continues to control"
+     "z": -2.44,
+     "volPct": 53.4,
+     "pctBeyond": 83.3,
+     "category": "reversed",
+     "verdict": "Reversed \u2014 price holding above, this selling push has given way"
     },
     "Bullish Absorption": {
-     "price": 405.89825,
+     "price": 415.72575,
      "location": "mid-value",
-     "timing": "early",
-     "z": 1.02,
-     "volPct": 29.1,
-     "pctBeyond": 100.0,
+     "timing": "late",
+     "z": 1.0,
+     "volPct": 64.0,
+     "pctBeyond": 91.7,
      "category": "resolved",
      "verdict": "Resolved bullish \u2014 buying effort overcame supply, price broke and holds above"
     },
     "Bearish Absorption": {
-     "price": 408.42558333333335,
+     "price": 408.56058333333334,
      "location": "mid-value",
      "timing": "mid-session",
-     "z": -0.56,
-     "volPct": 20.7,
+     "z": -0.84,
+     "volPct": 18.5,
      "pctBeyond": 100.0,
      "category": "held",
      "verdict": "Absorption held \u2014 demand still defending the decline, price remains above"
     }
    },
-   "stance": "Aligned Bearish",
-   "stanceExplanation": "Effort resolving downward \u2014 aggression/absorption favors sellers."
+   "stance": "Aligned Bullish",
+   "stanceExplanation": "Effort resolving upward \u2014 aggression/absorption favors buyers."
+  },
+  "AAVE": {
+   "coin": "AAVE",
+   "ok": true,
+   "current": 94.954,
+   "oi": 616264.32,
+   "oi_trend": "flat",
+   "oi_vlm_ratio": 5.998739575023004,
+   "day_vlm": 10273230.105969997,
+   "quadrants": {
+    "Buyer Aggression": {
+     "price": 97.055475,
+     "location": "above VA",
+     "timing": "late",
+     "z": 3.41,
+     "volPct": 70.3,
+     "pctBeyond": 83.3,
+     "category": "reversed",
+     "verdict": "Reversed \u2014 price holding below, this buying push has given way"
+    },
+    "Seller Aggression": {
+     "price": 85.28050833333333,
+     "location": "below VA",
+     "timing": "early",
+     "z": -1.6,
+     "volPct": 47.1,
+     "pctBeyond": 100.0,
+     "category": "reversed",
+     "verdict": "Reversed \u2014 price holding above, this selling push has given way"
+    },
+    "Bullish Absorption": {
+     "price": 87.51369166666667,
+     "location": "below VA",
+     "timing": "early",
+     "z": 0.99,
+     "volPct": 34.7,
+     "pctBeyond": 100.0,
+     "category": "resolved",
+     "verdict": "Resolved bullish \u2014 buying effort overcame supply, price broke and holds above"
+    },
+    "Bearish Absorption": {
+     "price": 92.99514166666667,
+     "location": "at POC",
+     "timing": "late",
+     "z": -1.41,
+     "volPct": 100.0,
+     "pctBeyond": 91.7,
+     "category": "held",
+     "verdict": "Absorption held \u2014 demand still defending the decline, price remains above"
+    }
+   },
+   "stance": "Aligned Bullish",
+   "stanceExplanation": "Effort resolving upward \u2014 aggression/absorption favors buyers."
   },
   "LIT": {
    "coin": "LIT",
    "ok": true,
-   "current": 2.3196,
+   "current": 2.5895,
+   "oi": 34677862.0,
+   "oi_trend": "flat",
+   "oi_vlm_ratio": 77.46240695127572,
+   "day_vlm": 44767343.75400001,
    "quadrants": {
     "Buyer Aggression": {
-     "price": 2.3182716666666665,
-     "location": "mid-value",
-     "timing": "early",
-     "z": 2.2,
-     "volPct": 72.0,
-     "pctBeyond": 100.0,
-     "category": "confirmed",
-     "verdict": "Confirmed \u2014 price holding above, buyer aggression continues to control"
-    },
-    "Seller Aggression": {
-     "price": 2.2696083333333332,
-     "location": "below VA",
-     "timing": "early",
-     "z": -3.58,
-     "volPct": 93.8,
-     "pctBeyond": 100.0,
-     "category": "reversed",
-     "verdict": "Reversed \u2014 price holding above, this selling push has given way"
-    },
-    "Bullish Absorption": {
-     "price": 2.3145283333333335,
-     "location": "mid-value",
-     "timing": "early",
-     "z": 1.88,
-     "volPct": 87.0,
-     "pctBeyond": 100.0,
-     "category": "resolved",
-     "verdict": "Resolved bullish \u2014 buying effort overcame supply, price broke and holds above"
-    },
-    "Bearish Absorption": {
-     "price": 2.228431666666667,
-     "location": "below VA",
-     "timing": "early",
-     "z": -3.14,
-     "volPct": 90.0,
-     "pctBeyond": 100.0,
-     "category": "held",
-     "verdict": "Absorption held \u2014 demand still defending the decline, price remains above"
-    }
-   },
-   "stance": "Aligned Bullish",
-   "stanceExplanation": "Effort resolving upward \u2014 aggression/absorption favors buyers."
-  },
-  "FARTCOIN": {
-   "coin": "FARTCOIN",
-   "ok": true,
-   "current": 0.1402,
-   "quadrants": {
-    "Buyer Aggression": {
-     "price": 0.14368908333333333,
-     "location": "mid-value",
-     "timing": "mid-session",
-     "z": 2.11,
-     "volPct": 42.8,
-     "pctBeyond": 100.0,
-     "category": "reversed",
-     "verdict": "Reversed \u2014 price holding below, this buying push has given way"
-    },
-    "Seller Aggression": {
-     "price": 0.14053025,
-     "location": "mid-value",
-     "timing": "mid-session",
-     "z": -2.7,
-     "volPct": 56.3,
-     "pctBeyond": 41.7,
+     "price": 2.6430825000000002,
+     "location": "at POC",
+     "timing": "late",
+     "z": 5.1,
+     "volPct": 100.0,
+     "pctBeyond": 50.0,
      "category": "contested",
      "verdict": "Still developing / no clear read yet"
     },
-    "Bullish Absorption": {
-     "price": 0.13765858333333333,
+    "Seller Aggression": {
+     "price": 2.6342141666666667,
+     "location": "near VAH",
+     "timing": "late",
+     "z": -1.47,
+     "volPct": 24.9,
+     "pctBeyond": 50.0,
+     "category": "contested",
+     "verdict": "Still developing / no clear read yet"
+    },
+    "Bearish Absorption": {
+     "price": 2.4923208333333333,
      "location": "below VA",
-     "timing": "early",
-     "z": 0.78,
-     "volPct": 59.1,
+     "timing": "late",
+     "z": -0.76,
+     "volPct": 17.2,
+     "pctBeyond": 100.0,
+     "category": "held",
+     "verdict": "Absorption held \u2014 demand still defending the decline, price remains above"
+    }
+   },
+   "stance": "Lean Bullish",
+   "stanceExplanation": "Mild upward edge \u2014 some buyer aggression validated."
+  },
+  "VVV": {
+   "coin": "VVV",
+   "ok": true,
+   "current": 14.159,
+   "oi": 1318264.8999999997,
+   "oi_trend": "flat",
+   "oi_vlm_ratio": 11.616769732761142,
+   "day_vlm": 11347947.237710003,
+   "quadrants": {
+    "Buyer Aggression": {
+     "price": 14.576666666666666,
+     "location": "mid-value",
+     "timing": "late",
+     "z": 3.39,
+     "volPct": 60.1,
+     "pctBeyond": 75.0,
+     "category": "reversed",
+     "verdict": "Reversed \u2014 price holding below, this buying push has given way"
+    },
+    "Seller Aggression": {
+     "price": 14.206133333333334,
+     "location": "at POC",
+     "timing": "late",
+     "z": -4.23,
+     "volPct": 100.0,
+     "pctBeyond": 16.7,
+     "category": "contested",
+     "verdict": "Contested \u2014 price only recently broke back/reclaimed"
+    },
+    "Bullish Absorption": {
+     "price": 12.671066666666666,
+     "location": "below VA",
+     "timing": "mid-session",
+     "z": 0.7,
+     "volPct": 38.2,
      "pctBeyond": 100.0,
      "category": "resolved",
      "verdict": "Resolved bullish \u2014 buying effort overcame supply, price broke and holds above"
     },
     "Bearish Absorption": {
-     "price": 0.13909441666666666,
-     "location": "mid-value",
-     "timing": "early",
-     "z": -2.44,
-     "volPct": 52.8,
+     "price": 11.877066666666666,
+     "location": "below VA",
+     "timing": "mid-session",
+     "z": -0.55,
+     "volPct": 27.4,
      "pctBeyond": 100.0,
      "category": "held",
      "verdict": "Absorption held \u2014 demand still defending the decline, price remains above"
@@ -443,262 +419,296 @@
    "stance": "Aligned Bullish",
    "stanceExplanation": "Effort resolving upward \u2014 aggression/absorption favors buyers."
   },
-  "WLD": {
-   "coin": "WLD",
+  "SUI": {
+   "coin": "SUI",
    "ok": true,
-   "current": 0.31711,
+   "current": 0.70728,
+   "oi": 37806960.199999996,
+   "oi_trend": "flat",
+   "oi_vlm_ratio": 259.3345497851847,
+   "day_vlm": 14578450.974355996,
    "quadrants": {
     "Buyer Aggression": {
-     "price": 0.3637513333333333,
+     "price": 0.7214089166666667,
      "location": "above VA",
-     "timing": "mid-session",
-     "z": 3.44,
-     "volPct": 76.8,
-     "pctBeyond": 100.0,
+     "timing": "late",
+     "z": 3.38,
+     "volPct": 65.7,
+     "pctBeyond": 83.3,
      "category": "reversed",
      "verdict": "Reversed \u2014 price holding below, this buying push has given way"
     },
     "Seller Aggression": {
-     "price": 0.3222913333333334,
-     "location": "mid-value",
-     "timing": "late",
-     "z": -2.63,
-     "volPct": 71.5,
-     "pctBeyond": 100.0,
-     "category": "confirmed",
-     "verdict": "Confirmed \u2014 price holding below, seller aggression continues to control"
-    },
-    "Bullish Absorption": {
-     "price": 0.340718,
-     "location": "mid-value",
-     "timing": "mid-session",
-     "z": 1.47,
-     "volPct": 52.8,
-     "pctBeyond": 100.0,
-     "category": "held",
-     "verdict": "Absorption held \u2014 supply still capping the advance, price remains below"
-    },
-    "Bearish Absorption": {
-     "price": 0.36190866666666666,
-     "location": "above VA",
-     "timing": "mid-session",
-     "z": -1.05,
-     "volPct": 55.5,
-     "pctBeyond": 100.0,
-     "category": "resolved",
-     "verdict": "Resolved bearish \u2014 selling effort overcame demand, price broke and holds below"
-    }
-   },
-   "stance": "Aligned Bearish",
-   "stanceExplanation": "Effort resolving downward \u2014 aggression/absorption favors sellers."
-  },
-  "KAITO": {
-   "coin": "KAITO",
-   "ok": true,
-   "current": 0.34271,
-   "quadrants": {
-    "Buyer Aggression": {
-     "price": 0.46412241666666665,
-     "location": "above VA",
-     "timing": "early",
-     "z": 1.51,
-     "volPct": 20.7,
-     "pctBeyond": 100.0,
-     "category": "reversed",
-     "verdict": "Reversed \u2014 price holding below, this buying push has given way"
-    },
-    "Seller Aggression": {
-     "price": 0.35268358333333333,
-     "location": "at POC",
-     "timing": "mid-session",
-     "z": -5.98,
-     "volPct": 100.0,
-     "pctBeyond": 100.0,
-     "category": "confirmed",
-     "verdict": "Confirmed \u2014 price holding below, seller aggression continues to control"
-    },
-    "Bullish Absorption": {
-     "price": 0.3381480833333333,
-     "location": "mid-value",
-     "timing": "late",
-     "z": 0.69,
-     "volPct": 72.9,
-     "pctBeyond": 91.7,
-     "category": "resolved",
-     "verdict": "Resolved bullish \u2014 buying effort overcame supply, price broke and holds above"
-    }
-   },
-   "stance": "Aligned Bearish",
-   "stanceExplanation": "Effort resolving downward \u2014 aggression/absorption favors sellers."
-  },
-  "BNB": {
-   "coin": "BNB",
-   "ok": true,
-   "current": 601.56,
-   "quadrants": {
-    "Buyer Aggression": {
-     "price": 603.326,
-     "location": "mid-value",
-     "timing": "late",
-     "z": 2.56,
-     "volPct": 54.5,
-     "pctBeyond": 100.0,
-     "category": "reversed",
-     "verdict": "Reversed \u2014 price holding below, this buying push has given way"
-    },
-    "Seller Aggression": {
-     "price": 606.054,
-     "location": "at POC",
-     "timing": "mid-session",
-     "z": -3.86,
-     "volPct": 100.0,
-     "pctBeyond": 100.0,
-     "category": "confirmed",
-     "verdict": "Confirmed \u2014 price holding below, seller aggression continues to control"
-    },
-    "Bullish Absorption": {
-     "price": 607.542,
-     "location": "mid-value",
-     "timing": "mid-session",
-     "z": 1.12,
-     "volPct": 46.9,
-     "pctBeyond": 100.0,
-     "category": "held",
-     "verdict": "Absorption held \u2014 supply still capping the advance, price remains below"
-    }
-   },
-   "stance": "Aligned Bearish",
-   "stanceExplanation": "Effort resolving downward \u2014 aggression/absorption favors sellers."
-  },
-  "ENA": {
-   "coin": "ENA",
-   "ok": true,
-   "current": 0.083982,
-   "quadrants": {
-    "Buyer Aggression": {
-     "price": 0.083766775,
-     "location": "mid-value",
-     "timing": "late",
-     "z": 3.26,
-     "volPct": 75.5,
-     "pctBeyond": 91.7,
-     "category": "confirmed",
-     "verdict": "Confirmed \u2014 price holding above, buyer aggression continues to control"
-    },
-    "Seller Aggression": {
-     "price": 0.084636475,
-     "location": "mid-value",
-     "timing": "late",
-     "z": -3.81,
-     "volPct": 71.7,
-     "pctBeyond": 100.0,
-     "category": "confirmed",
-     "verdict": "Confirmed \u2014 price holding below, seller aggression continues to control"
-    },
-    "Bullish Absorption": {
-     "price": 0.083621825,
+     "price": 0.6484875833333333,
      "location": "at POC",
      "timing": "late",
-     "z": 1.42,
+     "z": -3.83,
      "volPct": 100.0,
-     "pctBeyond": 100.0,
-     "category": "resolved",
-     "verdict": "Resolved bullish \u2014 buying effort overcame supply, price broke and holds above"
-    },
-    "Bearish Absorption": {
-     "price": 0.084926375,
-     "location": "near VAH",
-     "timing": "early",
-     "z": -1.32,
-     "volPct": 51.7,
-     "pctBeyond": 100.0,
-     "category": "resolved",
-     "verdict": "Resolved bearish \u2014 selling effort overcame demand, price broke and holds below"
-    }
-   },
-   "stance": "Mixed/Unclear",
-   "stanceExplanation": "No sustained edge either way yet."
-  },
-  "NEAR": {
-   "coin": "NEAR",
-   "ok": true,
-   "current": 1.5927,
-   "quadrants": {
-    "Buyer Aggression": {
-     "price": 1.6622758333333332,
-     "location": "above VA",
-     "timing": "mid-session",
-     "z": 1.75,
-     "volPct": 24.3,
-     "pctBeyond": 100.0,
-     "category": "reversed",
-     "verdict": "Reversed \u2014 price holding below, this buying push has given way"
-    },
-    "Seller Aggression": {
-     "price": 1.6306275,
-     "location": "mid-value",
-     "timing": "mid-session",
-     "z": -3.48,
-     "volPct": 56.9,
-     "pctBeyond": 100.0,
-     "category": "confirmed",
-     "verdict": "Confirmed \u2014 price holding below, seller aggression continues to control"
-    },
-    "Bullish Absorption": {
-     "price": 1.6399358333333334,
-     "location": "mid-value",
-     "timing": "mid-session",
-     "z": 1.79,
-     "volPct": 57.7,
-     "pctBeyond": 100.0,
-     "category": "held",
-     "verdict": "Absorption held \u2014 supply still capping the advance, price remains below"
-    },
-    "Bearish Absorption": {
-     "price": 1.6417975,
-     "location": "at POC",
-     "timing": "early",
-     "z": -4.37,
-     "volPct": 100.0,
-     "pctBeyond": 100.0,
-     "category": "resolved",
-     "verdict": "Resolved bearish \u2014 selling effort overcame demand, price broke and holds below"
-    }
-   },
-   "stance": "Aligned Bearish",
-   "stanceExplanation": "Effort resolving downward \u2014 aggression/absorption favors sellers."
-  },
-  "WLFI": {
-   "coin": "WLFI",
-   "ok": true,
-   "current": 0.060334,
-   "quadrants": {
-    "Buyer Aggression": {
-     "price": 0.05932915,
-     "location": "at POC",
-     "timing": "mid-session",
-     "z": 5.74,
-     "volPct": 100.0,
-     "pctBeyond": 100.0,
-     "category": "confirmed",
-     "verdict": "Confirmed \u2014 price holding above, buyer aggression continues to control"
-    },
-    "Seller Aggression": {
-     "price": 0.05803944999999999,
-     "location": "mid-value",
-     "timing": "mid-session",
-     "z": -2.07,
-     "volPct": 38.3,
      "pctBeyond": 100.0,
      "category": "reversed",
      "verdict": "Reversed \u2014 price holding above, this selling push has given way"
     },
-    "Bearish Absorption": {
-     "price": 0.055746649999999995,
-     "location": "below VA",
+    "Bullish Absorption": {
+     "price": 0.6758330833333334,
+     "location": "above VA",
      "timing": "mid-session",
-     "z": -2.1,
-     "volPct": 39.9,
+     "z": 0.93,
+     "volPct": 59.4,
+     "pctBeyond": 100.0,
+     "category": "resolved",
+     "verdict": "Resolved bullish \u2014 buying effort overcame supply, price broke and holds above"
+    },
+    "Bearish Absorption": {
+     "price": 0.67713525,
+     "location": "above VA",
+     "timing": "mid-session",
+     "z": -1.5,
+     "volPct": 92.3,
+     "pctBeyond": 100.0,
+     "category": "held",
+     "verdict": "Absorption held \u2014 demand still defending the decline, price remains above"
+    }
+   },
+   "stance": "Aligned Bullish",
+   "stanceExplanation": "Effort resolving upward \u2014 aggression/absorption favors buyers."
+  },
+  "TAO": {
+   "coin": "TAO",
+   "ok": true,
+   "current": 204.86,
+   "oi": 138930.862,
+   "oi_trend": "flat",
+   "oi_vlm_ratio": 1.0393878362597162,
+   "day_vlm": 13366604.567929996,
+   "quadrants": {
+    "Buyer Aggression": {
+     "price": 207.39275,
+     "location": "above VA",
+     "timing": "late",
+     "z": 2.5,
+     "volPct": 32.0,
+     "pctBeyond": 75.0,
+     "category": "reversed",
+     "verdict": "Reversed \u2014 price holding below, this buying push has given way"
+    },
+    "Seller Aggression": {
+     "price": 198.97308333333334,
+     "location": "mid-value",
+     "timing": "early",
+     "z": -1.51,
+     "volPct": 33.0,
+     "pctBeyond": 100.0,
+     "category": "reversed",
+     "verdict": "Reversed \u2014 price holding above, this selling push has given way"
+    },
+    "Bullish Absorption": {
+     "price": 195.73475,
+     "location": "mid-value",
+     "timing": "late",
+     "z": 1.42,
+     "volPct": 32.3,
+     "pctBeyond": 100.0,
+     "category": "resolved",
+     "verdict": "Resolved bullish \u2014 buying effort overcame supply, price broke and holds above"
+    },
+    "Bearish Absorption": {
+     "price": 197.67775,
+     "location": "at POC",
+     "timing": "late",
+     "z": -5.19,
+     "volPct": 100.0,
+     "pctBeyond": 100.0,
+     "category": "held",
+     "verdict": "Absorption held \u2014 demand still defending the decline, price remains above"
+    }
+   },
+   "stance": "Aligned Bullish",
+   "stanceExplanation": "Effort resolving upward \u2014 aggression/absorption favors buyers."
+  },
+  "PURR": {
+   "coin": "PURR",
+   "ok": true,
+   "current": 0.095809,
+   "oi": 85054724.0,
+   "oi_trend": "flat",
+   "oi_vlm_ratio": 2461.1473844854418,
+   "day_vlm": 3455897.218353,
+   "quadrants": {
+    "Buyer Aggression": {
+     "price": 0.094490625,
+     "location": "at POC",
+     "timing": "late",
+     "z": 4.94,
+     "volPct": 100.0,
+     "pctBeyond": 83.3,
+     "category": "confirmed",
+     "verdict": "Confirmed \u2014 price holding above, buyer aggression continues to control"
+    },
+    "Seller Aggression": {
+     "price": 0.09506160833333334,
+     "location": "near VAH",
+     "timing": "late",
+     "z": -1.52,
+     "volPct": 24.8,
+     "pctBeyond": 66.7,
+     "category": "reversed",
+     "verdict": "Reversed \u2014 price holding above, this selling push has given way"
+    }
+   },
+   "stance": "Aligned Bullish",
+   "stanceExplanation": "Effort resolving upward \u2014 aggression/absorption favors buyers."
+  },
+  "kPEPE": {
+   "coin": "kPEPE",
+   "ok": true,
+   "current": 0.002856,
+   "oi": 6079042484.0,
+   "oi_trend": "flat",
+   "oi_vlm_ratio": 35351.83673063633,
+   "day_vlm": 17195832.087365996,
+   "quadrants": {
+    "Buyer Aggression": {
+     "price": 0.0028298583333333334,
+     "location": "at POC",
+     "timing": "late",
+     "z": 3.77,
+     "volPct": 100.0,
+     "pctBeyond": 50.0,
+     "category": "contested",
+     "verdict": "Still developing / no clear read yet"
+    },
+    "Seller Aggression": {
+     "price": 0.002662008333333333,
+     "location": "below VA",
+     "timing": "early",
+     "z": -1.73,
+     "volPct": 58.8,
+     "pctBeyond": 100.0,
+     "category": "reversed",
+     "verdict": "Reversed \u2014 price holding above, this selling push has given way"
+    },
+    "Bullish Absorption": {
+     "price": 0.0028795916666666667,
+     "location": "above VA",
+     "timing": "late",
+     "z": 0.76,
+     "volPct": 48.2,
+     "pctBeyond": 75.0,
+     "category": "held",
+     "verdict": "Absorption held \u2014 supply still capping the advance, price remains below"
+    },
+    "Bearish Absorption": {
+     "price": 0.002649575,
+     "location": "below VA",
+     "timing": "early",
+     "z": -1.79,
+     "volPct": 80.1,
+     "pctBeyond": 100.0,
+     "category": "held",
+     "verdict": "Absorption held \u2014 demand still defending the decline, price remains above"
+    }
+   },
+   "stance": "Aligned Bullish",
+   "stanceExplanation": "Effort resolving upward \u2014 aggression/absorption favors buyers."
+  },
+  "PAXG": {
+   "coin": "PAXG",
+   "ok": true,
+   "current": 4506.1,
+   "oi": 7459.316,
+   "oi_trend": "unknown",
+   "oi_vlm_ratio": 0.06395663311592249,
+   "day_vlm": 11663084.244100003,
+   "quadrants": {
+    "Buyer Aggression": {
+     "price": 4338.1525,
+     "location": "at POC",
+     "timing": "late",
+     "z": 5.31,
+     "volPct": 100.0,
+     "pctBeyond": 100.0,
+     "category": "confirmed",
+     "verdict": "Confirmed \u2014 price holding above, buyer aggression continues to control"
+    },
+    "Seller Aggression": {
+     "price": 4407.1375,
+     "location": "above VA",
+     "timing": "late",
+     "z": -1.97,
+     "volPct": 38.9,
+     "pctBeyond": 100.0,
+     "category": "reversed",
+     "verdict": "Reversed \u2014 price holding above, this selling push has given way"
+    },
+    "Bullish Absorption": {
+     "price": 4479.407499999999,
+     "location": "above VA",
+     "timing": "late",
+     "z": 0.61,
+     "volPct": 20.9,
+     "pctBeyond": 100.0,
+     "category": "resolved",
+     "verdict": "Resolved bullish \u2014 buying effort overcame supply, price broke and holds above"
+    },
+    "Bearish Absorption": {
+     "price": 4354.5775,
+     "location": "mid-value",
+     "timing": "mid-session",
+     "z": -2.23,
+     "volPct": 62.8,
+     "pctBeyond": 100.0,
+     "category": "held",
+     "verdict": "Absorption held \u2014 demand still defending the decline, price remains above"
+    }
+   },
+   "stance": "Aligned Bullish",
+   "stanceExplanation": "Effort resolving upward \u2014 aggression/absorption favors buyers."
+  },
+  "PENDLE": {
+   "coin": "PENDLE",
+   "ok": true,
+   "current": 1.4174,
+   "oi": 4240000.0,
+   "oi_trend": "unknown",
+   "oi_vlm_ratio": 147.70798259204852,
+   "day_vlm": 2870528.678,
+   "quadrants": {
+    "Buyer Aggression": {
+     "price": 1.375725,
+     "location": "above VA",
+     "timing": "late",
+     "z": 2.61,
+     "volPct": 44.0,
+     "pctBeyond": 100.0,
+     "category": "confirmed",
+     "verdict": "Confirmed \u2014 price holding above, buyer aggression continues to control"
+    },
+    "Seller Aggression": {
+     "price": 1.307475,
+     "location": "mid-value",
+     "timing": "mid-session",
+     "z": -3.03,
+     "volPct": 85.8,
+     "pctBeyond": 100.0,
+     "category": "reversed",
+     "verdict": "Reversed \u2014 price holding above, this selling push has given way"
+    },
+    "Bullish Absorption": {
+     "price": 1.326975,
+     "location": "mid-value",
+     "timing": "late",
+     "z": 0.83,
+     "volPct": 58.3,
+     "pctBeyond": 100.0,
+     "category": "resolved",
+     "verdict": "Resolved bullish \u2014 buying effort overcame supply, price broke and holds above"
+    },
+    "Bearish Absorption": {
+     "price": 1.336725,
+     "location": "mid-value",
+     "timing": "mid-session",
+     "z": -0.52,
+     "volPct": 26.0,
      "pctBeyond": 100.0,
      "category": "held",
      "verdict": "Absorption held \u2014 demand still defending the decline, price remains above"
