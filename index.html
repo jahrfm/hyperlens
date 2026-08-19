@@ -65,7 +65,16 @@
       <input id="wd-search" type="search" placeholder="Search wallet or style (Day, Swing…)">
       <label>Style <select id="wd-style"><option value="">All styles</option></select></label>
     </div>
-    <div class="table-wrap tall"><table id="wd-table"><thead><tr><th>#</th><th>Wallet</th><th>Style</th><th>30d PNL</th><th>Realized</th><th>WinR</th><th>PF</th><th>Hold avg/med</th><th>Range</th><th>Equity</th><th>Open</th></tr></thead><tbody></tbody></table></div>
+    <div class="table-wrap tall"><table id="wd-table"><thead><tr>
+      <th>#</th><th>Wallet</th><th>Style</th>
+      <th data-col="monthPnl" onclick="wdSortBy('monthPnl')" style="cursor:pointer">30d PNL</th>
+      <th data-col="realizedPnl" onclick="wdSortBy('realizedPnl')" style="cursor:pointer">Realized</th>
+      <th data-col="winRate" onclick="wdSortBy('winRate')" style="cursor:pointer">WinR</th>
+      <th data-col="profitFactor" onclick="wdSortBy('profitFactor')" style="cursor:pointer">PF</th>
+      <th>Hold avg/med</th><th>Range</th>
+      <th data-col="equity" onclick="wdSortBy('equity')" style="cursor:pointer">Equity</th>
+      <th data-col="openPositions" onclick="wdSortBy('openPositions')" style="cursor:pointer">Open</th>
+    </tr></thead><tbody></tbody></table></div>
     <div id="wd-positions" class="card"></div>
   </section>
 
@@ -74,6 +83,7 @@
     <h2>Smart-Money Consensus <span class="sub">top-100 traders · freshness (daily)</span></h2>
     <div class="kpis" id="cs-kpis"></div>
     <div class="controls">
+      <input id="cs-search" type="search" placeholder="Search coin…">
       <label>State <select id="cs-state"><option value="">All states</option><option>BUILDING</option><option>MIXED</option><option>STALE</option></select></label>
       <label>Min net <select id="cs-minnet"><option value="0">Any</option><option value="5000000">$5M</option><option value="10000000">$10M</option><option value="50000000">$50M</option></select></label>
     </div>
@@ -85,7 +95,10 @@
   <section id="tab-watchlist" class="panel">
     <h2>Sustained-Best Watchlist <span class="sub">30d PNL≥$100K · 7d>0 · ROI>0 (daily)</span></h2>
     <div class="kpis" id="wl-kpis"></div>
-    <div class="table-wrap tall"><table id="wl-table"><thead><tr><th>#</th><th>Wallet</th><th>Acct Val</th><th>PNL 30d</th><th>PNL 7d</th><th>ROI 30d</th><th>Vol 30d</th></tr></thead><tbody></tbody></table></div>
+    <div class="table-wrap tall"><table id="wl-table"><thead><tr>
+      <th>#</th><th>Wallet</th><th>Acct Val</th><th>30d PNL</th><th>7d PNL</th><th>ROI</th><th>Vol 30d</th>
+      <th>Realized</th><th>WinR</th><th>PF</th><th>Fills</th><th>Equity</th>
+    </tr></thead><tbody></tbody></table></div>
   </section>
 
   <!-- WALLET DASHBOARD -->

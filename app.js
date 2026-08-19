@@ -171,6 +171,7 @@ window.hlLb = (dir) => { state.lbPage += dir; renderLeaderboard(); };
 ['lb-window','lb-minpnl','lb-search'].forEach(id => $(id).addEventListener('input', filterLeaderboard));
 
 /* ---------- WALLET DETAILS ---------- */
+const wdSort = { col: '', dir: 1 };
 async function loadWalletDetails() {
   const d = await loadJSON(DATA+'/wallet_details.json');
   if (!d || !d.wallets) { setStatus('wallet-details: no daily data'); return false; }
@@ -183,6 +184,23 @@ async function loadWalletDetails() {
     ['Generated', (d.generatedAt||'').slice(0,10)],
   ]);
   filterWallets(); setStatus('wallet-details: daily ✓'); return true;
+}
+function wdSortBy(col) {
+  if (wdSort.col === col) wdSort.dir *= -1;
+  else { wdSort.col = col; wdSort.dir = 1; }
+  // Update header indicators
+  document.querySelectorAll('#wd-table th').forEach(th => {
+    const c = th.dataset.col;
+    th.innerHTML = th.innerHTML.replace(/ [▲▼]/, '');
+    if (c === col) th.innerHTML += wdSort.dir > 0 ? ' ▲' : ' ▼';
+  });
+  state.walletDetails.sort((a,b) => {
+    const va = a[col], vb = b[col];
+    if (va == null && vb == null) return 0;
+    if (va == null) return 1; if (vb == null) return -1;
+    return (va - vb) * wdSort.dir;
+  });
+  filterWallets();
 }
 function filterWallets() {
   const q = ($('wd-search').value||'').toLowerCase();
@@ -228,8 +246,10 @@ async function loadConsensus() {
 }
 function filterConsensus() {
   const st = $('cs-state').value, min = Number($('cs-minnet').value);
+  const q = ($('cs-search').value||'').trim().toLowerCase();
   let rows = state.consensus.filter(c=>Math.abs(c.netUsd||0)>=min);
   if (st) rows = rows.filter(c=>c.consensusState===st);
+  if (q) rows = rows.filter(c=>(c.coin||'').toLowerCase().includes(q));
   rows = rows.sort((a,b)=>(b.conviction||0)-(a.conviction||0));
   state.csFiltered = rows;
   $('cs-table').querySelector('tbody').innerHTML = rows.map((c,i)=>`
@@ -248,6 +268,7 @@ function renderConsensusDetail(c) {
       `(age ${p.ageBucket||'?'}, ${p.touched24h?'touched 24h':'inactive'})</li>`).join('') + '</ul>';
 }
 ['cs-state','cs-minnet'].forEach(id => $(id).addEventListener('change', filterConsensus));
+$('cs-search').addEventListener('input', filterConsensus);
 $('cs-table').addEventListener('click', e => {
   const tr = e.target.closest('tr'); if (!tr) return;
   const idx = [...tr.parentNode.children].indexOf(tr);
@@ -267,7 +288,12 @@ async function loadWatchlist() {
   $('wl-table').querySelector('tbody').innerHTML = d.candidates.map((c,i)=>`
     <tr><td>${i+1}</td><td>${fmt.addr(c.ethAddress)}</td><td>${fmt.usd(c.accountValue)}</td>
       <td class="green">${fmt.pnl(c.monthPnl)}</td><td class="green">${fmt.pnl(c.weekPnl)}</td>
-      <td>${fmt.pct(c.monthRoi)}</td><td>${fmt.usd(c.monthVlm)}</td></tr>`).join('');
+      <td>${fmt.pct(c.monthRoi)}</td><td>${fmt.usd(c.monthVlm)}</td>
+      <td>${c.realizedPnl!=null?fmt.pnl(c.realizedPnl):'—'}</td>
+      <td>${c.winRate!=null?fmt.pct(c.winRate):'—'}</td>
+      <td>${c.profitFactor!=null?c.profitFactor.toFixed(2):'—'}</td>
+      <td>${c.fills!=null?c.fills:'—'}</td>
+      <td>${c.equity!=null?fmt.usd(c.equity):'—'}</td></tr>`).join('');
   setStatus('watchlist: daily ✓'); return true;
 }
 

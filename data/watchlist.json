@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-19T03:24:44.381554+00:00",
+ "generatedAt": "2026-08-19T03:51:21.616318+00:00",
  "date": "2026-08-19",
  "candidates": [
   {
@@ -8,7 +8,12 @@
    "monthPnl": 7540972.247452001,
    "weekPnl": 2131085.144153,
    "monthRoi": 0.1690399913,
-   "monthVlm": 1258997156.3999999
+   "monthVlm": 1258997156.3999999,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x0ad9e656d9e6211d0ea1c5462342e1fc94cc4cbf",
@@ -16,7 +21,12 @@
    "monthPnl": 5939369.944746,
    "weekPnl": 937938.911256,
    "monthRoi": 0.3569730834,
-   "monthVlm": 143616165.34
+   "monthVlm": 143616165.34,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x9a80d88c21be60e870d07d852390e92d09223cf2",
@@ -24,7 +34,12 @@
    "monthPnl": 5140357.178627,
    "weekPnl": 2292635.858671,
    "monthRoi": 0.1687668645,
-   "monthVlm": 8345901.6
+   "monthVlm": 8345901.6,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x4c6d679eac539bf7c5a0b7ebd8949ae93b1e5ee9",
@@ -32,7 +47,12 @@
    "monthPnl": 4554272.277266,
    "weekPnl": 1644085.967767,
    "monthRoi": 0.2123716869,
-   "monthVlm": 8194335.2
+   "monthVlm": 8194335.2,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x0b8aa35c28b7c6ab18f11dc168f437a8a69fd4f8",
@@ -40,7 +60,12 @@
    "monthPnl": 4460516.496691999,
    "weekPnl": 1569869.830522,
    "monthRoi": 0.2357989152,
-   "monthVlm": 803544609.7799999
+   "monthVlm": 803544609.7799999,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x9cd0a696c7cbb9d44de99268194cb08e5684e5fe",
@@ -48,7 +73,12 @@
    "monthPnl": 4085863.734758,
    "weekPnl": 1068351.905758,
    "monthRoi": 4.0085389272,
-   "monthVlm": 4430124.5
+   "monthVlm": 4430124.5,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x362ad6209a5e904a5569f69884375809c5781d9f",
@@ -56,7 +86,12 @@
    "monthPnl": 3430296.486146,
    "weekPnl": 1342485.846435,
    "monthRoi": 0.931773208,
-   "monthVlm": 257595137.32
+   "monthVlm": 257595137.32,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x4e23288cee4960f9f962195c22948e4bc7ae20c3",
@@ -64,7 +99,12 @@
    "monthPnl": 3175551.399536,
    "weekPnl": 754929.64684,
    "monthRoi": 0.110252752,
-   "monthVlm": 2845235776.2
+   "monthVlm": 2845235776.2,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xdb095d5a4f412fc6b14e6204c1db78bd14becbc1",
@@ -72,7 +112,12 @@
    "monthPnl": 3071901.654825,
    "weekPnl": 2657936.582692,
    "monthRoi": 0.2124945962,
-   "monthVlm": 19545215.16
+   "monthVlm": 19545215.16,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x364a45829e8ce2940d8cff911076d8dec40b2e73",
@@ -80,7 +125,12 @@
    "monthPnl": 2802707.620078,
    "weekPnl": 1389105.040137,
    "monthRoi": 0.4917427181,
-   "monthVlm": 54233189.95
+   "monthVlm": 54233189.95,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
@@ -88,7 +138,12 @@
    "monthPnl": 2533201.729999,
    "weekPnl": 1734416.509562,
    "monthRoi": 0.0880168475,
-   "monthVlm": 3400345425.07
+   "monthVlm": 3400345425.07,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x9c062c0575c30a3b7614d0c6ea8de67faab00560",
@@ -96,7 +151,12 @@
    "monthPnl": 2379655.334956,
    "weekPnl": 1298399.93247,
    "monthRoi": 0.55358022,
-   "monthVlm": 120245714.85
+   "monthVlm": 120245714.85,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x215b369a532dc84654c244449cb119986ceaf603",
@@ -104,7 +164,12 @@
    "monthPnl": 2334556.983478,
    "weekPnl": 4643.663523,
    "monthRoi": 0.8657665766,
-   "monthVlm": 32037983.5
+   "monthVlm": 32037983.5,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xd21d931890d27b6e7e2e668f27931e17698e90f1",
@@ -112,7 +177,12 @@
    "monthPnl": 1946656.99957,
    "weekPnl": 719392.436425,
    "monthRoi": 0.6876109413,
-   "monthVlm": 25472067.33
+   "monthVlm": 25472067.33,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x519c721de735f7c9e6146d167852e60d60496a47",
@@ -120,7 +190,12 @@
    "monthPnl": 1936336.96381,
    "weekPnl": 1822183.616949,
    "monthRoi": 0.5883235985,
-   "monthVlm": 105516974.95
+   "monthVlm": 105516974.95,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x49e96e255ba418d08e66c35b588e2f2f3766e1d0",
@@ -128,7 +203,12 @@
    "monthPnl": 1825876.9939720002,
    "weekPnl": 2170714.2272599996,
    "monthRoi": 0.0601095814,
-   "monthVlm": 2302678535.86
+   "monthVlm": 2302678535.86,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x9321d8117e73b0c79035f0e87debcfd8dbb1d75a",
@@ -136,7 +216,12 @@
    "monthPnl": 1770395.191482,
    "weekPnl": 347310.466421,
    "monthRoi": 0.3156367016,
-   "monthVlm": 76829748.51
+   "monthVlm": 76829748.51,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xc926ddba8b7617dbc65712f20cf8e1b58b8598d3",
@@ -144,7 +229,12 @@
    "monthPnl": 1685803.497461,
    "weekPnl": 832329.044939,
    "monthRoi": 0.1547405547,
-   "monthVlm": 7124624729.88
+   "monthVlm": 7124624729.88,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x6355f7cf36b24044cd5b089a845113327d0ee58e",
@@ -152,7 +242,12 @@
    "monthPnl": 1664475.78186,
    "weekPnl": 1778879.042443,
    "monthRoi": 0.0803368708,
-   "monthVlm": 1148500317.86
+   "monthVlm": 1148500317.86,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xb7e0b9fbc9479330d70bcc82a7d4325a20e8d1aa",
@@ -160,7 +255,12 @@
    "monthPnl": 1635579.649919,
    "weekPnl": 244970.688728,
    "monthRoi": 2.1124800677,
-   "monthVlm": 100005983.94
+   "monthVlm": 100005983.94,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x004edcd40360e293e4cf260d2ebdf8c7076c1bb8",
@@ -168,7 +268,12 @@
    "monthPnl": 1559130.434083,
    "weekPnl": 881160.18134,
    "monthRoi": 0.424117856,
-   "monthVlm": 1082560792.34
+   "monthVlm": 1082560792.34,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x72774e2fe1992d5da8c6e9cef73fd2ab980c0b98",
@@ -176,7 +281,12 @@
    "monthPnl": 1548462.588398,
    "weekPnl": 505478.012036,
    "monthRoi": 0.613448695,
-   "monthVlm": 171998973.9
+   "monthVlm": 171998973.9,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xec4a6f59960fb55a7fa49262e2628687b322cf62",
@@ -184,7 +294,12 @@
    "monthPnl": 1474105.868011,
    "weekPnl": 64208.764974,
    "monthRoi": 0.6246612669,
-   "monthVlm": 949010416.01
+   "monthVlm": 949010416.01,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x053fa362f5459cf61037d8b554b5cfb055a7a4d3",
@@ -192,7 +307,12 @@
    "monthPnl": 1445451.363603,
    "weekPnl": 2277091.36247,
    "monthRoi": 0.1654018716,
-   "monthVlm": 12745072.05
+   "monthVlm": 12745072.05,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xf29c6bc1147a841519b382459a6d7a373c6b9971",
@@ -200,7 +320,12 @@
    "monthPnl": 1432155.57062,
    "weekPnl": 1097137.465955,
    "monthRoi": 0.6720424828,
-   "monthVlm": 25380146.0
+   "monthVlm": 25380146.0,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x57dd78cd36e76e2011e8f6dc25cabbaba994494b",
@@ -208,7 +333,12 @@
    "monthPnl": 1425428.29177,
    "weekPnl": 335066.734261,
    "monthRoi": 0.0552847332,
-   "monthVlm": 5978242514.53
+   "monthVlm": 5978242514.53,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xab961d7c42bbcd454a54b342bd191a8f090219e6",
@@ -216,7 +346,12 @@
    "monthPnl": 1379472.897349,
    "weekPnl": 412199.743732,
    "monthRoi": 0.3448854865,
-   "monthVlm": 100565030.47
+   "monthVlm": 100565030.47,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xc179e03922afe8fa9533d3f896338b9fb87ce0c8",
@@ -224,7 +359,12 @@
    "monthPnl": 1350879.264165,
    "weekPnl": 1117946.463367,
    "monthRoi": 0.2198546381,
-   "monthVlm": 10758205.53
+   "monthVlm": 10758205.53,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xff4cd3826ecee12acd4329aada4a2d3419fc463c",
@@ -232,7 +372,12 @@
    "monthPnl": 1338868.68449,
    "weekPnl": 1306329.6676430004,
    "monthRoi": 0.0431146363,
-   "monthVlm": 11883188567.33
+   "monthVlm": 11883188567.33,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xcd98da856b021a6efcc7d766118531ad64aec433",
@@ -240,7 +385,12 @@
    "monthPnl": 1334125.931713,
    "weekPnl": 452355.044891,
    "monthRoi": 1.964825682,
-   "monthVlm": 21804922.11
+   "monthVlm": 21804922.11,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xaeaab54bbf65bfd6efed7d2eb68372298e3c2416",
@@ -248,7 +398,12 @@
    "monthPnl": 1321598.960375,
    "weekPnl": 203480.386401,
    "monthRoi": 0.1370548527,
-   "monthVlm": 526793847.54
+   "monthVlm": 526793847.54,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xf1e79e5cf063073deec9a0d86c178f7cde84d479",
@@ -256,7 +411,12 @@
    "monthPnl": 1315098.204137,
    "weekPnl": 558191.8128879999,
    "monthRoi": 0.1988032686,
-   "monthVlm": 95779930.30999999
+   "monthVlm": 95779930.30999999,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x85ecf584f25db6f146718b86d493e33c5af72052",
@@ -264,7 +424,12 @@
    "monthPnl": 1288837.120965,
    "weekPnl": 580968.0243489998,
    "monthRoi": 0.0213320883,
-   "monthVlm": 31788670093.300007
+   "monthVlm": 31788670093.300007,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xae6446c95cc4e455e9cf56f28757ab728d88e81e",
@@ -272,7 +437,12 @@
    "monthPnl": 1184331.8663760002,
    "weekPnl": 131007.423323,
    "monthRoi": 0.1095210225,
-   "monthVlm": 309826303.08
+   "monthVlm": 309826303.08,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x8afacaa08de7189d84db9d87b9c21c2f1ac28113",
@@ -280,7 +450,12 @@
    "monthPnl": 1182462.13393,
    "weekPnl": 176972.530452,
    "monthRoi": 0.5854482173,
-   "monthVlm": 36890012.3
+   "monthVlm": 36890012.3,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x7717a7a245d9f950e586822b8c9b46863ed7bd7e",
@@ -288,7 +463,12 @@
    "monthPnl": 1182413.02165,
    "weekPnl": 275058.700069,
    "monthRoi": 0.1495142677,
-   "monthVlm": 709075954.94
+   "monthVlm": 709075954.94,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x40f20b734d7d25ba0b6219e921382fa992a56a9e",
@@ -296,7 +476,12 @@
    "monthPnl": 1175168.0843109998,
    "weekPnl": 587078.7548469999,
    "monthRoi": 2.5739940566,
-   "monthVlm": 326943072.27
+   "monthVlm": 326943072.27,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x091159a8106b077c13e89bc09701117e8b5f129a",
@@ -304,7 +489,12 @@
    "monthPnl": 1148524.207525,
    "weekPnl": 247265.378793,
    "monthRoi": 0.1301640755,
-   "monthVlm": 39736180.7
+   "monthVlm": 39736180.7,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x42bc06d636e9a9a93edb1ddf781ee97821a73946",
@@ -312,7 +502,12 @@
    "monthPnl": 1146454.080764,
    "weekPnl": 109901.311946,
    "monthRoi": 0.5011451121,
-   "monthVlm": 387310164.94
+   "monthVlm": 387310164.94,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xb581d667c53fd8a50bf7ffd817be0e62daa16f4f",
@@ -320,7 +515,12 @@
    "monthPnl": 1142358.934966,
    "weekPnl": 435019.990752,
    "monthRoi": 0.0530946045,
-   "monthVlm": 728032.79
+   "monthVlm": 728032.79,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x931153baac031d055389b41d12cd32c9bf0ae7a3",
@@ -328,7 +528,12 @@
    "monthPnl": 1125063.059012,
    "weekPnl": 227489.79601,
    "monthRoi": 1.3447584409,
-   "monthVlm": 95079455.0
+   "monthVlm": 95079455.0,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x934de82f50e7f5840de6124ace12f06dd7f992c9",
@@ -336,7 +541,12 @@
    "monthPnl": 1074775.055432,
    "weekPnl": 613399.191359,
    "monthRoi": 1.507197247,
-   "monthVlm": 10092837.12
+   "monthVlm": 10092837.12,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x7839e2f2c375dd2935193f2736167514efff9916",
@@ -344,7 +554,12 @@
    "monthPnl": 1054234.4568339998,
    "weekPnl": 667077.024279,
    "monthRoi": 0.1237372206,
-   "monthVlm": 12904777272.860003
+   "monthVlm": 12904777272.860003,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x9a5cd14dc064069b608da0a01d403963dc410a84",
@@ -352,7 +567,12 @@
    "monthPnl": 1028293.108191,
    "weekPnl": 907905.188007,
    "monthRoi": 0.7395298543,
-   "monthVlm": 48429628.41
+   "monthVlm": 48429628.41,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x42eadf6fe45b51b729c165c3f636b8ccaa35d705",
@@ -360,7 +580,12 @@
    "monthPnl": 1026978.729418,
    "weekPnl": 132753.798117,
    "monthRoi": 0.7386326884,
-   "monthVlm": 186020.99
+   "monthVlm": 186020.99,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x7e23ead98212f5476768cf51b5dd76da34a35a5a",
@@ -368,7 +593,12 @@
    "monthPnl": 1017311.055633,
    "weekPnl": 646442.270998,
    "monthRoi": 0.1205675878,
-   "monthVlm": 18623824.14
+   "monthVlm": 18623824.14,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x06bc596fb16734f7abc3a5996b580be932c2fb72",
@@ -376,7 +606,12 @@
    "monthPnl": 1006659.046052,
    "weekPnl": 74730.310393,
    "monthRoi": 0.4583046453,
-   "monthVlm": 189663845.89
+   "monthVlm": 189663845.89,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x13f2ca08112fd5b5df3c78c5e583d95d69900235",
@@ -384,7 +619,12 @@
    "monthPnl": 998516.529211,
    "weekPnl": 410955.359568,
    "monthRoi": 1.5828877847,
-   "monthVlm": 15555343.66
+   "monthVlm": 15555343.66,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xd260b2216b735277da6771564a01c04856e78321",
@@ -392,7 +632,12 @@
    "monthPnl": 973229.015078,
    "weekPnl": 809016.276957,
    "monthRoi": 0.1654507969,
-   "monthVlm": 60449190.18
+   "monthVlm": 60449190.18,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xa312114b5795dff9b8db50474dd57701aa78ad1e",
@@ -400,7 +645,12 @@
    "monthPnl": 929614.942813,
    "weekPnl": 677679.528968,
    "monthRoi": 0.1455195724,
-   "monthVlm": 55982610.4
+   "monthVlm": 55982610.4,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xe1d39d2b30da977d470e0652239372b7ad4b7766",
@@ -408,7 +658,12 @@
    "monthPnl": 906441.257359,
    "weekPnl": 606474.201012,
    "monthRoi": 2.3257604717,
-   "monthVlm": 969229380.8
+   "monthVlm": 969229380.8,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x66f889094739dbb7d20aa60f645acd88feba75a9",
@@ -416,7 +671,12 @@
    "monthPnl": 861366.125602,
    "weekPnl": 1164986.844909,
    "monthRoi": 0.2078263568,
-   "monthVlm": 835687833.85
+   "monthVlm": 835687833.85,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xdd9f274410c8c704bdbb599dce6c4fb34be4f50a",
@@ -424,7 +684,12 @@
    "monthPnl": 848588.02308,
    "weekPnl": 345519.000754,
    "monthRoi": 0.1136712478,
-   "monthVlm": 62176933.29
+   "monthVlm": 62176933.29,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xf17de447fdfa1778db06111e3cbdc878332adab2",
@@ -432,7 +697,12 @@
    "monthPnl": 831393.627289,
    "weekPnl": 278778.939121,
    "monthRoi": 0.6249379711,
-   "monthVlm": 97275138.68
+   "monthVlm": 97275138.68,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xb69eec8fea0081343c3b09e652ba1fa7dcf7033a",
@@ -440,7 +710,12 @@
    "monthPnl": 828047.686977,
    "weekPnl": 259184.640139,
    "monthRoi": 2.15640846,
-   "monthVlm": 33123840.72
+   "monthVlm": 33123840.72,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x50b309f78e774a756a2230e1769729094cac9f20",
@@ -448,7 +723,12 @@
    "monthPnl": 806305.960233,
    "weekPnl": 141898.80049,
    "monthRoi": 0.562851143,
-   "monthVlm": 1885051208.33
+   "monthVlm": 1885051208.33,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xaecfe4eff84a1cd9a24accc1914ac537af7f6e1b",
@@ -456,7 +736,12 @@
    "monthPnl": 782559.646305,
    "weekPnl": 77606.365645,
    "monthRoi": 2.0687829158,
-   "monthVlm": 5409639.09
+   "monthVlm": 5409639.09,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x68af3f19b7cf1934909bd43776050fe83b0ac654",
@@ -464,7 +749,12 @@
    "monthPnl": 754762.773359,
    "weekPnl": 48837.843082,
    "monthRoi": 0.6112929324,
-   "monthVlm": 109502475.13
+   "monthVlm": 109502475.13,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xa4add8273d7f47318675bdfbcce3e9648cdb4509",
@@ -472,7 +762,12 @@
    "monthPnl": 749471.646408,
    "weekPnl": 128774.745442,
    "monthRoi": 0.2262699067,
-   "monthVlm": 23350855.22
+   "monthVlm": 23350855.22,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x7ea90af38397575a372e36bdc0f5970fb512fc7f",
@@ -480,7 +775,12 @@
    "monthPnl": 740400.804011,
    "weekPnl": 314486.084105,
    "monthRoi": 0.1666878327,
-   "monthVlm": 30773325.69
+   "monthVlm": 30773325.69,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x399965e15d4e61ec3529cc98b7f7ebb93b733336",
@@ -488,7 +788,12 @@
    "monthPnl": 731243.0248849997,
    "weekPnl": 559653.1897639999,
    "monthRoi": 0.0533190825,
-   "monthVlm": 20328849333.480007
+   "monthVlm": 20328849333.480007,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xa1830e8d9f019feb448478a171bb37cc6c4c0482",
@@ -496,7 +801,12 @@
    "monthPnl": 727101.769545,
    "weekPnl": 197073.909156,
    "monthRoi": 0.098543313,
-   "monthVlm": 151574728.98
+   "monthVlm": 151574728.98,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xdf9ea6ec3b7109935ccb4fb267e15ac1fb077ab1",
@@ -504,7 +814,12 @@
    "monthPnl": 723842.1190419998,
    "weekPnl": 67748.002017,
    "monthRoi": 0.1629246188,
-   "monthVlm": 9780212549.45
+   "monthVlm": 9780212549.45,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x88560b720239179d7f3f9e49ca934a4861593d7f",
@@ -512,7 +827,12 @@
    "monthPnl": 717968.363759,
    "weekPnl": 52413.550869,
    "monthRoi": 0.2666249494,
-   "monthVlm": 2165654.0700000003
+   "monthVlm": 2165654.0700000003,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x07427c476501e03b1802541625cefd1df24484d2",
@@ -520,7 +840,12 @@
    "monthPnl": 712065.031562,
    "weekPnl": 205829.392364,
    "monthRoi": 2.5477415375,
-   "monthVlm": 6656121.85
+   "monthVlm": 6656121.85,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xb07856ebcb6b37967eaf7c4b4e64dcce28c6de15",
@@ -528,7 +853,12 @@
    "monthPnl": 707996.9130299999,
    "weekPnl": 562049.121087,
    "monthRoi": 0.1195655959,
-   "monthVlm": 1147359783.53
+   "monthVlm": 1147359783.53,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x21c27ef8d7fddeff971f25e6cfe35ad6f774bbd4",
@@ -536,7 +866,12 @@
    "monthPnl": 704401.28331,
    "weekPnl": 711223.189092,
    "monthRoi": 0.4696009808,
-   "monthVlm": 1986678.09
+   "monthVlm": 1986678.09,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xf7f8baf2197adf0c7e1725721f14ce1d53fd770c",
@@ -544,7 +879,12 @@
    "monthPnl": 687906.963924,
    "weekPnl": 121136.603433,
    "monthRoi": 0.3391520233,
-   "monthVlm": 527778971.22
+   "monthVlm": 527778971.22,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x58f0bf4307c61bc7a5fe11e24fe36e64300b0d20",
@@ -552,7 +892,12 @@
    "monthPnl": 684040.211752,
    "weekPnl": 238115.962299,
    "monthRoi": 0.244241214,
-   "monthVlm": 44272254.01
+   "monthVlm": 44272254.01,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x8c625ff57d8a4374784c7eff585dfdc42ccec974",
@@ -560,7 +905,12 @@
    "monthPnl": 676485.6396300001,
    "weekPnl": 379843.030414,
    "monthRoi": 0.1380169932,
-   "monthVlm": 12500149358.04
+   "monthVlm": 12500149358.04,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x3e2fbe61f37f11d68e3d1e4f25c53c73f414b269",
@@ -568,7 +918,12 @@
    "monthPnl": 663930.790402,
    "weekPnl": 76124.891772,
    "monthRoi": 0.2550860617,
-   "monthVlm": 25545844.51
+   "monthVlm": 25545844.51,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x55b80f17dba49f3803d16136e82d2adc5cdd2a10",
@@ -576,7 +931,12 @@
    "monthPnl": 654557.53214,
    "weekPnl": 740419.409074,
    "monthRoi": 0.767481435,
-   "monthVlm": 14887582.56
+   "monthVlm": 14887582.56,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xbbf7fbc7fa97a88c83c1b8a825692f84ef9d4b13",
@@ -584,7 +944,12 @@
    "monthPnl": 652154.872776,
    "weekPnl": 195753.066639,
    "monthRoi": 0.5691851244,
-   "monthVlm": 16493492.77
+   "monthVlm": 16493492.77,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xf1e2783541c3edbe783c6b89e7cfd493c7894af5",
@@ -592,7 +957,12 @@
    "monthPnl": 650300.796012,
    "weekPnl": 180474.245649,
    "monthRoi": 0.4710148024,
-   "monthVlm": 34189598.98
+   "monthVlm": 34189598.98,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x72655b3926db3afbe914a53b0604905af7ce11a5",
@@ -600,7 +970,12 @@
    "monthPnl": 642751.418654,
    "weekPnl": 48235.471082,
    "monthRoi": 0.1984089573,
-   "monthVlm": 32363871.92
+   "monthVlm": 32363871.92,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xbe19541903f64af97bcf8436f4d15bf3a56b8bd1",
@@ -608,7 +983,12 @@
    "monthPnl": 631152.67621,
    "weekPnl": 67458.721061,
    "monthRoi": 0.3942854394,
-   "monthVlm": 3081846.31
+   "monthVlm": 3081846.31,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xd65ac35cd234c8718b876ab304fa56c8995e387f",
@@ -616,7 +996,12 @@
    "monthPnl": 613544.77836,
    "weekPnl": 110172.735098,
    "monthRoi": 0.9585155038,
-   "monthVlm": 115810325.74
+   "monthVlm": 115810325.74,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xf4f7cebbd2c7b6dee34ab29fa55a116eff25239f",
@@ -624,7 +1009,12 @@
    "monthPnl": 596536.65383,
    "weekPnl": 480435.709338,
    "monthRoi": 0.2105921333,
-   "monthVlm": 419291.11
+   "monthVlm": 419291.11,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x563bf0731cf71ad7cea05b9c48a802d8c53e7dc4",
@@ -632,7 +1022,12 @@
    "monthPnl": 596419.055192,
    "weekPnl": 77436.376525,
    "monthRoi": 0.2489879578,
-   "monthVlm": 138087274.83
+   "monthVlm": 138087274.83,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xe2321c8324c1da7b3ba790627d0e4ee444188a23",
@@ -640,7 +1035,12 @@
    "monthPnl": 595868.0098959999,
    "weekPnl": 613895.561273,
    "monthRoi": 0.0308970476,
-   "monthVlm": 8883299.36
+   "monthVlm": 8883299.36,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x9aca58e24ff5845f245e7c2c897fef1bc59b3555",
@@ -648,7 +1048,12 @@
    "monthPnl": 577013.00475,
    "weekPnl": 205103.089168,
    "monthRoi": 2.5315862195,
-   "monthVlm": 16128514.62
+   "monthVlm": 16128514.62,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x4fe53e953f1ff4454d144cb6f4fee3f2ca9363fe",
@@ -656,7 +1061,12 @@
    "monthPnl": 534171.277393,
    "weekPnl": 1165652.328811,
    "monthRoi": 0.3299067099,
-   "monthVlm": 3079537.67
+   "monthVlm": 3079537.67,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xc48b1ad3415e6cf85c4f733fe7fb3085bedf88b1",
@@ -664,7 +1074,12 @@
    "monthPnl": 531182.704019,
    "weekPnl": 11374.046418,
    "monthRoi": 0.1591827111,
-   "monthVlm": 8154316.95
+   "monthVlm": 8154316.95,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x8b8ed3d4775e6a76a82f022ab62281a2974df1ca",
@@ -672,7 +1087,12 @@
    "monthPnl": 525976.422159,
    "weekPnl": 106942.259699,
    "monthRoi": 1.1540866059,
-   "monthVlm": 153108286.3
+   "monthVlm": 153108286.3,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xf5079c84c34051d7c4cd87494fda534fe7ecdf6d",
@@ -680,7 +1100,12 @@
    "monthPnl": 521106.406743,
    "weekPnl": 122802.289763,
    "monthRoi": 0.2537467667,
-   "monthVlm": 19061100.23
+   "monthVlm": 19061100.23,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x77375a8c9d13bf79afb2a87f1b0ac1dfd5f5bf66",
@@ -688,7 +1113,12 @@
    "monthPnl": 517779.499338,
    "weekPnl": 1419500.6282759998,
    "monthRoi": 0.0958922501,
-   "monthVlm": 244923073.91
+   "monthVlm": 244923073.91,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xc59498175d6d317642aeb97f895a7ce1aa992191",
@@ -696,7 +1126,12 @@
    "monthPnl": 508605.427894,
    "weekPnl": 0.012215,
    "monthRoi": 0.0401688486,
-   "monthVlm": 4842446.45
+   "monthVlm": 4842446.45,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x8bae3527e5a33fa0cf184f37bc112d071463ab6d",
@@ -704,7 +1139,12 @@
    "monthPnl": 503969.556973,
    "weekPnl": 149946.429886,
    "monthRoi": 0.6618271017,
-   "monthVlm": 39617133.13
+   "monthVlm": 39617133.13,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x744a26a3e5a56efb7d95119752a63183c236bbd0",
@@ -712,7 +1152,12 @@
    "monthPnl": 498469.597063,
    "weekPnl": 10818.798534,
    "monthRoi": 0.573376343,
-   "monthVlm": 1517707.3
+   "monthVlm": 1517707.3,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x2b61e63b11295c0a1dda2875ac3af00669732f6c",
@@ -720,7 +1165,12 @@
    "monthPnl": 490682.29773,
    "weekPnl": 41573.764066,
    "monthRoi": 0.0439278768,
-   "monthVlm": 46448955.05
+   "monthVlm": 46448955.05,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x31fa47e5d885c0b09935eb412035f73571a47d05",
@@ -728,7 +1178,12 @@
    "monthPnl": 480837.899158,
    "weekPnl": 470124.281756,
    "monthRoi": 0.4808380915,
-   "monthVlm": 1243869.32
+   "monthVlm": 1243869.32,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x0d438ba1817d0958ae3bf70b23faaf1d0117c930",
@@ -736,7 +1191,12 @@
    "monthPnl": 474666.919537,
    "weekPnl": 285715.648903,
    "monthRoi": 0.4279556146,
-   "monthVlm": 75122343.72
+   "monthVlm": 75122343.72,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x60b081bd8ee2b0e5a2b8f17503322cf7ee7a991e",
@@ -744,7 +1204,12 @@
    "monthPnl": 461170.375493,
    "weekPnl": 493706.176796,
    "monthRoi": 0.2825438952,
-   "monthVlm": 34565125.47
+   "monthVlm": 34565125.47,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x07fd993f0fa3a185f7207adccd29f7a87404689d",
@@ -752,7 +1217,12 @@
    "monthPnl": 452392.931781,
    "weekPnl": 255352.213813,
    "monthRoi": 0.0568962836,
-   "monthVlm": 18596280.49
+   "monthVlm": 18596280.49,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xfb941d2344b72ea9101400392b818173772d0ddf",
@@ -760,7 +1230,12 @@
    "monthPnl": 442337.057624,
    "weekPnl": 289848.23021,
    "monthRoi": 0.3715854017,
-   "monthVlm": 29473004.78
+   "monthVlm": 29473004.78,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x38042d713af713f0275b00640a83654db91ea543",
@@ -768,7 +1243,12 @@
    "monthPnl": 434658.041273,
    "weekPnl": 43512.960357,
    "monthRoi": 0.6412561274,
-   "monthVlm": 509663.6
+   "monthVlm": 509663.6,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x885327357a8d005c9dfb670583899df6e21f8249",
@@ -776,7 +1256,12 @@
    "monthPnl": 434338.183021,
    "weekPnl": 156529.121799,
    "monthRoi": 1.4121975415,
-   "monthVlm": 238808713.11
+   "monthVlm": 238808713.11,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xfb8720d7b7d09b6fd44291a3bf1ed805e50b833b",
@@ -784,7 +1269,12 @@
    "monthPnl": 430140.265506,
    "weekPnl": 109205.637242,
    "monthRoi": 0.3635923301,
-   "monthVlm": 1861525.01
+   "monthVlm": 1861525.01,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x6859da14835424957a1e6b397d8026b1d9ff7e1e",
@@ -792,7 +1282,12 @@
    "monthPnl": 427412.049884,
    "weekPnl": 252684.965827,
    "monthRoi": 0.0532252258,
-   "monthVlm": 18461538.35
+   "monthVlm": 18461538.35,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xd7915fe6f62767af2248bd6ab589ce2b336b9bf3",
@@ -800,7 +1295,12 @@
    "monthPnl": 414423.73,
    "weekPnl": 12.498617,
    "monthRoi": 1.6457175196,
-   "monthVlm": 14659127.66
+   "monthVlm": 14659127.66,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x7da85a334e43a6b1c2c0da9623409d9ee9047747",
@@ -808,7 +1308,12 @@
    "monthPnl": 413386.420621,
    "weekPnl": 25180.336624,
    "monthRoi": 0.1385174455,
-   "monthVlm": 2436625.68
+   "monthVlm": 2436625.68,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xc3b1951ceffdcaf25640cb37ce1d6cf125579a03",
@@ -816,7 +1321,12 @@
    "monthPnl": 411883.808448,
    "weekPnl": 227625.487332,
    "monthRoi": 2.6945940921,
-   "monthVlm": 59645035.09
+   "monthVlm": 59645035.09,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x615a2071e01b28093e65d81be32cea6e173d69d5",
@@ -824,7 +1334,12 @@
    "monthPnl": 407769.447984,
    "weekPnl": 842362.768926,
    "monthRoi": 0.1145193378,
-   "monthVlm": 14251567.67
+   "monthVlm": 14251567.67,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xd6e56265890b76413d1d527eb9b75e334c0c5b42",
@@ -832,7 +1347,12 @@
    "monthPnl": 391816.081287,
    "weekPnl": 338267.518464,
    "monthRoi": 0.0323342464,
-   "monthVlm": 36733629.0
+   "monthVlm": 36733629.0,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xd7b8209d95d4c05faaa505671211058d51529f55",
@@ -840,7 +1360,12 @@
    "monthPnl": 390618.02191,
    "weekPnl": 75025.542543,
    "monthRoi": 0.5574924307,
-   "monthVlm": 45293330.54
+   "monthVlm": 45293330.54,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x2aa262671b509f965af3d5f701247feac042a272",
@@ -848,7 +1373,12 @@
    "monthPnl": 389777.553047,
    "weekPnl": 158268.650879,
    "monthRoi": 0.4293933192,
-   "monthVlm": 3043472.83
+   "monthVlm": 3043472.83,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xf0ae4d359f07fb630a5bcb197ac3beaba4cc2f74",
@@ -856,7 +1386,12 @@
    "monthPnl": 385153.183032,
    "weekPnl": 313885.942334,
    "monthRoi": 0.3856757781,
-   "monthVlm": 23964465.34
+   "monthVlm": 23964465.34,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xb0026ca48937bd18c5941c05decab68b0fcced8a",
@@ -864,7 +1399,12 @@
    "monthPnl": 382399.904084,
    "weekPnl": 140843.554203,
    "monthRoi": 0.0957301383,
-   "monthVlm": 15020515.18
+   "monthVlm": 15020515.18,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xe6781c6a6eda7821a2c17832e2e5edd8fa25c7ea",
@@ -872,7 +1412,12 @@
    "monthPnl": 381905.389368,
    "weekPnl": 119683.46243,
    "monthRoi": 0.989789824,
-   "monthVlm": 254911528.25
+   "monthVlm": 254911528.25,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xbeccae9ffcb69e9d42a1d4e744abf8056149562d",
@@ -880,7 +1425,12 @@
    "monthPnl": 374736.650786,
    "weekPnl": 30331.000351,
    "monthRoi": 0.508853297,
-   "monthVlm": 972666893.76
+   "monthVlm": 972666893.76,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x610b8dd6b392d010c2b6ad8d121dfc09524cb613",
@@ -888,7 +1438,12 @@
    "monthPnl": 372557.652815,
    "weekPnl": 341635.444484,
    "monthRoi": 0.0678794588,
-   "monthVlm": 6822230.35
+   "monthVlm": 6822230.35,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xab09b1f92211e828081200fe0390c3d422dbe403",
@@ -896,7 +1451,12 @@
    "monthPnl": 372081.454908,
    "weekPnl": 47681.379881,
    "monthRoi": 0.0538414381,
-   "monthVlm": 184352593.4
+   "monthVlm": 184352593.4,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xe8f7f10b9acc59b921abef3bb8dd32dbd794183e",
@@ -904,7 +1464,12 @@
    "monthPnl": 361386.704229,
    "weekPnl": 448355.803377,
    "monthRoi": 0.5364866287,
-   "monthVlm": 1867180.91
+   "monthVlm": 1867180.91,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xe09726ff25f5001f37b15049f54116cb83d7d0fe",
@@ -912,7 +1477,12 @@
    "monthPnl": 350533.468895,
    "weekPnl": 256327.676707,
    "monthRoi": 0.0709651178,
-   "monthVlm": 28865789.82
+   "monthVlm": 28865789.82,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x3b5b104bf6091addbc24b1a2110c21514cf5ccf1",
@@ -920,7 +1490,12 @@
    "monthPnl": 347434.334108,
    "weekPnl": 44353.744454,
    "monthRoi": 0.1711871655,
-   "monthVlm": 8101762.9
+   "monthVlm": 8101762.9,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xb18c3cad5ed500326c43d07a46a148f10c54802e",
@@ -928,7 +1503,12 @@
    "monthPnl": 336372.620553,
    "weekPnl": 117182.771251,
    "monthRoi": 1.7299354311,
-   "monthVlm": 3958794.48
+   "monthVlm": 3958794.48,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x66466428990e0f42a4c54f64bee0db6bf2336de5",
@@ -936,7 +1516,12 @@
    "monthPnl": 328273.752565,
    "weekPnl": 508960.294479,
    "monthRoi": 0.0740699088,
-   "monthVlm": 7904238.88
+   "monthVlm": 7904238.88,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x8607a7d180de23645db594d90621d837749408d5",
@@ -944,7 +1529,12 @@
    "monthPnl": 326647.753517,
    "weekPnl": 1086097.424953,
    "monthRoi": 0.0878384463,
-   "monthVlm": 20888921.04
+   "monthVlm": 20888921.04,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x196283bce3e38d98f9f4c424a1a148b248eaa4f9",
@@ -952,7 +1542,12 @@
    "monthPnl": 321650.120013,
    "weekPnl": 51446.562947,
    "monthRoi": 0.7670913567,
-   "monthVlm": 37079354.64
+   "monthVlm": 37079354.64,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x27c9fa86c91b84ddfa15de58c482ff662498d65d",
@@ -960,7 +1555,12 @@
    "monthPnl": 314408.478054,
    "weekPnl": 39656.730091,
    "monthRoi": 0.140633117,
-   "monthVlm": 181460724.54
+   "monthVlm": 181460724.54,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xf2060700d2f18e5727205652a181fcf970e4a5ce",
@@ -968,7 +1568,12 @@
    "monthPnl": 312370.989832,
    "weekPnl": 28389.762857,
    "monthRoi": 0.5878894452,
-   "monthVlm": 34245703.89
+   "monthVlm": 34245703.89,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x63c786a8d291440713d0f1fc45b69c3e7547cb78",
@@ -976,7 +1581,12 @@
    "monthPnl": 311808.716947,
    "weekPnl": 189087.555304,
    "monthRoi": 1.1328870292,
-   "monthVlm": 2852405.84
+   "monthVlm": 2852405.84,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xea0027b6ea9b6d7d401b5266979cc3b3ca87a918",
@@ -984,7 +1594,12 @@
    "monthPnl": 308596.93336,
    "weekPnl": 2092539.238285,
    "monthRoi": 0.0417239278,
-   "monthVlm": 3044157.18
+   "monthVlm": 3044157.18,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x1e0b469b0f10f59bd6c76a010c4b0dd24742b1ef",
@@ -992,7 +1607,12 @@
    "monthPnl": 308356.299301,
    "weekPnl": 229000.288129,
    "monthRoi": 0.3875506259,
-   "monthVlm": 4014312.73
+   "monthVlm": 4014312.73,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x6788e111b25a244e7168847fe19bb1456a8398d4",
@@ -1000,7 +1620,12 @@
    "monthPnl": 306945.56173,
    "weekPnl": 93195.993182,
    "monthRoi": 0.3788406128,
-   "monthVlm": 16894918.28
+   "monthVlm": 16894918.28,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x19f5c3bc2e0978d9a1da389d7d4cfe33cd770fe9",
@@ -1008,7 +1633,12 @@
    "monthPnl": 305711.504636,
    "weekPnl": 45408.515213,
    "monthRoi": 0.7663483978,
-   "monthVlm": 3423908.15
+   "monthVlm": 3423908.15,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x7aa9ce1cd3c6fdacf9096beee07ff9beda1aa01e",
@@ -1016,7 +1646,12 @@
    "monthPnl": 302229.114155,
    "weekPnl": 102270.465844,
    "monthRoi": 0.5297404503,
-   "monthVlm": 3799355.53
+   "monthVlm": 3799355.53,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x6ea486a3426563e23023125f18867117878f0ea7",
@@ -1024,7 +1659,12 @@
    "monthPnl": 299406.196039,
    "weekPnl": 136508.967829,
    "monthRoi": 0.1245686446,
-   "monthVlm": 5715334.71
+   "monthVlm": 5715334.71,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x6a02aedceac5a6813d960e4dae1910d9c458e77c",
@@ -1032,7 +1672,12 @@
    "monthPnl": 299155.462148,
    "weekPnl": 30374.263257,
    "monthRoi": 0.4076225014,
-   "monthVlm": 5564480.68
+   "monthVlm": 5564480.68,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x482b0f4dad512fe086e121882a81e34c374acae4",
@@ -1040,7 +1685,12 @@
    "monthPnl": 298823.493087,
    "weekPnl": 241774.527681,
    "monthRoi": 0.4515656633,
-   "monthVlm": 60363804.14
+   "monthVlm": 60363804.14,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x1081e214bd6f0137234b92432d9b6033b88965b7",
@@ -1048,7 +1698,12 @@
    "monthPnl": 297205.550751,
    "weekPnl": 71702.122447,
    "monthRoi": 1.1267069114,
-   "monthVlm": 189797937.46
+   "monthVlm": 189797937.46,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x9eec98d048d06d9cd75318fffa3f3960e081daab",
@@ -1056,7 +1711,12 @@
    "monthPnl": 288198.858735,
    "weekPnl": 298562.869424,
    "monthRoi": 0.0350800493,
-   "monthVlm": 6303.92
+   "monthVlm": 6303.92,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xffe4e3986d18333402564ea64f3a83fcc1907b52",
@@ -1064,7 +1724,12 @@
    "monthPnl": 287006.130892,
    "weekPnl": 232598.849795,
    "monthRoi": 0.2000709398,
-   "monthVlm": 1261516.66
+   "monthVlm": 1261516.66,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x3be714dbe0d3a33ae89b04f8caf93364c98b4b1f",
@@ -1072,7 +1737,12 @@
    "monthPnl": 282067.736044,
    "weekPnl": 355790.99893,
    "monthRoi": 0.8294367208,
-   "monthVlm": 97889126.85
+   "monthVlm": 97889126.85,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xdc38f7ee386b7eea3842643e56b08ee5bb40f625",
@@ -1080,7 +1750,12 @@
    "monthPnl": 272572.337939,
    "weekPnl": 36373.580882,
    "monthRoi": 0.2935222192,
-   "monthVlm": 3304796.95
+   "monthVlm": 3304796.95,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x220d15526ee708ffc199fe0265ddb07f0d5c40aa",
@@ -1088,7 +1763,12 @@
    "monthPnl": 271976.576847,
    "weekPnl": 31060.435018,
    "monthRoi": 1.0174837679,
-   "monthVlm": 4048665.57
+   "monthVlm": 4048665.57,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x7672bbb64595e5c2ae3bc65ffe385ee1ab8ea306",
@@ -1096,7 +1776,12 @@
    "monthPnl": 271271.297985,
    "weekPnl": 87971.156774,
    "monthRoi": 0.6727096033,
-   "monthVlm": 11203166.09
+   "monthVlm": 11203166.09,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x4b1c09fa8322548360a76a3747e32a60a864bc38",
@@ -1104,7 +1789,12 @@
    "monthPnl": 264554.318247,
    "weekPnl": 4598.17796,
    "monthRoi": 0.1209778593,
-   "monthVlm": 4650826.0
+   "monthVlm": 4650826.0,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x2171b50becc88d34254c7def78e8e08f9d82887b",
@@ -1112,7 +1802,12 @@
    "monthPnl": 262968.013169,
    "weekPnl": 75885.330955,
    "monthRoi": 0.2719098783,
-   "monthVlm": 14687421.7
+   "monthVlm": 14687421.7,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xe2f86feccb1207710a442bc4e27a0701a290275a",
@@ -1120,7 +1815,12 @@
    "monthPnl": 261783.125331,
    "weekPnl": 373358.672629,
    "monthRoi": 0.0549262641,
-   "monthVlm": 4515405.7
+   "monthVlm": 4515405.7,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05",
@@ -1128,7 +1828,12 @@
    "monthPnl": 261715.615538,
    "weekPnl": 847798.50969,
    "monthRoi": 0.026775445,
-   "monthVlm": 19635634.43
+   "monthVlm": 19635634.43,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x25bb5d032996ff0d62243c2af5e3669f8488273e",
@@ -1136,7 +1841,12 @@
    "monthPnl": 255127.788158,
    "weekPnl": 137761.05067,
    "monthRoi": 3.22450801,
-   "monthVlm": 4097244.66
+   "monthVlm": 4097244.66,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xf299943c201aae7b840a228aaf3e3792ad73f4b5",
@@ -1144,7 +1854,12 @@
    "monthPnl": 252674.126882,
    "weekPnl": 0.072629,
    "monthRoi": 0.0840493075,
-   "monthVlm": 3960474.99
+   "monthVlm": 3960474.99,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x8cc94dc843e1ea7a19805e0cca43001123512b6a",
@@ -1152,7 +1867,12 @@
    "monthPnl": 250510.712024,
    "weekPnl": 94860.304285,
    "monthRoi": 0.0411900474,
-   "monthVlm": 20612273.93
+   "monthVlm": 20612273.93,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x37b81ab9e3ab04b9e3738e4891621205aaa31fd5",
@@ -1160,7 +1880,12 @@
    "monthPnl": 248714.634348,
    "weekPnl": 165868.999219,
    "monthRoi": 0.1898402574,
-   "monthVlm": 8478752.01
+   "monthVlm": 8478752.01,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xf9705511f4d0ae48aa128f73518c776fbda27ba7",
@@ -1168,7 +1893,12 @@
    "monthPnl": 245334.323009,
    "weekPnl": 35517.642082,
    "monthRoi": 0.5627104332,
-   "monthVlm": 26653224.4
+   "monthVlm": 26653224.4,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x9ffdf919da72213588f7517598394cc5535bce40",
@@ -1176,7 +1906,12 @@
    "monthPnl": 245068.164037,
    "weekPnl": 971725.023603,
    "monthRoi": 0.3321566716,
-   "monthVlm": 40465442.96
+   "monthVlm": 40465442.96,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xa20fb0c9e04063eec5be286e9269028d966646fa",
@@ -1184,7 +1919,12 @@
    "monthPnl": 244245.1339,
    "weekPnl": 55687.1418,
    "monthRoi": 0.1567439013,
-   "monthVlm": 4913082.47
+   "monthVlm": 4913082.47,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xd05d2e015b9ed6f17f2111cf1ac7ae229155816e",
@@ -1192,7 +1932,12 @@
    "monthPnl": 244123.095888,
    "weekPnl": 87596.860275,
    "monthRoi": 0.3114032044,
-   "monthVlm": 37571017.26
+   "monthVlm": 37571017.26,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x325edd95bb016c36027ce3b9f7595af7094a9564",
@@ -1200,7 +1945,12 @@
    "monthPnl": 242621.90755,
    "weekPnl": 295562.504274,
    "monthRoi": 0.0387027502,
-   "monthVlm": 39157288.03
+   "monthVlm": 39157288.03,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xe357fa9fecb084f0303ff341b0bc55c89f2bb5ce",
@@ -1208,7 +1958,12 @@
    "monthPnl": 242456.244114,
    "weekPnl": 75405.459433,
    "monthRoi": 0.0300781936,
-   "monthVlm": 3641533844.24
+   "monthVlm": 3641533844.24,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x7f1950ce02f9f60634ba39b81844911a6c2f05bf",
@@ -1216,7 +1971,12 @@
    "monthPnl": 241529.310962,
    "weekPnl": 8690.175792,
    "monthRoi": 0.0976523607,
-   "monthVlm": 108677470.34
+   "monthVlm": 108677470.34,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xc298efc4785f2f282838924103509156c9578a9c",
@@ -1224,7 +1984,12 @@
    "monthPnl": 239773.811451,
    "weekPnl": 235951.362256,
    "monthRoi": 0.0613943969,
-   "monthVlm": 5408421.79
+   "monthVlm": 5408421.79,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x7c4b71c1d8a11ed426f301c372a72e06f528e00b",
@@ -1232,7 +1997,12 @@
    "monthPnl": 236696.816498,
    "weekPnl": 334415.696143,
    "monthRoi": 0.2572735069,
-   "monthVlm": 126830366.5
+   "monthVlm": 126830366.5,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x7a639f6dc5361a3e8c998c9d0aac55e33d34d2ff",
@@ -1240,7 +2010,12 @@
    "monthPnl": 226536.673254,
    "weekPnl": 130870.34611,
    "monthRoi": 0.5019950351,
-   "monthVlm": 2503779.81
+   "monthVlm": 2503779.81,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x9c68cd0568eb47bad36ecd8090e6c1d1396a7783",
@@ -1248,7 +2023,12 @@
    "monthPnl": 224908.095111,
    "weekPnl": 33151.77045,
    "monthRoi": 0.2925004622,
-   "monthVlm": 106906051.05
+   "monthVlm": 106906051.05,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x9a96792cbc71ddcde750c2076a50aafb03ceec05",
@@ -1256,7 +2036,12 @@
    "monthPnl": 224618.690457,
    "weekPnl": 164497.16042,
    "monthRoi": 0.1738522888,
-   "monthVlm": 2583253.91
+   "monthVlm": 2583253.91,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xe2823659be02e0f48a4660e4da008b5e1abfdf29",
@@ -1264,7 +2049,12 @@
    "monthPnl": 221407.583022,
    "weekPnl": 736507.870752,
    "monthRoi": 0.0467539401,
-   "monthVlm": 2674099.72
+   "monthVlm": 2674099.72,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x7a833ef6cc97e6c027d5fed9965fdad5ef84d889",
@@ -1272,7 +2062,12 @@
    "monthPnl": 219356.862818,
    "weekPnl": 79478.440357,
    "monthRoi": 0.1366378827,
-   "monthVlm": 44852842.6
+   "monthVlm": 44852842.6,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x7ee6b077b59f4417bc36d41bb65365644315db10",
@@ -1280,7 +2075,12 @@
    "monthPnl": 216028.554763,
    "weekPnl": 255881.975998,
    "monthRoi": 0.2487793428,
-   "monthVlm": 1311760.6
+   "monthVlm": 1311760.6,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x381fe486d87c7f2633c777f1b5be3105a2a51744",
@@ -1288,7 +2088,12 @@
    "monthPnl": 214851.759033,
    "weekPnl": 126319.114485,
    "monthRoi": 0.052567091,
-   "monthVlm": 6724171.66
+   "monthVlm": 6724171.66,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x646be0d5f96edd60d9933c4646b5d3ac165001dc",
@@ -1296,7 +2101,12 @@
    "monthPnl": 213652.698029,
    "weekPnl": 53236.594168,
    "monthRoi": 0.1187567362,
-   "monthVlm": 23514878.14
+   "monthVlm": 23514878.14,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xc619b01f1a4f894c5e83338c42f98dcb82b710f5",
@@ -1304,7 +2114,12 @@
    "monthPnl": 212730.562369,
    "weekPnl": 332731.748366,
    "monthRoi": 0.0887942774,
-   "monthVlm": 18843031.31
+   "monthVlm": 18843031.31,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x14e2ad432297508f8ef3b26d7e99e81d64d05b57",
@@ -1312,7 +2127,12 @@
    "monthPnl": 212039.918105,
    "weekPnl": 67347.514528,
    "monthRoi": 0.1801261734,
-   "monthVlm": 5523134.600000001
+   "monthVlm": 5523134.600000001,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xa88a254a773741dda044dd89a7eb5339e123306f",
@@ -1320,7 +2140,12 @@
    "monthPnl": 208702.23047,
    "weekPnl": 7141.211457,
    "monthRoi": 0.173216249,
-   "monthVlm": 234500847.56
+   "monthVlm": 234500847.56,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xaeb0791ac2f5fa62891babf69d1445ef094fc176",
@@ -1328,7 +2153,12 @@
    "monthPnl": 207761.847579,
    "weekPnl": 60691.517292,
    "monthRoi": 1.3114091879,
-   "monthVlm": 6453413.04
+   "monthVlm": 6453413.04,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x783ee3148b797b6174e8204f8f224e25b8836682",
@@ -1336,7 +2166,12 @@
    "monthPnl": 206275.613876,
    "weekPnl": 169134.132344,
    "monthRoi": 0.5656747025,
-   "monthVlm": 7172460.05
+   "monthVlm": 7172460.05,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x42db7bbcffdc545f98c80ce6af0415ad4c3155d1",
@@ -1344,7 +2179,12 @@
    "monthPnl": 203528.976022,
    "weekPnl": 190882.72229,
    "monthRoi": 2.1618538973,
-   "monthVlm": 1071680.77
+   "monthVlm": 1071680.77,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x3d0c8d5184b27e2c3d36354d684da521fa1760d2",
@@ -1352,7 +2192,12 @@
    "monthPnl": 203466.007371,
    "weekPnl": 126108.785837,
    "monthRoi": 0.4630977108,
-   "monthVlm": 534977.7
+   "monthVlm": 534977.7,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x07295d129f841f2854f9f298f137c2ffc5ccff34",
@@ -1360,7 +2205,12 @@
    "monthPnl": 203264.373254,
    "weekPnl": 20553.167127,
    "monthRoi": 0.3404577991,
-   "monthVlm": 9939124.81
+   "monthVlm": 9939124.81,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x78dc6d769bd7dc3333b3f0acff06d2340562cb61",
@@ -1368,7 +2218,12 @@
    "monthPnl": 203243.082719,
    "weekPnl": 22177.406271,
    "monthRoi": 0.4619801157,
-   "monthVlm": 4033491.94
+   "monthVlm": 4033491.94,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x04dbde5c9d1e6a3239c8ff8ee3fca386a4a3c605",
@@ -1376,7 +2231,12 @@
    "monthPnl": 202720.523044,
    "weekPnl": 74340.258677,
    "monthRoi": 0.5958791663,
-   "monthVlm": 2714071743.9
+   "monthVlm": 2714071743.9,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x34ea1e25034eb9d49f23c5c55483c84a9d642f47",
@@ -1384,7 +2244,12 @@
    "monthPnl": 202684.706037,
    "weekPnl": 114548.130593,
    "monthRoi": 0.1623806694,
-   "monthVlm": 15218223.88
+   "monthVlm": 15218223.88,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x649156ebf0a350deb18a1e4835873defd4dc5349",
@@ -1392,7 +2257,12 @@
    "monthPnl": 202236.045996,
    "weekPnl": 139968.245042,
    "monthRoi": 0.226901633,
-   "monthVlm": 14886421.59
+   "monthVlm": 14886421.59,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x7f7b5b2e96c48cbd47ec257fcc7d284f7b06279a",
@@ -1400,7 +2270,12 @@
    "monthPnl": 196565.375066,
    "weekPnl": 44265.796839,
    "monthRoi": 0.2815298826,
-   "monthVlm": 3979277.93
+   "monthVlm": 3979277.93,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x1b2ad1743bb86b3af79ddcece14ffbdd11a3f7a6",
@@ -1408,7 +2283,12 @@
    "monthPnl": 195554.76,
    "weekPnl": 24325.825179,
    "monthRoi": 0.2288578392,
-   "monthVlm": 10740247.85
+   "monthVlm": 10740247.85,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xa0643168db9a89c8db1b4343a12d4dca295cdef6",
@@ -1416,7 +2296,12 @@
    "monthPnl": 195372.496539,
    "weekPnl": 76111.427184,
    "monthRoi": 0.1060969826,
-   "monthVlm": 160966936.4
+   "monthVlm": 160966936.4,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xa9ff08af55b24bb5d064d776a078e8a292b8dfe2",
@@ -1424,7 +2309,12 @@
    "monthPnl": 193394.326777,
    "weekPnl": 247228.837547,
    "monthRoi": 0.0355595829,
-   "monthVlm": 303887.78
+   "monthVlm": 303887.78,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xe31501c472d557bfa145ce105d325fb2dd4cb867",
@@ -1432,7 +2322,12 @@
    "monthPnl": 193114.811343,
    "weekPnl": 80915.558773,
    "monthRoi": 0.3087585827,
-   "monthVlm": 250612021.21
+   "monthVlm": 250612021.21,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xae78adaba70f18c15418001263504af373884520",
@@ -1440,7 +2335,12 @@
    "monthPnl": 191551.133514,
    "weekPnl": 109174.804604,
    "monthRoi": 0.1061810318,
-   "monthVlm": 109142087.0
+   "monthVlm": 109142087.0,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x4da577b56741299e2c3fcdfa3ffa41a771b80abe",
@@ -1448,7 +2348,12 @@
    "monthPnl": 191408.091172,
    "weekPnl": 118645.512995,
    "monthRoi": 0.1291120813,
-   "monthVlm": 339013.72
+   "monthVlm": 339013.72,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x718cc7ee2ae2493ebf7d454316df6b61f4e1a868",
@@ -1456,7 +2361,12 @@
    "monthPnl": 190415.376017,
    "weekPnl": 48470.194564,
    "monthRoi": 1.110809262,
-   "monthVlm": 431047.09
+   "monthVlm": 431047.09,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xbb34960afec64f3f1cc78b0c9c342c4657021696",
@@ -1464,7 +2374,12 @@
    "monthPnl": 187917.236731,
    "weekPnl": 323666.770972,
    "monthRoi": 0.0808789852,
-   "monthVlm": 19519793.11
+   "monthVlm": 19519793.11,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x7e06469fa39985fe7faef57545e6a54d0909313f",
@@ -1472,7 +2387,12 @@
    "monthPnl": 183761.011395,
    "weekPnl": 6585.755622,
    "monthRoi": 1.1395071162,
-   "monthVlm": 12391741.71
+   "monthVlm": 12391741.71,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xd1692402c26392ccc8588631d7d5ca9aed4348e5",
@@ -1480,7 +2400,12 @@
    "monthPnl": 181791.057496,
    "weekPnl": 24231.921459,
    "monthRoi": 0.4528924461,
-   "monthVlm": 1347460.12
+   "monthVlm": 1347460.12,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x9c6a5b4662c722d2c47f43d6c9813cb080ffa4ed",
@@ -1488,7 +2413,12 @@
    "monthPnl": 181011.784533,
    "weekPnl": 806644.101172,
    "monthRoi": 0.0214689646,
-   "monthVlm": 38201640.38
+   "monthVlm": 38201640.38,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x265eac78fb57495674227c93065d67abe6f97f70",
@@ -1496,7 +2426,12 @@
    "monthPnl": 179269.896257,
    "weekPnl": 748454.958002,
    "monthRoi": 0.2020009865,
-   "monthVlm": 5708953.05
+   "monthVlm": 5708953.05,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xdbe0780a5c5a0e3b345101bbc01ac2218196d6d5",
@@ -1504,7 +2439,12 @@
    "monthPnl": 176764.144599,
    "weekPnl": 222015.626343,
    "monthRoi": 0.1095004706,
-   "monthVlm": 1575675.17
+   "monthVlm": 1575675.17,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x5f94a51948d2376ad34a6fadfa2544e651b74b96",
@@ -1512,7 +2452,12 @@
    "monthPnl": 176585.972527,
    "weekPnl": 713434.109407,
    "monthRoi": 0.060488088,
-   "monthVlm": 4592808.96
+   "monthVlm": 4592808.96,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x9db1b9d343ffd38b7109b6a2c21da04fc273a7d1",
@@ -1520,7 +2465,12 @@
    "monthPnl": 173583.753166,
    "weekPnl": 27805.991829,
    "monthRoi": 0.0397681619,
-   "monthVlm": 5692901.680000001
+   "monthVlm": 5692901.680000001,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xccf135ab352d561a15eb7be2a243cc4fcb7f0ab1",
@@ -1528,7 +2478,12 @@
    "monthPnl": 172693.168479,
    "weekPnl": 156565.749018,
    "monthRoi": 0.6809658862,
-   "monthVlm": 3231195.41
+   "monthVlm": 3231195.41,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x1bf629cd9f4dbcc9fca616ccf7a19891007f5bfa",
@@ -1536,7 +2491,12 @@
    "monthPnl": 172255.544662,
    "weekPnl": 113804.347127,
    "monthRoi": 0.0834152559,
-   "monthVlm": 9876138.31
+   "monthVlm": 9876138.31,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x2f0fe0ecdab53877bf0106bc1534d11012c69018",
@@ -1544,7 +2504,12 @@
    "monthPnl": 170387.587887,
    "weekPnl": 113214.484755,
    "monthRoi": 0.1822260084,
-   "monthVlm": 2930462.71
+   "monthVlm": 2930462.71,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x7f47bf4025bd2178741058a10cd829e406ef4d0c",
@@ -1552,7 +2517,12 @@
    "monthPnl": 170262.281342,
    "weekPnl": 243094.823385,
    "monthRoi": 0.4724856719,
-   "monthVlm": 14800883.18
+   "monthVlm": 14800883.18,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x22504e8da6acf4756d2216ef947f525b0ee6ec0a",
@@ -1560,7 +2530,12 @@
    "monthPnl": 169662.551028,
    "weekPnl": 4610.067255,
    "monthRoi": 0.0558712598,
-   "monthVlm": 102903501.74000001
+   "monthVlm": 102903501.74000001,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x266b5569ed3017e74dd48059c6db804e016eefcb",
@@ -1568,7 +2543,12 @@
    "monthPnl": 168687.721182,
    "weekPnl": 333538.928945,
    "monthRoi": 0.1892115308,
-   "monthVlm": 14897833.2
+   "monthVlm": 14897833.2,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xda744273f80b22412417f7cfe0503f3d721f987d",
@@ -1576,7 +2556,12 @@
    "monthPnl": 167835.614837,
    "weekPnl": 190603.803394,
    "monthRoi": 0.0377735062,
-   "monthVlm": 18656425.54
+   "monthVlm": 18656425.54,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xf00bb08f7d1d04a9415408c939c02410fc6791b1",
@@ -1584,7 +2569,12 @@
    "monthPnl": 166950.580858,
    "weekPnl": 73061.585681,
    "monthRoi": 0.0994804026,
-   "monthVlm": 8983386.16
+   "monthVlm": 8983386.16,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x8ecec0c9367490d2044aaff4030ad0becc33218b",
@@ -1592,7 +2582,12 @@
    "monthPnl": 166440.802696,
    "weekPnl": 41748.853232,
    "monthRoi": 0.360219779,
-   "monthVlm": 5960791.58
+   "monthVlm": 5960791.58,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xab9525917907c4285c24c9a94862989c57985f8a",
@@ -1600,7 +2595,12 @@
    "monthPnl": 164599.99969,
    "weekPnl": 126988.064627,
    "monthRoi": 0.4807822671,
-   "monthVlm": 35056329.06
+   "monthVlm": 35056329.06,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xa0b7020185b97f496f523c3f769eebcffcc56165",
@@ -1608,7 +2608,12 @@
    "monthPnl": 164274.454302,
    "weekPnl": 107278.979091,
    "monthRoi": 0.0321056499,
-   "monthVlm": 7343224.62
+   "monthVlm": 7343224.62,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x461cc78cc9ddd66b0778aea759bdf0866a5ad2f2",
@@ -1616,7 +2621,12 @@
    "monthPnl": 162737.934797,
    "weekPnl": 8827.517809,
    "monthRoi": 0.2307868281,
-   "monthVlm": 90765139.46
+   "monthVlm": 90765139.46,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x2669f508f456efae73c86d99d373f885c7b32b39",
@@ -1624,7 +2634,12 @@
    "monthPnl": 162481.644028,
    "weekPnl": 101056.221357,
    "monthRoi": 0.0993348918,
-   "monthVlm": 6782751.23
+   "monthVlm": 6782751.23,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xb5e7dee094dae809f2775caf07c4d4fde863eff1",
@@ -1632,7 +2647,12 @@
    "monthPnl": 162427.129294,
    "weekPnl": 170749.991548,
    "monthRoi": 0.4384201449,
-   "monthVlm": 7463411.53
+   "monthVlm": 7463411.53,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xdf954bbe619273a56e0cfa90dad8382195dc7d72",
@@ -1640,7 +2660,12 @@
    "monthPnl": 162046.066216,
    "weekPnl": 112579.857268,
    "monthRoi": 0.0125676477,
-   "monthVlm": 23162802.52
+   "monthVlm": 23162802.52,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x342f75d8522b7b6dabb16435ae3f8186b8607e03",
@@ -1648,7 +2673,12 @@
    "monthPnl": 160213.744996,
    "weekPnl": 39205.664213,
    "monthRoi": 0.365950709,
-   "monthVlm": 491659.78
+   "monthVlm": 491659.78,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x10e14ba2d77263543be1bdb2851b0933ddf4f4bd",
@@ -1656,7 +2686,12 @@
    "monthPnl": 159904.275305,
    "weekPnl": 180980.424467,
    "monthRoi": 0.0658182974,
-   "monthVlm": 1003484.01
+   "monthVlm": 1003484.01,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x810cc4084a961173963e5fec9249203abaf31de1",
@@ -1664,7 +2699,12 @@
    "monthPnl": 159641.814692,
    "weekPnl": 227675.954635,
    "monthRoi": 1.1166651468,
-   "monthVlm": 34465897.05
+   "monthVlm": 34465897.05,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x8fb5c6f3c336033deeedbb54ad95e96453c9eaa4",
@@ -1672,7 +2712,12 @@
    "monthPnl": 157934.443057,
    "weekPnl": 27968.562882,
    "monthRoi": 0.1591994116,
-   "monthVlm": 49525983.75
+   "monthVlm": 49525983.75,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x6a704a0e46dcc67a6316644372e261e8fb6f658c",
@@ -1680,7 +2725,12 @@
    "monthPnl": 155997.003771,
    "weekPnl": 331066.470302,
    "monthRoi": 0.1319452765,
-   "monthVlm": 8374301.77
+   "monthVlm": 8374301.77,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x0748e296e5a350ec36c8487a1cea406e1b57d4b2",
@@ -1688,7 +2738,12 @@
    "monthPnl": 155396.983091,
    "weekPnl": 320723.528423,
    "monthRoi": 0.0330873043,
-   "monthVlm": 11858834.5
+   "monthVlm": 11858834.5,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x5a7982f19501d313508dc82924c235f6c1c2989a",
@@ -1696,7 +2751,12 @@
    "monthPnl": 153604.387754,
    "weekPnl": 35531.127695,
    "monthRoi": 0.3571609277,
-   "monthVlm": 3632405.34
+   "monthVlm": 3632405.34,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x5b53358eca5790fa4c268ad6813386b3a86549c7",
@@ -1704,7 +2764,12 @@
    "monthPnl": 153459.257248,
    "weekPnl": 65440.046749,
    "monthRoi": 0.0941695345,
-   "monthVlm": 2638046.44
+   "monthVlm": 2638046.44,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x288ed4efc8fbd1e42a06fe083ea942d20c90b336",
@@ -1712,7 +2777,12 @@
    "monthPnl": 151937.462309,
    "weekPnl": 170103.533581,
    "monthRoi": 0.0793643513,
-   "monthVlm": 23353187.81
+   "monthVlm": 23353187.81,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x4fe260d11bf48ba3a94459771259c910a398ac59",
@@ -1720,7 +2790,12 @@
    "monthPnl": 151766.861946,
    "weekPnl": 58728.815205,
    "monthRoi": 0.0974539028,
-   "monthVlm": 34341978.35
+   "monthVlm": 34341978.35,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x21ca98106c69bff036a194648ba30388ccbe811d",
@@ -1728,7 +2803,12 @@
    "monthPnl": 150085.248413,
    "weekPnl": 146153.367457,
    "monthRoi": 0.3892348415,
-   "monthVlm": 2480663.78
+   "monthVlm": 2480663.78,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xbbe9e1588a359337c3235de3b808da991cfc2efe",
@@ -1736,7 +2816,12 @@
    "monthPnl": 149426.439394,
    "weekPnl": 29125.554271,
    "monthRoi": 0.3949183952,
-   "monthVlm": 3114273.1
+   "monthVlm": 3114273.1,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x2cef0a7f84e722c77b271862da5fe2387028fa20",
@@ -1744,7 +2829,12 @@
    "monthPnl": 149180.612387,
    "weekPnl": 44266.711467,
    "monthRoi": 0.6437354297,
-   "monthVlm": 62180006.92
+   "monthVlm": 62180006.92,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xa94b5e2af974818bbc63a4f4b3661cbc951c8e06",
@@ -1752,7 +2842,12 @@
    "monthPnl": 148091.453688,
    "weekPnl": 8384.128208,
    "monthRoi": 0.2643116037,
-   "monthVlm": 27012224.24
+   "monthVlm": 27012224.24,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x029bf0485e2d10bece043bd6b27caf486ee4acc3",
@@ -1760,7 +2855,12 @@
    "monthPnl": 145992.547046,
    "weekPnl": 336717.958545,
    "monthRoi": 0.0304892318,
-   "monthVlm": 4788324.27
+   "monthVlm": 4788324.27,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xefba0f56eef05f6a7d614ce519d2e284b46d3583",
@@ -1768,7 +2868,12 @@
    "monthPnl": 142242.959321,
    "weekPnl": 83980.74613,
    "monthRoi": 0.0996421522,
-   "monthVlm": 6332221.69
+   "monthVlm": 6332221.69,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x09dd26e24f226e64ca97a1eab04846745166971a",
@@ -1776,7 +2881,12 @@
    "monthPnl": 141398.096491,
    "weekPnl": 187210.291981,
    "monthRoi": 0.3478011909,
-   "monthVlm": 6216720.16
+   "monthVlm": 6216720.16,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x166866a2845506f6b4c817482fe53b4985882ea6",
@@ -1784,7 +2894,12 @@
    "monthPnl": 140972.828773,
    "weekPnl": 6350.999833,
    "monthRoi": 0.2103438123,
-   "monthVlm": 5134069.3
+   "monthVlm": 5134069.3,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x349bd094209d50280dfaca12779576c748395c15",
@@ -1792,7 +2907,12 @@
    "monthPnl": 137556.942441,
    "weekPnl": 80299.50676,
    "monthRoi": 0.1185435054,
-   "monthVlm": 20108.23
+   "monthVlm": 20108.23,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x905393f6c29aa218f52dd8a4ec8933c0bf71b56e",
@@ -1800,7 +2920,12 @@
    "monthPnl": 134255.221579,
    "weekPnl": 158372.055671,
    "monthRoi": 0.3427037463,
-   "monthVlm": 839881591.13
+   "monthVlm": 839881591.13,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
@@ -1808,7 +2933,12 @@
    "monthPnl": 133980.251011,
    "weekPnl": 48053.764557,
    "monthRoi": 0.1589161876,
-   "monthVlm": 24236996.94
+   "monthVlm": 24236996.94,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x732e5e68c7d4fdd667c5fabc8433d46e6614041a",
@@ -1816,7 +2946,12 @@
    "monthPnl": 131698.918293,
    "weekPnl": 9292.158016,
    "monthRoi": 0.1205227212,
-   "monthVlm": 2263807.67
+   "monthVlm": 2263807.67,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xa9d90f0eb0993390bd02a2c50cee658ebd01b48e",
@@ -1824,7 +2959,12 @@
    "monthPnl": 130999.64214,
    "weekPnl": 95839.308864,
    "monthRoi": 0.1470487233,
-   "monthVlm": 6264568.26
+   "monthVlm": 6264568.26,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x427070e33d630b0476bedba5d53db224913eb946",
@@ -1832,7 +2972,12 @@
    "monthPnl": 130746.770775,
    "weekPnl": 14808.368814,
    "monthRoi": 0.1535217522,
-   "monthVlm": 81977462.11
+   "monthVlm": 81977462.11,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x3c66b4d46004afaf5a8a1ab7399c1f5aff89eab6",
@@ -1840,7 +2985,12 @@
    "monthPnl": 130249.574149,
    "weekPnl": 121227.353484,
    "monthRoi": 0.3272943887,
-   "monthVlm": 7220744.86
+   "monthVlm": 7220744.86,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x3a02d3a9e01ece8dfe1241d1e03f7c0a4bfe78da",
@@ -1848,7 +2998,12 @@
    "monthPnl": 129001.356832,
    "weekPnl": 23194.084876,
    "monthRoi": 0.7676895494,
-   "monthVlm": 149863.9
+   "monthVlm": 149863.9,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x8b61a50f7091abbc7ab292d3a24b9eeb4a29c0c2",
@@ -1856,7 +3011,12 @@
    "monthPnl": 127673.644516,
    "weekPnl": 67936.604889,
    "monthRoi": 0.1470102239,
-   "monthVlm": 143462645.46
+   "monthVlm": 143462645.46,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x2ec32326e420abe736a4ac74bdc95580219a8469",
@@ -1864,7 +3024,12 @@
    "monthPnl": 126611.172243,
    "weekPnl": 0.02986,
    "monthRoi": 0.0907973585,
-   "monthVlm": 23092075.8
+   "monthVlm": 23092075.8,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xa40ee97b4352307b7745a2cb12bb475b80faef13",
@@ -1872,7 +3037,12 @@
    "monthPnl": 123946.011111,
    "weekPnl": 57865.681374,
    "monthRoi": 0.4520088579,
-   "monthVlm": 22559593.33
+   "monthVlm": 22559593.33,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xc745044ae202b60d3ef5ee89a5f6738011651464",
@@ -1880,7 +3050,12 @@
    "monthPnl": 122505.398707,
    "weekPnl": 76961.131205,
    "monthRoi": 0.0375382413,
-   "monthVlm": 17112995.8
+   "monthVlm": 17112995.8,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xf3dcaeb909d3d17318c0908a1ec0ca31321e1672",
@@ -1888,7 +3063,12 @@
    "monthPnl": 121424.257396,
    "weekPnl": 64278.854241,
    "monthRoi": 0.1405012501,
-   "monthVlm": 32430555.03
+   "monthVlm": 32430555.03,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x8405627e47ca4f4f918c1de7012f4270f8812b8a",
@@ -1896,7 +3076,12 @@
    "monthPnl": 120198.048416,
    "weekPnl": 34400.542616,
    "monthRoi": 0.1639719429,
-   "monthVlm": 11029801.24
+   "monthVlm": 11029801.24,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x436c9c7c0eb3611565591eedee51ad149b76b3d1",
@@ -1904,7 +3089,12 @@
    "monthPnl": 120007.819612,
    "weekPnl": 90555.808284,
    "monthRoi": 0.1495884456,
-   "monthVlm": 11380750.34
+   "monthVlm": 11380750.34,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xa5fd942d4badbab4fe84a9e10f565dd40d5f15ff",
@@ -1912,7 +3102,12 @@
    "monthPnl": 116116.218494,
    "weekPnl": 49408.079726,
    "monthRoi": 0.0732422496,
-   "monthVlm": 30883778.86
+   "monthVlm": 30883778.86,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x042306468a58de9bab93f4d9e2a117efad3c5373",
@@ -1920,7 +3115,12 @@
    "monthPnl": 115470.944897,
    "weekPnl": 229829.997431,
    "monthRoi": 0.0974349932,
-   "monthVlm": 3439796.7
+   "monthVlm": 3439796.7,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x39a04e90140793ec048323284425cd2ff53480d6",
@@ -1928,7 +3128,12 @@
    "monthPnl": 114774.098621,
    "weekPnl": 51586.217814,
    "monthRoi": 0.1358700324,
-   "monthVlm": 9842506.54
+   "monthVlm": 9842506.54,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xe8d89110c52df4ca33e75e060e3c72dcbf6c8dda",
@@ -1936,7 +3141,12 @@
    "monthPnl": 112904.725997,
    "weekPnl": 47432.661628,
    "monthRoi": 0.294143473,
-   "monthVlm": 3057047.32
+   "monthVlm": 3057047.32,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xdd7a372377fc633f74ab6e20963803d52f448830",
@@ -1944,7 +3154,12 @@
    "monthPnl": 112097.352241,
    "weekPnl": 249326.24347,
    "monthRoi": 0.1690688869,
-   "monthVlm": 17772180.2
+   "monthVlm": 17772180.2,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xe71cbf47fff309813bcea54f3ecf49a5f129264d",
@@ -1952,7 +3167,12 @@
    "monthPnl": 111888.923399,
    "weekPnl": 103241.931719,
    "monthRoi": 2.6372152538,
-   "monthVlm": 635617.29
+   "monthVlm": 635617.29,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x74c8b2b012b161c3f2b52ebb2b142944c79b86af",
@@ -1960,7 +3180,12 @@
    "monthPnl": 111826.108383,
    "weekPnl": 20699.757815,
    "monthRoi": 0.5338362955,
-   "monthVlm": 9983248.45
+   "monthVlm": 9983248.45,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x8f78cb4c11dd66b99b2172b4c1ae05843bde87e7",
@@ -1968,7 +3193,12 @@
    "monthPnl": 111778.652307,
    "weekPnl": 153758.086505,
    "monthRoi": 0.0837493334,
-   "monthVlm": 70683089.36
+   "monthVlm": 70683089.36,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x9bf9d46627c21fe2a35df37b1f0c417fa2088b13",
@@ -1976,7 +3206,12 @@
    "monthPnl": 111405.84933,
    "weekPnl": 141021.1453,
    "monthRoi": 0.1950140291,
-   "monthVlm": 2987813.06
+   "monthVlm": 2987813.06,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x2b804617c6f63c040377e95bb276811747006f4b",
@@ -1984,7 +3219,12 @@
    "monthPnl": 111243.8736,
    "weekPnl": 61806.642882,
    "monthRoi": 0.0489446067,
-   "monthVlm": 1074632.17
+   "monthVlm": 1074632.17,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x95da8596c44dd09f4b8becce87ad3b7894fb2328",
@@ -1992,7 +3232,12 @@
    "monthPnl": 111079.525793,
    "weekPnl": 14925.315656,
    "monthRoi": 0.1532150868,
-   "monthVlm": 7598171.51
+   "monthVlm": 7598171.51,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x03ef8f736498047c3349bb2c18311d1bb4a79054",
@@ -2000,7 +3245,12 @@
    "monthPnl": 110964.84495,
    "weekPnl": 452545.295726,
    "monthRoi": 0.0235393072,
-   "monthVlm": 56058512.43
+   "monthVlm": 56058512.43,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x8cf051405995581de2cbbdc9a3e9951325607e18",
@@ -2008,7 +3258,12 @@
    "monthPnl": 110676.267423,
    "weekPnl": 122141.321686,
    "monthRoi": 0.1402022708,
-   "monthVlm": 35213023.97
+   "monthVlm": 35213023.97,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xccaeb98ce9ca54f76bf0029cf9f12c894e253dd6",
@@ -2016,7 +3271,12 @@
    "monthPnl": 108971.835591,
    "weekPnl": 13852.734682,
    "monthRoi": 0.3701788012,
-   "monthVlm": 2149948.59
+   "monthVlm": 2149948.59,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xc36af149b64a41aab6c26ea6b71c37082d9e105b",
@@ -2024,7 +3284,12 @@
    "monthPnl": 108593.75717,
    "weekPnl": 303943.013779,
    "monthRoi": 0.0469376337,
-   "monthVlm": 4182762.72
+   "monthVlm": 4182762.72,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xa25af74f90c6d7631cccf83af7517b85e1384b00",
@@ -2032,7 +3297,12 @@
    "monthPnl": 108530.043067,
    "weekPnl": 57410.399368,
    "monthRoi": 0.1083948389,
-   "monthVlm": 6018793.71
+   "monthVlm": 6018793.71,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x8aa077f5998d234ac8641d73d6bc4976e2a210fc",
@@ -2040,7 +3310,12 @@
    "monthPnl": 107344.976861,
    "weekPnl": 93908.990446,
    "monthRoi": 0.3398672302,
-   "monthVlm": 2822510.1
+   "monthVlm": 2822510.1,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x9a991732cd4cf14712b07fbeb8c5d87de90dd21a",
@@ -2048,7 +3323,12 @@
    "monthPnl": 107175.862718,
    "weekPnl": 1641.47201,
    "monthRoi": 0.2900237772,
-   "monthVlm": 27758555.28
+   "monthVlm": 27758555.28,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x3938a7d74f692a8a662fb17d6081e3a494de22e6",
@@ -2056,7 +3336,12 @@
    "monthPnl": 107086.74,
    "weekPnl": 86087.707722,
    "monthRoi": 2.3540633064,
-   "monthVlm": 1917348.24
+   "monthVlm": 1917348.24,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xecc846a664e910103c179827dd23fea82cfcd8ce",
@@ -2064,7 +3349,12 @@
    "monthPnl": 106258.077419,
    "weekPnl": 61662.408801,
    "monthRoi": 0.0354180959,
-   "monthVlm": 2949739.6
+   "monthVlm": 2949739.6,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xb37f083bad343a76361cd8f39afe7ecd6a0a66ca",
@@ -2072,7 +3362,12 @@
    "monthPnl": 106159.480852,
    "weekPnl": 179700.203794,
    "monthRoi": 0.0366870973,
-   "monthVlm": 251709310.6
+   "monthVlm": 251709310.6,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xe79d69fd1ed52dd14d7f55155259519ea20d0534",
@@ -2080,7 +3375,12 @@
    "monthPnl": 105943.077794,
    "weekPnl": 17063.790715,
    "monthRoi": 0.0800162663,
-   "monthVlm": 10933557.05
+   "monthVlm": 10933557.05,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x3300eebeea8239b90a435e403b130a853a0d7dff",
@@ -2088,7 +3388,12 @@
    "monthPnl": 105708.738723,
    "weekPnl": 210019.361979,
    "monthRoi": 0.0228290737,
-   "monthVlm": 2106071.25
+   "monthVlm": 2106071.25,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x37e6c9758c0f3a1983d03ace7598d31e2f8964dc",
@@ -2096,7 +3401,12 @@
    "monthPnl": 105001.459906,
    "weekPnl": 151659.579424,
    "monthRoi": 0.0508657455,
-   "monthVlm": 3806155.38
+   "monthVlm": 3806155.38,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x20567571c1602360562af269970cb7dd4fb18396",
@@ -2104,7 +3414,12 @@
    "monthPnl": 104490.520129,
    "weekPnl": 137620.672688,
    "monthRoi": 0.0406975796,
-   "monthVlm": 33774002.26
+   "monthVlm": 33774002.26,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x1eade926f85b910cc558c6f014ca65bf7f0f9f72",
@@ -2112,7 +3427,12 @@
    "monthPnl": 104380.129159,
    "weekPnl": 79618.947951,
    "monthRoi": 0.2611725808,
-   "monthVlm": 2456809.09
+   "monthVlm": 2456809.09,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xaf0fdd39e5d92499b0ed9f68693da99c0ec1e92e",
@@ -2120,7 +3440,12 @@
    "monthPnl": 103695.282096,
    "weekPnl": 562384.628145,
    "monthRoi": 0.0637336193,
-   "monthVlm": 23671623.78
+   "monthVlm": 23671623.78,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x6208ff338faf9a30203d4e38ff7f6cfac41874e7",
@@ -2128,7 +3453,12 @@
    "monthPnl": 102482.254777,
    "weekPnl": 102482.254777,
    "monthRoi": 0.0732016419,
-   "monthVlm": 4398742.78
+   "monthVlm": 4398742.78,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x2b8e8acc1dd32cd642ebb91014320a6f6a0f9507",
@@ -2136,7 +3466,12 @@
    "monthPnl": 101480.516924,
    "weekPnl": 44700.280089,
    "monthRoi": 0.2427581087,
-   "monthVlm": 2195500.72
+   "monthVlm": 2195500.72,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x62cd732421df4824f53a59c422b519bb97e8fd51",
@@ -2144,7 +3479,12 @@
    "monthPnl": 101364.668994,
    "weekPnl": 103898.28638,
    "monthRoi": 0.0219110923,
-   "monthVlm": 2179011.36
+   "monthVlm": 2179011.36,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0xceec48581b3145a575508719f45da07dc57fa7ce",
@@ -2152,7 +3492,12 @@
    "monthPnl": 100357.723752,
    "weekPnl": 617208.618097,
    "monthRoi": 0.111294714,
-   "monthVlm": 6707999.94
+   "monthVlm": 6707999.94,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   },
   {
    "ethAddress": "0x1ebc9d59fca0c4df29c453af993aa8c7c89b09bf",
@@ -2160,7 +3505,12 @@
    "monthPnl": 100177.47827,
    "weekPnl": 77979.158741,
    "monthRoi": 0.1912200703,
-   "monthVlm": 4126718.13
+   "monthVlm": 4126718.13,
+   "winRate": null,
+   "profitFactor": null,
+   "realizedPnl": null,
+   "fills": null,
+   "equity": null
   }
  ]
 }
