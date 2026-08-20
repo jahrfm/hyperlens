@@ -1,17 +1,274 @@
 {
- "generatedAt": "2026-08-20T01:28:17.884048+00:00",
- "date": "2026-08-20",
+ "generatedAt": "2026-08-20T23:01:59.890985+00:00",
+ "date": "2026-08-21",
  "coins": [
+  {
+   "coin": "BTC",
+   "bias": "LONG",
+   "netUsd": 229644829.507214,
+   "netNewUsd": -14235066.397785999,
+   "freshPct": 0.3562925889996112,
+   "tradersLong": 22,
+   "tradersShort": 5,
+   "sideAgreement": 0.8148148148148148,
+   "conviction": 187118009.2281003,
+   "consensusState": "MIXED",
+   "positions": [
+    {
+     "wallet": "0x15a4f009bb324a3fb9e36137136b201e3fe0dfdb",
+     "side": "long",
+     "sizeUsd": 62353600.0,
+     "entryPx": "62353.6",
+     "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": 10343345.11882
+    },
+    {
+     "wallet": "0x856c35038594767646266bc7fd68dc26480e910d",
+     "side": "short",
+     "sizeUsd": 294840.308136,
+     "entryPx": "62946.4",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -45676.39185
+    },
+    {
+     "wallet": "0x362ad6209a5e904a5569f69884375809c5781d9f",
+     "side": "long",
+     "sizeUsd": 11370050.288519999,
+     "entryPx": "64402.8",
+     "ageBucket": "RECENT",
+     "touched24h": true,
+     "unrealizedPnl": 1464828.313519
+    },
+    {
+     "wallet": "0xa2ce501d9c0c5e23d34272f84402cfb7835b3126",
+     "side": "long",
+     "sizeUsd": 10296246.685678,
+     "entryPx": "64153.4",
+     "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": 1371663.776976
+    },
+    {
+     "wallet": "0x66466428990e0f42a4c54f64bee0db6bf2336de5",
+     "side": "long",
+     "sizeUsd": 13928162.280710999,
+     "entryPx": "62186.7",
+     "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": 2357151.008982
+    },
+    {
+     "wallet": "0xec4a6f59960fb55a7fa49262e2628687b322cf62",
+     "side": "long",
+     "sizeUsd": 13883735.679728,
+     "entryPx": "62821.6",
+     "ageBucket": "RECENT",
+     "touched24h": false,
+     "unrealizedPnl": 2186669.74225
+    },
+    {
+     "wallet": "0xec0b9ebf2a304c99cafe85c548c14dd7783cb078",
+     "side": "long",
+     "sizeUsd": 18320062.677056,
+     "entryPx": "73828.4",
+     "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": -275309.079282
+    },
+    {
+     "wallet": "0x32008fcb6bbd16532afc83ca8b6c920dde22c407",
+     "side": "short",
+     "sizeUsd": 24930451.947258,
+     "entryPx": "71844.6",
+     "ageBucket": "NEW",
+     "touched24h": true,
+     "unrealizedPnl": -303415.45215
+    },
+    {
+     "wallet": "0x152e41f0b83e6cad4b5dc730c1d6279b7d67c9dc",
+     "side": "long",
+     "sizeUsd": 4409779.459367999,
+     "entryPx": "67925.4",
+     "ageBucket": "RECENT",
+     "touched24h": false,
+     "unrealizedPnl": 311393.8484
+    },
+    {
+     "wallet": "0xe2823659be02e0f48a4660e4da008b5e1abfdf29",
+     "side": "long",
+     "sizeUsd": 2165331.0,
+     "entryPx": "72177.7",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": 16327.380421
+    },
+    {
+     "wallet": "0x9eec98d048d06d9cd75318fffa3f3960e081daab",
+     "side": "long",
+     "sizeUsd": 2052190.786688,
+     "entryPx": "65531.2",
+     "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": 225251.209774
+    },
+    {
+     "wallet": "0x8f78cb4c11dd66b99b2172b4c1ae05843bde87e7",
+     "side": "long",
+     "sizeUsd": 8047067.338032,
+     "entryPx": "63683.6",
+     "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": 1142336.93822
+    },
+    {
+     "wallet": "0x9546b9d4103be41ce13483a8f299d0df0eeb181c",
+     "side": "long",
+     "sizeUsd": 11064198.945934,
+     "entryPx": "72293.3",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": 66669.013061
+    },
+    {
+     "wallet": "0xb5b3f3caf9d778b1293e5cd29f32e84b04c67a08",
+     "side": "long",
+     "sizeUsd": 30691613.999999996,
+     "entryPx": "66720.9",
+     "ageBucket": "RECENT",
+     "touched24h": false,
+     "unrealizedPnl": 2765067.51654
+    },
+    {
+     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
+     "side": "short",
+     "sizeUsd": 1958285.781228,
+     "entryPx": "71829.8",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -24596.506648
+    },
+    {
+     "wallet": "0x15b325660a1c4a9582a7d834c31119c0cb9e3a42",
+     "side": "long",
+     "sizeUsd": 12405960.0,
+     "entryPx": "62029.8",
+     "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": 2140423.17251
+    },
+    {
+     "wallet": "0x92b75a5bfb7be7911747276ad335b8f5da3ce0f4",
+     "side": "long",
+     "sizeUsd": 22138915.702186,
+     "entryPx": "65089.1",
+     "ageBucket": "OLD",
+     "touched24h": true,
+     "unrealizedPnl": 2600948.508993
+    },
+    {
+     "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
+     "side": "long",
+     "sizeUsd": 13196272.213581001,
+     "entryPx": "109632.3",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -4428401.430276
+    },
+    {
+     "wallet": "0x9c062c0575c30a3b7614d0c6ea8de67faab00560",
+     "side": "short",
+     "sizeUsd": 3550600.61328,
+     "entryPx": "70476.0",
+     "ageBucket": "RECENT",
+     "touched24h": true,
+     "unrealizedPnl": -118622.732378
+    },
+    {
+     "wallet": "0xc619b01f1a4f894c5e83338c42f98dcb82b710f5",
+     "side": "long",
+     "sizeUsd": 956221.5,
+     "entryPx": "63748.1",
+     "ageBucket": "OLD",
+     "touched24h": true,
+     "unrealizedPnl": 136228.162009
+    },
+    {
+     "wallet": "0x091159a8106b077c13e89bc09701117e8b5f129a",
+     "side": "long",
+     "sizeUsd": 60018.905238,
+     "entryPx": "64293.8",
+     "ageBucket": "RECENT",
+     "touched24h": false,
+     "unrealizedPnl": 7968.550997
+    },
+    {
+     "wallet": "0xbb34960afec64f3f1cc78b0c9c342c4657021696",
+     "side": "long",
+     "sizeUsd": 956208.0,
+     "entryPx": "63747.2",
+     "ageBucket": "OLD",
+     "touched24h": true,
+     "unrealizedPnl": 136231.288757
+    },
+    {
+     "wallet": "0x40f20b734d7d25ba0b6219e921382fa992a56a9e",
+     "side": "short",
+     "sizeUsd": 45987.299889,
+     "entryPx": "65996.9",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -4760.882572
+    },
+    {
+     "wallet": "0xf517639a8872e756ac98d3c65507d2ebc25cc032",
+     "side": "long",
+     "sizeUsd": 7937691.81033,
+     "entryPx": "71373.0",
+     "ageBucket": "NEW",
+     "touched24h": true,
+     "unrealizedPnl": 158698.108061
+    },
+    {
+     "wallet": "0xa0d66bab5f04cb3055cc2f6b0494cb33be32c2c2",
+     "side": "long",
+     "sizeUsd": 7271370.0,
+     "entryPx": "72713.7",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": 8627.51948
+    },
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "long",
+     "sizeUsd": 2757693.739142,
+     "entryPx": "72544.6",
+     "ageBucket": "NEW",
+     "touched24h": true,
+     "unrealizedPnl": 9708.15647
+    },
+    {
+     "wallet": "0x795cfd1b03eafc11c4ec958b8a94cfc9aa64a242",
+     "side": "long",
+     "sizeUsd": 4162604.444813,
+     "entryPx": "64037.3",
+     "ageBucket": "RECENT",
+     "touched24h": true,
+     "unrealizedPnl": 570773.667307
+    }
+   ]
+  },
   {
    "coin": "ETH",
    "bias": "LONG",
-   "netUsd": 237052880.07725096,
-   "netNewUsd": 93530194.18719599,
-   "freshPct": 0.30572201678617983,
-   "tradersLong": 23,
+   "netUsd": 226803866.8239661,
+   "netNewUsd": -4798818.875031999,
+   "freshPct": 0.34943215628645197,
+   "tradersLong": 21,
    "tradersShort": 8,
-   "sideAgreement": 0.7419354838709677,
-   "conviction": 175877943.28312168,
+   "sideAgreement": 0.7241379310344828,
+   "conviction": 164237282.87252715,
    "consensusState": "MIXED",
    "positions": [
     {
@@ -21,7 +278,7 @@
      "entryPx": "1761.94",
      "ageBucket": "OLD",
      "touched24h": false,
-     "unrealizedPnl": 4964518.96602
+     "unrealizedPnl": 5531518.96602
     },
     {
      "wallet": "0x856c35038594767646266bc7fd68dc26480e910d",
@@ -30,52 +287,25 @@
      "entryPx": "1676.34",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -16506.15079
+     "unrealizedPnl": -18114.07207
     },
     {
      "wallet": "0xedcdcaa1f18350c50c10bef860e64daa9785d05a",
      "side": "long",
      "sizeUsd": 38720000.0,
      "entryPx": "1936.0",
-     "ageBucket": "NEW",
-     "touched24h": true,
-     "unrealizedPnl": 6450000.0
+     "ageBucket": "RECENT",
+     "touched24h": false,
+     "unrealizedPnl": 7582000.0
     },
     {
      "wallet": "0xde8d9e530b0528ffa7b1190f862536c055dd9524",
      "side": "long",
-     "sizeUsd": 58308394.459,
-     "entryPx": "2057.15",
-     "ageBucket": "NEW",
-     "touched24h": true,
-     "unrealizedPnl": 5706852.31914
-    },
-    {
-     "wallet": "0x0ad9e656d9e6211d0ea1c5462342e1fc94cc4cbf",
-     "side": "long",
-     "sizeUsd": 3000164.6212210003,
-     "entryPx": "1936.73",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 498977.653815
-    },
-    {
-     "wallet": "0x362ad6209a5e904a5569f69884375809c5781d9f",
-     "side": "long",
-     "sizeUsd": 7690804.630391999,
-     "entryPx": "1877.52",
+     "sizeUsd": 52172333.087276995,
+     "entryPx": "2070.87",
      "ageBucket": "RECENT",
-     "touched24h": false,
-     "unrealizedPnl": 1562015.187835
-    },
-    {
-     "wallet": "0xea0027b6ea9b6d7d401b5266979cc3b3ca87a918",
-     "side": "long",
-     "sizeUsd": 12695765.895747,
-     "entryPx": "1812.69",
-     "ageBucket": "OLD",
-     "touched24h": false,
-     "unrealizedPnl": 3115356.788374
+     "touched24h": true,
+     "unrealizedPnl": 6152800.349238
     },
     {
      "wallet": "0xa2ce501d9c0c5e23d34272f84402cfb7835b3126",
@@ -84,7 +314,16 @@
      "entryPx": "1866.27",
      "ageBucket": "OLD",
      "touched24h": false,
-     "unrealizedPnl": 1959234.3457
+     "unrealizedPnl": 2252721.5449
+    },
+    {
+     "wallet": "0xea0027b6ea9b6d7d401b5266979cc3b3ca87a918",
+     "side": "long",
+     "sizeUsd": 12695765.895747,
+     "entryPx": "1812.69",
+     "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": 3523679.861664
     },
     {
      "wallet": "0x66466428990e0f42a4c54f64bee0db6bf2336de5",
@@ -93,16 +332,7 @@
      "entryPx": "1765.8",
      "ageBucket": "OLD",
      "touched24h": false,
-     "unrealizedPnl": 4898942.545719
-    },
-    {
-     "wallet": "0xc179e03922afe8fa9533d3f896338b9fb87ce0c8",
-     "side": "long",
-     "sizeUsd": 4513429.065212,
-     "entryPx": "1799.18",
-     "ageBucket": "OLD",
-     "touched24h": true,
-     "unrealizedPnl": 1144971.021089
+     "unrealizedPnl": 5499942.545719
     },
     {
      "wallet": "0xec0b9ebf2a304c99cafe85c548c14dd7783cb078",
@@ -111,16 +341,52 @@
      "entryPx": "2065.97",
      "ageBucket": "OLD",
      "touched24h": false,
-     "unrealizedPnl": 1330263.169683
+     "unrealizedPnl": 1752132.663463
+    },
+    {
+     "wallet": "0x32008fcb6bbd16532afc83ca8b6c920dde22c407",
+     "side": "short",
+     "sizeUsd": 24913588.980357,
+     "entryPx": "2287.67",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -308473.01289
+    },
+    {
+     "wallet": "0xc179e03922afe8fa9533d3f896338b9fb87ce0c8",
+     "side": "long",
+     "sizeUsd": 4513429.065212,
+     "entryPx": "1799.18",
+     "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": 1296490.666449
+    },
+    {
+     "wallet": "0x020ca66c30bec2c4fe3861a94e4db4a498a35872",
+     "side": "long",
+     "sizeUsd": 47452240.0,
+     "entryPx": "2156.92",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": 3512842.953077
+    },
+    {
+     "wallet": "0x152e41f0b83e6cad4b5dc730c1d6279b7d67c9dc",
+     "side": "long",
+     "sizeUsd": 6131415.9431,
+     "entryPx": "2064.5",
+     "ageBucket": "RECENT",
+     "touched24h": false,
+     "unrealizedPnl": 748418.04132
     },
     {
      "wallet": "0xe2823659be02e0f48a4660e4da008b5e1abfdf29",
      "side": "long",
-     "sizeUsd": 9065390.352743998,
+     "sizeUsd": 6799170.352743999,
      "entryPx": "2266.22",
-     "ageBucket": "UNKNOWN",
+     "ageBucket": "RECENT",
      "touched24h": true,
-     "unrealizedPnl": -41686.032295
+     "unrealizedPnl": 150848.558786
     },
     {
      "wallet": "0x9eec98d048d06d9cd75318fffa3f3960e081daab",
@@ -129,106 +395,70 @@
      "entryPx": "1658.44",
      "ageBucket": "OLD",
      "touched24h": false,
-     "unrealizedPnl": 4834088.918797
+     "unrealizedPnl": 5328537.742107
     },
     {
-     "wallet": "0x152e41f0b83e6cad4b5dc730c1d6279b7d67c9dc",
+     "wallet": "0x9546b9d4103be41ce13483a8f299d0df0eeb181c",
      "side": "long",
-     "sizeUsd": 6131415.9431,
-     "entryPx": "2064.5",
+     "sizeUsd": 4709203.006758,
+     "entryPx": "2333.42",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": 569331.39498
-    },
-    {
-     "wallet": "0x020ca66c30bec2c4fe3861a94e4db4a498a35872",
-     "side": "long",
-     "sizeUsd": 43725099.0,
-     "entryPx": "2092.11",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 3429421.800962
-    },
-    {
-     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
-     "side": "short",
-     "sizeUsd": 12875493.546474,
-     "entryPx": "2246.01",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -59536.09749
+     "unrealizedPnl": -33138.222271
     },
     {
      "wallet": "0xb7e0b9fbc9479330d70bcc82a7d4325a20e8d1aa",
      "side": "short",
-     "sizeUsd": 5999370.044724,
-     "entryPx": "2270.98",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 38540.91411
-    },
-    {
-     "wallet": "0x9c062c0575c30a3b7614d0c6ea8de67faab00560",
-     "side": "short",
-     "sizeUsd": 3498200.2718040007,
-     "entryPx": "2141.51",
+     "sizeUsd": 4798818.875031999,
+     "entryPx": "2334.02",
      "ageBucket": "NEW",
      "touched24h": true,
-     "unrealizedPnl": -193541.78571
-    },
-    {
-     "wallet": "0xc619b01f1a4f894c5e83338c42f98dcb82b710f5",
-     "side": "long",
-     "sizeUsd": 8680101.0,
-     "entryPx": "1846.83",
-     "ageBucket": "OLD",
-     "touched24h": true,
-     "unrealizedPnl": 1930610.124261
-    },
-    {
-     "wallet": "0xd260b2216b735277da6771564a01c04856e78321",
-     "side": "short",
-     "sizeUsd": 833960.0,
-     "entryPx": "2084.9",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -69040.0
-    },
-    {
-     "wallet": "0xbb34960afec64f3f1cc78b0c9c342c4657021696",
-     "side": "long",
-     "sizeUsd": 7967900.0,
-     "entryPx": "1853.0",
-     "ageBucket": "OLD",
-     "touched24h": true,
-     "unrealizedPnl": 1736326.939892
+     "unrealizedPnl": 34186.91107
     },
     {
      "wallet": "0xb5b3f3caf9d778b1293e5cd29f32e84b04c67a08",
      "side": "long",
      "sizeUsd": 8152800.0,
      "entryPx": "2038.2",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 874370.19194
+     "ageBucket": "RECENT",
+     "touched24h": false,
+     "unrealizedPnl": 1116770.19194
     },
     {
-     "wallet": "0x4e23288cee4960f9f962195c22948e4bc7ae20c3",
+     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
      "side": "short",
-     "sizeUsd": 19527887.110176,
-     "entryPx": "2174.32",
+     "sizeUsd": 8697529.629495,
+     "entryPx": "2303.55",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -52271.738198
+    },
+    {
+     "wallet": "0x72774e2fe1992d5da8c6e9cef73fd2ab980c0b98",
+     "side": "long",
+     "sizeUsd": 1336812.610698,
+     "entryPx": "2307.54",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -740911.987495
+     "unrealizedPnl": 6807.622926
     },
     {
-     "wallet": "0x6ea486a3426563e23023125f18867117878f0ea7",
+     "wallet": "0x9c062c0575c30a3b7614d0c6ea8de67faab00560",
+     "side": "short",
+     "sizeUsd": 4747846.526091,
+     "entryPx": "2183.89",
+     "ageBucket": "RECENT",
+     "touched24h": true,
+     "unrealizedPnl": -294812.08806
+    },
+    {
+     "wallet": "0xc619b01f1a4f894c5e83338c42f98dcb82b710f5",
      "side": "long",
-     "sizeUsd": 8325250.98805,
-     "entryPx": "1808.35",
+     "sizeUsd": 7387320.0,
+     "entryPx": "1846.83",
      "ageBucket": "OLD",
      "touched24h": true,
-     "unrealizedPnl": 2064632.656019
+     "unrealizedPnl": 1890672.446213
     },
     {
      "wallet": "0x091159a8106b077c13e89bc09701117e8b5f129a",
@@ -236,8 +466,53 @@
      "sizeUsd": 21226.115083,
      "entryPx": "1918.19",
      "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": 4440.692272
+    },
+    {
+     "wallet": "0xd260b2216b735277da6771564a01c04856e78321",
+     "side": "short",
+     "sizeUsd": 1627507.5000000002,
+     "entryPx": "2170.01",
+     "ageBucket": "RECENT",
      "touched24h": true,
-     "unrealizedPnl": 3739.126892
+     "unrealizedPnl": -112111.5029
+    },
+    {
+     "wallet": "0xbb34960afec64f3f1cc78b0c9c342c4657021696",
+     "side": "long",
+     "sizeUsd": 7412000.0,
+     "entryPx": "1853.0",
+     "ageBucket": "OLD",
+     "touched24h": true,
+     "unrealizedPnl": 1865987.851078
+    },
+    {
+     "wallet": "0xf517639a8872e756ac98d3c65507d2ebc25cc032",
+     "side": "short",
+     "sizeUsd": 3872843.47408,
+     "entryPx": "1919.96",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -805314.965627
+    },
+    {
+     "wallet": "0x6ea486a3426563e23023125f18867117878f0ea7",
+     "side": "long",
+     "sizeUsd": 4708550.98805,
+     "entryPx": "1808.35",
+     "ageBucket": "OLD",
+     "touched24h": true,
+     "unrealizedPnl": 1330127.89384
+    },
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 14106702.797039999,
+     "entryPx": "2317.08",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -8601.313712
     },
     {
      "wallet": "0x051c2e6d49cf82ebc47f08f9b85800f94fc9693c",
@@ -246,34 +521,7 @@
      "entryPx": "1997.53",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 824783.49016
-    },
-    {
-     "wallet": "0xcab59c7a92b8f7c4d5cde72bb7669ee7d75b6e6e",
-     "side": "long",
-     "sizeUsd": 14096197.5,
-     "entryPx": "1917.85",
-     "ageBucket": "RECENT",
-     "touched24h": true,
-     "unrealizedPnl": 2479754.51573
-    },
-    {
-     "wallet": "0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05",
-     "side": "long",
-     "sizeUsd": 69068.213632,
-     "entryPx": "1844.48",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 15381.212417
-    },
-    {
-     "wallet": "0xa9b95f2a2e7ef219021efc5c04c32761b8553bbd",
-     "side": "short",
-     "sizeUsd": 15159225.0,
-     "entryPx": "2021.23",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -1755020.487443
+     "unrealizedPnl": 1023832.93192
     },
     {
      "wallet": "0xf78c5d8d4b604a140d43a46209fade655536c581",
@@ -282,323 +530,30 @@
      "entryPx": "2038.3",
      "ageBucket": "OLD",
      "touched24h": false,
-     "unrealizedPnl": 896682.608446
-    },
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 23572429.275144,
-     "entryPx": "2285.86",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 322461.244888
-    }
-   ]
-  },
-  {
-   "coin": "BTC",
-   "bias": "LONG",
-   "netUsd": 222225351.06486198,
-   "netNewUsd": 29191677.269669995,
-   "freshPct": 0.2145357837028226,
-   "tradersLong": 20,
-   "tradersShort": 6,
-   "sideAgreement": 0.7692307692307693,
-   "conviction": 170942577.74220154,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x15a4f009bb324a3fb9e36137136b201e3fe0dfdb",
-     "side": "long",
-     "sizeUsd": 62353600.0,
-     "entryPx": "62353.6",
-     "ageBucket": "OLD",
-     "touched24h": false,
-     "unrealizedPnl": 6775345.11882
-    },
-    {
-     "wallet": "0x856c35038594767646266bc7fd68dc26480e910d",
-     "side": "short",
-     "sizeUsd": 294840.308136,
-     "entryPx": "62946.4",
-     "ageBucket": "RECENT",
-     "touched24h": false,
-     "unrealizedPnl": -28959.23154
-    },
-    {
-     "wallet": "0x362ad6209a5e904a5569f69884375809c5781d9f",
-     "side": "long",
-     "sizeUsd": 12633388.493880002,
-     "entryPx": "64402.8",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 927288.225817
-    },
-    {
-     "wallet": "0xa2ce501d9c0c5e23d34272f84402cfb7835b3126",
-     "side": "long",
-     "sizeUsd": 10296246.685678,
-     "entryPx": "64153.4",
-     "ageBucket": "OLD",
-     "touched24h": false,
-     "unrealizedPnl": 797897.119226
-    },
-    {
-     "wallet": "0x66466428990e0f42a4c54f64bee0db6bf2336de5",
-     "side": "long",
-     "sizeUsd": 13928162.280710999,
-     "entryPx": "62186.7",
-     "ageBucket": "OLD",
-     "touched24h": true,
-     "unrealizedPnl": 1553982.647602
-    },
-    {
-     "wallet": "0xec4a6f59960fb55a7fa49262e2628687b322cf62",
-     "side": "long",
-     "sizeUsd": 13883735.679728,
-     "entryPx": "62821.6",
-     "ageBucket": "RECENT",
-     "touched24h": true,
-     "unrealizedPnl": 1393049.47747
-    },
-    {
-     "wallet": "0xec0b9ebf2a304c99cafe85c548c14dd7783cb078",
-     "side": "long",
-     "sizeUsd": 18320062.677056,
-     "entryPx": "73828.4",
-     "ageBucket": "OLD",
-     "touched24h": false,
-     "unrealizedPnl": -1167138.040242
-    },
-    {
-     "wallet": "0xe2823659be02e0f48a4660e4da008b5e1abfdf29",
-     "side": "long",
-     "sizeUsd": 5774216.0,
-     "entryPx": "72177.7",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -244220.318879
-    },
-    {
-     "wallet": "0x9eec98d048d06d9cd75318fffa3f3960e081daab",
-     "side": "long",
-     "sizeUsd": 2052190.786688,
-     "entryPx": "65531.2",
-     "ageBucket": "OLD",
-     "touched24h": false,
-     "unrealizedPnl": 112544.062014
-    },
-    {
-     "wallet": "0x152e41f0b83e6cad4b5dc730c1d6279b7d67c9dc",
-     "side": "long",
-     "sizeUsd": 4409779.459367999,
-     "entryPx": "67925.4",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 77938.22008
-    },
-    {
-     "wallet": "0x020ca66c30bec2c4fe3861a94e4db4a498a35872",
-     "side": "long",
-     "sizeUsd": 835297.2000000001,
-     "entryPx": "69608.1",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -5785.97655
-    },
-    {
-     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
-     "side": "short",
-     "sizeUsd": 2971332.82578,
-     "entryPx": "69558.8",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 18447.25524
-    },
-    {
-     "wallet": "0x8f78cb4c11dd66b99b2172b4c1ae05843bde87e7",
-     "side": "long",
-     "sizeUsd": 8047067.338032,
-     "entryPx": "63683.6",
-     "ageBucket": "OLD",
-     "touched24h": false,
-     "unrealizedPnl": 694137.59258
-    },
-    {
-     "wallet": "0x9c062c0575c30a3b7614d0c6ea8de67faab00560",
-     "side": "short",
-     "sizeUsd": 1499936.7303300002,
-     "entryPx": "68946.6",
-     "ageBucket": "NEW",
-     "touched24h": true,
-     "unrealizedPnl": -5011.21591
-    },
-    {
-     "wallet": "0xc619b01f1a4f894c5e83338c42f98dcb82b710f5",
-     "side": "long",
-     "sizeUsd": 2294931.6,
-     "entryPx": "63748.1",
-     "ageBucket": "OLD",
-     "touched24h": false,
-     "unrealizedPnl": 194791.588759
-    },
-    {
-     "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
-     "side": "long",
-     "sizeUsd": 13196272.213581001,
-     "entryPx": "109632.3",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -4872801.821516
-    },
-    {
-     "wallet": "0xbb34960afec64f3f1cc78b0c9c342c4657021696",
-     "side": "long",
-     "sizeUsd": 2294899.1999999997,
-     "entryPx": "63747.2",
-     "ageBucket": "OLD",
-     "touched24h": false,
-     "unrealizedPnl": 194176.292976
-    },
-    {
-     "wallet": "0xb5b3f3caf9d778b1293e5cd29f32e84b04c67a08",
-     "side": "long",
-     "sizeUsd": 30691613.999999996,
-     "entryPx": "66720.9",
-     "ageBucket": "NEW",
-     "touched24h": true,
-     "unrealizedPnl": 1113207.51654
-    },
-    {
-     "wallet": "0x92b75a5bfb7be7911747276ad335b8f5da3ce0f4",
-     "side": "long",
-     "sizeUsd": 27617643.898958,
-     "entryPx": "64207.3",
-     "ageBucket": "OLD",
-     "touched24h": true,
-     "unrealizedPnl": 2116265.781483
-    },
-    {
-     "wallet": "0x091159a8106b077c13e89bc09701117e8b5f129a",
-     "side": "long",
-     "sizeUsd": 60018.905238,
-     "entryPx": "64293.8",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 4512.136871
-    },
-    {
-     "wallet": "0x9321d8117e73b0c79035f0e87debcfd8dbb1d75a",
-     "side": "short",
-     "sizeUsd": 5125000.0,
-     "entryPx": "64062.5",
-     "ageBucket": "OLD",
-     "touched24h": false,
-     "unrealizedPnl": -405238.202102
-    },
-    {
-     "wallet": "0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05",
-     "side": "long",
-     "sizeUsd": 3267841.4564730003,
-     "entryPx": "70673.1",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -71817.664841
-    },
-    {
-     "wallet": "0x519c721de735f7c9e6146d167852e60d60496a47",
-     "side": "short",
-     "sizeUsd": 6351120.0,
-     "entryPx": "63511.2",
-     "ageBucket": "RECENT",
-     "touched24h": false,
-     "unrealizedPnl": -560872.0
-    },
-    {
-     "wallet": "0x7ea90af38397575a372e36bdc0f5970fb512fc7f",
-     "side": "long",
-     "sizeUsd": 1942854.0,
-     "entryPx": "64761.8",
-     "ageBucket": "RECENT",
-     "touched24h": false,
-     "unrealizedPnl": 129574.717
-    },
-    {
-     "wallet": "0x40f20b734d7d25ba0b6219e921382fa992a56a9e",
-     "side": "short",
-     "sizeUsd": 45987.299889,
-     "entryPx": "65996.9",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -2146.939219
-    },
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "long",
-     "sizeUsd": 4613746.353606001,
-     "entryPx": "69474.6",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -25609.735961
+     "unrealizedPnl": 1165854.225626
     }
    ]
   },
   {
    "coin": "HYPE",
    "bias": "LONG",
-   "netUsd": 113374677.54257801,
-   "netNewUsd": -6569121.677275,
-   "freshPct": 0.21728854345941062,
-   "tradersLong": 24,
-   "tradersShort": 12,
-   "sideAgreement": 0.6666666666666666,
-   "conviction": 75583118.36171867,
+   "netUsd": 149076423.57556498,
+   "netNewUsd": -299821.32638700004,
+   "freshPct": 0.1893296194451896,
+   "tradersLong": 26,
+   "tradersShort": 9,
+   "sideAgreement": 0.7428571428571429,
+   "conviction": 110742486.08470541,
    "consensusState": "STALE",
    "positions": [
     {
-     "wallet": "0xe867fbdad3291530e41530301ecb77693850c78e",
-     "side": "short",
-     "sizeUsd": 3472705.040494,
-     "entryPx": "70.3841",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -32012.59427
-    },
-    {
      "wallet": "0x856c35038594767646266bc7fd68dc26480e910d",
      "side": "short",
-     "sizeUsd": 400727.875184,
-     "entryPx": "61.1507",
+     "sizeUsd": 401795.633088,
+     "entryPx": "61.2882",
      "ageBucket": "RECENT",
      "touched24h": true,
-     "unrealizedPnl": -64740.057979
-    },
-    {
-     "wallet": "0xf02d16a272a842f8bac1d9a9e773aba1933454c6",
-     "side": "short",
-     "sizeUsd": 4721265.147008001,
-     "entryPx": "71.4304",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 26467.37334
-    },
-    {
-     "wallet": "0xea0027b6ea9b6d7d401b5266979cc3b3ca87a918",
-     "side": "long",
-     "sizeUsd": 7113878.440162,
-     "entryPx": "67.7326",
-     "ageBucket": "OLD",
-     "touched24h": false,
-     "unrealizedPnl": 355144.598737
-    },
-    {
-     "wallet": "0xa2ce501d9c0c5e23d34272f84402cfb7835b3126",
-     "side": "long",
-     "sizeUsd": 11224062.164585998,
-     "entryPx": "70.1502",
-     "ageBucket": "OLD",
-     "touched24h": false,
-     "unrealizedPnl": 153683.223678
+     "unrealizedPnl": -82732.760338
     },
     {
      "wallet": "0xf605cd3adabbc3110bc3efb85ebe7be57590a527",
@@ -607,16 +562,61 @@
      "entryPx": "59.6496",
      "ageBucket": "OLD",
      "touched24h": false,
-     "unrealizedPnl": -5730.57352
+     "unrealizedPnl": -7125.67352
+    },
+    {
+     "wallet": "0xa2ce501d9c0c5e23d34272f84402cfb7835b3126",
+     "side": "long",
+     "sizeUsd": 11224062.164585998,
+     "entryPx": "70.1502",
+     "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": 600116.423464
+    },
+    {
+     "wallet": "0xea0027b6ea9b6d7d401b5266979cc3b3ca87a918",
+     "side": "long",
+     "sizeUsd": 7113878.440162,
+     "entryPx": "67.7326",
+     "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": 647650.001687
+    },
+    {
+     "wallet": "0xf02d16a272a842f8bac1d9a9e773aba1933454c6",
+     "side": "short",
+     "sizeUsd": 21014834.721712,
+     "entryPx": "70.4054",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -1042779.155444
     },
     {
      "wallet": "0xc179e03922afe8fa9533d3f896338b9fb87ce0c8",
      "side": "long",
-     "sizeUsd": 7368969.298048,
+     "sizeUsd": 4142567.1966839996,
      "entryPx": "63.1507",
+     "ageBucket": "RECENT",
+     "touched24h": true,
+     "unrealizedPnl": 701392.22179
+    },
+    {
+     "wallet": "0x020ca66c30bec2c4fe3861a94e4db4a498a35872",
+     "side": "long",
+     "sizeUsd": 11582259.5,
+     "entryPx": "71.9395",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": 930213.950608
+     "unrealizedPnl": 310956.240693
+    },
+    {
+     "wallet": "0x152e41f0b83e6cad4b5dc730c1d6279b7d67c9dc",
+     "side": "long",
+     "sizeUsd": 25411354.547174998,
+     "entryPx": "56.0325",
+     "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": 8086326.59959
     },
     {
      "wallet": "0xe2823659be02e0f48a4660e4da008b5e1abfdf29",
@@ -624,53 +624,35 @@
      "sizeUsd": 233823.82992800002,
      "entryPx": "58.4431",
      "ageBucket": "OLD",
-     "touched24h": true,
-     "unrealizedPnl": 50970.555255
-    },
-    {
-     "wallet": "0x152e41f0b83e6cad4b5dc730c1d6279b7d67c9dc",
-     "side": "long",
-     "sizeUsd": 25411354.547174998,
-     "entryPx": "56.0325",
-     "ageBucket": "RECENT",
      "touched24h": false,
-     "unrealizedPnl": 6865021.50352
-    },
-    {
-     "wallet": "0x020ca66c30bec2c4fe3861a94e4db4a498a35872",
-     "side": "long",
-     "sizeUsd": 9478708.727832,
-     "entryPx": "71.8689",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -92178.788715
+     "unrealizedPnl": 61692.913655
     },
     {
      "wallet": "0x9546b9d4103be41ce13483a8f299d0df0eeb181c",
      "side": "long",
-     "sizeUsd": 18452022.760185,
-     "entryPx": "61.0845",
+     "sizeUsd": 19827210.497688,
+     "entryPx": "63.2808",
      "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 3040496.160441
+     "touched24h": true,
+     "unrealizedPnl": 3316551.477216
     },
     {
      "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
      "side": "short",
-     "sizeUsd": 1366989.91728,
-     "entryPx": "68.2032",
+     "sizeUsd": 1149217.174228,
+     "entryPx": "72.4034",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": -59722.370609
+     "unrealizedPnl": -23182.124063
     },
     {
-     "wallet": "0xd21d931890d27b6e7e2e668f27931e17698e90f1",
+     "wallet": "0x15b325660a1c4a9582a7d834c31119c0cb9e3a42",
      "side": "long",
-     "sizeUsd": 4272446.3931599995,
-     "entryPx": "56.9658",
-     "ageBucket": "RECENT",
-     "touched24h": true,
-     "unrealizedPnl": 1068165.440054
+     "sizeUsd": 13302435.514569001,
+     "entryPx": "66.2407",
+     "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": 1530903.729336
     },
     {
      "wallet": "0xa906355beaf1d69a5fe73ce55899c49c6e67916c",
@@ -678,26 +660,26 @@
      "sizeUsd": 699695.17728,
      "entryPx": "57.6895",
      "ageBucket": "RECENT",
-     "touched24h": true,
-     "unrealizedPnl": 167089.75621
+     "touched24h": false,
+     "unrealizedPnl": 196162.10629
     },
     {
-     "wallet": "0xc619b01f1a4f894c5e83338c42f98dcb82b710f5",
+     "wallet": "0x72774e2fe1992d5da8c6e9cef73fd2ab980c0b98",
      "side": "long",
-     "sizeUsd": 562040.1,
-     "entryPx": "62.4489",
-     "ageBucket": "OLD",
-     "touched24h": true,
-     "unrealizedPnl": 81540.388488
-    },
-    {
-     "wallet": "0xd260b2216b735277da6771564a01c04856e78321",
-     "side": "long",
-     "sizeUsd": 2240168.0,
-     "entryPx": "56.0042",
+     "sizeUsd": 9257967.217975,
+     "entryPx": "73.1915",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": 619908.974066
+     "unrealizedPnl": 80633.51784
+    },
+    {
+     "wallet": "0xd21d931890d27b6e7e2e668f27931e17698e90f1",
+     "side": "long",
+     "sizeUsd": 4272446.3931599995,
+     "entryPx": "56.9658",
+     "ageBucket": "RECENT",
+     "touched24h": false,
+     "unrealizedPnl": 1264740.964254
     },
     {
      "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
@@ -706,52 +688,43 @@
      "entryPx": "67.9821",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 17599.16784
-    },
-    {
-     "wallet": "0xbb34960afec64f3f1cc78b0c9c342c4657021696",
-     "side": "long",
-     "sizeUsd": 560028.6,
-     "entryPx": "62.2254",
-     "ageBucket": "OLD",
-     "touched24h": true,
-     "unrealizedPnl": 83228.202183
-    },
-    {
-     "wallet": "0x9ffdf919da72213588f7517598394cc5535bce40",
-     "side": "short",
-     "sizeUsd": 5456393.705664,
-     "entryPx": "65.8026",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -470190.575773
-    },
-    {
-     "wallet": "0x4e23288cee4960f9f962195c22948e4bc7ae20c3",
-     "side": "short",
-     "sizeUsd": 10216665.24904,
-     "entryPx": "71.0728",
-     "ageBucket": "NEW",
-     "touched24h": true,
-     "unrealizedPnl": -54362.2351
+     "unrealizedPnl": 29289.16784
     },
     {
      "wallet": "0x666073af75b8d2e6e9efea414db566494e61aafe",
      "side": "long",
-     "sizeUsd": 8463322.0,
-     "entryPx": "60.4523",
+     "sizeUsd": 10619849.0,
+     "entryPx": "62.4697",
      "ageBucket": "OLD",
      "touched24h": false,
-     "unrealizedPnl": 1539810.94262
+     "unrealizedPnl": 1931064.18351
     },
     {
-     "wallet": "0xf29c6bc1147a841519b382459a6d7a373c6b9971",
-     "side": "long",
-     "sizeUsd": 3111915.0,
-     "entryPx": "62.2383",
-     "ageBucket": "UNKNOWN",
+     "wallet": "0x9ffdf919da72213588f7517598394cc5535bce40",
+     "side": "short",
+     "sizeUsd": 6059915.021236,
+     "entryPx": "69.4549",
+     "ageBucket": "RECENT",
      "touched24h": true,
-     "unrealizedPnl": 457834.80172
+     "unrealizedPnl": -381630.769533
+    },
+    {
+     "wallet": "0x9c062c0575c30a3b7614d0c6ea8de67faab00560",
+     "side": "short",
+     "sizeUsd": 299821.32638700004,
+     "entryPx": "72.5747",
+     "ageBucket": "NEW",
+     "touched24h": true,
+     "unrealizedPnl": -5181.74695
+    },
+    {
+     "wallet": "0xc619b01f1a4f894c5e83338c42f98dcb82b710f5",
+     "side": "long",
+     "sizeUsd": 1135528.6,
+     "entryPx": "66.7958",
+     "ageBucket": "OLD",
+     "touched24h": true,
+     "unrealizedPnl": 119734.082732
     },
     {
      "wallet": "0x4fe53e953f1ff4454d144cb6f4fee3f2ca9363fe",
@@ -760,79 +733,25 @@
      "entryPx": "61.1445",
      "ageBucket": "OLD",
      "touched24h": false,
-     "unrealizedPnl": 239753.684422
+     "unrealizedPnl": 297806.373782
+    },
+    {
+     "wallet": "0xbb34960afec64f3f1cc78b0c9c342c4657021696",
+     "side": "long",
+     "sizeUsd": 1067851.2,
+     "entryPx": "66.7407",
+     "ageBucket": "OLD",
+     "touched24h": true,
+     "unrealizedPnl": 113939.948969
     },
     {
      "wallet": "0xf17de447fdfa1778db06111e3cbdc878332adab2",
      "side": "long",
-     "sizeUsd": 3647543.571765,
-     "entryPx": "69.9529",
-     "ageBucket": "NEW",
-     "touched24h": true,
-     "unrealizedPnl": 77435.81035
-    },
-    {
-     "wallet": "0x9321d8117e73b0c79035f0e87debcfd8dbb1d75a",
-     "side": "long",
-     "sizeUsd": 9570735.0,
-     "entryPx": "63.8049",
-     "ageBucket": "OLD",
-     "touched24h": false,
-     "unrealizedPnl": 1143759.67363
-    },
-    {
-     "wallet": "0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05",
-     "side": "long",
-     "sizeUsd": 617963.582099,
-     "entryPx": "27.1949",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 1003653.810671
-    },
-    {
-     "wallet": "0xa9b95f2a2e7ef219021efc5c04c32761b8553bbd",
-     "side": "long",
-     "sizeUsd": 17835165.0,
-     "entryPx": "39.6337",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 14278182.412497
-    },
-    {
-     "wallet": "0x519c721de735f7c9e6146d167852e60d60496a47",
-     "side": "short",
-     "sizeUsd": 4608024.36,
-     "entryPx": "60.212",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -853379.68
-    },
-    {
-     "wallet": "0x7ea90af38397575a372e36bdc0f5970fb512fc7f",
-     "side": "short",
-     "sizeUsd": 555000.0,
-     "entryPx": "55.5",
-     "ageBucket": "OLD",
-     "touched24h": false,
-     "unrealizedPnl": -158540.0
-    },
-    {
-     "wallet": "0xa445a0a15b1d50fa0c4bfe6796d9447e0da5329d",
-     "side": "long",
-     "sizeUsd": 11304675.492495,
-     "entryPx": "72.3499",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -159352.05948
-    },
-    {
-     "wallet": "0x2fe21fc5130e953b862d4a6048cfd016ecf3974d",
-     "side": "long",
-     "sizeUsd": 37573.692993,
-     "entryPx": "58.9419",
+     "sizeUsd": 4136399.2202399997,
+     "entryPx": "72.6939",
      "ageBucket": "RECENT",
-     "touched24h": false,
-     "unrealizedPnl": 7897.057397
+     "touched24h": true,
+     "unrealizedPnl": 66462.74949
     },
     {
      "wallet": "0x40f20b734d7d25ba0b6219e921382fa992a56a9e",
@@ -841,16 +760,52 @@
      "entryPx": "55.0457",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -16314.51217
+     "unrealizedPnl": -18835.03017
+    },
+    {
+     "wallet": "0xf29c6bc1147a841519b382459a6d7a373c6b9971",
+     "side": "long",
+     "sizeUsd": 3111915.0,
+     "entryPx": "62.2383",
+     "ageBucket": "RECENT",
+     "touched24h": false,
+     "unrealizedPnl": 579334.80172
+    },
+    {
+     "wallet": "0xf517639a8872e756ac98d3c65507d2ebc25cc032",
+     "side": "long",
+     "sizeUsd": 12367261.463917999,
+     "entryPx": "62.5246",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": 2237375.015219
+    },
+    {
+     "wallet": "0xa9b95f2a2e7ef219021efc5c04c32761b8553bbd",
+     "side": "long",
+     "sizeUsd": 9908425.0,
+     "entryPx": "39.6337",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": 8550073.563858
     },
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "short",
-     "sizeUsd": 11750411.411648,
-     "entryPx": "65.8112",
+     "sizeUsd": 4091773.7597519998,
+     "entryPx": "67.3449",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": -985530.989333
+     "unrealizedPnl": -392990.546742
+    },
+    {
+     "wallet": "0x2fe21fc5130e953b862d4a6048cfd016ecf3974d",
+     "side": "long",
+     "sizeUsd": 45267.53142,
+     "entryPx": "60.783",
+     "ageBucket": "RECENT",
+     "touched24h": true,
+     "unrealizedPnl": 9703.91869
     },
     {
      "wallet": "0xbd334a55db91617545e8d1b09941e036ad8e4200",
@@ -859,7 +814,16 @@
      "entryPx": "60.8418",
      "ageBucket": "OLD",
      "touched24h": false,
-     "unrealizedPnl": 1483812.83085
+     "unrealizedPnl": 1834778.71311
+    },
+    {
+     "wallet": "0xc298efc4785f2f282838924103509156c9578a9c",
+     "side": "long",
+     "sizeUsd": 4213395.76385,
+     "entryPx": "68.437",
+     "ageBucket": "RECENT",
+     "touched24h": true,
+     "unrealizedPnl": 330912.936371
     },
     {
      "wallet": "0xceec48581b3145a575508719f45da07dc57fa7ce",
@@ -867,8 +831,17 @@
      "sizeUsd": 3505974.0,
      "entryPx": "58.4329",
      "ageBucket": "OLD",
-     "touched24h": true,
-     "unrealizedPnl": -773883.138794
+     "touched24h": false,
+     "unrealizedPnl": -922743.138794
+    },
+    {
+     "wallet": "0x795cfd1b03eafc11c4ec958b8a94cfc9aa64a242",
+     "side": "long",
+     "sizeUsd": 7256376.8114249995,
+     "entryPx": "60.9385",
+     "ageBucket": "RECENT",
+     "touched24h": false,
+     "unrealizedPnl": 1532335.975992
     },
     {
      "wallet": "0x90dbb196cacf24bd212b377a0dd62eaad5e8151b",
@@ -877,21 +850,30 @@
      "entryPx": "55.4468",
      "ageBucket": "OLD",
      "touched24h": false,
-     "unrealizedPnl": 1985515.174842
+     "unrealizedPnl": 2295015.174842
+    },
+    {
+     "wallet": "0x9137bd9347f07990a8ce22869f8b93d190479c5a",
+     "side": "long",
+     "sizeUsd": 7447042.27072,
+     "entryPx": "59.371",
+     "ageBucket": "RECENT",
+     "touched24h": false,
+     "unrealizedPnl": 1802831.61004
     }
    ]
   },
   {
    "coin": "SOL",
    "bias": "LONG",
-   "netUsd": 50067815.394425996,
+   "netUsd": 56859556.30194199,
    "netNewUsd": 0,
-   "freshPct": 0.00802846857326908,
-   "tradersLong": 9,
-   "tradersShort": 4,
-   "sideAgreement": 0.6923076923076923,
-   "conviction": 34662333.734602615,
-   "consensusState": "STALE",
+   "freshPct": 0.649697765982801,
+   "tradersLong": 11,
+   "tradersShort": 2,
+   "sideAgreement": 0.8461538461538461,
+   "conviction": 48111932.25548938,
+   "consensusState": "BUILDING",
    "positions": [
     {
      "wallet": "0x856c35038594767646266bc7fd68dc26480e910d",
@@ -900,16 +882,7 @@
      "entryPx": "80.9431",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 3656.48977
-    },
-    {
-     "wallet": "0xea0027b6ea9b6d7d401b5266979cc3b3ca87a918",
-     "side": "long",
-     "sizeUsd": 1323307.591176,
-     "entryPx": "66.0904",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 386288.74124
+     "unrealizedPnl": 5301.05019
     },
     {
      "wallet": "0xa2ce501d9c0c5e23d34272f84402cfb7835b3126",
@@ -918,34 +891,25 @@
      "entryPx": "77.7668",
      "ageBucket": "OLD",
      "touched24h": false,
-     "unrealizedPnl": 304126.378245
+     "unrealizedPnl": 384166.378245
     },
     {
-     "wallet": "0xc179e03922afe8fa9533d3f896338b9fb87ce0c8",
-     "side": "short",
-     "sizeUsd": 558915.837152,
-     "entryPx": "75.5357",
-     "ageBucket": "RECENT",
+     "wallet": "0xea0027b6ea9b6d7d401b5266979cc3b3ca87a918",
+     "side": "long",
+     "sizeUsd": 1323307.591176,
+     "entryPx": "66.0904",
+     "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -72737.823296
+     "unrealizedPnl": 426193.96241
     },
     {
      "wallet": "0x9c6a5b4662c722d2c47f43d6c9813cb080ffa4ed",
      "side": "long",
      "sizeUsd": 41016533.163718,
      "entryPx": "79.3222",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 3122588.230411
-    },
-    {
-     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
-     "side": "short",
-     "sizeUsd": 382087.051104,
-     "entryPx": "86.3456",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 4233.20655
+     "ageBucket": "RECENT",
+     "touched24h": false,
+     "unrealizedPnl": 4166588.276521
     },
     {
      "wallet": "0x8f78cb4c11dd66b99b2172b4c1ae05843bde87e7",
@@ -954,7 +918,25 @@
      "entryPx": "73.3127",
      "ageBucket": "OLD",
      "touched24h": false,
-     "unrealizedPnl": 1916426.37789
+     "unrealizedPnl": 2210721.87279
+    },
+    {
+     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
+     "side": "long",
+     "sizeUsd": 62272.95131399999,
+     "entryPx": "87.3663",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": 10.462172
+    },
+    {
+     "wallet": "0x72774e2fe1992d5da8c6e9cef73fd2ab980c0b98",
+     "side": "long",
+     "sizeUsd": 1242480.866344,
+     "entryPx": "87.7922",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -5113.287999
     },
     {
      "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
@@ -963,7 +945,16 @@
      "entryPx": "92.355",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -1230.67776
+     "unrealizedPnl": -871.3312
+    },
+    {
+     "wallet": "0x9c062c0575c30a3b7614d0c6ea8de67faab00560",
+     "side": "short",
+     "sizeUsd": 99998.59662000001,
+     "entryPx": "87.471",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": 34.2966
     },
     {
      "wallet": "0x091159a8106b077c13e89bc09701117e8b5f129a",
@@ -972,16 +963,25 @@
      "entryPx": "74.2241",
      "ageBucket": "OLD",
      "touched24h": false,
-     "unrealizedPnl": 6739.686529
+     "unrealizedPnl": 8004.910269
     },
     {
-     "wallet": "0x9321d8117e73b0c79035f0e87debcfd8dbb1d75a",
+     "wallet": "0xf517639a8872e756ac98d3c65507d2ebc25cc032",
      "side": "short",
-     "sizeUsd": 4041705.151385,
-     "entryPx": "72.7507",
-     "ageBucket": "OLD",
+     "sizeUsd": 3036079.956312,
+     "entryPx": "74.7786",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -511868.77505
+    },
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "long",
+     "sizeUsd": 574194.49032,
+     "entryPx": "87.032",
+     "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": -699069.162068
+     "unrealizedPnl": 2256.321568
     },
     {
      "wallet": "0x051c2e6d49cf82ebc47f08f9b85800f94fc9693c",
@@ -990,40 +990,31 @@
      "entryPx": "76.7003",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 112575.30918
-    },
-    {
-     "wallet": "0xa9b95f2a2e7ef219021efc5c04c32761b8553bbd",
-     "side": "short",
-     "sizeUsd": 4791756.0,
-     "entryPx": "79.8626",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -326780.96765
-    },
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "long",
-     "sizeUsd": 1725592.8871709998,
-     "entryPx": "84.8513",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 7761.361286
+     "unrealizedPnl": 139175.01198
     }
    ]
   },
   {
    "coin": "XRP",
    "bias": "LONG",
-   "netUsd": 19635274.567379,
+   "netUsd": 31997543.824757,
    "netNewUsd": 0,
-   "freshPct": 0.7625596979420324,
-   "tradersLong": 4,
+   "freshPct": 0.005786389052760273,
+   "tradersLong": 3,
    "tradersShort": 4,
-   "sideAgreement": 0.5,
-   "conviction": 9817637.2836895,
-   "consensusState": "BUILDING",
+   "sideAgreement": 0.5714285714285714,
+   "conviction": 18284310.757003997,
+   "consensusState": "STALE",
    "positions": [
+    {
+     "wallet": "0x31b1ecf848443472e34d204a134812d86ab01434",
+     "side": "long",
+     "sizeUsd": 31749918.51889,
+     "entryPx": "1.057223",
+     "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": 6104677.7224
+    },
     {
      "wallet": "0xec0b9ebf2a304c99cafe85c548c14dd7783cb078",
      "side": "long",
@@ -1031,16 +1022,7 @@
      "entryPx": "1.182662",
      "ageBucket": "OLD",
      "touched24h": false,
-     "unrealizedPnl": -10480.7199
-    },
-    {
-     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
-     "side": "short",
-     "sizeUsd": 792766.51734,
-     "entryPx": "1.04342",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -59170.884165
+     "unrealizedPnl": 13216.7748
     },
     {
      "wallet": "0x8f78cb4c11dd66b99b2172b4c1ae05843bde87e7",
@@ -1048,8 +1030,17 @@
      "sizeUsd": 5640267.334464,
      "entryPx": "1.018568",
      "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": 1339129.74621
+    },
+    {
+     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
+     "side": "short",
+     "sizeUsd": 1033611.8999999999,
+     "entryPx": "1.216014",
+     "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": 577176.90141
+     "unrealizedPnl": -38407.728264
     },
     {
      "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
@@ -1058,75 +1049,116 @@
      "entryPx": "2.484806",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 79983.653878
+     "unrealizedPnl": 71783.156716
     },
     {
-     "wallet": "0x9321d8117e73b0c79035f0e87debcfd8dbb1d75a",
+     "wallet": "0x9c062c0575c30a3b7614d0c6ea8de67faab00560",
      "side": "short",
-     "sizeUsd": 5327970.0,
-     "entryPx": "1.065594",
+     "sizeUsd": 249873.148593,
+     "entryPx": "1.322647",
      "ageBucket": "RECENT",
-     "touched24h": false,
-     "unrealizedPnl": -273529.179626
-    },
-    {
-     "wallet": "0x31b1ecf848443472e34d204a134812d86ab01434",
-     "side": "long",
-     "sizeUsd": 20775036.74446,
-     "entryPx": "1.037122",
-     "ageBucket": "RECENT",
-     "touched24h": false,
-     "unrealizedPnl": 1662157.2336
-    },
-    {
-     "wallet": "0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05",
-     "side": "short",
-     "sizeUsd": 1031109.0900000001,
-     "entryPx": "1.494361",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 258200.3956
+     "touched24h": true,
+     "unrealizedPnl": 11400.7927
     },
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "long",
-     "sizeUsd": 317675.205189,
-     "entryPx": "1.029411",
+     "side": "short",
+     "sizeUsd": 4163297.87061,
+     "entryPx": "1.214487",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": 27253.541566
+     "unrealizedPnl": -158825.299099
+    }
+   ]
+  },
+  {
+   "coin": "PUMP",
+   "bias": "LONG",
+   "netUsd": 7432726.023202999,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 4,
+   "tradersShort": 1,
+   "sideAgreement": 0.8,
+   "conviction": 5946180.8185624,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0x020ca66c30bec2c4fe3861a94e4db4a498a35872",
+     "side": "long",
+     "sizeUsd": 3720000.0,
+     "entryPx": "0.00372",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": 61266.726942
+    },
+    {
+     "wallet": "0x72774e2fe1992d5da8c6e9cef73fd2ab980c0b98",
+     "side": "long",
+     "sizeUsd": 401321.452224,
+     "entryPx": "0.003487",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": 33805.278204
+    },
+    {
+     "wallet": "0xf29c6bc1147a841519b382459a6d7a373c6b9971",
+     "side": "long",
+     "sizeUsd": 615760.716334,
+     "entryPx": "0.002258",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": 414795.540352
+    },
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 2911005.17496,
+     "entryPx": "0.003533",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -203509.885492
+    },
+    {
+     "wallet": "0x60b081bd8ee2b0e5a2b8f17503322cf7ee7a991e",
+     "side": "long",
+     "sizeUsd": 5606649.029605,
+     "entryPx": "0.002795",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": 1973897.550343
     }
    ]
   },
   {
    "coin": "XMR",
    "bias": "LONG",
-   "netUsd": 6372799.616594001,
+   "netUsd": 6582162.755003001,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 3,
    "tradersShort": 1,
    "sideAgreement": 0.75,
-   "conviction": 4779599.7124455,
+   "conviction": 4936622.06625225,
    "consensusState": "STALE",
    "positions": [
     {
-     "wallet": "0x4c6d679eac539bf7c5a0b7ebd8949ae93b1e5ee9",
-     "side": "long",
-     "sizeUsd": 784295.82332,
-     "entryPx": "417.59",
-     "ageBucket": "OLD",
-     "touched24h": true,
-     "unrealizedPnl": 13315.302565
-    },
-    {
      "wallet": "0xc179e03922afe8fa9533d3f896338b9fb87ce0c8",
      "side": "long",
-     "sizeUsd": 5292320.430704,
-     "entryPx": "336.872",
+     "sizeUsd": 5538284.996785,
+     "entryPx": "342.253",
      "ageBucket": "OLD",
      "touched24h": true,
-     "unrealizedPnl": 1379477.000962
+     "unrealizedPnl": 1260192.725711
+    },
+    {
+     "wallet": "0x4c6d679eac539bf7c5a0b7ebd8949ae93b1e5ee9",
+     "side": "long",
+     "sizeUsd": 747694.395648,
+     "entryPx": "416.736",
+     "ageBucket": "OLD",
+     "touched24h": true,
+     "unrealizedPnl": 6608.395984
     },
     {
      "wallet": "0x55b80f17dba49f3803d16136e82d2adc5cdd2a10",
@@ -1135,7 +1167,7 @@
      "entryPx": "416.418",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 10670.05232
+     "unrealizedPnl": 7174.8526
     },
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
@@ -1144,107 +1176,66 @@
      "entryPx": "341.791",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -59797.072346
+     "unrealizedPnl": -57828.608646
     }
    ]
   },
   {
-   "coin": "AAVE",
+   "coin": "SUI",
    "bias": "LONG",
-   "netUsd": 5793276.303498001,
+   "netUsd": 3226867.4382230006,
    "netNewUsd": 0,
    "freshPct": 0.0,
-   "tradersLong": 3,
+   "tradersLong": 4,
    "tradersShort": 1,
-   "sideAgreement": 0.75,
-   "conviction": 4344957.227623501,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0xe2823659be02e0f48a4660e4da008b5e1abfdf29",
-     "side": "long",
-     "sizeUsd": 2886630.895818,
-     "entryPx": "96.1461",
-     "ageBucket": "OLD",
-     "touched24h": false,
-     "unrealizedPnl": -21140.380155
-    },
-    {
-     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
-     "side": "long",
-     "sizeUsd": 69908.551758,
-     "entryPx": "92.6997",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 2090.687178
-    },
-    {
-     "wallet": "0x051c2e6d49cf82ebc47f08f9b85800f94fc9693c",
-     "side": "long",
-     "sizeUsd": 3286498.4048180003,
-     "entryPx": "81.9526",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 538628.6231
-    },
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 449761.54889599996,
-     "entryPx": "91.2584",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -19940.800073
-    }
-   ]
-  },
-  {
-   "coin": "LIT",
-   "bias": "LONG",
-   "netUsd": 7639780.625429999,
-   "netNewUsd": 0,
-   "freshPct": 0.09478203398465598,
-   "tradersLong": 2,
-   "tradersShort": 2,
-   "sideAgreement": 0.5,
-   "conviction": 3819890.3127149995,
+   "sideAgreement": 0.8,
+   "conviction": 2581493.950578401,
    "consensusState": "STALE",
    "positions": [
     {
      "wallet": "0x856c35038594767646266bc7fd68dc26480e910d",
+     "side": "long",
+     "sizeUsd": 68831.979964,
+     "entryPx": "1.05139",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -20927.292956
+    },
+    {
+     "wallet": "0xa2ce501d9c0c5e23d34272f84402cfb7835b3126",
+     "side": "long",
+     "sizeUsd": 2819716.224528,
+     "entryPx": "0.85967",
+     "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": -419639.833701
+    },
+    {
+     "wallet": "0xea0027b6ea9b6d7d401b5266979cc3b3ca87a918",
+     "side": "long",
+     "sizeUsd": 1388995.03542,
+     "entryPx": "0.72482",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": 13481.530297
+    },
+    {
+     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
      "side": "short",
-     "sizeUsd": 945352.97019,
-     "entryPx": "1.558818",
-     "ageBucket": "RECENT",
+     "sizeUsd": 1204399.109754,
+     "entryPx": "0.71647",
+     "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": -633461.482397
-    },
-    {
-     "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
-     "side": "long",
-     "sizeUsd": 219708.29294400002,
-     "entryPx": "1.821431",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 94420.685798
-    },
-    {
-     "wallet": "0x9321d8117e73b0c79035f0e87debcfd8dbb1d75a",
-     "side": "long",
-     "sizeUsd": 8587166.0,
-     "entryPx": "2.453476",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 527183.326712
+     "unrealizedPnl": -26167.267284
     },
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 221740.697324,
-     "entryPx": "2.527939",
+     "side": "long",
+     "sizeUsd": 153723.30806500002,
+     "entryPx": "0.70645",
      "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -6531.380717
+     "touched24h": true,
+     "unrealizedPnl": 5605.180913
     }
    ]
   },
@@ -1267,7 +1258,7 @@
      "entryPx": "15.5002",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -173997.39023
+     "unrealizedPnl": -140865.59881
     },
     {
      "wallet": "0xe2823659be02e0f48a4660e4da008b5e1abfdf29",
@@ -1276,7 +1267,7 @@
      "entryPx": "13.9955",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 1914.31158
+     "unrealizedPnl": 4734.31158
     },
     {
      "wallet": "0xd21d931890d27b6e7e2e668f27931e17698e90f1",
@@ -1285,129 +1276,43 @@
      "entryPx": "14.5497",
      "ageBucket": "RECENT",
      "touched24h": false,
-     "unrealizedPnl": -9075.775856
+     "unrealizedPnl": -1943.21309
     }
    ]
   },
   {
-   "coin": "SUI",
+   "coin": "PAXG",
    "bias": "LONG",
-   "netUsd": 3721064.2984310007,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 4,
-   "tradersShort": 2,
-   "sideAgreement": 0.6666666666666666,
-   "conviction": 2480709.5322873336,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x856c35038594767646266bc7fd68dc26480e910d",
-     "side": "long",
-     "sizeUsd": 68831.979964,
-     "entryPx": "1.05139",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -22386.56576
-    },
-    {
-     "wallet": "0xea0027b6ea9b6d7d401b5266979cc3b3ca87a918",
-     "side": "long",
-     "sizeUsd": 1388995.03542,
-     "entryPx": "0.72482",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -28984.364663
-    },
-    {
-     "wallet": "0xa2ce501d9c0c5e23d34272f84402cfb7835b3126",
-     "side": "long",
-     "sizeUsd": 2819716.224528,
-     "entryPx": "0.85967",
-     "ageBucket": "OLD",
-     "touched24h": false,
-     "unrealizedPnl": -492029.398389
-    },
-    {
-     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
-     "side": "short",
-     "sizeUsd": 515265.23754299997,
-     "entryPx": "0.69789",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -8968.92151
-    },
-    {
-     "wallet": "0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05",
-     "side": "short",
-     "sizeUsd": 147649.653956,
-     "entryPx": "2.31644",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 102521.667153
-    },
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "long",
-     "sizeUsd": 106435.95001799999,
-     "entryPx": "0.68711",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 3271.749054
-    }
-   ]
-  },
-  {
-   "coin": "TAO",
-   "bias": "SHORT",
-   "netUsd": -2874115.232677,
+   "netUsd": 2248303.9240030004,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 1,
-   "tradersShort": 2,
-   "sideAgreement": 0.6666666666666666,
-   "conviction": 1916076.8217846667,
+   "tradersShort": 0,
+   "sideAgreement": 1.0,
+   "conviction": 2248303.9240030004,
    "consensusState": "STALE",
    "positions": [
     {
-     "wallet": "0x856c35038594767646266bc7fd68dc26480e910d",
-     "side": "long",
-     "sizeUsd": 36013.950164,
-     "entryPx": "244.396",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -5680.23525
-    },
-    {
-     "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
-     "side": "short",
-     "sizeUsd": 31340.113230000003,
-     "entryPx": "350.69",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 12979.73516
-    },
-    {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 2878789.0696110004,
-     "entryPx": "200.823",
+     "side": "long",
+     "sizeUsd": 2248303.9240030004,
+     "entryPx": "4430.269",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": -67288.060846
+     "unrealizedPnl": 40715.686623
     }
    ]
   },
   {
    "coin": "PURR",
    "bias": "LONG",
-   "netUsd": 1584596.651556,
+   "netUsd": 2156440.190157,
    "netNewUsd": 0,
    "freshPct": 0.0,
-   "tradersLong": 1,
+   "tradersLong": 2,
    "tradersShort": 0,
    "sideAgreement": 1.0,
-   "conviction": 1584596.651556,
+   "conviction": 2156440.190157,
    "consensusState": "STALE",
    "positions": [
     {
@@ -1417,271 +1322,70 @@
      "entryPx": "0.123644",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -339091.153882
-    }
-   ]
-  },
-  {
-   "coin": "kPEPE",
-   "bias": "SHORT",
-   "netUsd": -1524569.952894,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 0,
-   "tradersShort": 2,
-   "sideAgreement": 1.0,
-   "conviction": 1524569.952894,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05",
-     "side": "short",
-     "sizeUsd": 679746.0,
-     "entryPx": "0.007044",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 402855.749137
+     "unrealizedPnl": -412871.708725
     },
     {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 844823.9528940001,
-     "entryPx": "0.002818",
+     "wallet": "0xf517639a8872e756ac98d3c65507d2ebc25cc032",
+     "side": "long",
+     "sizeUsd": 571843.5386010001,
+     "entryPx": "0.072483",
      "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -15088.041721
+     "touched24h": false,
+     "unrealizedPnl": 149458.219457
     }
    ]
   },
   {
-   "coin": "PAXG",
-   "bias": "LONG",
-   "netUsd": 1223663.2225950002,
+   "coin": "TAO",
+   "bias": "SHORT",
+   "netUsd": -3083037.58397,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 1,
-   "tradersShort": 0,
-   "sideAgreement": 1.0,
-   "conviction": 1223663.2225950002,
+   "tradersShort": 2,
+   "sideAgreement": 0.6666666666666666,
+   "conviction": 2055358.3893133332,
    "consensusState": "STALE",
    "positions": [
     {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "wallet": "0x856c35038594767646266bc7fd68dc26480e910d",
      "side": "long",
-     "sizeUsd": 1223663.2225950002,
-     "entryPx": "4379.595",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 35205.868598
-    }
-   ]
-  },
-  {
-   "coin": "PENDLE",
-   "bias": "SHORT",
-   "netUsd": -1181485.9906020002,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 0,
-   "tradersShort": 2,
-   "sideAgreement": 1.0,
-   "conviction": 1181485.9906020002,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05",
-     "side": "short",
-     "sizeUsd": 855037.520478,
-     "entryPx": "5.502951",
+     "sizeUsd": 36013.950164,
+     "entryPx": "244.396",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 634399.829632
+     "unrealizedPnl": -4373.16092
     },
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 326448.47012400004,
-     "entryPx": "1.323819",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -23915.073482
-    }
-   ]
-  },
-  {
-   "coin": "LINK",
-   "bias": "LONG",
-   "netUsd": 1631951.3203359996,
-   "netNewUsd": 0,
-   "freshPct": 0.6089691941521373,
-   "tradersLong": 3,
-   "tradersShort": 2,
-   "sideAgreement": 0.6,
-   "conviction": 979170.7922015997,
-   "consensusState": "BUILDING",
-   "positions": [
-    {
-     "wallet": "0xe2823659be02e0f48a4660e4da008b5e1abfdf29",
-     "side": "long",
-     "sizeUsd": 403638.11454599997,
-     "entryPx": "8.07273",
-     "ageBucket": "RECENT",
-     "touched24h": false,
-     "unrealizedPnl": 130513.98523
-    },
-    {
-     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
-     "side": "long",
-     "sizeUsd": 314950.468896,
-     "entryPx": "9.68268",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 32572.115381
-    },
-    {
-     "wallet": "0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05",
-     "side": "short",
-     "sizeUsd": 1389182.254196,
-     "entryPx": "14.08033",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 335365.490441
-    },
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 93772.50891,
-     "entryPx": "9.55254",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -10930.250464
-    },
-    {
-     "wallet": "0x90dbb196cacf24bd212b377a0dd62eaad5e8151b",
-     "side": "long",
-     "sizeUsd": 2396317.5,
-     "entryPx": "9.58527",
-     "ageBucket": "RECENT",
-     "touched24h": true,
-     "unrealizedPnl": 270181.89383
-    }
-   ]
-  },
-  {
-   "coin": "ENA",
-   "bias": "LONG",
-   "netUsd": 1849418.6770239999,
-   "netNewUsd": 0,
-   "freshPct": 0.4888045123081141,
-   "tradersLong": 2,
-   "tradersShort": 2,
-   "sideAgreement": 0.5,
-   "conviction": 924709.3385119999,
-   "consensusState": "MIXED",
-   "positions": [
-    {
-     "wallet": "0xec0b9ebf2a304c99cafe85c548c14dd7783cb078",
-     "side": "long",
-     "sizeUsd": 964486.633357,
-     "entryPx": "0.294577",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -657374.931827
-    },
-    {
-     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
-     "side": "short",
-     "sizeUsd": 147562.068734,
-     "entryPx": "0.091349",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -4041.529702
-    },
-    {
-     "wallet": "0x091159a8106b077c13e89bc09701117e8b5f129a",
-     "side": "long",
-     "sizeUsd": 1736710.5161249998,
-     "entryPx": "0.089125",
-     "ageBucket": "RECENT",
-     "touched24h": true,
-     "unrealizedPnl": 97751.458744
-    },
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 704216.403724,
-     "entryPx": "0.086468",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -63174.083599
-    }
-   ]
-  },
-  {
-   "coin": "JUP",
-   "bias": "SHORT",
-   "netUsd": -916928.1129749999,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 0,
-   "tradersShort": 1,
-   "sideAgreement": 1.0,
-   "conviction": 916928.1129749999,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 916928.1129749999,
-     "entryPx": "0.179893",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -3150.999736
-    }
-   ]
-  },
-  {
-   "coin": "GRASS",
-   "bias": "SHORT",
-   "netUsd": -896613.952036,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 0,
-   "tradersShort": 2,
-   "sideAgreement": 1.0,
-   "conviction": 896613.952036,
-   "consensusState": "STALE",
-   "positions": [
     {
      "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
      "side": "short",
-     "sizeUsd": 212566.760796,
-     "entryPx": "1.70294",
+     "sizeUsd": 31340.113230000003,
+     "entryPx": "350.69",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 174845.160987
+     "unrealizedPnl": 12151.30307
     },
     {
-     "wallet": "0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05",
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "short",
-     "sizeUsd": 684047.19124,
-     "entryPx": "2.86895",
+     "sizeUsd": 3087711.4209040003,
+     "entryPx": "202.247",
      "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 612076.072378
+     "touched24h": true,
+     "unrealizedPnl": -186757.060098
     }
    ]
   },
   {
    "coin": "ZEC",
    "bias": "SHORT",
-   "netUsd": -1320609.5503669977,
+   "netUsd": -2964460.1250129994,
    "netNewUsd": 0,
-   "freshPct": 0.06465070033833163,
-   "tradersLong": 7,
+   "freshPct": 0.09820402488989509,
+   "tradersLong": 6,
    "tradersShort": 4,
-   "sideAgreement": 0.6363636363636364,
-   "conviction": 840387.8956880894,
+   "sideAgreement": 0.6,
+   "conviction": 1778676.0750077995,
    "consensusState": "STALE",
    "positions": [
     {
@@ -1691,16 +1395,7 @@
      "entryPx": "509.8619",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 1246.959977
-    },
-    {
-     "wallet": "0xea0027b6ea9b6d7d401b5266979cc3b3ca87a918",
-     "side": "long",
-     "sizeUsd": 4739257.209978,
-     "entryPx": "340.9101",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 3098679.684996
+     "unrealizedPnl": 1472.619477
     },
     {
      "wallet": "0xa2ce501d9c0c5e23d34272f84402cfb7835b3126",
@@ -1709,7 +1404,16 @@
      "entryPx": "496.2261",
      "ageBucket": "OLD",
      "touched24h": false,
-     "unrealizedPnl": 684531.116996
+     "unrealizedPnl": 784124.941596
+    },
+    {
+     "wallet": "0xea0027b6ea9b6d7d401b5266979cc3b3ca87a918",
+     "side": "long",
+     "sizeUsd": 4739257.209978,
+     "entryPx": "340.9101",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": 3235081.17
     },
     {
      "wallet": "0x32008fcb6bbd16532afc83ca8b6c920dde22c407",
@@ -1718,34 +1422,43 @@
      "entryPx": "586.4281",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 550492.473455
+     "unrealizedPnl": 307536.473455
     },
     {
      "wallet": "0xe2823659be02e0f48a4660e4da008b5e1abfdf29",
      "side": "long",
      "sizeUsd": 420986.8,
      "entryPx": "420.9868",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 142833.136636
+     "ageBucket": "RECENT",
+     "touched24h": false,
+     "unrealizedPnl": 153403.136636
     },
     {
      "wallet": "0x9546b9d4103be41ce13483a8f299d0df0eeb181c",
      "side": "long",
-     "sizeUsd": 1140360.1017719998,
-     "entryPx": "570.1772",
+     "sizeUsd": 3169962.7723920005,
+     "entryPx": "577.7603",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": -12514.518774
+     "unrealizedPnl": -17833.458167
     },
     {
      "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
      "side": "short",
-     "sizeUsd": 945298.8417420001,
-     "entryPx": "530.7507",
+     "sizeUsd": 1345147.618892,
+     "entryPx": "555.5431",
      "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -46167.040534
+    },
+    {
+     "wallet": "0x9c062c0575c30a3b7614d0c6ea8de67faab00560",
+     "side": "short",
+     "sizeUsd": 299877.027328,
+     "entryPx": "572.4592",
+     "ageBucket": "RECENT",
      "touched24h": true,
-     "unrealizedPnl": -59094.154184
+     "unrealizedPnl": -1252.3777
     },
     {
      "wallet": "0xf29c6bc1147a841519b382459a6d7a373c6b9971",
@@ -1754,129 +1467,29 @@
      "entryPx": "546.5814",
      "ageBucket": "RECENT",
      "touched24h": false,
-     "unrealizedPnl": 84592.9515
-    },
-    {
-     "wallet": "0x9321d8117e73b0c79035f0e87debcfd8dbb1d75a",
-     "side": "short",
-     "sizeUsd": 4411550.37676,
-     "entryPx": "487.8091",
-     "ageBucket": "OLD",
-     "touched24h": false,
-     "unrealizedPnl": -683523.13115
-    },
-    {
-     "wallet": "0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05",
-     "side": "long",
-     "sizeUsd": 6402800.25,
-     "entryPx": "400.125",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 2604884.878117
+     "unrealizedPnl": 143492.9515
     },
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "short",
-     "sizeUsd": 2191775.743332,
-     "entryPx": "529.5948",
+     "sizeUsd": 3174253.3108800002,
+     "entryPx": "547.3228",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": -139284.837867
-    }
-   ]
-  },
-  {
-   "coin": "FARTCOIN",
-   "bias": "SHORT",
-   "netUsd": -805869.3474999999,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 0,
-   "tradersShort": 2,
-   "sideAgreement": 1.0,
-   "conviction": 805869.3474999999,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
-     "side": "short",
-     "sizeUsd": 194002.2756,
-     "entryPx": "1.08325",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 165931.171188
-    },
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 611867.0719,
-     "entryPx": "0.1445",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -51019.658253
-    }
-   ]
-  },
-  {
-   "coin": "AVAX",
-   "bias": "SHORT",
-   "netUsd": -798428.8757490001,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 0,
-   "tradersShort": 4,
-   "sideAgreement": 1.0,
-   "conviction": 798428.8757490001,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
-     "side": "short",
-     "sizeUsd": 181603.99066,
-     "entryPx": "6.6965",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -2956.102556
-    },
-    {
-     "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
-     "side": "short",
-     "sizeUsd": 25900.2585,
-     "entryPx": "30.2927",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 20086.705478
-    },
-    {
-     "wallet": "0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05",
-     "side": "short",
-     "sizeUsd": 509263.13982900005,
-     "entryPx": "42.1163",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 427176.504529
-    },
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 81661.48676000001,
-     "entryPx": "6.769",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -244.165949
+     "unrealizedPnl": -159704.457624
     }
    ]
   },
   {
    "coin": "DOGE",
    "bias": "LONG",
-   "netUsd": 1183652.616692,
+   "netUsd": 2501194.4204349997,
    "netNewUsd": 0,
    "freshPct": 0.0,
-   "tradersLong": 1,
-   "tradersShort": 2,
-   "sideAgreement": 0.6666666666666666,
-   "conviction": 789101.7444613334,
+   "tradersLong": 2,
+   "tradersShort": 3,
+   "sideAgreement": 0.6,
+   "conviction": 1500716.652261,
    "consensusState": "STALE",
    "positions": [
     {
@@ -1886,80 +1499,380 @@
      "entryPx": "0.167596",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -774841.649719
+     "unrealizedPnl": -736572.332919
     },
     {
      "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
      "side": "short",
-     "sizeUsd": 91365.29844,
-     "entryPx": "0.07332",
+     "sizeUsd": 218557.15946199998,
+     "entryPx": "0.078734",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": -2057.151076
+     "unrealizedPnl": -2225.376342
+    },
+    {
+     "wallet": "0x72774e2fe1992d5da8c6e9cef73fd2ab980c0b98",
+     "side": "long",
+     "sizeUsd": 2229693.77212,
+     "entryPx": "0.078814",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": 22152.086228
+    },
+    {
+     "wallet": "0x9c062c0575c30a3b7614d0c6ea8de67faab00560",
+     "side": "short",
+     "sizeUsd": 199891.95544500003,
+     "entryPx": "0.083293",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": 8882.38888
     },
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "short",
-     "sizeUsd": 126595.81266800001,
-     "entryPx": "0.071692",
+     "sizeUsd": 711663.964578,
+     "entryPx": "0.079758",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": -5433.976528
+     "unrealizedPnl": 2024.064618
     }
    ]
   },
   {
-   "coin": "STRK",
-   "bias": "SHORT",
-   "netUsd": -743788.878632,
+   "coin": "NEAR",
+   "bias": "LONG",
+   "netUsd": 2198730.3719699997,
    "netNewUsd": 0,
    "freshPct": 0.0,
-   "tradersLong": 0,
-   "tradersShort": 2,
-   "sideAgreement": 1.0,
-   "conviction": 743788.878632,
+   "tradersLong": 4,
+   "tradersShort": 3,
+   "sideAgreement": 0.5714285714285714,
+   "conviction": 1256417.3554114283,
    "consensusState": "STALE",
    "positions": [
     {
-     "wallet": "0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05",
-     "side": "short",
-     "sizeUsd": 613665.0,
-     "entryPx": "0.13637",
+     "wallet": "0xec0b9ebf2a304c99cafe85c548c14dd7783cb078",
+     "side": "long",
+     "sizeUsd": 519453.415985,
+     "entryPx": "2.43047",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 505289.884498
+     "unrealizedPnl": -141695.042979
+    },
+    {
+     "wallet": "0xe2823659be02e0f48a4660e4da008b5e1abfdf29",
+     "side": "long",
+     "sizeUsd": 950800.0,
+     "entryPx": "1.9016",
+     "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": -66700.77891
+    },
+    {
+     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
+     "side": "short",
+     "sizeUsd": 104013.116928,
+     "entryPx": "1.73376",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -2083.642609
+    },
+    {
+     "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
+     "side": "short",
+     "sizeUsd": 165084.70758000002,
+     "entryPx": "3.04057",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": 68897.53025
+    },
+    {
+     "wallet": "0xf517639a8872e756ac98d3c65507d2ebc25cc032",
+     "side": "long",
+     "sizeUsd": 499851.10142799997,
+     "entryPx": "1.74748",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": 6525.65961
     },
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "short",
-     "sizeUsd": 130123.878632,
-     "entryPx": "0.02728",
+     "sizeUsd": 888153.7968240001,
+     "entryPx": "1.68063",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": 15300.826434
+     "unrealizedPnl": -47065.213605
+    },
+    {
+     "wallet": "0x051c2e6d49cf82ebc47f08f9b85800f94fc9693c",
+     "side": "long",
+     "sizeUsd": 1385877.4758889999,
+     "entryPx": "1.79947",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -22928.52968
+    }
+   ]
+  },
+  {
+   "coin": "AAVE",
+   "bias": "SHORT",
+   "netUsd": -1694983.7911509993,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 2,
+   "tradersShort": 3,
+   "sideAgreement": 0.6,
+   "conviction": 1016990.2746905995,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0xe2823659be02e0f48a4660e4da008b5e1abfdf29",
+     "side": "long",
+     "sizeUsd": 2886630.895818,
+     "entryPx": "96.1461",
+     "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": 79137.709045
+    },
+    {
+     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
+     "side": "short",
+     "sizeUsd": 390858.305544,
+     "entryPx": "97.4058",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -5401.60438
+    },
+    {
+     "wallet": "0x77375a8c9d13bf79afb2a87f1b0ac1dfd5f5bf66",
+     "side": "short",
+     "sizeUsd": 6792997.762254,
+     "entryPx": "82.5486",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -1335116.220375
+    },
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 684257.023989,
+     "entryPx": "93.4263",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -38368.07929
+    },
+    {
+     "wallet": "0x051c2e6d49cf82ebc47f08f9b85800f94fc9693c",
+     "side": "long",
+     "sizeUsd": 3286498.4048180003,
+     "entryPx": "81.9526",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": 670204.69593
+    }
+   ]
+  },
+  {
+   "coin": "JUP",
+   "bias": "SHORT",
+   "netUsd": -965980.072459,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 0,
+   "tradersShort": 1,
+   "sideAgreement": 1.0,
+   "conviction": 965980.072459,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 965980.072459,
+     "entryPx": "0.180547",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -56510.026074
     }
    ]
   },
   {
    "coin": "GRAM",
    "bias": "SHORT",
-   "netUsd": -646954.5574,
+   "netUsd": -904640.819004,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 0,
    "tradersShort": 1,
    "sideAgreement": 1.0,
-   "conviction": 646954.5574,
+   "conviction": 904640.819004,
    "consensusState": "STALE",
    "positions": [
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "short",
-     "sizeUsd": 646954.5574,
-     "entryPx": "1.3781",
+     "sizeUsd": 904640.819004,
+     "entryPx": "1.382932",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": 6994.931684
+     "unrealizedPnl": -9032.883828
+    }
+   ]
+  },
+  {
+   "coin": "FARTCOIN",
+   "bias": "SHORT",
+   "netUsd": -606746.736198,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 0,
+   "tradersShort": 2,
+   "sideAgreement": 1.0,
+   "conviction": 606746.736198,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
+     "side": "short",
+     "sizeUsd": 194002.2756,
+     "entryPx": "1.08325",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": 164048.90586
+    },
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 412744.46059800003,
+     "entryPx": "0.15933",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -20258.039643
+    }
+   ]
+  },
+  {
+   "coin": "LIT",
+   "bias": "LONG",
+   "netUsd": 1006691.2272019999,
+   "netNewUsd": 0,
+   "freshPct": 0.28378728374447676,
+   "tradersLong": 3,
+   "tradersShort": 2,
+   "sideAgreement": 0.6,
+   "conviction": 604014.7363211999,
+   "consensusState": "MIXED",
+   "positions": [
+    {
+     "wallet": "0x856c35038594767646266bc7fd68dc26480e910d",
+     "side": "short",
+     "sizeUsd": 951702.92581,
+     "entryPx": "1.567118",
+     "ageBucket": "RECENT",
+     "touched24h": true,
+     "unrealizedPnl": -682466.810508
+    },
+    {
+     "wallet": "0xea0027b6ea9b6d7d401b5266979cc3b3ca87a918",
+     "side": "long",
+     "sizeUsd": 1920155.2999999998,
+     "entryPx": "2.743079",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -37925.3234
+    },
+    {
+     "wallet": "0xa906355beaf1d69a5fe73ce55899c49c6e67916c",
+     "side": "long",
+     "sizeUsd": 94914.18739199999,
+     "entryPx": "2.676957",
+     "ageBucket": "OLD",
+     "touched24h": true,
+     "unrealizedPnl": 473.0828
+    },
+    {
+     "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
+     "side": "long",
+     "sizeUsd": 165065.362944,
+     "entryPx": "1.821431",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": 78155.827877
+    },
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 221740.697324,
+     "entryPx": "2.527939",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -13618.833517
+    }
+   ]
+  },
+  {
+   "coin": "ONDO",
+   "bias": "SHORT",
+   "netUsd": -899184.454935,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 1,
+   "tradersShort": 2,
+   "sideAgreement": 0.6666666666666666,
+   "conviction": 599456.30329,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0xe2823659be02e0f48a4660e4da008b5e1abfdf29",
+     "side": "long",
+     "sizeUsd": 31900.0,
+     "entryPx": "0.319",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": 3503.0
+    },
+    {
+     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
+     "side": "short",
+     "sizeUsd": 56963.700835999996,
+     "entryPx": "0.351554",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -425.435262
+    },
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 874120.754099,
+     "entryPx": "0.344651",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -24723.88446
+    }
+   ]
+  },
+  {
+   "coin": "PENDLE",
+   "bias": "SHORT",
+   "netUsd": -576976.0752000001,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 0,
+   "tradersShort": 1,
+   "sideAgreement": 1.0,
+   "conviction": 576976.0752000001,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 576976.0752000001,
+     "entryPx": "1.39609",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -43150.373276
     }
    ]
   },
@@ -1982,80 +1895,171 @@
      "entryPx": "0.32496",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -555482.002944
+     "unrealizedPnl": -554091.923684
     }
    ]
   },
   {
-   "coin": "ONDO",
-   "bias": "SHORT",
-   "netUsd": -821304.37708,
+   "coin": "BNB",
+   "bias": "LONG",
+   "netUsd": 845388.7738500001,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 1,
    "tradersShort": 2,
    "sideAgreement": 0.6666666666666666,
-   "conviction": 547536.2513866667,
+   "conviction": 563592.5159,
    "consensusState": "STALE",
    "positions": [
     {
-     "wallet": "0xe2823659be02e0f48a4660e4da008b5e1abfdf29",
-     "side": "long",
-     "sizeUsd": 31900.0,
-     "entryPx": "0.319",
+     "wallet": "0x856c35038594767646266bc7fd68dc26480e910d",
+     "side": "short",
+     "sizeUsd": 171553.28131199998,
+     "entryPx": "579.952",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 2865.0
+     "unrealizedPnl": -21971.71152
     },
     {
      "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
      "side": "short",
-     "sizeUsd": 34837.055712,
-     "entryPx": "0.337098",
+     "sizeUsd": 277499.595864,
+     "entryPx": "621.944",
      "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -1090.405256
+     "touched24h": false,
+     "unrealizedPnl": -14463.145192
     },
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 818367.321368,
-     "entryPx": "0.339629",
+     "side": "long",
+     "sizeUsd": 1294441.651026,
+     "entryPx": "614.139",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": -18507.641811
+     "unrealizedPnl": 85428.533272
     }
    ]
   },
   {
-   "coin": "WLD",
-   "bias": "LONG",
-   "netUsd": 518765.456977,
+   "coin": "kPEPE",
+   "bias": "SHORT",
+   "netUsd": -1097391.2952090001,
    "netNewUsd": 0,
    "freshPct": 0.0,
-   "tradersLong": 2,
-   "tradersShort": 0,
-   "sideAgreement": 1.0,
-   "conviction": 518765.456977,
+   "tradersLong": 1,
+   "tradersShort": 1,
+   "sideAgreement": 0.5,
+   "conviction": 548695.6476045001,
    "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0x72774e2fe1992d5da8c6e9cef73fd2ab980c0b98",
+     "side": "long",
+     "sizeUsd": 372453.381783,
+     "entryPx": "0.003141",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": 7713.721932
+    },
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 1469844.676992,
+     "entryPx": "0.002944",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -131265.134756
+    }
+   ]
+  },
+  {
+   "coin": "PENGU",
+   "bias": "SHORT",
+   "netUsd": -811515.9384999999,
+   "netNewUsd": 0,
+   "freshPct": 0.21251708431093363,
+   "tradersLong": 1,
+   "tradersShort": 2,
+   "sideAgreement": 0.6666666666666666,
+   "conviction": 541010.6256666665,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0xec4a6f59960fb55a7fa49262e2628687b322cf62",
+     "side": "long",
+     "sizeUsd": 299950.0,
+     "entryPx": "0.005999",
+     "ageBucket": "RECENT",
+     "touched24h": false,
+     "unrealizedPnl": 57424.084169
+    },
+    {
+     "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
+     "side": "short",
+     "sizeUsd": 478436.2412,
+     "entryPx": "0.033503",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": 376161.456705
+    },
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 633029.6973,
+     "entryPx": "0.006825",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -31527.562063
+    }
+   ]
+  },
+  {
+   "coin": "ENA",
+   "bias": "LONG",
+   "netUsd": 1052775.5191849996,
+   "netNewUsd": 0,
+   "freshPct": 0.3992787883386048,
+   "tradersLong": 2,
+   "tradersShort": 2,
+   "sideAgreement": 0.5,
+   "conviction": 526387.7595924998,
+   "consensusState": "MIXED",
    "positions": [
     {
      "wallet": "0xec0b9ebf2a304c99cafe85c548c14dd7783cb078",
      "side": "long",
-     "sizeUsd": 502191.692559,
-     "entryPx": "0.58887",
-     "ageBucket": "OLD",
+     "sizeUsd": 964486.633357,
+     "entryPx": "0.294577",
+     "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -196677.475376
+     "unrealizedPnl": -584099.656247
+    },
+    {
+     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
+     "side": "short",
+     "sizeUsd": 368831.29541699996,
+     "entryPx": "0.100211",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -59065.792586
     },
     {
      "wallet": "0x091159a8106b077c13e89bc09701117e8b5f129a",
      "side": "long",
-     "sizeUsd": 16573.764418000002,
-     "entryPx": "0.34583",
-     "ageBucket": "OLD",
+     "sizeUsd": 1736710.5161249998,
+     "entryPx": "0.089125",
+     "ageBucket": "RECENT",
      "touched24h": false,
-     "unrealizedPnl": 592.231636
+     "unrealizedPnl": 531086.308198
+    },
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 1279590.33488,
+     "entryPx": "0.095264",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -279732.385573
     }
    ]
   },
@@ -2064,21 +2068,21 @@
    "bias": "LONG",
    "netUsd": 512084.50180100003,
    "netNewUsd": 0,
-   "freshPct": 0.0,
+   "freshPct": 1.0,
    "tradersLong": 1,
    "tradersShort": 0,
    "sideAgreement": 1.0,
    "conviction": 512084.50180100003,
-   "consensusState": "STALE",
+   "consensusState": "BUILDING",
    "positions": [
     {
      "wallet": "0x091159a8106b077c13e89bc09701117e8b5f129a",
      "side": "long",
      "sizeUsd": 512084.50180100003,
      "entryPx": "0.022921",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -11898.122907
+     "ageBucket": "RECENT",
+     "touched24h": false,
+     "unrealizedPnl": 62699.414352
     }
    ]
   },
@@ -2101,39 +2105,7 @@
      "entryPx": "0.01419",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -17957.867428
-    }
-   ]
-  },
-  {
-   "coin": "WIF",
-   "bias": "LONG",
-   "netUsd": 944841.987998,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 1,
-   "tradersShort": 1,
-   "sideAgreement": 0.5,
-   "conviction": 472420.993999,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0xec0b9ebf2a304c99cafe85c548c14dd7783cb078",
-     "side": "long",
-     "sizeUsd": 1030474.061292,
-     "entryPx": "0.407661",
-     "ageBucket": "OLD",
-     "touched24h": false,
-     "unrealizedPnl": -662279.342383
-    },
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 85632.073294,
-     "entryPx": "0.158729",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 7115.400782
+     "unrealizedPnl": 1245.4577
     }
    ]
   },
@@ -2156,116 +2128,116 @@
      "entryPx": "3.56581",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -447467.544788
+     "unrealizedPnl": -445827.091038
     }
    ]
   },
   {
-   "coin": "ADA",
+   "coin": "AVAX",
    "bias": "SHORT",
-   "netUsd": -693095.420698,
+   "netUsd": -410407.479975,
    "netNewUsd": 0,
    "freshPct": 0.0,
-   "tradersLong": 1,
-   "tradersShort": 2,
-   "sideAgreement": 0.6666666666666666,
-   "conviction": 462063.6137986666,
+   "tradersLong": 0,
+   "tradersShort": 3,
+   "sideAgreement": 1.0,
+   "conviction": 410407.479975,
    "consensusState": "STALE",
    "positions": [
     {
      "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
-     "side": "long",
-     "sizeUsd": 128972.422488,
-     "entryPx": "0.182451",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 4954.53642
-    },
-    {
-     "wallet": "0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05",
      "side": "short",
-     "sizeUsd": 770857.627813,
-     "entryPx": "0.709813",
+     "sizeUsd": 192444.77172800002,
+     "entryPx": "6.7948",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 565441.276128
+     "unrealizedPnl": -10949.162802
+    },
+    {
+     "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
+     "side": "short",
+     "sizeUsd": 25900.2585,
+     "entryPx": "30.2927",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": 19751.374478
     },
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "short",
-     "sizeUsd": 51210.215373,
-     "entryPx": "0.182593",
+     "sizeUsd": 192062.449747,
+     "entryPx": "6.9419",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": -1839.423806
+     "unrealizedPnl": -6857.727254
     }
    ]
   },
   {
-   "coin": "kSHIB",
-   "bias": "SHORT",
-   "netUsd": -394967.90628,
+   "coin": "WIF",
+   "bias": "LONG",
+   "netUsd": 803806.8778349999,
    "netNewUsd": 0,
    "freshPct": 0.0,
-   "tradersLong": 0,
-   "tradersShort": 2,
-   "sideAgreement": 1.0,
-   "conviction": 394967.90628,
+   "tradersLong": 1,
+   "tradersShort": 1,
+   "sideAgreement": 0.5,
+   "conviction": 401903.43891749997,
    "consensusState": "STALE",
    "positions": [
     {
-     "wallet": "0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05",
-     "side": "short",
-     "sizeUsd": 186048.0,
-     "entryPx": "0.015504",
-     "ageBucket": "UNKNOWN",
+     "wallet": "0xec0b9ebf2a304c99cafe85c548c14dd7783cb078",
+     "side": "long",
+     "sizeUsd": 1030474.061292,
+     "entryPx": "0.407661",
+     "ageBucket": "OLD",
      "touched24h": false,
-     "unrealizedPnl": 129320.179476
+     "unrealizedPnl": -614529.729303
     },
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "short",
-     "sizeUsd": 208919.90628,
-     "entryPx": "0.00471",
+     "sizeUsd": 226667.183457,
+     "entryPx": "0.159973",
      "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -760.272967
+     "touched24h": false,
+     "unrealizedPnl": -6810.420447
     }
    ]
   },
   {
    "coin": "WLFI",
    "bias": "LONG",
-   "netUsd": 376507.322148,
+   "netUsd": 385951.83949,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 1,
    "tradersShort": 0,
    "sideAgreement": 1.0,
-   "conviction": 376507.322148,
+   "conviction": 385951.83949,
    "consensusState": "STALE",
    "positions": [
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "long",
-     "sizeUsd": 376507.322148,
-     "entryPx": "0.057198",
+     "sizeUsd": 385951.83949,
+     "entryPx": "0.057295",
      "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 27945.919076
+     "touched24h": false,
+     "unrealizedPnl": 22591.161222
     }
    ]
   },
   {
    "coin": "ZRO",
    "bias": "LONG",
-   "netUsd": 369413.61418000003,
+   "netUsd": 376476.17212400003,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 2,
    "tradersShort": 0,
    "sideAgreement": 1.0,
-   "conviction": 369413.61418000003,
+   "conviction": 376476.17212400003,
    "consensusState": "STALE",
    "positions": [
     {
@@ -2275,98 +2247,98 @@
      "entryPx": "0.95875",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -36729.9349
+     "unrealizedPnl": -23719.37854
     },
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "long",
-     "sizeUsd": 39154.91918,
-     "entryPx": "0.8398",
+     "sizeUsd": 46217.477124,
+     "entryPx": "0.86697",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": 559.785997
+     "unrealizedPnl": 1165.312419
     }
    ]
   },
   {
-   "coin": "BNB",
-   "bias": "LONG",
-   "netUsd": 553955.8398679999,
+   "coin": "LDO",
+   "bias": "SHORT",
+   "netUsd": -370471.160641,
    "netNewUsd": 0,
    "freshPct": 0.0,
-   "tradersLong": 1,
-   "tradersShort": 2,
-   "sideAgreement": 0.6666666666666666,
-   "conviction": 369303.8932453332,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x856c35038594767646266bc7fd68dc26480e910d",
-     "side": "short",
-     "sizeUsd": 171553.28131199998,
-     "entryPx": "579.952",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -14869.40946
-    },
-    {
-     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
-     "side": "short",
-     "sizeUsd": 222037.86962,
-     "entryPx": "612.113",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -6451.969034
-    },
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "long",
-     "sizeUsd": 947546.9907999999,
-     "entryPx": "605.68",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 36012.604842
-    }
-   ]
-  },
-  {
-   "coin": "BCH",
-   "bias": "LONG",
-   "netUsd": 467936.42900700006,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 2,
+   "tradersLong": 0,
    "tradersShort": 1,
-   "sideAgreement": 0.6666666666666666,
-   "conviction": 311957.619338,
+   "sideAgreement": 1.0,
+   "conviction": 370471.160641,
    "consensusState": "STALE",
    "positions": [
     {
-     "wallet": "0xec0b9ebf2a304c99cafe85c548c14dd7783cb078",
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 370471.160641,
+     "entryPx": "0.31027",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -30423.676569
+    }
+   ]
+  },
+  {
+   "coin": "LINK",
+   "bias": "LONG",
+   "netUsd": 538559.9786839997,
+   "netNewUsd": 0,
+   "freshPct": 0.55320318152594,
+   "tradersLong": 2,
+   "tradersShort": 3,
+   "sideAgreement": 0.6,
+   "conviction": 323135.9872103998,
+   "consensusState": "BUILDING",
+   "positions": [
+    {
+     "wallet": "0xe2823659be02e0f48a4660e4da008b5e1abfdf29",
      "side": "long",
-     "sizeUsd": 501227.568708,
-     "entryPx": "213.924",
-     "ageBucket": "OLD",
+     "sizeUsd": 403638.11454599997,
+     "entryPx": "8.07273",
+     "ageBucket": "RECENT",
      "touched24h": false,
-     "unrealizedPnl": -6312.71983
+     "unrealizedPnl": 127613.97363
     },
     {
      "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
      "side": "short",
-     "sizeUsd": 59298.280634999996,
-     "entryPx": "208.097",
+     "sizeUsd": 193156.608485,
+     "entryPx": "10.64429",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": -901.22409
+     "unrealizedPnl": 350.131542
+    },
+    {
+     "wallet": "0x77375a8c9d13bf79afb2a87f1b0ac1dfd5f5bf66",
+     "side": "short",
+     "sizeUsd": 957717.155635,
+     "entryPx": "9.49471",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -115120.013098
     },
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "long",
-     "sizeUsd": 26007.140934000003,
-     "entryPx": "210.818",
+     "side": "short",
+     "sizeUsd": 1110521.871742,
+     "entryPx": "10.66918",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": 19.977408
+     "unrealizedPnl": 3894.948618
+    },
+    {
+     "wallet": "0x90dbb196cacf24bd212b377a0dd62eaad5e8151b",
+     "side": "long",
+     "sizeUsd": 2396317.5,
+     "entryPx": "9.58527",
+     "ageBucket": "RECENT",
+     "touched24h": false,
+     "unrealizedPnl": 261431.89383
     }
    ]
   },
@@ -2389,20 +2361,61 @@
      "entryPx": "0.022742",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 55481.162679
+     "unrealizedPnl": 56562.145344
+    }
+   ]
+  },
+  {
+   "coin": "WLD",
+   "bias": "LONG",
+   "netUsd": 445523.017537,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 2,
+   "tradersShort": 1,
+   "sideAgreement": 0.6666666666666666,
+   "conviction": 297015.34502466663,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0xec0b9ebf2a304c99cafe85c548c14dd7783cb078",
+     "side": "long",
+     "sizeUsd": 502191.692559,
+     "entryPx": "0.58887",
+     "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": -188916.943506
+    },
+    {
+     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
+     "side": "short",
+     "sizeUsd": 73242.43943999999,
+     "entryPx": "0.3656",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -405.672194
+    },
+    {
+     "wallet": "0x091159a8106b077c13e89bc09701117e8b5f129a",
+     "side": "long",
+     "sizeUsd": 16573.764418000002,
+     "entryPx": "0.34583",
+     "ageBucket": "OLD",
+     "touched24h": false,
+     "unrealizedPnl": 1067.164422
     }
    ]
   },
   {
    "coin": "RUNE",
    "bias": "SHORT",
-   "netUsd": -266634.527712,
+   "netUsd": -281599.106208,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 0,
    "tradersShort": 2,
    "sideAgreement": 1.0,
-   "conviction": 266634.527712,
+   "conviction": 281599.106208,
    "consensusState": "STALE",
    "positions": [
     {
@@ -2412,112 +2425,16 @@
      "entryPx": "3.48012",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 122086.87304
+     "unrealizedPnl": 121460.47304
     },
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "short",
-     "sizeUsd": 127429.727712,
-     "entryPx": "0.42973",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 736.458599
-    }
-   ]
-  },
-  {
-   "coin": "LDO",
-   "bias": "LONG",
-   "netUsd": 523731.44795600005,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 1,
-   "tradersShort": 1,
-   "sideAgreement": 0.5,
-   "conviction": 261865.72397800002,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x9321d8117e73b0c79035f0e87debcfd8dbb1d75a",
-     "side": "long",
-     "sizeUsd": 897176.543604,
-     "entryPx": "0.28786",
-     "ageBucket": "OLD",
-     "touched24h": false,
-     "unrealizedPnl": 136473.126414
-    },
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 373445.09564799996,
-     "entryPx": "0.30944",
+     "sizeUsd": 142394.306208,
+     "entryPx": "0.43113",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": -26739.331565
-    }
-   ]
-  },
-  {
-   "coin": "PENGU",
-   "bias": "SHORT",
-   "netUsd": -390771.154032,
-   "netNewUsd": 0,
-   "freshPct": 0.3027745370188817,
-   "tradersLong": 1,
-   "tradersShort": 2,
-   "sideAgreement": 0.6666666666666666,
-   "conviction": 260514.10268799998,
-   "consensusState": "MIXED",
-   "positions": [
-    {
-     "wallet": "0xec4a6f59960fb55a7fa49262e2628687b322cf62",
-     "side": "long",
-     "sizeUsd": 299950.0,
-     "entryPx": "0.005999",
-     "ageBucket": "RECENT",
-     "touched24h": false,
-     "unrealizedPnl": 22924.084169
-    },
-    {
-     "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
-     "side": "short",
-     "sizeUsd": 478436.2412,
-     "entryPx": "0.033503",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 386300.540705
-    },
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 212284.912832,
-     "entryPx": "0.006208",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -8439.242437
-    }
-   ]
-  },
-  {
-   "coin": "AERO",
-   "bias": "SHORT",
-   "netUsd": -253824.441565,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 0,
-   "tradersShort": 1,
-   "sideAgreement": 1.0,
-   "conviction": 253824.441565,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 253824.441565,
-     "entryPx": "0.420793",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -6446.15699
+     "unrealizedPnl": -4125.430618
     }
    ]
   },
@@ -2540,89 +2457,176 @@
      "entryPx": "0.025346",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 228617.136072
+     "unrealizedPnl": 227067.931687
     }
    ]
   },
   {
-   "coin": "OP",
-   "bias": "LONG",
-   "netUsd": 237814.37275,
+   "coin": "AERO",
+   "bias": "SHORT",
+   "netUsd": -243697.215438,
    "netNewUsd": 0,
    "freshPct": 0.0,
-   "tradersLong": 1,
-   "tradersShort": 0,
+   "tradersLong": 0,
+   "tradersShort": 1,
    "sideAgreement": 1.0,
-   "conviction": 237814.37275,
+   "conviction": 243697.215438,
    "consensusState": "STALE",
    "positions": [
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "long",
-     "sizeUsd": 237814.37275,
-     "entryPx": "0.12625",
+     "side": "short",
+     "sizeUsd": 243697.215438,
+     "entryPx": "0.429433",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -67580.122466
-    }
-   ]
-  },
-  {
-   "coin": "ETC",
-   "bias": "LONG",
-   "netUsd": 209033.54717,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 1,
-   "tradersShort": 0,
-   "sideAgreement": 1.0,
-   "conviction": 209033.54717,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "long",
-     "sizeUsd": 209033.54717,
-     "entryPx": "6.7949",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -8429.438637
+     "unrealizedPnl": -26743.725906
     }
    ]
   },
   {
    "coin": "FET",
    "bias": "SHORT",
-   "netUsd": -208548.547992,
+   "netUsd": -242175.02212799998,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 0,
    "tradersShort": 1,
    "sideAgreement": 1.0,
-   "conviction": 208548.547992,
+   "conviction": 242175.02212799998,
    "consensusState": "STALE",
    "positions": [
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "short",
-     "sizeUsd": 208548.547992,
-     "entryPx": "0.129114",
+     "sizeUsd": 242175.02212799998,
+     "entryPx": "0.130572",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -25146.167747
+    }
+   ]
+  },
+  {
+   "coin": "BLUR",
+   "bias": "LONG",
+   "netUsd": 236596.946895,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 1,
+   "tradersShort": 0,
+   "sideAgreement": 1.0,
+   "conviction": 236596.946895,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0xf517639a8872e756ac98d3c65507d2ebc25cc032",
+     "side": "long",
+     "sizeUsd": 236596.946895,
+     "entryPx": "0.018435",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -2625.036047
+     "unrealizedPnl": -50795.928446
+    }
+   ]
+  },
+  {
+   "coin": "XLM",
+   "bias": "SHORT",
+   "netUsd": -235626.668743,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 0,
+   "tradersShort": 2,
+   "sideAgreement": 1.0,
+   "conviction": 235626.668743,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
+     "side": "short",
+     "sizeUsd": 130385.859707,
+     "entryPx": "0.182353",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": 1067.778729
+    },
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 105240.80903599999,
+     "entryPx": "0.181973",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": 557.408592
+    }
+   ]
+  },
+  {
+   "coin": "ASTER",
+   "bias": "SHORT",
+   "netUsd": -231359.67055200003,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 0,
+   "tradersShort": 2,
+   "sideAgreement": 1.0,
+   "conviction": 231359.67055200003,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0x856c35038594767646266bc7fd68dc26480e910d",
+     "side": "short",
+     "sizeUsd": 39469.625112,
+     "entryPx": "0.687241",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": 1075.204499
+    },
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 191890.04544000002,
+     "entryPx": "0.659688",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -2481.611738
+    }
+   ]
+  },
+  {
+   "coin": "SKY",
+   "bias": "SHORT",
+   "netUsd": -229276.481029,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 0,
+   "tradersShort": 1,
+   "sideAgreement": 1.0,
+   "conviction": 229276.481029,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 229276.481029,
+     "entryPx": "0.060077",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -7627.655229
     }
    ]
   },
   {
    "coin": "CRV",
    "bias": "LONG",
-   "netUsd": 306954.857391,
+   "netUsd": 448538.54385600006,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 1,
-   "tradersShort": 2,
-   "sideAgreement": 0.6666666666666666,
-   "conviction": 204636.571594,
+   "tradersShort": 1,
+   "sideAgreement": 0.5,
+   "conviction": 224269.27192800003,
    "consensusState": "STALE",
    "positions": [
     {
@@ -2632,16 +2636,7 @@
      "entryPx": "0.37982",
      "ageBucket": "OLD",
      "touched24h": false,
-     "unrealizedPnl": -202287.241897
-    },
-    {
-     "wallet": "0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05",
-     "side": "short",
-     "sizeUsd": 141583.686465,
-     "entryPx": "0.32045",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 28416.384698
+     "unrealizedPnl": -166436.045065
     },
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
@@ -2650,175 +2645,116 @@
      "entryPx": "0.19248",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -57276.276579
+     "unrealizedPnl": -79634.208179
     }
    ]
   },
   {
-   "coin": "SKY",
+   "coin": "GRASS",
    "bias": "SHORT",
-   "netUsd": -175482.256653,
+   "netUsd": -212566.760796,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 0,
    "tradersShort": 1,
    "sideAgreement": 1.0,
-   "conviction": 175482.256653,
+   "conviction": 212566.760796,
    "consensusState": "STALE",
    "positions": [
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 175482.256653,
-     "entryPx": "0.059697",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -821.485038
-    }
-   ]
-  },
-  {
-   "coin": "FIL",
-   "bias": "SHORT",
-   "netUsd": -347456.01150799997,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 1,
-   "tradersShort": 1,
-   "sideAgreement": 0.5,
-   "conviction": 173728.00575399998,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05",
-     "side": "short",
-     "sizeUsd": 456038.44,
-     "entryPx": "3.18908",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 358753.262378
-    },
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "long",
-     "sizeUsd": 108582.428492,
-     "entryPx": "0.73379",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -8071.275164
-    }
-   ]
-  },
-  {
-   "coin": "NEAR",
-   "bias": "LONG",
-   "netUsd": 266784.9897620003,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 3,
-   "tradersShort": 4,
-   "sideAgreement": 0.5714285714285714,
-   "conviction": 152448.56557828587,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0xec0b9ebf2a304c99cafe85c548c14dd7783cb078",
-     "side": "long",
-     "sizeUsd": 519453.415985,
-     "entryPx": "2.43047",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -150244.062979
-    },
-    {
-     "wallet": "0xe2823659be02e0f48a4660e4da008b5e1abfdf29",
-     "side": "long",
-     "sizeUsd": 950800.0,
-     "entryPx": "1.9016",
-     "ageBucket": "OLD",
-     "touched24h": false,
-     "unrealizedPnl": -87050.77891
-    },
-    {
-     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
-     "side": "short",
-     "sizeUsd": 158224.693776,
-     "entryPx": "1.70614",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -2017.494429
-    },
     {
      "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
      "side": "short",
-     "sizeUsd": 165084.70758000002,
-     "entryPx": "3.04057",
+     "sizeUsd": 212566.760796,
+     "entryPx": "1.70294",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 71299.49681
+     "unrealizedPnl": 171680.887797
+    }
+   ]
+  },
+  {
+   "coin": "XPL",
+   "bias": "LONG",
+   "netUsd": 421270.1728539998,
+   "netNewUsd": 0,
+   "freshPct": 0.021602031320590895,
+   "tradersLong": 2,
+   "tradersShort": 2,
+   "sideAgreement": 0.5,
+   "conviction": 210635.0864269999,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0x856c35038594767646266bc7fd68dc26480e910d",
+     "side": "short",
+     "sizeUsd": 74468.284253,
+     "entryPx": "0.096877",
+     "ageBucket": "RECENT",
+     "touched24h": true,
+     "unrealizedPnl": 7195.442665
+    },
+    {
+     "wallet": "0xf517639a8872e756ac98d3c65507d2ebc25cc032",
+     "side": "long",
+     "sizeUsd": 887166.783683,
+     "entryPx": "0.091043",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -34760.412366
+    },
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 1438537.4098520002,
+     "entryPx": "0.084638",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -48171.478548
     },
     {
      "wallet": "0x051c2e6d49cf82ebc47f08f9b85800f94fc9693c",
      "side": "long",
-     "sizeUsd": 1385877.4758889999,
-     "entryPx": "1.79947",
+     "sizeUsd": 1047109.083276,
+     "entryPx": "0.085907",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -55429.22682
-    },
-    {
-     "wallet": "0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05",
-     "side": "short",
-     "sizeUsd": 1314571.5814,
-     "entryPx": "3.29351",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 625380.117601
-    },
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 951464.9193559999,
-     "entryPx": "1.67348",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -29685.425382
+     "unrealizedPnl": 19077.334446
     }
    ]
   },
   {
-   "coin": "ATOM",
-   "bias": "LONG",
-   "netUsd": 147173.409746,
+   "coin": "kSHIB",
+   "bias": "SHORT",
+   "netUsd": -189864.74232000002,
    "netNewUsd": 0,
    "freshPct": 0.0,
-   "tradersLong": 1,
-   "tradersShort": 0,
+   "tradersLong": 0,
+   "tradersShort": 1,
    "sideAgreement": 1.0,
-   "conviction": 147173.409746,
+   "conviction": 189864.74232000002,
    "consensusState": "STALE",
    "positions": [
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "long",
-     "sizeUsd": 147173.409746,
-     "entryPx": "1.4839",
+     "side": "short",
+     "sizeUsd": 189864.74232000002,
+     "entryPx": "0.00472",
      "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 1410.363273
+     "touched24h": false,
+     "unrealizedPnl": -8738.828767
     }
    ]
   },
   {
    "coin": "UNI",
    "bias": "SHORT",
-   "netUsd": -254651.29705800003,
+   "netUsd": -376830.08209400007,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 1,
    "tradersShort": 1,
    "sideAgreement": 0.5,
-   "conviction": 127325.64852900001,
+   "conviction": 188415.04104700004,
    "consensusState": "STALE",
    "positions": [
     {
@@ -2828,75 +2764,222 @@
      "entryPx": "2.92996",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 35582.10583
+     "unrealizedPnl": 39457.15233
     },
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "short",
-     "sizeUsd": 401151.055034,
-     "entryPx": "3.76633",
+     "sizeUsd": 523329.84007000003,
+     "entryPx": "3.7511",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": 13424.26568
+     "unrealizedPnl": 3125.374297
     }
    ]
   },
   {
-   "coin": "PUMP",
+   "coin": "BCH",
    "bias": "LONG",
-   "netUsd": 156438.06383999996,
+   "netUsd": 274194.633748,
    "netNewUsd": 0,
    "freshPct": 0.0,
-   "tradersLong": 4,
-   "tradersShort": 1,
-   "sideAgreement": 0.8,
-   "conviction": 125150.45107199997,
+   "tradersLong": 1,
+   "tradersShort": 2,
+   "sideAgreement": 0.6666666666666666,
+   "conviction": 182796.42249866668,
    "consensusState": "STALE",
    "positions": [
     {
-     "wallet": "0xc619b01f1a4f894c5e83338c42f98dcb82b710f5",
+     "wallet": "0xec0b9ebf2a304c99cafe85c548c14dd7783cb078",
      "side": "long",
-     "sizeUsd": 839700.0,
-     "entryPx": "0.002799",
+     "sizeUsd": 501227.568708,
+     "entryPx": "213.924",
      "ageBucket": "OLD",
-     "touched24h": true,
-     "unrealizedPnl": 83812.302057
-    },
-    {
-     "wallet": "0xbb34960afec64f3f1cc78b0c9c342c4657021696",
-     "side": "long",
-     "sizeUsd": 838500.0,
-     "entryPx": "0.002795",
-     "ageBucket": "OLD",
-     "touched24h": true,
-     "unrealizedPnl": 85005.295595
-    },
-    {
-     "wallet": "0xf29c6bc1147a841519b382459a6d7a373c6b9971",
-     "side": "long",
-     "sizeUsd": 790300.0,
-     "entryPx": "0.002258",
-     "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 285970.621076
+     "unrealizedPnl": 20866.27737
     },
     {
-     "wallet": "0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05",
-     "side": "long",
-     "sizeUsd": 369360.0,
-     "entryPx": "0.002052",
+     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
+     "side": "short",
+     "sizeUsd": 203842.15992,
+     "entryPx": "214.41",
      "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 184280.0
+     "touched24h": true,
+     "unrealizedPnl": -8004.550286
     },
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "short",
-     "sizeUsd": 2681421.93616,
-     "entryPx": "0.002915",
+     "sizeUsd": 23190.77504,
+     "entryPx": "223.504",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": -145449.309748
+     "unrealizedPnl": 43.023461
+    }
+   ]
+  },
+  {
+   "coin": "ETC",
+   "bias": "LONG",
+   "netUsd": 157467.335256,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 1,
+   "tradersShort": 0,
+   "sideAgreement": 1.0,
+   "conviction": 157467.335256,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "long",
+     "sizeUsd": 157467.335256,
+     "entryPx": "6.8002",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": 2439.766151
+    }
+   ]
+  },
+  {
+   "coin": "CASHCAT",
+   "bias": "LONG",
+   "netUsd": 151829.222356,
+   "netNewUsd": 0,
+   "freshPct": 1.0,
+   "tradersLong": 1,
+   "tradersShort": 0,
+   "sideAgreement": 1.0,
+   "conviction": 151829.222356,
+   "consensusState": "BUILDING",
+   "positions": [
+    {
+     "wallet": "0xa906355beaf1d69a5fe73ce55899c49c6e67916c",
+     "side": "long",
+     "sizeUsd": 151829.222356,
+     "entryPx": "0.109546",
+     "ageBucket": "RECENT",
+     "touched24h": true,
+     "unrealizedPnl": 18743.402402
+    }
+   ]
+  },
+  {
+   "coin": "ATOM",
+   "bias": "LONG",
+   "netUsd": 147398.135332,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 1,
+   "tradersShort": 0,
+   "sideAgreement": 1.0,
+   "conviction": 147398.135332,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "long",
+     "sizeUsd": 147398.135332,
+     "entryPx": "1.4851",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": 1176.145331
+    }
+   ]
+  },
+  {
+   "coin": "HBAR",
+   "bias": "SHORT",
+   "netUsd": -138749.34504,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 0,
+   "tradersShort": 2,
+   "sideAgreement": 1.0,
+   "conviction": 138749.34504,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
+     "side": "short",
+     "sizeUsd": 53478.730368,
+     "entryPx": "0.073212",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -122.173262
+    },
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 85270.614672,
+     "entryPx": "0.073534",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": 152.304733
+    }
+   ]
+  },
+  {
+   "coin": "FIL",
+   "bias": "LONG",
+   "netUsd": 130853.336868,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 1,
+   "tradersShort": 0,
+   "sideAgreement": 1.0,
+   "conviction": 130853.336868,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "long",
+     "sizeUsd": 130853.336868,
+     "entryPx": "0.73692",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -1152.322218
+    }
+   ]
+  },
+  {
+   "coin": "LTC",
+   "bias": "SHORT",
+   "netUsd": -186468.753273,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 1,
+   "tradersShort": 2,
+   "sideAgreement": 0.6666666666666666,
+   "conviction": 124312.502182,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
+     "side": "short",
+     "sizeUsd": 115982.84161000002,
+     "entryPx": "47.2214",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -1715.767572
+    },
+    {
+     "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
+     "side": "short",
+     "sizeUsd": 125924.59775999999,
+     "entryPx": "102.4777",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": 67002.471659
+    },
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "long",
+     "sizeUsd": 55438.686097,
+     "entryPx": "45.5899",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": 2846.796983
     }
    ]
   },
@@ -2919,53 +3002,85 @@
      "entryPx": "5.9394",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 17758.254025
+     "unrealizedPnl": 21142.254025
+    }
+   ]
+  },
+  {
+   "coin": "OP",
+   "bias": "LONG",
+   "netUsd": 113583.249125,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 1,
+   "tradersShort": 0,
+   "sideAgreement": 1.0,
+   "conviction": 113583.249125,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "long",
+     "sizeUsd": 113583.249125,
+     "entryPx": "0.12625",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -26762.175846
+    }
+   ]
+  },
+  {
+   "coin": "DOT",
+   "bias": "LONG",
+   "netUsd": 112149.33229399999,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 2,
+   "tradersShort": 0,
+   "sideAgreement": 1.0,
+   "conviction": 112149.33229399999,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
+     "side": "long",
+     "sizeUsd": 33719.086944,
+     "entryPx": "0.82674",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": 555.440325
+    },
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "long",
+     "sizeUsd": 78430.24535,
+     "entryPx": "0.82441",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": 1680.460675
     }
    ]
   },
   {
    "coin": "APT",
    "bias": "LONG",
-   "netUsd": 115342.513299,
+   "netUsd": 112068.30994199999,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 1,
    "tradersShort": 0,
    "sideAgreement": 1.0,
-   "conviction": 115342.513299,
+   "conviction": 112068.30994199999,
    "consensusState": "STALE",
    "positions": [
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "long",
-     "sizeUsd": 115342.513299,
-     "entryPx": "0.5877",
+     "sizeUsd": 112068.30994199999,
+     "entryPx": "0.5861",
      "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -5533.826945
-    }
-   ]
-  },
-  {
-   "coin": "INJ",
-   "bias": "LONG",
-   "netUsd": 111773.6314,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 1,
-   "tradersShort": 0,
-   "sideAgreement": 1.0,
-   "conviction": 111773.6314,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "long",
-     "sizeUsd": 111773.6314,
-     "entryPx": "4.6022",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -694.835535
+     "touched24h": false,
+     "unrealizedPnl": -2188.373005
     }
    ]
   },
@@ -2988,76 +3103,53 @@
      "entryPx": "0.474231",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 100303.80875
+     "unrealizedPnl": 100056.96875
     }
    ]
   },
   {
-   "coin": "STX",
+   "coin": "STRK",
    "bias": "SHORT",
-   "netUsd": -101527.08869,
+   "netUsd": -104024.18048,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 0,
    "tradersShort": 1,
    "sideAgreement": 1.0,
-   "conviction": 101527.08869,
+   "conviction": 104024.18048,
    "consensusState": "STALE",
    "positions": [
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "short",
-     "sizeUsd": 101527.08869,
-     "entryPx": "0.12839",
+     "sizeUsd": 104024.18048,
+     "entryPx": "0.0272",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 568.096124
-    }
-   ]
-  },
-  {
-   "coin": "STABLE",
-   "bias": "SHORT",
-   "netUsd": -95862.411696,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 0,
-   "tradersShort": 1,
-   "sideAgreement": 1.0,
-   "conviction": 95862.411696,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 95862.411696,
-     "entryPx": "0.031664",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 5866.150032
+     "unrealizedPnl": 6385.042954
     }
    ]
   },
   {
    "coin": "SAND",
    "bias": "LONG",
-   "netUsd": 94643.86403000001,
+   "netUsd": 94193.940698,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 1,
    "tradersShort": 0,
    "sideAgreement": 1.0,
-   "conviction": 94643.86403000001,
+   "conviction": 94193.940698,
    "consensusState": "STALE",
    "positions": [
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "long",
-     "sizeUsd": 94643.86403000001,
+     "sizeUsd": 94193.940698,
      "entryPx": "0.063227",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -33427.483342
+     "unrealizedPnl": -29308.754596
     }
    ]
   },
@@ -3080,121 +3172,85 @@
      "entryPx": "0.254627",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -73832.437382
+     "unrealizedPnl": -72970.966274
     }
    ]
   },
   {
-   "coin": "LTC",
+   "coin": "STX",
    "bias": "SHORT",
-   "netUsd": -128230.786182,
+   "netUsd": -82599.55243200001,
    "netNewUsd": 0,
    "freshPct": 0.0,
-   "tradersLong": 1,
-   "tradersShort": 2,
-   "sideAgreement": 0.6666666666666666,
-   "conviction": 85487.19078799999,
+   "tradersLong": 0,
+   "tradersShort": 1,
+   "sideAgreement": 1.0,
+   "conviction": 82599.55243200001,
    "consensusState": "STALE",
    "positions": [
     {
-     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
-     "side": "short",
-     "sizeUsd": 51788.959068000004,
-     "entryPx": "46.1923",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -481.661775
-    },
-    {
-     "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
-     "side": "short",
-     "sizeUsd": 125924.59775999999,
-     "entryPx": "102.4777",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 68636.775659
-    },
-    {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "long",
-     "sizeUsd": 49482.770646000004,
-     "entryPx": "45.2567",
+     "side": "short",
+     "sizeUsd": 82599.55243200001,
+     "entryPx": "0.12839",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": 1465.215589
+     "unrealizedPnl": -9226.646092
     }
    ]
   },
   {
-   "coin": "CASHCAT",
+   "coin": "INJ",
    "bias": "LONG",
-   "netUsd": 84802.956147,
+   "netUsd": 78248.48389999999,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 1,
    "tradersShort": 0,
    "sideAgreement": 1.0,
-   "conviction": 84802.956147,
+   "conviction": 78248.48389999999,
    "consensusState": "STALE",
    "positions": [
     {
-     "wallet": "0xa906355beaf1d69a5fe73ce55899c49c6e67916c",
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "long",
-     "sizeUsd": 84802.956147,
-     "entryPx": "0.099437",
+     "sizeUsd": 78248.48389999999,
+     "entryPx": "4.6105",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": 12640.687542
+     "unrealizedPnl": 2703.53896
     }
    ]
   },
   {
-   "coin": "XPL",
-   "bias": "LONG",
-   "netUsd": 140515.708936,
+   "coin": "VIRTUAL",
+   "bias": "SHORT",
+   "netUsd": -135047.60719599994,
    "netNewUsd": 0,
-   "freshPct": 0.019152486357072854,
-   "tradersLong": 2,
-   "tradersShort": 2,
+   "freshPct": 0.0,
+   "tradersLong": 1,
+   "tradersShort": 1,
    "sideAgreement": 0.5,
-   "conviction": 70257.854468,
+   "conviction": 67523.80359799997,
    "consensusState": "STALE",
    "positions": [
     {
-     "wallet": "0x856c35038594767646266bc7fd68dc26480e910d",
-     "side": "short",
-     "sizeUsd": 57091.463397,
-     "entryPx": "0.100809",
-     "ageBucket": "RECENT",
-     "touched24h": true,
-     "unrealizedPnl": 11312.675772
-    },
-    {
-     "wallet": "0xb7e0b9fbc9479330d70bcc82a7d4325a20e8d1aa",
+     "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
      "side": "long",
-     "sizeUsd": 513593.98892000003,
-     "entryPx": "0.076022",
+     "sizeUsd": 223876.88702999998,
+     "entryPx": "1.33135",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 33176.26093
-    },
-    {
-     "wallet": "0x051c2e6d49cf82ebc47f08f9b85800f94fc9693c",
-     "side": "long",
-     "sizeUsd": 1047109.083276,
-     "entryPx": "0.085907",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -63075.635874
+     "unrealizedPnl": -116280.472382
     },
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "short",
-     "sizeUsd": 1363095.899863,
-     "entryPx": "0.084559",
+     "sizeUsd": 358924.4942259999,
+     "entryPx": "0.59698",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": 60789.456443
+     "unrealizedPnl": -25707.223093
     }
    ]
   },
@@ -3217,71 +3273,30 @@
      "entryPx": "0.025096",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 5041.851042
+     "unrealizedPnl": -14.732754
     }
    ]
   },
   {
-   "coin": "XLM",
-   "bias": "LONG",
-   "netUsd": 62842.514116,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 2,
-   "tradersShort": 0,
-   "sideAgreement": 1.0,
-   "conviction": 62842.514116,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
-     "side": "long",
-     "sizeUsd": 13559.625727999999,
-     "entryPx": "0.161792",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 737.306171
-    },
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "long",
-     "sizeUsd": 49282.888388,
-     "entryPx": "0.188582",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -4801.277259
-    }
-   ]
-  },
-  {
-   "coin": "VIRTUAL",
+   "coin": "ALGO",
    "bias": "SHORT",
-   "netUsd": -118650.87845999998,
+   "netUsd": -56621.235264999996,
    "netNewUsd": 0,
    "freshPct": 0.0,
-   "tradersLong": 1,
+   "tradersLong": 0,
    "tradersShort": 1,
-   "sideAgreement": 0.5,
-   "conviction": 59325.43922999999,
+   "sideAgreement": 1.0,
+   "conviction": 56621.235264999996,
    "consensusState": "STALE",
    "positions": [
-    {
-     "wallet": "0x8607a7d180de23645db594d90621d837749408d5",
-     "side": "long",
-     "sizeUsd": 223876.88702999998,
-     "entryPx": "1.33135",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -122566.210946
-    },
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "short",
-     "sizeUsd": 342527.76548999996,
-     "entryPx": "0.59139",
+     "sizeUsd": 56621.235264999996,
+     "entryPx": "0.084077",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": -6393.280674
+     "unrealizedPnl": -2665.533201
     }
    ]
   },
@@ -3304,30 +3319,30 @@
      "entryPx": "0.93627",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 52049.826239
+     "unrealizedPnl": 50817.188447
     }
    ]
   },
   {
    "coin": "W",
    "bias": "SHORT",
-   "netUsd": -50637.534975999995,
+   "netUsd": -50298.134655999995,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 0,
    "tradersShort": 1,
    "sideAgreement": 1.0,
-   "conviction": 50637.534975999995,
+   "conviction": 50298.134655999995,
    "consensusState": "STALE",
    "positions": [
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "short",
-     "sizeUsd": 50637.534975999995,
+     "sizeUsd": 50298.134655999995,
      "entryPx": "0.00896",
      "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 2018.668365
+     "touched24h": false,
+     "unrealizedPnl": -352.586912
     }
    ]
   },
@@ -3350,89 +3365,20 @@
      "entryPx": "6.46069",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 38685.084513
-    }
-   ]
-  },
-  {
-   "coin": "TRB",
-   "bias": "LONG",
-   "netUsd": 40707.645153,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 1,
-   "tradersShort": 0,
-   "sideAgreement": 1.0,
-   "conviction": 40707.645153,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "long",
-     "sizeUsd": 40707.645153,
-     "entryPx": "15.1257",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -3487.280473
-    }
-   ]
-  },
-  {
-   "coin": "ARB",
-   "bias": "LONG",
-   "netUsd": 40344.585534000005,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 1,
-   "tradersShort": 0,
-   "sideAgreement": 1.0,
-   "conviction": 40344.585534000005,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "long",
-     "sizeUsd": 40344.585534000005,
-     "entryPx": "0.07902",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 5353.372944
-    }
-   ]
-  },
-  {
-   "coin": "ASTER",
-   "bias": "SHORT",
-   "netUsd": -39469.625112,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 0,
-   "tradersShort": 1,
-   "sideAgreement": 1.0,
-   "conviction": 39469.625112,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x856c35038594767646266bc7fd68dc26480e910d",
-     "side": "short",
-     "sizeUsd": 39469.625112,
-     "entryPx": "0.687241",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 3920.385779
+     "unrealizedPnl": 38493.468753
     }
    ]
   },
   {
    "coin": "TRX",
    "bias": "SHORT",
-   "netUsd": -63086.32308000006,
+   "netUsd": -90279.34388000006,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 1,
    "tradersShort": 1,
    "sideAgreement": 0.5,
-   "conviction": 31543.16154000003,
+   "conviction": 45139.67194000003,
    "consensusState": "STALE",
    "positions": [
     {
@@ -3442,85 +3388,163 @@
      "entryPx": "0.28416",
      "ageBucket": "OLD",
      "touched24h": false,
-     "unrealizedPnl": -81458.673501
+     "unrealizedPnl": -91939.999961
     },
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "long",
-     "sizeUsd": 408922.19148,
-     "entryPx": "0.32516",
+     "sizeUsd": 381729.17068,
+     "entryPx": "0.326521",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": 15208.402295
+    }
+   ]
+  },
+  {
+   "coin": "STABLE",
+   "bias": "SHORT",
+   "netUsd": -44057.856244,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 0,
+   "tradersShort": 1,
+   "sideAgreement": 1.0,
+   "conviction": 44057.856244,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 44057.856244,
+     "entryPx": "0.030629",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": 10035.395707
+     "unrealizedPnl": -2759.592456
+    }
+   ]
+  },
+  {
+   "coin": "TRB",
+   "bias": "LONG",
+   "netUsd": 39576.545307,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 1,
+   "tradersShort": 0,
+   "sideAgreement": 1.0,
+   "conviction": 39576.545307,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "long",
+     "sizeUsd": 39576.545307,
+     "entryPx": "15.1257",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -721.542935
+    }
+   ]
+  },
+  {
+   "coin": "ARB",
+   "bias": "SHORT",
+   "netUsd": -37129.290256,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 0,
+   "tradersShort": 1,
+   "sideAgreement": 1.0,
+   "conviction": 37129.290256,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 37129.290256,
+     "entryPx": "0.08912",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -590.337537
+    }
+   ]
+  },
+  {
+   "coin": "kFLOKI",
+   "bias": "SHORT",
+   "netUsd": -31656.3667,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 0,
+   "tradersShort": 1,
+   "sideAgreement": 1.0,
+   "conviction": 31656.3667,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 31656.3667,
+     "entryPx": "0.022036",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -1682.533766
+    }
+   ]
+  },
+  {
+   "coin": "ADA",
+   "bias": "SHORT",
+   "netUsd": -55155.29201799999,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 1,
+   "tradersShort": 1,
+   "sideAgreement": 0.5,
+   "conviction": 27577.646008999996,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
+     "side": "long",
+     "sizeUsd": 87035.34812,
+     "entryPx": "0.18844",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": 3736.12895
+    },
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 142190.640138,
+     "entryPx": "0.190994",
+     "ageBucket": "UNKNOWN",
+     "touched24h": true,
+     "unrealizedPnl": -4009.262325
     }
    ]
   },
   {
    "coin": "AR",
    "bias": "SHORT",
-   "netUsd": -31439.324312000004,
+   "netUsd": -25550.739424,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 0,
    "tradersShort": 1,
    "sideAgreement": 1.0,
-   "conviction": 31439.324312000004,
+   "conviction": 25550.739424,
    "consensusState": "STALE",
    "positions": [
     {
      "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
      "side": "short",
-     "sizeUsd": 31439.324312000004,
-     "entryPx": "1.8388",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -347.634263
-    }
-   ]
-  },
-  {
-   "coin": "NEO",
-   "bias": "LONG",
-   "netUsd": 26776.0287,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 1,
-   "tradersShort": 0,
-   "sideAgreement": 1.0,
-   "conviction": 26776.0287,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "long",
-     "sizeUsd": 26776.0287,
-     "entryPx": "2.218",
+     "sizeUsd": 25550.739424,
+     "entryPx": "1.8466",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": -5038.047562
-    }
-   ]
-  },
-  {
-   "coin": "ALGO",
-   "bias": "SHORT",
-   "netUsd": -19147.193099999997,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 0,
-   "tradersShort": 1,
-   "sideAgreement": 1.0,
-   "conviction": 19147.193099999997,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 19147.193099999997,
-     "entryPx": "0.07977",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -487.303215
+     "unrealizedPnl": -2655.058012
     }
    ]
   },
@@ -3543,7 +3567,30 @@
      "entryPx": "0.1417",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": 1918.416415
+     "unrealizedPnl": 1368.752869
+    }
+   ]
+  },
+  {
+   "coin": "TURBO",
+   "bias": "SHORT",
+   "netUsd": -18275.926228,
+   "netNewUsd": 0,
+   "freshPct": 0.0,
+   "tradersLong": 0,
+   "tradersShort": 1,
+   "sideAgreement": 1.0,
+   "conviction": 18275.926228,
+   "consensusState": "STALE",
+   "positions": [
+    {
+     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "side": "short",
+     "sizeUsd": 18275.926228,
+     "entryPx": "0.000854",
+     "ageBucket": "UNKNOWN",
+     "touched24h": false,
+     "unrealizedPnl": -1400.57958
     }
    ]
   },
@@ -3566,117 +3613,30 @@
      "entryPx": "0.52446",
      "ageBucket": "UNKNOWN",
      "touched24h": false,
-     "unrealizedPnl": -1624.148919
+     "unrealizedPnl": -199.640379
     }
    ]
   },
   {
-   "coin": "kFLOKI",
-   "bias": "SHORT",
-   "netUsd": -13518.382185,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 0,
-   "tradersShort": 1,
-   "sideAgreement": 1.0,
-   "conviction": 13518.382185,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 13518.382185,
-     "entryPx": "0.020565",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": -844.511123
-    }
-   ]
-  },
-  {
-   "coin": "TURBO",
-   "bias": "SHORT",
-   "netUsd": -12043.851705000001,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 0,
-   "tradersShort": 1,
-   "sideAgreement": 1.0,
-   "conviction": 12043.851705000001,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 12043.851705000001,
-     "entryPx": "0.000795",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -445.72895
-    }
-   ]
-  },
-  {
-   "coin": "HBAR",
+   "coin": "PEOPLE",
    "bias": "LONG",
-   "netUsd": 7251.0350789999975,
+   "netUsd": 11189.860700000001,
    "netNewUsd": 0,
    "freshPct": 0.0,
    "tradersLong": 1,
-   "tradersShort": 1,
-   "sideAgreement": 0.5,
-   "conviction": 3625.5175394999987,
+   "tradersShort": 0,
+   "sideAgreement": 1.0,
+   "conviction": 11189.860700000001,
    "consensusState": "STALE",
    "positions": [
     {
-     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
-     "side": "short",
-     "sizeUsd": 13618.93635,
-     "entryPx": "0.071294",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": 65.727521
-    },
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+     "wallet": "0x9ffdf919da72213588f7517598394cc5535bce40",
      "side": "long",
-     "sizeUsd": 20869.971428999997,
-     "entryPx": "0.067989",
-     "ageBucket": "UNKNOWN",
-     "touched24h": false,
-     "unrealizedPnl": 905.666314
-    }
-   ]
-  },
-  {
-   "coin": "DOT",
-   "bias": "LONG",
-   "netUsd": 1483.6591649999991,
-   "netNewUsd": 0,
-   "freshPct": 0.0,
-   "tradersLong": 1,
-   "tradersShort": 1,
-   "sideAgreement": 0.5,
-   "conviction": 741.8295824999996,
-   "consensusState": "STALE",
-   "positions": [
-    {
-     "wallet": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
-     "side": "long",
-     "sizeUsd": 14461.756211999998,
-     "entryPx": "0.76442",
+     "sizeUsd": 11189.860700000001,
+     "entryPx": "0.008585",
      "ageBucket": "UNKNOWN",
      "touched24h": true,
-     "unrealizedPnl": 588.597402
-    },
-    {
-     "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
-     "side": "short",
-     "sizeUsd": 12978.097047,
-     "entryPx": "0.77117",
-     "ageBucket": "UNKNOWN",
-     "touched24h": true,
-     "unrealizedPnl": -391.764926
+     "unrealizedPnl": 2303.263483
     }
    ]
   }
